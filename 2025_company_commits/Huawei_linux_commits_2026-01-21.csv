@@ -1,0 +1,1228 @@
+﻿Date,Author Name,Author Email,Subject,Commit Hash
+2025-12-26,Li Nan,linan122@huawei.com,md: Fix forward incompatibility from configurable logical block size,a4166f1c4893
+2025-12-26,Li Nan,linan122@huawei.com,md: Fix logical_block_size configuration being overwritten,864466c38c4a
+2025-12-15,Li Nan,linan122@huawei.com,md: Fix static checker warning in analyze_sbs,00f6c1b4d15d
+2025-12-12,Wang Liang,wangliang74@huawei.com,net/handshake: Fix null-ptr-deref in handshake_complete(),dabac51b8102
+2025-11-20,Chenghai Huang,huangchenghai2@huawei.com,crypto: hisilicon/qm - fix incorrect judgment in qm_get_complete_eqe_num(),b74fd80d7fe5
+2025-12-18,Chen Ridong,chenridong@huawei.com,cpuset: fix warning when disabling remote partition,aa7d3a56a20f
+2025-12-11,Jian Shen,shenjian15@huawei.com,net: hns3: add VLAN id validation before using,6ef935e65902
+2025-12-11,Jian Shen,shenjian15@huawei.com,net: hns3: using the num_tqps to check whether tqp_index is out of range when vf get ring info from mbx,d180c11aa8a6
+2025-12-11,Jian Shen,shenjian15@huawei.com,net: hns3: using the num_tqps in the vf driver to apply for resources,c2a16269742e
+2025-12-10,Pengjie Zhang,zhangpengjie2@huawei.com,ACPI: PCC: Fix race condition by removing static qualifier,f103fa127c93
+2025-12-10,Pengjie Zhang,zhangpengjie2@huawei.com,ACPI: CPPC: Fix missing PCC check for guaranteed_perf,6ea3a44cef28
+2025-12-04,Chen Ridong,chenridong@huawei.com,mm: vmscan: correct nr_requested tracing in scan_folios,49d921b471c5
+2025-12-09,Liyuan Pang,pangliyuan1@huawei.com,ARM: 9464/1: fix input-only operand modification in load_unaligned_zeropad(),edb924a7211c
+2025-12-02,Dmitry Skorodumov,skorodumov.dmitry@huawei.com,ipvlan: Ignore PACKET_LOOPBACK in handle_mode_l2(),0c57ff008a11
+2025-11-29,Wang Liang,wangliang74@huawei.com,netrom: Fix memory leak in nr_sendmsg(),613d12dd794e
+2025-12-02,Xingui Yang,yangxingui@huawei.com,"scsi: Revert ""scsi: libsas: Fix exp-attached device scan after probe failure scanned in again after probe failed""",278712d20bc8
+2025-11-26,Chen Ridong,chenridong@huawei.com,memcg: remove inc/dec_lruvec_kmem_state helpers,f3b566d72635
+2025-11-21,Baokun Li,libaokun1@huawei.com,ext4: enable block size larger than page size,cab8cbcb923a
+2025-11-21,Baokun Li,libaokun1@huawei.com,ext4: add checks for large folio incompatibilities when BS > PS,709f0f1f1bf5
+2025-11-21,Baokun Li,libaokun1@huawei.com,ext4: support verifying data from large folios with fs-verity,1a3e9e8aa4f7
+2025-11-21,Baokun Li,libaokun1@huawei.com,ext4: make data=journal support large block size,58fd191f99f3
+2025-11-21,Zhihao Cheng,chengzhihao1@huawei.com,ext4: support large block size in __ext4_block_zero_page_range(),c00a6292d061
+2025-11-21,Baokun Li,libaokun1@huawei.com,ext4: support large block size in mpage_prepare_extent_to_map(),8e50e23b769a
+2025-11-21,Baokun Li,libaokun1@huawei.com,ext4: support large block size in mpage_map_and_submit_buffers(),b967ab748765
+2025-11-21,Baokun Li,libaokun1@huawei.com,ext4: support large block size in ext4_block_write_begin(),bff6235d623a
+2025-11-21,Baokun Li,libaokun1@huawei.com,ext4: support large block size in ext4_mpage_readpages(),a6d73242b8b5
+2025-11-21,Zhihao Cheng,chengzhihao1@huawei.com,ext4: rename 'page' references to 'folio' in multi-block allocator,65c39954bb92
+2025-11-21,Baokun Li,libaokun1@huawei.com,ext4: prepare buddy cache inode for BS > PS with large folios,31daa8261c54
+2025-11-21,Baokun Li,libaokun1@huawei.com,ext4: support large block size in ext4_mb_init_cache(),0ad55fa104a2
+2025-11-21,Baokun Li,libaokun1@huawei.com,ext4: support large block size in ext4_mb_get_buddy_page_lock(),3938fc29f89f
+2025-11-21,Baokun Li,libaokun1@huawei.com,ext4: support large block size in ext4_mb_load_buddy_gfp(),6117f1806a73
+2025-11-21,Baokun Li,libaokun1@huawei.com,ext4: add EXT4_LBLK_TO_PG and EXT4_PG_TO_LBLK for block/page conversion,2a8de76b2b0f
+2025-11-21,Baokun Li,libaokun1@huawei.com,ext4: add EXT4_LBLK_TO_B macro for logical block to bytes conversion,125d1f6a5a77
+2025-11-21,Baokun Li,libaokun1@huawei.com,ext4: support large block size in ext4_readdir(),609c5e0081b4
+2025-11-21,Baokun Li,libaokun1@huawei.com,ext4: support large block size in ext4_calculate_overhead(),6a28b5c9908d
+2025-11-21,Baokun Li,libaokun1@huawei.com,ext4: introduce s_min_folio_order for future BS > PS support,8611e608a8fa
+2025-11-21,Baokun Li,libaokun1@huawei.com,ext4: enable DIOREAD_NOLOCK by default for BS > PS as well,58297412edf0
+2025-11-21,Baokun Li,libaokun1@huawei.com,ext4: make ext4_punch_hole() support large block size,d37a7ddd3a38
+2025-11-21,Baokun Li,libaokun1@huawei.com,ext4: remove PAGE_SIZE checks for rec_len conversion,afa6d5a16bf2
+2025-11-21,Baokun Li,libaokun1@huawei.com,ext4: remove page offset calculation in ext4_block_truncate_page(),b73f45a32420
+2025-11-21,Zhihao Cheng,chengzhihao1@huawei.com,ext4: remove page offset calculation in ext4_block_zero_page_range(),5835b1339e33
+2025-11-07,Liyuan Pang,pangliyuan1@huawei.com,ubi: fastmap: fix ubi->fm memory leak,d133e30aabc7
+2025-11-22,Jijie Shao,shaojijie@huawei.com,net: hibmcge: add support for pagepool on rx,c30595917585
+2025-11-22,Jijie Shao,shaojijie@huawei.com,net: hibmcge: reduce packet drop under stress testing,2e68bb2e0f77
+2025-11-22,Tao Lan,lantao5@huawei.com,net: hibmcge: add support for tracepoint to dump some fields of rx_desc,91f3305b97fc
+2025-11-20,Baokun Li,libaokun1@huawei.com,ext4: align max orphan file size with e2fsprogs limit,7c11c56eb32e
+2025-11-12,Yang Erkun,yangerkun@huawei.com,ext4: correct the comments place for EXT4_EXT_MAY_ZEROOUT,cc742fd1d184
+2025-11-12,Yang Erkun,yangerkun@huawei.com,ext4: cleanup for ext4_map_blocks,a9272422316f
+2025-11-12,Yang Erkun,yangerkun@huawei.com,ext4: rename EXT4_GET_BLOCKS_PRE_IO,dac092195b6a
+2025-11-06,Yongjian Sun,sunyongjian1@huawei.com,ext4: improve integrity checking in __mb_check_buddy by enhancing order-0 validation,d9ee3ff810f1
+2025-11-06,Yongjian Sun,sunyongjian1@huawei.com,ext4: fix incorrect group number assertion in mb_check_buddy,3f7a79d05c69
+2025-11-03,Ye Bin,yebin10@huawei.com,jbd2: fix the inconsistency between checksum and data in memory for journal sb,6abfe107894a
+2025-10-25,Ye Bin,yebin10@huawei.com,jbd2: avoid bug_on in jbd2_journal_get_create_access() when file system corrupted,986835bf4d11
+2025-11-21,Dmitry Skorodumov,skorodumov.dmitry@huawei.com,ipvlan: fix sparse warning about __be32 -> u32,f296b73d17a4
+2025-11-19,Xie Yuanbin,xieyuanbin1@huawei.com,mm/memory-failure: remove the selection of RAS,31807483d395
+2025-09-15,Pengjie Zhang,zhangpengjie2@huawei.com,PM / devfreq: hisi: Fix potential UAF in OPP handling,26dd44a40096
+2025-11-22,Yipeng Zou,zouyipeng@huawei.com,timers: Fix NULL function pointer race in timer_shutdown_sync(),20739af07383
+2025-11-20,Yue Haibing,yuehaibing@huawei.com,"x86/{boot,mtrr}: Remove unused function declarations",e6a11a526ec6
+2025-11-17,Yushan Wang,wangyushan12@huawei.com,cache: Support cache maintenance for HiSilicon SoC Hydra Home Agent,2ec3b54a6ff0
+2025-11-17,Jonathan Cameron,Jonathan.Cameron@huawei.com,cache: Make top level Kconfig menu a boolean dependent on RISCV,4d1608d0ab33
+2025-11-17,Jonathan Cameron,Jonathan.Cameron@huawei.com,MAINTAINERS: Add Jonathan Cameron to drivers/cache and add lib/cache_maint.c + header,9b9de5a56a62
+2025-11-17,Jonathan Cameron,Jonathan.Cameron@huawei.com,arm64: Select GENERIC_CPU_CACHE_MAINTENANCE,4d873c5dc3ed
+2025-11-20,Zhao Yipeng,zhaoyipeng5@huawei.com,ima: Handle error code returned by ima_filter_rule_match(),738c9738e690
+2025-11-14,Chen Ridong,chenridong@huawei.com,cpuset: Treat cpusets in attaching as populated,b1bcaed1e39a
+2025-11-04,Kefeng Wang,wangkefeng.wang@huawei.com,mm: kill mm_wr_locked from unmap_vmas() and unmap_single_vma(),340b59816bc4
+2025-11-20,Cai Xinchen,caixinchen1@huawei.com,arm64: remove duplicate ARCH_HAS_MEM_ENCRYPT,f20810157f6e
+2025-11-20,Yue Haibing,yuehaibing@huawei.com,KVM: x86: Remove unused declaration kvm_mmu_may_ignore_guest_pat(),c09816f2afce
+2025-11-14,Yue Haibing,yuehaibing@huawei.com,Documentation: reset: Remove reset_controller_add_lookup(),1387cb78f101
+2025-11-15,Pu Lehui,pulehui@huawei.com,bpf: Fix invalid prog->stats access when update_effective_progs fails,7dc211c1159d
+2025-11-17,Jonathan Cameron,Jonathan.Cameron@huawei.com,memregion: Drop unused IORES_DESC_* parameter from cpu_cache_invalidate_memregion(),f49ae86483c4
+2025-11-05,Baokun Li,libaokun1@huawei.com,mm/page_alloc: don't warn about large allocations with __GFP_NOFAIL,ee040cbd6e48
+2025-10-20,Quanmin Yan,yanquanmin1@huawei.com,mm/damon/reclaim: use min_sz_region for core address alignment when setting regions,dfc02531f413
+2025-10-20,Quanmin Yan,yanquanmin1@huawei.com,mm/damon: add a min_sz_region parameter to damon_set_region_biggest_system_ram_default(),e859a224fad6
+2025-10-23,Kefeng Wang,wangkefeng.wang@huawei.com,mm: huge_memory: use folio_can_map_prot_numa() for pmd folio,f66e2727ddfc
+2025-10-23,Kefeng Wang,wangkefeng.wang@huawei.com,mm: mprotect: convert to folio_can_map_prot_numa(),ca43034cdb22
+2025-10-23,Kefeng Wang,wangkefeng.wang@huawei.com,mm: mprotect: avoid unnecessary struct page accessing if pte_protnone(),6e97624dacc1
+2025-10-23,Kefeng Wang,wangkefeng.wang@huawei.com,mm: mprotect: always skip dma pinned folio in prot_numa_skip(),03aa8e4f2732
+2025-11-13,Yue Haibing,yuehaibing@huawei.com,sctp: Remove unused declaration sctp_auth_init_hmacs(),06ac47065819
+2025-11-12,Yue Haibing,yuehaibing@huawei.com,vxlan: Remove unused declarations eth_vni_hash() and fdb_head_index(),c3716126cf57
+2025-10-25,Ye Bin,yebin10@huawei.com,dynamic_debug: add support for print stack,6c2e6e2c1af1
+2025-11-10,Baokun Li,libaokun1@huawei.com,bdev: add hint prints in sb_set_blocksize() for LBS dependency on THP,50b2a4f19b22
+2025-11-12,Yue Haibing,yuehaibing@huawei.com,ALSA: gus: Remove unused declarations,c0241d7180d3
+2025-11-11,Chen Ridong,chenridong@huawei.com,cpuset: remove need_rebuild_sched_domains,f23cb0ced8fb
+2025-11-11,Chen Ridong,chenridong@huawei.com,cpuset: remove global remote_children list,648d43da64f0
+2025-11-11,Chen Ridong,chenridong@huawei.com,cpuset: simplify node setting on error,0241e9e2bda3
+2025-11-10,Zheng Qixing,zhengqixing@huawei.com,nbd: defer config unlock in nbd_genl_connect,1649714b930f
+2025-08-19,Long Li,leo.lilong@huawei.com,macintosh/mac_hid: fix race condition in mac_hid_toggle_emumouse,1e4b207ffe54
+2025-11-03,Li Nan,linan122@huawei.com,md: allow configuring logical block size,62ed1b582246
+2025-11-03,Li Nan,linan122@huawei.com,md: add check_new_feature module parameter,9c47127a807d
+2025-11-03,Li Nan,linan122@huawei.com,md/raid0: Move queue limit setup before r0conf initialization,2107457e31fa
+2025-11-03,Li Nan,linan122@huawei.com,md: init bioset in mddev_init,381a3ce1c0ff
+2025-11-03,Li Nan,linan122@huawei.com,md: delete md_redundancy_group when array is becoming inactive,0ce112d9171a
+2025-09-18,Li Nan,linan122@huawei.com,md: prevent adding disks with larger logical_block_size to active arrays,6c6b66f65e55
+2025-10-30,Quanmin Yan,yanquanmin1@huawei.com,mm/damon/sysfs: change next_update_jiffies to a global variable,9fd7bb5083d1
+2025-10-30,Quanmin Yan,yanquanmin1@huawei.com,mm/damon/stat: change last_refresh_jiffies to a global variable,2f6ce7e714ef
+2025-11-08,Zheng Qixing,zhengqixing@huawei.com,nbd: defer config put in recv_work,9517b82d8d42
+2025-09-08,Wu Guanghao,wuguanghao3@huawei.com,Factor out code into md_should_do_recovery(),082d680faf26
+2025-11-05,Huisong Li,lihuisong@huawei.com,ACPI: processor: idle: Drop redundant C-state count checks,77ca1612b801
+2025-10-13,Zhang Yi,yi.zhang@huawei.com,ext4: add two trace points for moving extents,9dbf945320b1
+2025-10-13,Zhang Yi,yi.zhang@huawei.com,ext4: add large folios support for moving extents,65097262f5ee
+2025-10-13,Zhang Yi,yi.zhang@huawei.com,ext4: switch to using the new extent movement method,4589c4518f7c
+2025-10-13,Zhang Yi,yi.zhang@huawei.com,ext4: introduce mext_move_extent(),962e8a01eab9
+2025-10-13,Zhang Yi,yi.zhang@huawei.com,ext4: rename mext_page_mkuptodate() to mext_folio_mkuptodate(),37cb211f97f8
+2025-10-13,Zhang Yi,yi.zhang@huawei.com,ext4: refactor mext_check_arguments(),57c1df07f1ac
+2025-10-13,Zhang Yi,yi.zhang@huawei.com,ext4: add mext_check_validity() to do basic check,22218516e462
+2025-10-13,Zhang Yi,yi.zhang@huawei.com,ext4: use EXT4_B_TO_LBLK() in mext_check_arguments(),c9570b663424
+2025-10-13,Zhang Yi,yi.zhang@huawei.com,ext4: pass out extent seq counter when mapping blocks,07c440e8da8f
+2025-10-13,Zhang Yi,yi.zhang@huawei.com,ext4: make ext4_es_lookup_extent() pass out the extent seq counter,7da5565cab40
+2025-10-13,Zhang Yi,yi.zhang@huawei.com,ext4: introduce seq counter for the extent status entry,dd064d5101ea
+2025-10-13,Zhang Yi,yi.zhang@huawei.com,ext4: correct the checking of quota files before moving extents,a2e5a3cea4b1
+2025-11-05,Wang Liang,wangliang74@huawei.com,locktorture: Fix memory leak in param_set_cpumask(),e52b43883d08
+2025-10-30,Longfang Liu,liulongfang@huawei.com,hisi_acc_vfio_pci: adapt to new migration configuration,2131c1517f30
+2025-10-30,Longfang Liu,liulongfang@huawei.com,crypto: hisilicon - qm updates BAR configuration,4868d2d52df6
+2025-11-03,Yue Haibing,yuehaibing@huawei.com,net: devmem: Remove unused declaration net_devmem_bind_tx_release(),f2143e283c6b
+2025-10-30,Wang Liang,wangliang74@huawei.com,selftests: netdevsim: Fix ethtool-coalesce.sh fail by installing ethtool-common.sh,d01f8136d46b
+2025-10-25,nieweiqiang,nieweiqiang@huawei.com,crypto: hisilicon/qm - add missing default in switch in qm_vft_data_cfg,d91249474783
+2025-10-25,nieweiqiang,nieweiqiang@huawei.com,crypto: hisilicon/sgl - remove unnecessary checks for curr_hw_sgl error,51996331f713
+2025-10-25,nieweiqiang,nieweiqiang@huawei.com,crypto: hisilicon/qm - add concurrency protection for variable err_threshold,1b5645e45461
+2025-10-25,nieweiqiang,nieweiqiang@huawei.com,crypto: hisilicon/qm - add the save operation of eqe and aeqe,f5a332980a68
+2025-10-25,Wang Liang,wangliang74@huawei.com,net: ipv4: Remove extern udp_v4_early_demux()/tcp_v4_early_demux() in .c files,f58abec23da5
+2025-10-28,Qinxin Xia,xiaqinxin@huawei.com,dma-mapping: benchmark: Restore padding to ensure uABI remained consistent,23ee8a2563a0
+2025-10-28,Qinxin Xia,xiaqinxin@huawei.com,tools/dma: move dma_map_benchmark from selftests to tools/dma,f74ee32963f1
+2025-10-25,Jijie Shao,shaojijie@huawei.com,net: hibmcge: fix the inappropriate netif_device_detach(),7e2958aee59c
+2025-10-25,Jijie Shao,shaojijie@huawei.com,net: hibmcge: remove unnecessary check for np_link_fail in scenarios without phy.,71eb8d1e0756
+2025-10-25,Jijie Shao,shaojijie@huawei.com,net: hibmcge: fix rx buf avl irq is not re-enabled in irq_handle issue,12d2303db892
+2025-10-10,Quanmin Yan,yanquanmin1@huawei.com,fbcon: Set fb_display[i]->mode to NULL when the mode is released,a1f305893074
+2025-10-18,Xu Kuohai,xukuohai@huawei.com,selftests/bpf/benchs: Add overwrite mode benchmark for BPF ring buffer,f9db3a38224e
+2025-10-18,Xu Kuohai,xukuohai@huawei.com,selftests/bpf: Add overwrite mode test for BPF ring buffer,8f7a86ecde42
+2025-10-18,Xu Kuohai,xukuohai@huawei.com,bpf: Add overwrite mode for BPF ring buffer,feeaf1346f80
+2025-10-24,Yue Haibing,yuehaibing@huawei.com,net/sched: Remove unused typedef psched_tdiff_t,6f147c8328e0
+2025-10-23,Jijie Shao,shaojijie@huawei.com,net: hns3: return error code when function fails,03ca7c8c42be
+2025-10-16,wenglianfa,wenglianfa@huawei.com,RDMA/hns: Fix the modification of max_send_sge,f5a7cbea5411
+2025-10-16,Chengchang Tang,tangchengchang@huawei.com,RDMA/hns: Fix recv CQ and QP cache affinity,c4b67b514af8
+2025-10-18,nieweiqiang,nieweiqiang@huawei.com,crypto: hisilicon/qm - restore original qos values,e7066160f5b4
+2025-10-21,Yue Haibing,yuehaibing@huawei.com,net/sched: Remove unused inline helper qdisc_from_priv(),114573962a68
+2025-09-02,Roberto Sassu,roberto.sassu@huawei.com,"ima,evm: move initcalls to the LSM framework",82fe7932e84f
+2025-09-29,Huisong Li,lihuisong@huawei.com,ACPI: processor: idle: Relocate state flags initialization,945661d581c5
+2025-10-11,Hongbo Li,lihongbo22@huawei.com,hostfs: Fix only passing host root in boot stage with new mount,2c2b67af5f5f
+2025-10-17,Wang Liang,wangliang74@huawei.com,net/smc: fix general protection fault in __smc_diag_dump,f584239a9ed2
+2025-10-14,Jijie Shao,shaojijie@huawei.com,net: hibmcge: support pci_driver.shutdown(),0746da01767e
+2025-10-15,Yu Kuai,yukuai3@huawei.com,blk-mq: fix stale tag depth for shared sched tags in blk_mq_update_nr_requests(),dc96cefef0d3
+2025-10-13,Wang Liang,wangliang74@huawei.com,selftests: net: check jq command is supported,4f86eb0a38bc
+2025-10-08,Roberto Sassu,roberto.sassu@huawei.com,ima: Attach CREDS_CHECK IMA hook to bprm_creds_from_file LSM hook,8f3fc4f3f8aa
+2025-09-16,Zhang Yi,yi.zhang@huawei.com,ext4: wait for ongoing I/O to complete before freeing blocks,328a782cb138
+2025-09-16,Zhang Yi,yi.zhang@huawei.com,jbd2: ensure that all ongoing I/O complete before freeing blocks,3c652c3a71de
+2025-08-14,Qinxin Xia,xiaqinxin@huawei.com,MAINTAINERS: add myself and Barry to dma_map_benchmark maintainers,196920134154
+2025-09-22,Xie Yuanbin,xieyuanbin1@huawei.com,mm/memory-failure: don't select MEMORY_ISOLATION,cde31ecdd1aa
+2025-09-12,Zhang Yi,yi.zhang@huawei.com,ext4: fix an off-by-one issue during moving extents,12e803c8827d
+2025-09-11,Yongjian Sun,sunyongjian1@huawei.com,ext4: increase i_disksize to offset + len in ext4_update_disksize_before_punch(),9d80eaa1a1d3
+2025-09-12,Jinjiang Tu,tujinjiang@huawei.com,mm/hugetlb: fix folio is still mapped when deleted,7b7387650dcf
+2025-08-25,Baokun Li,libaokun1@huawei.com,ext4: fix potential null deref in ext4_mb_init(),3c3fac6bc0a9
+2025-08-21,Baokun Li,libaokun1@huawei.com,ext4: add ext4_sb_bread_nofail() helper function for ext4_free_branches(),d8b90e6387a7
+2025-09-09,Qi Xi,xiqi2@huawei.com,once: fix race by moving DO_ONCE to separate section,edcc8a38b5ac
+2025-09-16,Wang Liang,wangliang74@huawei.com,tracing/osnoise: Fix slab-out-of-bounds in _parse_integer_limit(),a2501032de0d
+2025-09-23,Huisong Li,lihuisong@huawei.com,ACPI: processor: Do not expose global variable acpi_idle_driver,559f2eacc8a2
+2025-09-23,Yu Kuai,yukuai3@huawei.com,blk-cgroup: fix possible deadlock while configuring policy,5d726c4dbeed
+2025-09-23,Yu Kuai,yukuai3@huawei.com,blk-mq: fix null-ptr-deref in blk_mq_free_tags() from error path,670bfe683850
+2025-09-22,Chen Ridong,chenridong@huawei.com,cpuset: remove is_prs_invalid helper,8f0fdbd4a06b
+2025-09-22,Chen Ridong,chenridong@huawei.com,cpuset: remove impossible warning in update_parent_effective_cpumask,39431592e935
+2025-09-22,Chen Ridong,chenridong@huawei.com,cpuset: remove redundant special case for null input in node mask update,b72af996b67c
+2025-08-29,Yushan Wang,wangyushan12@huawei.com,Documentation: hisi-pmu: Add introduction to HiSilicon V3 PMU,6d2f913fda56
+2025-08-29,Yushan Wang,wangyushan12@huawei.com,Documentation: hisi-pmu: Fix of minor format error,272dd0e5e58d
+2025-09-10,Quanmin Yan,yanquanmin1@huawei.com,mm/damon/reclaim: support addr_unit for DAMON_RECLAIM,7db551fcfb2a
+2025-09-10,Quanmin Yan,yanquanmin1@huawei.com,mm/damon/lru_sort: support addr_unit for DAMON_LRU_SORT,2e0fe9245d6b
+2025-09-04,Miaohe Lin,linmiaohe@huawei.com,mm/hwpoison: decouple hwpoison_filter from mm/memory-failure.c,5ce1dbfdd8e3
+2025-09-04,Jinjiang Tu,tujinjiang@huawei.com,filemap: optimize folio refount update in filemap_map_pages,0faa77afe72b
+2025-09-10,Kefeng Wang,wangkefeng.wang@huawei.com,mm: hugeltb: check NUMA_NO_NODE in only_alloc_fresh_hugetlb_folio(),4fe2a8107f33
+2025-09-10,Kefeng Wang,wangkefeng.wang@huawei.com,mm: hugetlb: remove struct hstate from init_new_hugetlb_folio(),dd4d324bc02c
+2025-09-10,Kefeng Wang,wangkefeng.wang@huawei.com,mm: hugetlb: directly pass order when allocate a hugetlb folio,4a25f995bd59
+2025-09-10,Kefeng Wang,wangkefeng.wang@huawei.com,mm: hugetlb: convert to account_new_hugetlb_folio(),4094d3434b25
+2025-09-10,Kefeng Wang,wangkefeng.wang@huawei.com,mm: hugetlb: convert to use more alloc_fresh_hugetlb_folio(),902020f02745
+2025-09-13,Chenghai Huang,huangchenghai2@huawei.com,crypto: hisilicon/qm - set NULL to qm->debug.qm_diff_regs,f0cafb02de88
+2025-09-13,Weili Qian,qianweili@huawei.com,crypto: hisilicon/qm - clear all VF configurations in the hardware,64b9642fc29a
+2025-09-13,Weili Qian,qianweili@huawei.com,crypto: hisilicon - enable error reporting again,80736a97cf94
+2025-09-13,Weili Qian,qianweili@huawei.com,crypto: hisilicon/qm - mask axi error before memory init,3d716c51e0e8
+2025-09-13,Weili Qian,qianweili@huawei.com,crypto: hisilicon/qm - invalidate queues in use,85acd1b26b8f
+2025-09-17,Wang Liang,wangliang74@huawei.com,net: tun: Update napi->skb after XDP process,1091860a16a8
+2025-09-19,Chen Ridong,chenridong@huawei.com,cpuset: fix missing error return in update_cpumask,51840f7ba393
+2025-09-19,Chen Ridong,chenridong@huawei.com,cpuset: Use new excpus for nocpu error check when enabling root partition,59d5de365569
+2025-09-19,Chen Ridong,chenridong@huawei.com,cpuset: fix failure to enable isolated partition when containing isolcpus,216217ebee16
+2025-09-11,Jinqian Yang,yangjinqian1@huawei.com,"KVM: arm64: selftests: Test writes to ID_AA64MMFR1_EL1.{HCX, TWED}",be8c9192eaee
+2025-09-11,Jinqian Yang,yangjinqian1@huawei.com,"KVM: arm64: Make ID_AA64MMFR1_EL1.{HCX, TWED} writable from userspace",1a0b2bf6ff11
+2025-07-11,Pu Lehui,pulehui@huawei.com,riscv: Enable ARCH_HAVE_NMI_SAFE_CMPXCHG,205cbc714842
+2025-08-14,Junhao He,hejunhao3@huawei.com,drivers/perf: hisi: Add support for HiSilicon MN PMU driver,2257798498b3
+2025-09-16,Wang Liang,wangliang74@huawei.com,tracing: kprobe-event: Fix null-ptr-deref in trace_kprobe_create_internal(),dc3382fffdec
+2025-09-11,Huisong Li,lihuisong@huawei.com,ACPI: processor: idle: Rearrange declarations in header file,bdf780fbcef5
+2025-09-17,Chen Ridong,chenridong@huawei.com,cpuset: use partition_cpus_change for setting exclusive cpus,c49b5e89c45f
+2025-09-17,Chen Ridong,chenridong@huawei.com,cpuset: use parse_cpulist for setting cpus.exclusive,de9f15e21c55
+2025-09-17,Chen Ridong,chenridong@huawei.com,cpuset: introduce partition_cpus_change,27db8246004a
+2025-09-17,Chen Ridong,chenridong@huawei.com,cpuset: refactor cpus_allowed_validate_change,c6366739804f
+2025-09-17,Chen Ridong,chenridong@huawei.com,cpuset: refactor out validate_partition,7e05981ba34a
+2025-09-17,Chen Ridong,chenridong@huawei.com,cpuset: introduce cpus_excl_conflict and mems_excl_conflict helpers,8daab66eb329
+2025-09-17,Chen Ridong,chenridong@huawei.com,cpuset: refactor CPU mask buffer parsing logic,c5866c9a007d
+2025-09-17,Chen Ridong,chenridong@huawei.com,cpuset: Refactor exclusive CPU mask computation logic,86bbbd1f33ab
+2025-09-17,Chen Ridong,chenridong@huawei.com,cpuset: change return type of is_partition_[in]valid to bool,6a59fc4a3a5b
+2025-09-17,Chen Ridong,chenridong@huawei.com,cpuset: remove unused assignment to trialcs->partition_root_state,bba0ccf829b9
+2025-09-17,Chen Ridong,chenridong@huawei.com,cpuset: move the root cpuset write check earlier,b783a6265589
+2025-09-10,Zhang Yi,yi.zhang@huawei.com,drbd: init queue_limits->max_hw_wzeroes_unmap_sectors parameter,027a7a9c07d0
+2025-09-17,Yu Kuai,yukuai3@huawei.com,blk-throttle: fix throtl_data leak during disk release,336aec7b06be
+2025-09-11,Huisong Li,lihuisong@huawei.com,ACPI: processor: Remove unused empty stubs of some functions,5020d05b3476
+2025-09-10,Zhang Yi,yi.zhang@huawei.com,md: init queue_limits->max_hw_wzeroes_unmap_sectors parameter,f0bd03832f5c
+2025-09-04,Qi Xi,xiqi2@huawei.com,drm: bridge: cdns-mhdp8546: Fix missing mutex unlock on error path,288dac9fb608
+2025-09-12,Fan Gong,gongfan1@huawei.com,hinic3: Fix code style (Missing a blank line before return),d5aeec592154
+2025-09-12,Fan Gong,gongfan1@huawei.com,hinic3: Fix missing napi->dev in netif_queue_set_napi,4404f6af8108
+2025-09-12,Fan Gong,gongfan1@huawei.com,hinic3: Add port management,45f97ae93de2
+2025-09-12,Fan Gong,gongfan1@huawei.com,hinic3: Add Rss function,1f3838b84a63
+2025-09-12,Fan Gong,gongfan1@huawei.com,hinic3: Tx & Rx configuration,b83bb584bc97
+2025-09-12,Fan Gong,gongfan1@huawei.com,hinic3: Queue pair context initialization,97dcb914a25b
+2025-09-12,Fan Gong,gongfan1@huawei.com,hinic3: Queue pair resource initialization,73f37a7e1993
+2025-09-12,Fan Gong,gongfan1@huawei.com,hinic3: Queue pair endianness improvements,6b822b658aaf
+2025-09-12,Fan Gong,gongfan1@huawei.com,hinic3: Nic_io initialization,8133788d023f
+2025-09-12,Fan Gong,gongfan1@huawei.com,hinic3: Command Queue flush interfaces,b92e6c734db8
+2025-09-12,Fan Gong,gongfan1@huawei.com,hinic3: HW capability initialization,a0543a79359e
+2025-09-12,Fan Gong,gongfan1@huawei.com,hinic3: HW common function initialization,069e42485e53
+2025-09-12,Fan Gong,gongfan1@huawei.com,hinic3: HW management interfaces,8a1c655f55c8
+2025-09-12,Fan Gong,gongfan1@huawei.com,hinic3: HW initialization,cdb096c41b7d
+2025-08-28,Quanmin Yan,yanquanmin1@huawei.com,mm/damon: add damon_ctx->min_sz_region,d8f867fa0825
+2025-08-26,Miaohe Lin,linmiaohe@huawei.com,"Revert ""hugetlb: make hugetlb depends on SYSFS or SYSCTL""",c090868f59ce
+2025-08-19,Baokun Li,libaokun1@huawei.com,tmpfs: preserve SB_I_VERSION on remount,63ec0c26b682
+2025-07-31,Zhang Qilong,zhangqilong3@huawei.com,/dev/zero: try to align PMD_SIZE for private mapping,849d5cff4d48
+2025-08-15,Jinjie Ruan,ruanjinjie@huawei.com,arm64: entry: Switch to generic IRQ entry,b3cf07851b6c
+2025-08-15,Jinjie Ruan,ruanjinjie@huawei.com,arm64: entry: Move arm64_preempt_schedule_irq() into __exit_to_kernel_mode(),99eb057ccd67
+2025-08-15,Jinjie Ruan,ruanjinjie@huawei.com,arm64: entry: Refactor preempt_schedule_irq() check code,64f4b8b15f1c
+2025-08-15,Jinjie Ruan,ruanjinjie@huawei.com,entry: Add arch_irqentry_exit_need_resched() for arm64,3c973c51bfba
+2025-08-15,Jinjie Ruan,ruanjinjie@huawei.com,arm64: entry: Use preempt_count() and need_resched() helper,c74c44c6ae20
+2025-08-15,Jinjie Ruan,ruanjinjie@huawei.com,arm64: entry: Rework arm64_preempt_schedule_irq(),77c195394639
+2025-08-15,Jinjie Ruan,ruanjinjie@huawei.com,arm64: entry: Refactor the entry and exit for exceptions from EL1,ee776d68ba47
+2025-08-15,Jinjie Ruan,ruanjinjie@huawei.com,arm64: ptrace: Replace interrupts_enabled() with regs_irqs_disabled(),788b8f6af60b
+2025-09-10,Yu Kuai,yukuai3@huawei.com,blk-mq: fix stale nr_requests documentation,a75fe12fa2e2
+2025-09-10,Yu Kuai,yukuai3@huawei.com,blk-mq: remove blk_mq_tag_update_depth(),978404114579
+2025-09-10,Yu Kuai,yukuai3@huawei.com,blk-mq: fix potential deadlock while nr_requests grown,b86433721f46
+2025-09-10,Yu Kuai,yukuai3@huawei.com,blk-mq-sched: add new parameter nr_requests in blk_mq_alloc_sched_tags(),6293e336f6d7
+2025-09-10,Yu Kuai,yukuai3@huawei.com,blk-mq: split bitmap grow and resize case in blk_mq_update_nr_requests(),e63200404477
+2025-09-10,Yu Kuai,yukuai3@huawei.com,blk-mq: cleanup shared tags case in blk_mq_update_nr_requests(),7f2799c546db
+2025-09-10,Yu Kuai,yukuai3@huawei.com,blk-mq: convert to serialize updating nr_requests with update_nr_hwq_lock,626ff4f8ebcb
+2025-09-10,Yu Kuai,yukuai3@huawei.com,blk-mq: check invalid nr_requests in queue_requests_store(),b46d4c447db7
+2025-09-10,Yu Kuai,yukuai3@huawei.com,blk-mq: remove useless checkings in blk_mq_update_nr_requests(),8bd7195fea6d
+2025-09-10,Yu Kuai,yukuai3@huawei.com,blk-mq: remove useless checking in queue_requests_store(),dc1dd13d44fa
+2025-09-10,Yu Kuai,yukuai3@huawei.com,md/raid0: convert raid0_make_request() to use bio_submit_split_bioset(),e0ed2bca7bef
+2025-09-10,Yu Kuai,yukuai3@huawei.com,block: fix ordering of recursive split IO,b2f5974079d8
+2025-09-10,Yu Kuai,yukuai3@huawei.com,block: skip unnecessary checks for split bio,0b64682e78f7
+2025-09-10,Yu Kuai,yukuai3@huawei.com,blk-crypto: convert to use bio_submit_split_bioset(),e3290419d9be
+2025-09-10,Yu Kuai,yukuai3@huawei.com,md/md-linear: convert to use bio_submit_split_bioset(),6529d41d8782
+2025-09-10,Yu Kuai,yukuai3@huawei.com,md/raid5: convert to use bio_submit_split_bioset(),9e8a5b37c9ea
+2025-09-10,Yu Kuai,yukuai3@huawei.com,md/raid10: convert read/write to use bio_submit_split_bioset(),6fc07785d9b8
+2025-09-10,Yu Kuai,yukuai3@huawei.com,md/raid10: add a new r10bio flag R10BIO_Returned,deeeab3028af
+2025-09-10,Yu Kuai,yukuai3@huawei.com,md/raid1: convert to use bio_submit_split_bioset(),a6fcc160d6fd
+2025-09-10,Yu Kuai,yukuai3@huawei.com,md/raid0: convert raid0_handle_discard() to use bio_submit_split_bioset(),5b38ee5a4a12
+2025-09-10,Yu Kuai,yukuai3@huawei.com,block: factor out a helper bio_submit_split_bioset(),e37b5596a19b
+2025-09-10,Yu Kuai,yukuai3@huawei.com,blk-crypto: fix missing blktrace bio split events,06d712d29764
+2025-09-10,Yu Kuai,yukuai3@huawei.com,md: fix mssing blktrace bio split events,22f166218f73
+2025-09-10,Yu Kuai,yukuai3@huawei.com,blk-mq: add QUEUE_FLAG_BIO_ISSUE_TIME,ea3d1f104db6
+2025-09-10,Yu Kuai,yukuai3@huawei.com,block: initialize bio issue time in blk_mq_submit_bio(),1f963bdd6420
+2025-09-10,Yu Kuai,yukuai3@huawei.com,block: cleanup bio_issue,1733e8887483
+2025-08-05,Xiongfeng Wang,wangxiongfeng2@huawei.com,hrtimers: Unconditionally update target CPU base after offline timer migration,e895f8e29119
+2025-08-28,Miaohe Lin,linmiaohe@huawei.com,mm/memory-failure: fix VM_BUG_ON_PAGE(PagePoisoned(page)) when unpoison memory,d613f53c83ec
+2025-09-08,Pu Lehui,pulehui@huawei.com,tracing: Silence warning when chunk allocation fails in trace_pid_write,cd4453c5e983
+2025-08-22,Chen Ridong,chenridong@huawei.com,kernfs: Fix UAF in polling when open file is released,3c9ba2777d6c
+2025-09-06,Wang Liang,wangliang74@huawei.com,tracing/osnoise: Fix null-ptr-deref in bitmap_parselist(),c1628c00c435
+2025-08-30,Wang Liang,wangliang74@huawei.com,pps: fix warning in pps_register_cdev when register device fail,b0531cdba502
+2025-09-04,Wang Liang,wangliang74@huawei.com,vt: remove redundant check on vc_mode in con_font_set(),45747017928c
+2025-08-29,Yu Kuai,yukuai3@huawei.com,md/md-llbitmap: introduce new lockless bitmap,5ab829f1971d
+2025-08-29,Yu Kuai,yukuai3@huawei.com,md/md-bitmap: make method bitmap_ops->daemon_work optional,66be318e6659
+2025-08-29,Yu Kuai,yukuai3@huawei.com,md: add a new recovery_flag MD_RECOVERY_LAZY_RECOVER,c951ccf0bf2d
+2025-08-29,Yu Kuai,yukuai3@huawei.com,md/md-bitmap: add a new method blocks_synced() in bitmap_operations,a4dd9ba39ba4
+2025-08-29,Yu Kuai,yukuai3@huawei.com,md/md-bitmap: add a new method skip_sync_blocks() in bitmap_operations,f196d7288864
+2025-08-29,Yu Kuai,yukuai3@huawei.com,md/md-bitmap: delay registration of bitmap_ops until creating bitmap,fb8cc3b0d9db
+2025-08-29,Yu Kuai,yukuai3@huawei.com,md/md-bitmap: add a new sysfs api bitmap_type,180b82c1c7b2
+2025-08-29,Yu Kuai,yukuai3@huawei.com,md: add a new mddev field 'bitmap_id',300bffa870c5
+2025-08-29,Yu Kuai,yukuai3@huawei.com,md/md-bitmap: support discard for bitmap ops,ac9dad8faaa7
+2025-08-29,Yu Kuai,yukuai3@huawei.com,md: factor out a helper raid_is_456(),7797da149d46
+2025-08-29,Yu Kuai,yukuai3@huawei.com,md: add a new parameter 'offset' to md_super_write(),d01acbce3917
+2025-07-07,Yu Kuai,yukuai3@huawei.com,md/md-bitmap: introduce CONFIG_MD_BITMAP,c27474ac1d46
+2025-07-07,Yu Kuai,yukuai3@huawei.com,md: check before referencing mddev->bitmap_ops,26292657add3
+2025-07-07,Yu Kuai,yukuai3@huawei.com,md/dm-raid: check before referencing mddev->bitmap_ops,0e18745420e3
+2025-07-07,Yu Kuai,yukuai3@huawei.com,md/raid5: check before referencing mddev->bitmap_ops,bb9317b13ade
+2025-07-07,Yu Kuai,yukuai3@huawei.com,md/raid10: check before referencing mddev->bitmap_ops,969f996243ae
+2025-07-07,Yu Kuai,yukuai3@huawei.com,md/raid1: check before referencing mddev->bitmap_ops,8d31ed3b776e
+2025-07-07,Yu Kuai,yukuai3@huawei.com,md/raid1: check bitmap before behind write,20cecae877a6
+2025-07-07,Yu Kuai,yukuai3@huawei.com,md/md-bitmap: handle the case bitmap is not enabled before end_sync(),bb74b093c33c
+2025-07-07,Yu Kuai,yukuai3@huawei.com,md/md-bitmap: handle the case bitmap is not enabled before start_sync(),5ae58d1500e3
+2025-07-07,Yu Kuai,yukuai3@huawei.com,md/md-bitmap: add md_bitmap_registered/enabled() helper,110332074dc6
+2025-07-07,Yu Kuai,yukuai3@huawei.com,md/md-bitmap: add a new parameter 'flush' to bitmap_ops->enabled,9c41ead04ec0
+2025-07-07,Yu Kuai,yukuai3@huawei.com,md/md-bitmap: merge md_bitmap_group into bitmap_operations,9307dbac0ea3
+2025-07-07,Yu Kuai,yukuai3@huawei.com,md/md-bitmap: remove the parameter 'init' for bitmap_ops->resize(),e57b225c28b2
+2025-08-30,Zhushuai Yin,yinzhushuai@huawei.com,"crypto: hisilicon/zip - add hashjoin, gather, and UDMA data move features",886d69812082
+2025-08-30,Chenghai Huang,huangchenghai2@huawei.com,crypto: hisilicon/zip - add lz4 and lz77_only to algorithm sysfs,cf79ed6aacd3
+2025-09-05,Huisong Li,lihuisong@huawei.com,ACPI: processor: idle: Fix function defined but not used warning,9d68320b2bca
+2025-08-21,Yu Kuai,yukuai3@huawei.com,blk-mq: fix blk_mq_tags double free while nr_requests grown,ba28afbd9eff
+2025-08-21,Yu Kuai,yukuai3@huawei.com,blk-mq: fix elevator depth_updated method,7d337eef4aff
+2025-09-04,Li Nan,linan122@huawei.com,md: prevent incorrect update of resync/recovery offset,7202082b7b7a
+2025-09-03,Yu Kuai,yukuai3@huawei.com,md/raid1: fix data lost for writemostly rdev,93dec51e716d
+2025-09-01,Yue Haibing,yuehaibing@huawei.com,ipv6: sit: Add ipip6_tunnel_dst_find() for cleanup,61481d72e153
+2025-09-01,Wang Liang,wangliang74@huawei.com,net: atm: fix memory leak in atm_register_sysfs when device_register fail,0a228624bcc0
+2025-08-27,Quanmin Yan,yanquanmin1@huawei.com,mm/damon/reclaim: avoid divide-by-zero in damon_reclaim_apply_parameters(),e6b543ca9806
+2025-08-27,Quanmin Yan,yanquanmin1@huawei.com,mm/damon/lru_sort: avoid divide-by-zero in damon_lru_sort_apply_parameters(),711f19dfd783
+2025-06-27,Jinjiang Tu,tujinjiang@huawei.com,mm/memory_hotplug: fix hwpoisoned large folio handling in do_migrate_range(),397f6d14f9c3
+2025-09-03,Zenghui Yu,yuzenghui@huawei.com,irqchip/gic-v5: Remove the redundant ITS cache invalidation,54a1726d2e4c
+2025-09-01,Yue Haibing,yuehaibing@huawei.com,ipv6: Add sanity checks on ipv6_devconf.rpl_seg_enabled,3d95261eeb74
+2025-09-01,Yue Haibing,yuehaibing@huawei.com,ipv6: annotate data-races around devconf->rpl_seg_enabled,3a5f55500f3e
+2025-07-28,Huisong Li,lihuisong@huawei.com,ACPI: processor: idle: Optimize ACPI idle driver registration,7a8c994cbb2d
+2025-08-28,Liu Jian,liujian56@huawei.com,net/smc: fix one NULL pointer dereference in smc_ib_is_sg_need_sync(),ba1e9421cf1a
+2025-08-22,Gu Bowen,gubowen5@huawei.com,mm: fix possible deadlock in kmemleak,c873ccbb2f8d
+2025-08-11,Yu Kuai,yukuai3@huawei.com,brd: use page reference to protect page lifetime,2a0614522885
+2025-08-21,Chenghai Huang,huangchenghai2@huawei.com,crypto: hisilicon/zip - enable literal length in stream mode compression,dcd2d5fda2bb
+2025-08-21,Weili Qian,qianweili@huawei.com,crypto: hisilicon/qm - request reserved interrupt for virtual function,9228facb3081
+2025-08-21,Zhushuai Yin,yinzhushuai@huawei.com,crypto: hisilicon/qm - check whether the input function and PF are on the same device,6a2c9164b52e
+2025-08-21,Weili Qian,qianweili@huawei.com,crypto: hisilicon - check the sva module status while enabling or disabling address prefetch,1f9128f121a8
+2025-08-21,Chenghai Huang,huangchenghai2@huawei.com,crypto: hisilicon - re-enable address prefetch after device resuming,0dcd21443d93
+2025-08-21,Chenghai Huang,huangchenghai2@huawei.com,crypto: hisilicon/zip - remove unnecessary validation for high-performance mode configurations,d4e081510471
+2025-08-26,Li Nan,linan122@huawei.com,blk-mq: check kobject state_in_sysfs before deleting in blk_mq_unregister_hctx,4c7ef92f6d4d
+2025-08-27,Li Nan,linan122@huawei.com,efivarfs: Fix slab-out-of-bounds in efivarfs_d_compare,a6358f8cf648
+2025-08-21,Quanmin Yan,yanquanmin1@huawei.com,mm/damon/core: prevent unnecessary overflow in damos_set_effective_quota(),9f68eabab9d9
+2025-08-19,Yin Tirui,yintirui@huawei.com,of_numa: fix uninitialized memory nodes causing kernel panic,ee4d098cbc91
+2025-08-22,Wang Liang,wangliang74@huawei.com,netfilter: br_netfilter: do not check confirmed bit in br_nf_local_in() after confirm,479a54ab9208
+2025-08-26,Zheng Qixing,zhengqixing@huawei.com,dm: fix NULL pointer dereference in __dm_suspend(),8d33a030c566
+2025-08-26,Zheng Qixing,zhengqixing@huawei.com,dm: fix queue start/stop imbalance under suspend/load/resume races,7f597c2cdb9d
+2025-08-20,Yue Haibing,yuehaibing@huawei.com,octeontx2-af: Remove unused declarations,07ca488d688c
+2025-08-22,Yue Haibing,yuehaibing@huawei.com,ipv6: mcast: Add ip6_mc_find_idev() helper,60c481d4caa5
+2025-08-25,Chen Ridong,chenridong@huawei.com,cpuset: add helpers for cpus read and cpuset_mutex locks,2c98144fc832
+2025-08-25,Chen Ridong,chenridong@huawei.com,cpuset: separate tmpmasks and cpuset allocation logic,ada00d516228
+2025-08-25,Chen Ridong,chenridong@huawei.com,cpuset: decouple tmpmasks and cpumasks freeing in cgroup,5806b3d05165
+2025-08-25,Yu Kuai,yukuai3@huawei.com,loop: fix zero sized loop for block special file,d14469ed7c00
+2025-08-20,Fan Gong,gongfan1@huawei.com,hinic3: Interrupt request configuration,a5a90346bb12
+2025-08-20,Fan Gong,gongfan1@huawei.com,hinic3: Mailbox management interfaces,a8255ea56aee
+2025-08-20,Fan Gong,gongfan1@huawei.com,hinic3: Mailbox framework,2742e06e2d42
+2025-08-20,Fan Gong,gongfan1@huawei.com,hinic3: TX & RX Queue coalesce interfaces,bef7c33c6754
+2025-08-20,Fan Gong,gongfan1@huawei.com,hinic3: Command Queue interfaces,16a6fce06757
+2025-08-20,Fan Gong,gongfan1@huawei.com,hinic3: Command Queue framework,db03a1ced61c
+2025-08-20,Fan Gong,gongfan1@huawei.com,hinic3: Complete Event Queue interfaces,c4bbfd9b0d32
+2025-08-20,Fan Gong,gongfan1@huawei.com,hinic3: Async Event Queue interfaces,a4511307be86
+2025-07-28,Huisong Li,lihuisong@huawei.com,ACPI: processor: idle: Fix memory leak when register cpuidle device failed,11b3de1c03fa
+2025-08-22,Chen Ridong,chenridong@huawei.com,cgroup/psi: Set of->priv to NULL upon file release,94a4acfec146
+2025-08-19,Chen Ridong,chenridong@huawei.com,cgroup: split cgroup_destroy_wq into 3 workqueues,79f919a89c9d
+2025-08-18,Ye Weihua,yeweihua4@huawei.com,trace/fgraph: Fix the warning caused by missing unregister notifier,edede7a6dcd7
+2025-08-13,Pu Lehui,pulehui@huawei.com,tracing: Limit access to parser->buffer when trace_get_user failed,6a909ea83f22
+2025-08-15,Jijie Shao,shaojijie@huawei.com,net: hns3: change the function return type from int to bool,021f989c863b
+2025-08-15,Jijie Shao,shaojijie@huawei.com,net: hns3: add parameter check for tx_copybreak and tx_spare_buf_size,e16e973c576f
+2025-08-15,Jinjiang Tu,tujinjiang@huawei.com,mm/memory-failure: fix infinite UCE for VM_PFNMAP pfn,2e6053fea379
+2025-08-11,Ye Bin,yebin10@huawei.com,fs/buffer: fix use-after-free when call bh_read() helper,7375f22495e7
+2025-08-13,Baihan Li,libaihan@huawei.com,drm/hisilicon/hibmc: fix dp and vga cannot show together,3271faf42d13
+2025-08-13,Baihan Li,libaihan@huawei.com,drm/hisilicon/hibmc: fix rare monitors cannot display problem,9f98b429ba67
+2025-08-13,Baihan Li,libaihan@huawei.com,drm/hisilicon/hibmc: fix the hibmc loaded failed bug,93a08f856fcc
+2025-08-13,Baihan Li,libaihan@huawei.com,drm/hisilicon/hibmc: fix irq_request()'s irq name variable is local,8bed4ec42a4e
+2025-08-13,Baihan Li,libaihan@huawei.com,drm/hisilicon/hibmc: fix the i2c device resource leak when vdac init failed,e5f48bfa2ae0
+2025-08-02,Jonathan Cameron,Jonathan.Cameron@huawei.com,iio: light: Simple conversions to iio_push_to_buffers_with_ts(),1ab10737fcc9
+2025-08-02,Jonathan Cameron,Jonathan.Cameron@huawei.com,iio: light: vl6180: Use iio_push_to_buffers_with_ts() to allow source size runtime check,2bbaf41ac9f7
+2025-08-02,Jonathan Cameron,Jonathan.Cameron@huawei.com,iio: light: vcnl4000: Use a structure to make buffer arrangement explicit.,19487b50ac7f
+2025-08-02,Jonathan Cameron,Jonathan.Cameron@huawei.com,iio: light: tcs3472: Use iio_push_to_buffers_with_ts() to allow source size runtime check,66c556aa8358
+2025-08-02,Jonathan Cameron,Jonathan.Cameron@huawei.com,iio: light: tcs3414: Use iio_push_to_buffers_with_ts() to allow source size runtime check,7cacdd9380e4
+2025-08-02,Jonathan Cameron,Jonathan.Cameron@huawei.com,iio: light: st_uvis25: Use iio_push_to_buffers_with_ts() to allow source size runtime check,cb8453db6330
+2025-08-02,Jonathan Cameron,Jonathan.Cameron@huawei.com,iio: light: max44000: Use iio_push_to_buffers_with_ts() to allow source size runtime check,596081d33bd8
+2025-08-02,Jonathan Cameron,Jonathan.Cameron@huawei.com,iio: light: isl29125: Use iio_push_to_buffers_with_ts() to allow source size runtime check,f0ffec3b4fa7
+2025-08-02,Jonathan Cameron,Jonathan.Cameron@huawei.com,iio: light: adjd_s311: Use iio_push_to_buffers_with_ts() to allow source size runtime check,656c45811d33
+2025-08-02,Jonathan Cameron,Jonathan.Cameron@huawei.com,iio: light: acpi-als: Use iio_push_to_buffers_with_ts() to allow runtime source size check,ea85f5e2391d
+2025-08-02,Jonathan Cameron,Jonathan.Cameron@huawei.com,iio: light: acpi-als: Use a structure for layout of data to push to buffer.,783efeb58fef
+2025-08-02,Jonathan Cameron,Jonathan.Cameron@huawei.com,iio: light: as73211: Ensure buffer holes are zeroed,433b99e92294
+2025-08-16,Zheng Qixing,zhengqixing@huawei.com,md: fix sync_action incorrect display during resync,b7ee30f0efd1
+2025-08-16,Zheng Qixing,zhengqixing@huawei.com,md: add helper rdev_needs_recovery(),cb0780ad4333
+2025-08-14,Wang Liang,wangliang74@huawei.com,net: bridge: remove unused argument of br_multicast_query_expired(),7de0eebbb4c3
+2025-07-19,Pu Lehui,pulehui@huawei.com,selftests/bpf: Enable arena atomics tests for RV64,dc0fe956144d
+2025-07-19,Pu Lehui,pulehui@huawei.com,"riscv, bpf: Add support arena atomics for RV64",fb7cefabae81
+2025-07-19,Pu Lehui,pulehui@huawei.com,"riscv, bpf: Add ex_insn_off and ex_jmp_off for exception table handling",b18f4aae6a5d
+2025-07-19,Pu Lehui,pulehui@huawei.com,"riscv, bpf: Optimize cmpxchg insn with Zacas support",1c0196b878a6
+2025-07-19,Pu Lehui,pulehui@huawei.com,"riscv, bpf: Add Zacas instructions",de39d2c4cdb6
+2025-07-19,Pu Lehui,pulehui@huawei.com,"riscv, bpf: Add rv_ext_enabled macro for runtime detection extentsion",5090b339eeb3
+2025-07-19,Pu Lehui,pulehui@huawei.com,riscv: Separate toolchain support dependency from RISCV_ISA_ZACAS,ec74ae56626b
+2025-07-19,Pu Lehui,pulehui@huawei.com,"riscv, bpf: Extract emit_ldx() helper",01422a4f2c78
+2025-07-19,Pu Lehui,pulehui@huawei.com,"riscv, bpf: Extract emit_st() helper",d92c11a6b55b
+2025-07-19,Pu Lehui,pulehui@huawei.com,"riscv, bpf: Extract emit_stx() helper",02fc01adec1c
+2025-08-13,Wang Liang,wangliang74@huawei.com,net: bridge: fix soft lockup in br_multicast_query_expired(),d1547bf460ba
+2025-08-13,Yue Haibing,yuehaibing@huawei.com,net/sched: Use TC_RTAB_SIZE instead of magic number,eeea7688632e
+2025-08-13,Jijie Shao,shaojijie@huawei.com,net: phy: motorcomm: Add support for PHY LEDs on YT8521,355b82c54c12
+2025-08-12,Wang Liang,wangliang74@huawei.com,vsock: use sizeof(struct sockaddr_storage) instead of magic value,4d18083d6b2c
+2025-08-12,Baokun Li,libaokun1@huawei.com,jbd2: prevent softlockup in jbd2_log_do_checkpoint(),9d98cf463225
+2025-08-13,Chen Ridong,chenridong@huawei.com,cpuset: remove redundant CS_ONLINE flag,4c70fb2624ab
+2025-07-26,wenglianfa,wenglianfa@huawei.com,RDMA/hns: Fix querying wrong SCC context for DIP algorithm,085a1b42e527
+2025-08-11,Zhang Yi,yi.zhang@huawei.com,ext4: fix hole length calculation overflow in non-extent inodes,02c7f7219ac0
+2025-07-03,Baokun Li,libaokun1@huawei.com,ext4: preserve SB_I_VERSION on remount,f2326fd14a22
+2025-07-03,Baokun Li,libaokun1@huawei.com,ext4: show the default enabled i_version option,6a912e8aa2b2
+2025-07-23,Yue Haibing,yuehaibing@huawei.com,selinux: Remove unused function selinux_policycap_netif_wildcard(),5f9383bd4168
+2025-08-08,Zheng Qixing,zhengqixing@huawei.com,block: fix kobject double initialization in add_disk,343dc5423bfe
+2025-07-30,BowenYu,yubowen8@huawei.com,cpufreq: Remove unused parameter in cppc_perf_from_fbctrs(),16d39e2bf960
+2025-07-28,Fanhua Li,lifanhua5@huawei.com,drm/nouveau/nvif: Fix potential memory leak in nvif_vmm_ctor().,bb8aeaa3191b
+2025-08-06,Jijie Shao,shaojijie@huawei.com,net: hibmcge: fix the np_link_fail error reporting issue,62c50180ffda
+2025-08-06,Jijie Shao,shaojijie@huawei.com,net: hibmcge: fix the division by zero issue,7004b26f0b64
+2025-08-06,Jijie Shao,shaojijie@huawei.com,net: hibmcge: fix rtnl deadlock issue,c875503a9b90
+2025-08-07,Yu Kuai,yukuai3@huawei.com,lib/sbitmap: make sbitmap_get_shallow() internal,45fa9f97e652
+2025-08-07,Yu Kuai,yukuai3@huawei.com,lib/sbitmap: convert shallow_depth from one word to the whole sbitmap,42e6c6ce03fd
+2025-07-24,Jinjiang Tu,tujinjiang@huawei.com,fs/proc/task_mmu: hold PTL in pagemap_hugetlb_range and gather_hugetlb_stats,aa5a10b07069
+2025-07-24,Jinjiang Tu,tujinjiang@huawei.com,mm/smaps: fix race between smaps_hugetlb_range and migration,45d19b4b6c2d
+2025-07-31,Yang Erkun,yangerkun@huawei.com,md: make rdev_addable usable for rcu mode,13017b427118
+2025-07-24,Jinjiang Tu,tujinjiang@huawei.com,mm/mincore: hold PTL in mincore_hugetlb,1623717b057f
+2025-07-25,Jinjiang Tu,tujinjiang@huawei.com,mm/memory-failure: hold PTL in hwpoison_hugetlb_range,9109bd52559b
+2025-07-30,Wang Liang,wangliang74@huawei.com,net: drop UFO packets in udp_rcv_segment(),d46e51f1c78b
+2025-07-22,Li Nan,linan122@huawei.com,md: rename recovery_cp to resync_offset,907a99c314a5
+2025-07-30,Yu Kuai,yukuai3@huawei.com,md: fix create on open mddev lifetime regression,1df1fc845d22
+2025-07-29,Yu Kuai,yukuai3@huawei.com,blk-ioc: don't hold queue_lock for ioc_lookup_icq(),5421681bc3ef
+2025-07-18,Zhiqi Song,songzhiqi1@huawei.com,crypto: hisilicon/hpre - fix dma unmap sequence,982fd1a74de6
+2025-07-25,Wang Liang,wangliang74@huawei.com,vsock: remove unnecessary null check in vsock_getname(),002f79a5f015
+2025-07-23,Jijie Shao,shaojijie@huawei.com,net: hibmcge: support for statistics of reset failures,15dc08fd2cac
+2025-06-28,Yue Haibing,yuehaibing@huawei.com,netfilter: conntrack: Remove unused net in nf_conntrack_double_lock(),29f0f4cefc28
+2025-06-24,Yue Haibing,yuehaibing@huawei.com,netfilter: nf_tables: Remove unused nft_reduce_is_readonly(),bf6788742b8d
+2025-06-24,Yue Haibing,yuehaibing@huawei.com,netfilter: x_tables: Remove unused functions xt_{in|out}name(),031a71247194
+2025-07-14,Baokun Li,libaokun1@huawei.com,ext4: implement linear-like traversal across order xarrays,a3ce570a5d6a
+2025-07-14,Baokun Li,libaokun1@huawei.com,ext4: refactor choose group to scan group,634755876491
+2025-07-14,Baokun Li,libaokun1@huawei.com,ext4: convert free groups order lists to xarrays,f7eaacbb4e54
+2025-07-14,Baokun Li,libaokun1@huawei.com,ext4: factor out ext4_mb_scan_group(),9c08e42db905
+2025-07-14,Baokun Li,libaokun1@huawei.com,ext4: factor out ext4_mb_might_prefetch(),5abd85f667a1
+2025-07-14,Baokun Li,libaokun1@huawei.com,ext4: factor out __ext4_mb_scan_group(),45704f92e558
+2025-07-14,Baokun Li,libaokun1@huawei.com,ext4: fix largest free orders lists corruption on mb_optimize_scan switch,7d345aa1fac4
+2025-07-14,Baokun Li,libaokun1@huawei.com,ext4: fix zombie groups in average fragment size lists,1c320d8e9292
+2025-07-14,Baokun Li,libaokun1@huawei.com,ext4: merge freed extent with existing extents before insertion,e7f101a80887
+2025-07-14,Baokun Li,libaokun1@huawei.com,ext4: convert sbi->s_mb_free_pending to atomic_t,0a2326f6ae60
+2025-07-14,Baokun Li,libaokun1@huawei.com,ext4: fix typo in CR_GOAL_LEN_SLOW comment,9a0ed1698191
+2025-07-14,Baokun Li,libaokun1@huawei.com,ext4: get rid of some obsolete EXT4_MB_HINT flags,4d18a0b98259
+2025-07-14,Baokun Li,libaokun1@huawei.com,ext4: utilize multiple global goals to reduce contention,8f2c3b74865c
+2025-07-14,Baokun Li,libaokun1@huawei.com,ext4: remove unnecessary s_md_lock on update s_mb_last_group,4b41deb896e3
+2025-07-14,Baokun Li,libaokun1@huawei.com,ext4: remove unnecessary s_mb_last_start,f0374d80711a
+2025-07-14,Baokun Li,libaokun1@huawei.com,ext4: separate stream goal hits from s_bal_goals for better tracking,35bfd4b44ef0
+2025-07-14,Baokun Li,libaokun1@huawei.com,ext4: add ext4_try_lock_group() to skip busy groups,e9eec6f33971
+2025-07-25,Zhang Yi,yi.zhang@huawei.com,ext4: initialize superblock fields in the kballoc-test.c kunit tests,82e6381e23f1
+2025-07-15,Li Lingfeng,lilingfeng3@huawei.com,"scsi: Revert ""scsi: iscsi: Fix HW conn removal use after free""",7bdc68921481
+2025-07-22,Jijie Shao,shaojijie@huawei.com,net: hns3: default enable tx bounce buffer when smmu enabled,49ade8630f36
+2025-07-22,Jian Shen,shenjian15@huawei.com,net: hns3: fixed vf get max channels bug,b3e75c0bcc53
+2025-07-22,Yonglong Liu,liuyonglong@huawei.com,net: hns3: disable interrupt when ptp init failed,cde304655f25
+2025-07-22,Jian Shen,shenjian15@huawei.com,net: hns3: fix concurrent setting vlan filter issue,4555f8f8b6aa
+2025-07-22,Wang Liang,wangliang74@huawei.com,vxlan: remove redundant conversion of vni in vxlan_nl2conf,918c675b208d
+2025-06-20,Yue Haibing,yuehaibing@huawei.com,Bluetooth: Remove hci_conn_hash_lookup_state(),70c672f93333
+2025-07-23,Yue Haibing,yuehaibing@huawei.com,netfs: Remove unused declaration netfs_queue_write_request(),4e8fc4f7208b
+2025-06-13,Changbin Du,changbin.du@huawei.com,perf: ftrace: add graph tracer options args/retval/retval-hex/retaddr,129f70bd6063
+2025-07-10,Hongbo Li,lihongbo22@huawei.com,f2fs: switch to the new mount api,94b3ce7f1509
+2025-07-10,Hongbo Li,lihongbo22@huawei.com,f2fs: introduce fs_context_operation structure,bb463a75ab2f
+2025-07-10,Hongbo Li,lihongbo22@huawei.com,f2fs: separate the options parsing and options checking,d18535132523
+2025-07-10,Hongbo Li,lihongbo22@huawei.com,f2fs: Add f2fs_fs_context to record the mount options,1a9094b10cf7
+2025-07-10,Hongbo Li,lihongbo22@huawei.com,f2fs: Allow sbi to be NULL in f2fs_printk,19c4b380f23e
+2025-07-10,Hongbo Li,lihongbo22@huawei.com,f2fs: move the option parser into handle_mount_opt,02eb5fe42a8c
+2025-07-10,Hongbo Li,lihongbo22@huawei.com,f2fs: Add fs parameter specifications for mount options,f2091cc188c6
+2025-07-19,Yue Haibing,yuehaibing@huawei.com,ip6_gre: Factor out common ip6gre tunnel match into helper,db8a5149fa36
+2025-07-21,Tao Xue,xuetao09@huawei.com,usb: gadget : fix use-after-free in composite_dev_cleanup(),151c0aa896c4
+2025-06-27,Jinjiang Tu,tujinjiang@huawei.com,mm/vmscan: fix hwpoisoned large folio handling in shrink_folio_list,9f1e8cd0b7c4
+2025-07-17,Shiju Jose,shiju.jose@huawei.com,cxl/events: Trace Memory Sparing Event Record,f10f46a0ee53
+2025-07-17,Shiju Jose,shiju.jose@huawei.com,cxl/events: Add extra validity checks for CVME count in DRAM Event Record,d8145bb8af5c
+2025-07-17,Shiju Jose,shiju.jose@huawei.com,cxl/events: Add extra validity checks for corrected memory error count in General Media Event Record,cd3b36cfc659
+2025-07-17,Shiju Jose,shiju.jose@huawei.com,cxl/events: Update Common Event Record to CXL spec rev 3.2,1f4f8166110f
+2025-07-09,Zenghui Yu,yuzenghui@huawei.com,irqchip/gic-v3: Fix GICD_CTLR register naming,97c03ec2c0e0
+2025-07-11,Huisong Li,lihuisong@huawei.com,soc: hisilicon: kunpeng_hccs: Fix incorrect log information,b1136432c972
+2025-07-08,Baokun Li,libaokun1@huawei.com,ext4: fix inode use after free in ext4_end_io_rsv_work(),c678bdc99875
+2025-07-17,Chen Ridong,chenridong@huawei.com,"Revert ""cgroup_freezer: cgroup_freezing: Check if not frozen""",14a67b42cb6f
+2025-07-17,Chen Ridong,chenridong@huawei.com,"sched,freezer: Remove unnecessary warning in __thaw_task",9beb8c5e77dc
+2025-07-16,Dong Chenchen,dongchenchen2@huawei.com,selftests: Add test cases for vlan_filter modification during runtime,e0f3b3e5c77a
+2025-07-16,Dong Chenchen,dongchenchen2@huawei.com,net: vlan: fix VLAN 0 refcount imbalance of toggling filtering during runtime,579d4f9ca9a9
+2025-07-14,Yue Haibing,yuehaibing@huawei.com,ipv6: mcast: Delay put pmc->idev in mld_del_delrec(),ae3264a25a46
+2025-07-15,Yue Haibing,yuehaibing@huawei.com,ipv6: mcast: Simplify mld_clear_{report|query}(),6c628ed95e1b
+2025-07-14,Jian Shen,shenjian15@huawei.com,net: hns3: use seq_file for files in tx_bd_info/ and rx_bd_info/ in debugfs,b0aabb3b1efb
+2025-07-14,Yonglong Liu,liuyonglong@huawei.com,net: hns3: use seq_file for files in common/ of hclge layer,9e1545b48818
+2025-07-14,Jijie Shao,shaojijie@huawei.com,net: hns3: use seq_file for files in fd/ in debugfs,3945d94c9f4b
+2025-07-14,Jijie Shao,shaojijie@huawei.com,net: hns3: use seq_file for files in reg/ in debugfs,2363145ad86e
+2025-07-14,Yonglong Liu,liuyonglong@huawei.com,net: hns3: use seq_file for files in mac_list/ in debugfs,00f9ea261d9c
+2025-07-14,Jian Shen,shenjian15@huawei.com,net: hns3: use seq_file for files in tm/ in debugfs,08a6476e2875
+2025-07-14,Jijie Shao,shaojijie@huawei.com,net: hns3: use seq_file for files in common/ of hns3 layer,2b65524d106e
+2025-07-14,Jian Shen,shenjian15@huawei.com,net: hns3: use seq_file for files in queue/ in debugfs,eced3d1c41db
+2025-07-14,Jian Shen,shenjian15@huawei.com,net: hns3: clean up the build warning in debugfs by use seq file,c557c1832626
+2025-07-14,Jijie Shao,shaojijie@huawei.com,net: hns3: remove tx spare info from debugfs.,277ed0cc9d73
+2025-07-14,Yue Haibing,yuehaibing@huawei.com,ipv6: mcast: Remove unnecessary null check in ip6_mc_find_dev(),ce6030afe459
+2025-07-14,Yue Haibing,yuehaibing@huawei.com,ipv6: mcast: Avoid a duplicate pointer check in mld_del_delrec(),a8594c956cc9
+2025-07-15,Yu Kuai,yukuai3@huawei.com,nvme: fix misaccounting of nvme-mpath inflight I/O,71257925e83e
+2025-07-07,Zhang Yi,yi.zhang@huawei.com,ext4: limit the maximum folio order,b12f423d598f
+2025-06-29,Jonathan Cameron,Jonathan.Cameron@huawei.com,iio: accel: kionix-kx022a: Apply approximate iwyu principles to includes,964d6d5f1adc
+2025-07-09,Lifeng Zheng,zhenglifeng1@huawei.com,cpufreq: Exit governor when failed to start old governor,0ae204405095
+2025-07-09,Lifeng Zheng,zhenglifeng1@huawei.com,cpufreq: Move the check of cpufreq_driver->get into cpufreq_verify_current_freq(),908981d85f86
+2025-07-09,Lifeng Zheng,zhenglifeng1@huawei.com,cpufreq: Init policy->rwsem before it may be possibly used,d1378d1d7edb
+2025-07-09,Lifeng Zheng,zhenglifeng1@huawei.com,cpufreq: Initialize cpufreq-based frequency-invariance later,2a6c72738706
+2025-06-23,Lifeng Zheng,zhenglifeng1@huawei.com,cpufreq: Remove duplicate check in __cpufreq_offline(),5d6ecaaa9226
+2025-06-23,Lifeng Zheng,zhenglifeng1@huawei.com,cpufreq: Contain scaling_cur_freq.attr in cpufreq_attrs,2e554cfa259f
+2025-06-19,Junhao He,hejunhao3@huawei.com,drivers/perf: hisi: Relax the event number check of v2 PMUs,35f5b36e8cc2
+2025-06-19,Junhao He,hejunhao3@huawei.com,drivers/perf: hisi: Add support for HiSilicon SLLC v3 PMU driver,1fd20ba0a1dc
+2025-06-19,Junhao He,hejunhao3@huawei.com,drivers/perf: hisi: Use ACPI driver_data to retrieve SLLC PMU information,29614c55fe6f
+2025-06-19,Junhao He,hejunhao3@huawei.com,drivers/perf: hisi: Add support for HiSilicon DDRC v3 PMU driver,17aa34e86936
+2025-06-19,Junhao He,hejunhao3@huawei.com,drivers/perf: hisi: Simplify the probe process for each DDRC version,dc86791ff68c
+2025-07-01,Zheng Qixing,zhengqixing@huawei.com,nvme: fix inconsistent RCU list manipulation in nvme_ns_add_to_ctrl_list(),80d7762e0a42
+2025-04-21,Lifeng Zheng,zhenglifeng1@huawei.com,PM / devfreq: Check governor before using governor->name,bab7834c0382
+2025-04-21,Lifeng Zheng,zhenglifeng1@huawei.com,PM / devfreq: Remove redundant devfreq_get_freq_range() calling in devfreq_add_device(),a98d36802f67
+2025-04-21,Lifeng Zheng,zhenglifeng1@huawei.com,PM / devfreq: Limit max_freq with scaling_min_freq,5487f2595bc8
+2025-04-21,Lifeng Zheng,zhenglifeng1@huawei.com,PM / devfreq: governor: Replace sscanf() with kstrtoul() in set_freq_store(),914cc799b28f
+2025-07-07,Zhang Yi,yi.zhang@huawei.com,ext4: fix insufficient credits calculation in ext4_meta_trans_blocks(),5137d6c8906b
+2025-07-07,Zhang Yi,yi.zhang@huawei.com,ext4: replace ext4_writepage_trans_blocks(),57661f28756c
+2025-07-07,Zhang Yi,yi.zhang@huawei.com,ext4: reserved credits for one extent during the folio writeback,bbbf150f3f85
+2025-07-07,Zhang Yi,yi.zhang@huawei.com,ext4: correct the reserved credits for extent conversion,95ad8ee45cdb
+2025-07-07,Zhang Yi,yi.zhang@huawei.com,ext4: enhance tracepoints during the folios writeback,6b132759b0fe
+2025-07-07,Zhang Yi,yi.zhang@huawei.com,ext4: restart handle if credits are insufficient during allocating blocks,e2c4c49dee64
+2025-07-07,Zhang Yi,yi.zhang@huawei.com,ext4: refactor the block allocation process of ext4_page_mkwrite(),2bddafea3d0d
+2025-07-07,Zhang Yi,yi.zhang@huawei.com,ext4: fix stale data if it bail out of the extents mapping loop,ded2d726a304
+2025-07-07,Zhang Yi,yi.zhang@huawei.com,ext4: move the calculation of wbc->nr_to_write to mpage_folio_done(),f922c8c2461b
+2025-07-07,Zhang Yi,yi.zhang@huawei.com,ext4: process folios writeback in bytes,1bfe6354e097
+2025-07-07,Zheng Qixing,zhengqixing@huawei.com,md: allow removing faulty rdev during resync,c0ffeb648000
+2025-07-08,Wang Liang,wangliang74@huawei.com,net: replace ND_PRINTK with dynamic debug,96698d1898bc
+2025-07-03,Zizhi Wo,wozizhi@huawei.com,cachefiles: Fix the incorrect return value in __cachefiles_write(),6b89819b06d8
+2025-06-17,Long Li,leo.lilong@huawei.com,ocfs2: remove redundant NULL check in rename path,816a88003268
+2025-06-11,Pu Lehui,pulehui@huawei.com,selftests/mm: use generic read_sysfs in thuge-gen test,a788b6e571f3
+2025-07-05,Yue Haibing,yuehaibing@huawei.com,atm: clip: Fix NULL pointer dereference in vcc_sendmsg(),22fc46cea91d
+2025-07-02,Jijie Shao,shaojijie@huawei.com,net: hibmcge: configure FIFO thresholds according to the MAC controller documentation,401581f2863e
+2025-07-02,Jijie Shao,shaojijie@huawei.com,net: hibmcge: adjust the burst len configuration of the MAC controller to improve TX performance.,1051404babef
+2025-07-02,Jijie Shao,shaojijie@huawei.com,net: hibmcge: support scenario without PHY,1d7cd7a9c69c
+2025-07-02,Wang Liang,wangliang74@huawei.com,net: replace ADDRLABEL with dynamic debug,5d288658eec1
+2025-06-12,Zheng Qixing,zhengqixing@huawei.com,nbd: fix uaf in nbd_genl_connect() error path,aa9552438ebf
+2025-07-03,wenglianfa,wenglianfa@huawei.com,RDMA/hns: Fix HW configurations not cleared in error flow,998b41cb20b0
+2025-07-03,wenglianfa,wenglianfa@huawei.com,RDMA/hns: Fix double destruction of rsv_qp,c6957b95ecc5
+2025-07-02,Zheng Qixing,zhengqixing@huawei.com,"md/raid1,raid10: strip REQ_NOWAIT from member bios",5fa31c499281
+2025-07-01,Yue Haibing,yuehaibing@huawei.com,ipv6: Cleanup fib6_drop_pcpu_from(),5f712c3877f9
+2025-06-28,zhangjianrong,zhangjianrong5@huawei.com,net: thunderbolt: Enable end-to-end flow control also in transmit,a8065af3346e
+2025-06-28,zhangjianrong,zhangjianrong5@huawei.com,net: thunderbolt: Fix the parameter passing of tb_xdomain_enable_paths()/tb_xdomain_disable_paths(),8ec31cb17cd3
+2025-06-30,Yu Kuai,yukuai3@huawei.com,brd: fix sleeping function called from invalid context in brd_insert_page(),0d519bb0de3b
+2025-05-27,Jonathan Cameron,Jonathan.Cameron@huawei.com,cxl_test: Limit location for fake CFMWS to mappable range,60da1f685a94
+2025-06-24,Jinjie Ruan,ruanjinjie@huawei.com,entry: Split generic entry into generic exception and syscall entry,a70e9f647f50
+2025-06-26,Shiju Jose,shiju.jose@huawei.com,EDAC: Initialize EDAC features sysfs attributes,1e14ea901dc8
+2025-06-25,Yue Haibing,yuehaibing@huawei.com,net: Remove unused function first_net_device_rcu(),040ae95a984f
+2025-06-25,Yue Haibing,yuehaibing@huawei.com,ipv4: fib: Remove unnecessary encap_type check,77e12dba07d0
+2025-06-09,Jonathan Cameron,Jonathan.Cameron@huawei.com,iio: potentiometer: Drop unused export.h includes,3ceb7cc34510
+2025-06-26,Yu Kuai,yukuai3@huawei.com,block: fix false warning in bdev_count_inflight_rw(),c007062188d8
+2025-06-24,Yue Haibing,yuehaibing@huawei.com,net: Reoder rxq_idx check in __net_mp_open_rxq(),f6fa45d67e05
+2025-06-24,Yue Haibing,yuehaibing@huawei.com,net: Remove unnecessary NULL check for lwtunnel_fill_encap(),3b3ccf9ed05e
+2025-06-19,Yu Kuai,yukuai3@huawei.com,lib/group_cpus: fix NULL pointer dereference from group_cpus_evenly(),df831e977394
+2025-06-24,Yue Haibing,yuehaibing@huawei.com,net/sched: Remove unused functions,4b70e2a069d9
+2025-06-24,Yue Haibing,yuehaibing@huawei.com,neighbour: Remove redundant assignment to err,9b19b50c8d65
+2022-11-09,Xiu Jianfeng,xiujianfeng@huawei.com,wifi: iwlwifi: Fix memory leak in iwl_mvm_init(),ed2e916c8909
+2022-09-11,Gaosheng Cui,cuigaosheng1@huawei.com,iwlwifi: remove unused no_sleep_autoadjust declaration,b8b3e85ca45e
+2020-12-09,Zheng Yongjun,zhengyongjun3@huawei.com,iwlwifi: fw: simplify the iwl_fw_dbg_collect_trig(),c14bfe8d4581
+2025-06-23,Peiyang Wang,wangpeiyang1@huawei.com,net: hns3: clear hns alarm: comparison of integer expressions of different signedness,169d07e7e41c
+2025-06-23,Jijie Shao,shaojijie@huawei.com,net: hns3: add complete parentheses for some macros,84c0564b1c51
+2025-06-23,Yonglong Liu,liuyonglong@huawei.com,net: hns3: delete redundant address before the array,ad0cf0729f53
+2025-06-23,Peiyang Wang,wangpeiyang1@huawei.com,net: hns3: add \n at the end when print msg,dd9480f6ed28
+2025-06-23,Jijie Shao,shaojijie@huawei.com,net: hns3: use hns3_get_ops() helper to reduce the unnecessary middle layer conversion,5306c1039686
+2025-06-23,Jijie Shao,shaojijie@huawei.com,net: hns3: use hns3_get_ae_dev() helper to reduce the unnecessary middle layer conversion,2031f01394b2
+2025-06-23,Jijie Shao,shaojijie@huawei.com,"net: hns3: fix spelling mistake ""reg_um"" -> ""reg_num""",befd4e971a78
+2025-06-24,Yue Haibing,yuehaibing@huawei.com,security: Remove unused declaration cap_mmap_file(),f3128dd6762d
+2025-06-19,Zhang Yi,yi.zhang@huawei.com,ext4: add FALLOC_FL_WRITE_ZEROES support,f4265b8d32c4
+2025-06-19,Zhang Yi,yi.zhang@huawei.com,block: add FALLOC_FL_WRITE_ZEROES support,912b6038fe5c
+2025-06-19,Zhang Yi,yi.zhang@huawei.com,block: factor out common part in blkdev_fallocate(),562108d56bd9
+2025-06-19,Zhang Yi,yi.zhang@huawei.com,fs: introduce FALLOC_FL_WRITE_ZEROES to fallocate,7bd43cc79cab
+2025-06-19,Zhang Yi,yi.zhang@huawei.com,dm: clear unmap write zeroes limits when disabling write zeroes,2c46eab8da6a
+2025-06-19,Zhang Yi,yi.zhang@huawei.com,scsi: sd: set max_hw_wzeroes_unmap_sectors if device supports SD_ZERO_*_UNMAP,6dffe079fe36
+2025-06-19,Zhang Yi,yi.zhang@huawei.com,nvmet: set WZDS and DRB if device enables unmap write zeroes operation,50634366de86
+2025-06-19,Zhang Yi,yi.zhang@huawei.com,nvme: set max_hw_wzeroes_unmap_sectors if device supports DEAC bit,545fb46e5bc6
+2025-06-19,Zhang Yi,yi.zhang@huawei.com,block: introduce max_{hw|user}_wzeroes_unmap_sectors to queue limits,0c40d7cb5ef3
+2025-06-18,Zenghui Yu,yuzenghui@huawei.com,crypto: hisilicon - Use fine grained DMA mapping direction,2566de3e06a3
+2025-06-19,zhangjian,zhangjian496@huawei.com,smb: client: fix first command failure during re-negotiation,34331d7beed7
+2025-06-19,Wang Liang,wangliang74@huawei.com,net/smc: remove unused function smc_lo_supports_v2,091d019adce0
+2025-06-18,Wang Liang,wangliang74@huawei.com,net/smc: remove unused input parameters in smc_buf_get_slot,c3ee72ded0d2
+2025-06-08,Zenghui Yu,yuzenghui@huawei.com,KVM: arm64: selftests: Close the GIC FD in arch_timer_edge_cases,56a14984505b
+2025-06-17,Yue Haibing,yuehaibing@huawei.com,tcp: Remove inet_hashinfo2_free_mod(),a33556940b57
+2025-06-18,Chen Ridong,chenridong@huawei.com,"cgroup,freezer: fix incomplete freezing when attaching tasks",37fb58a72737
+2025-05-26,Lifeng Zheng,zhenglifeng1@huawei.com,cpufreq: CPPC: Remove forward declaration of cppc_cpufreq_register_em(),c83a92df2fc6
+2025-05-26,Lifeng Zheng,zhenglifeng1@huawei.com,cpufreq: CPPC: Do not return a value from populate_efficiency_class(),3d5978ea6cbc
+2025-05-26,Lifeng Zheng,zhenglifeng1@huawei.com,cpufreq: CPPC: Remove cpu_data_list,d80a75624051
+2024-08-23,Jinjie Ruan,ruanjinjie@huawei.com,media: xilinx-vipp: Use for_each_child_of_node_scoped(),5211354f2cc0
+2024-08-23,Jinjie Ruan,ruanjinjie@huawei.com,media: c8sectpfe: Use for_each_child_of_node_scoped(),a7569179d3b9
+2024-08-23,Jinjie Ruan,ruanjinjie@huawei.com,media: samsung: exynos4-is: Use for_each_available_child_of_node_scoped(),d2c063388df5
+2025-06-09,Gur Stavi,gur.stavi@huawei.com,hinic3: remove tx_q name collision hack,48b9ce0a7c72
+2025-06-09,Gur Stavi,gur.stavi@huawei.com,hinic3: use netif_subqueue_sent api,eb89bc3744f3
+2025-06-09,Gur Stavi,gur.stavi@huawei.com,queue_api: add subqueue variant netif_subqueue_sent,2bc64b89c4c4
+2025-05-29,Yang Shen,shenyang39@huawei.com,MAINTAINERS: Update HiSilicon GPIO driver maintainer,e0d4a0f1d066
+2025-05-29,Pu Lehui,pulehui@huawei.com,selftests/mm: add test about uprobe pte be orphan during vma merge,efe99fabeb11
+2025-05-29,Pu Lehui,pulehui@huawei.com,selftests/mm: extract read_sysfs and write_sysfs into vm_util,6fb6223347d5
+2025-05-29,Pu Lehui,pulehui@huawei.com,mm: expose abnormal new_pte during move_ptes,b36b701bbcd9
+2025-05-29,Pu Lehui,pulehui@huawei.com,mm: fix uprobe pte be overwritten when expanding vma,2b12d06c37fd
+2025-06-03,Zeng Heng,zengheng4@huawei.com,fs/resctrl: Restore the rdt_last_cmd_clear() calls after acquiring rdtgroup_mutex,dd2922dcfaa3
+2025-05-29,Ye Bin,yebin10@huawei.com,ftrace: Don't allocate ftrace module map if ftrace is disabled,5834a597386c
+2025-05-29,Ye Bin,yebin10@huawei.com,ftrace: Fix UAF when lookup kallsym after ftrace disabled,f914b52c379c
+2025-04-27,GONG Ruiqi,gongruiqi1@huawei.com,vgacon: Add check for vc_origin address range in vgacon_scroll(),864f9963ec6b
+2025-05-24,Yu Kuai,yukuai3@huawei.com,md/md-bitmap: remove parameter slot from bitmap_create(),01bf468c4e08
+2025-05-24,Yu Kuai,yukuai3@huawei.com,md/md-bitmap: cleanup bitmap_ops->startwrite(),38f520a37d54
+2025-05-24,Yu Kuai,yukuai3@huawei.com,md/dm-raid: remove max_write_behind setting limit,b88647580423
+2025-05-24,Yu Kuai,yukuai3@huawei.com,md/md-bitmap: fix dm-raid max_write_behind setting,2afe17794cfe
+2025-05-27,Yu Kuai,yukuai3@huawei.com,"md/raid1,raid10: don't handle IO error for REQ_RAHEAD and REQ_NOWAIT",9f346f7d4ea7
+2025-05-29,Yang Shen,shenyang39@huawei.com,MAINTAINERS: Update HiSilicon SFC driver maintainer,589561cb4551
+2025-05-29,Yang Shen,shenyang39@huawei.com,MAINTAINERS: Update HiSilicon SPI Controller driver maintainer,3b5d1efc878a
+2025-05-27,Dong Chenchen,dongchenchen2@huawei.com,page_pool: Fix use-after-free in page_pool_recycle_in_ring,271683bb2cf3
+2025-03-04,Li Lingfeng,lilingfeng3@huawei.com,nfs: ignore SB_RDONLY when remounting nfs,80c4de6ab44c
+2025-03-04,Li Lingfeng,lilingfeng3@huawei.com,nfs: clear SB_RDONLY before getting superblock,8cd9b785943c
+2025-05-27,Xu Kuohai,xukuohai@huawei.com,"bpf, arm64: Support up to 12 function arguments",9014cf56f13d
+2025-05-26,Hou Tao,houtao1@huawei.com,bpf: Check rcu_read_lock_trace_held() in bpf_map_lookup_percpu_elem(),d4965578267e
+2025-04-11,Yue Haibing,yuehaibing@huawei.com,mailbox: mchp-ipc-sbi: Fix COMPILE_TEST build error,d635ba4207c3
+2025-05-21,Shiju Jose,shiju.jose@huawei.com,cxl/edac: Add CXL memory device soft PPR control feature,be9b359e056a
+2025-05-21,Shiju Jose,shiju.jose@huawei.com,cxl/edac: Add CXL memory device memory sparing control feature,588ca944c277
+2025-05-21,Shiju Jose,shiju.jose@huawei.com,cxl/edac: Support for finding memory operation attributes from the current boot,0b5ccb0de1e2
+2025-05-21,Shiju Jose,shiju.jose@huawei.com,cxl/edac: Add support for PERFORM_MAINTENANCE command,077ee5f7ddcf
+2025-05-21,Shiju Jose,shiju.jose@huawei.com,cxl/edac: Add CXL memory device ECS control feature,85fb6a16ad14
+2025-05-21,Shiju Jose,shiju.jose@huawei.com,cxl/edac: Add CXL memory device patrol scrub control feature,0c6e6f1357cb
+2025-05-21,Shiju Jose,shiju.jose@huawei.com,cxl: Update prototype of function get_support_feature_info(),f76e0bbc8bc3
+2025-05-21,Shiju Jose,shiju.jose@huawei.com,EDAC: Update documentation for the CXL memory patrol scrub control feature,ee4f03245554
+2025-05-20,Wang Liang,wangliang74@huawei.com,net/tipc: fix slab-use-after-free Read in tipc_aead_encrypt_done,e27902461713
+2025-05-20,Fan Gong,gongfan1@huawei.com,hinic3: module initialization and tx/rx logic,17fcb3dc12bb
+2025-05-17,Jijie Shao,shaojijie@huawei.com,net: hibmcge: fix wrong ndo.open() after reset fail issue.,1b45443b8487
+2025-05-17,Jijie Shao,shaojijie@huawei.com,net: hibmcge: fix incorrect statistics update issue,009970506c92
+2025-05-07,Lifeng Zheng,zhenglifeng1@huawei.com,cpufreq: CPPC: Add support for autonomous selection,922607a2b462
+2025-05-19,Bowen Yu,yubowen8@huawei.com,cpufreq: Update sscanf() to kstrtouint(),1da98dc52b94
+2025-05-19,Bowen Yu,yubowen8@huawei.com,cpufreq: Replace magic number,9c5075fc9d32
+2025-04-13,Jonathan Cameron,Jonathan.Cameron@huawei.com,iio: magnetometer: Use iio_push_to_buffers_with_ts() to provide length for runtime checks.,f4cd499970cc
+2025-04-13,Jonathan Cameron,Jonathan.Cameron@huawei.com,iio: pressure: Use iio_push_to_buffers_with_ts() to provide length for runtime checks.,77e8a16a7d82
+2025-04-13,Jonathan Cameron,Jonathan.Cameron@huawei.com,iio: pressure: zpa2326: Use aligned_s64 for the timestamp,886a446b76af
+2025-04-13,Jonathan Cameron,Jonathan.Cameron@huawei.com,iio: proximity: Use iio_push_to_buffers_with_ts() to provide length for runtime checks.,fc11c42dd137
+2025-04-13,Jonathan Cameron,Jonathan.Cameron@huawei.com,iio: proximity: irsd200: Use a struct for scan and iio_push_to_buffers_with_ts(),175c3f72154e
+2025-04-13,Jonathan Cameron,Jonathan.Cameron@huawei.com,iio: resolver: Use iio_push_to_buffers_with_ts() to provide length for runtime checks.,85eb82b3c2a4
+2025-04-13,Jonathan Cameron,Jonathan.Cameron@huawei.com,iio: temperature: Use iio_push_to_buffers_with_ts() to provide length for runtime checks.,1a715f5a4726
+2025-04-13,Jonathan Cameron,Jonathan.Cameron@huawei.com,iio: chemical: Use iio_push_to_buffers_with_ts() to provide length for runtime checks.,cb4691913d9e
+2025-04-13,Jonathan Cameron,Jonathan.Cameron@huawei.com,iio: accel: hid: Use iio_push_to_buffers_with_ts() to provide length for runtime checks.,838a65c1d650
+2025-04-13,Jonathan Cameron,Jonathan.Cameron@huawei.com,iio: accel: Use iio_push_to_buffers_with_ts() to provide length for runtime checks.,edfafbd82f1d
+2025-04-13,Jonathan Cameron,Jonathan.Cameron@huawei.com,iio: adc: Use iio_push_to_buffers_with_ts() to provide length for runtime checks.,c65d3f3f9386
+2025-04-13,Jonathan Cameron,Jonathan.Cameron@huawei.com,iio: adc: ti-ads131e08: Use new iio_push_to_buffers_with_ts() to provide length sanity check.,4d15307225ff
+2025-04-13,Jonathan Cameron,Jonathan.Cameron@huawei.com,iio: dummy: Switch to iio_push_to_buffers_with_ts() and provide size of storage,2d1168263bcb
+2025-04-13,Jonathan Cameron,Jonathan.Cameron@huawei.com,iio: dummy: Use a fixed structure to build up scan to push to buffers.,fda643a9530c
+2025-04-13,Jonathan Cameron,Jonathan.Cameron@huawei.com,iio: introduced iio_push_to_buffers_with_ts() that takes a data_total_len argument.,8f08055bc67a
+2025-05-10,Wupeng Ma,mawupeng1@huawei.com,VMCI: fix race between vmci_host_setup_notify and vmci_ctx_unset_notify,1bd6406fb5f3
+2025-05-12,Zhang Yi,yi.zhang@huawei.com,mm/truncate: fix out-of-bounds when doing a right-aligned split,66f28ffb38cc
+2025-05-15,Yihang Li,liyihang9@huawei.com,scsi: hisi_sas: Fix warning detected by sparse,0c52f621f5be
+2025-05-12,Zhang Yi,yi.zhang@huawei.com,ext4: enable large folio for regular file,7ac67301e82f
+2025-05-12,Zhang Yi,yi.zhang@huawei.com,ext4: make online defragmentation support large folios,01e807e18fd8
+2025-05-12,Zhang Yi,yi.zhang@huawei.com,ext4: make the writeback path support large folios,cd9f76de6ae9
+2025-05-12,Zhang Yi,yi.zhang@huawei.com,ext4: correct the journal credits calculations of allocating blocks,0e32d8617012
+2025-05-12,Zhang Yi,yi.zhang@huawei.com,ext4/jbd2: convert jbd2_journal_blocks_per_page() to support large folio,d6bf294773a4
+2025-05-12,Zhang Yi,yi.zhang@huawei.com,ext4: make __ext4_block_zero_page_range() support large folio,2e9466fc5d7c
+2025-05-12,Zhang Yi,yi.zhang@huawei.com,ext4: make regular file's buffered write path support large folios,16705e52e629
+2025-05-12,Zhang Yi,yi.zhang@huawei.com,ext4: make ext4_mpage_readpages() support large folios,fdbd0df9d4a3
+2025-05-06,Zhang Yi,yi.zhang@huawei.com,ext4: ensure i_size is smaller than maxbytes,1a77a028a392
+2025-05-06,Zhang Yi,yi.zhang@huawei.com,ext4: factor out ext4_get_maxbytes(),dbe27f06fa38
+2025-05-06,Zhang Yi,yi.zhang@huawei.com,ext4: fix incorrect punch max_end,29ec9bed2395
+2025-05-06,Zhang Yi,yi.zhang@huawei.com,ext4: fix out of bounds punch offset,b5e58bcd7962
+2025-05-18,Gur Stavi,gur.stavi@huawei.com,queue_api: reduce risk of name collision over txq,84b21e61ebd6
+2025-05-16,Wang Zhaolong,wangzhaolong1@huawei.com,smb: client: Reset all search buffer pointers when releasing buffer,e48f9d849bfd
+2025-05-10,Longfang Liu,liulongfang@huawei.com,hisi_acc_vfio_pci: update function return values.,1dcf2cf102d7
+2025-05-10,Longfang Liu,liulongfang@huawei.com,hisi_acc_vfio_pci: bugfix live migration function without VF device driver,2777a40998de
+2025-05-10,Longfang Liu,liulongfang@huawei.com,hisi_acc_vfio_pci: bugfix the problem of uninstalling driver,db6525a85739
+2025-05-10,Longfang Liu,liulongfang@huawei.com,hisi_acc_vfio_pci: bugfix cache write-back issue,e63c46639873
+2025-05-10,Longfang Liu,liulongfang@huawei.com,hisi_acc_vfio_pci: add eq and aeq interruption restore,3495cec07877
+2025-05-10,Longfang Liu,liulongfang@huawei.com,hisi_acc_vfio_pci: fix XQE dma address error,8bb7170c5a05
+2025-05-16,Wang Zhaolong,wangzhaolong1@huawei.com,smb: client: Fix use-after-free in cifs_fill_dirent,a7a8fe56e932
+2025-05-06,Changbin Du,changbin.du@huawei.com,perf/x86/intel/ds: Remove redundant assignments to sample.period,75a9001bab36
+2025-04-23,Zhang Yi,yi.zhang@huawei.com,ext4: clairfy the rules for modifying extents,24b7a2331fcd
+2025-04-23,Zhang Yi,yi.zhang@huawei.com,ext4: check env when mapping and modifying extents,1b4d2a0b7946
+2025-05-15,Nianyao Tang,tangnianyao@huawei.com,irqchip/gic-v4.1: Use local 4_1 ITS to generate VSGI,f1a3fac4095c
+2025-05-07,Hongbo Li,lihongbo22@huawei.com,erofs: fix file handle encoding for 64-bit NIDs,510de8363f2c
+2025-04-23,Zhang Yi,yi.zhang@huawei.com,ext4: introduce ext4_check_map_extents_env() debug helper,7871da20d484
+2025-04-23,Zhang Yi,yi.zhang@huawei.com,ext4: factor out is_special_ino(),0b8e0bd45007
+2025-04-23,Zhang Yi,yi.zhang@huawei.com,ext4: prevent stale extent cache entries caused by concurrent get es_cache,f22a0ef2231a
+2025-04-23,Zhang Yi,yi.zhang@huawei.com,ext4: prevent stale extent cache entries caused by concurrent fiemap,151ff9325e5e
+2025-04-23,Zhang Yi,yi.zhang@huawei.com,ext4: prevent stale extent cache entries caused by concurrent I/O writeback,402e38e6b71f
+2025-04-23,Zhang Yi,yi.zhang@huawei.com,ext4: generalize EXT4_GET_BLOCKS_IO_SUBMIT flag usage,86b349ce0312
+2025-04-23,Zhang Yi,yi.zhang@huawei.com,ext4: ext4: unify EXT4_EX_NOCACHE|NOFAIL flags in ext4_ext_remove_space(),53ce42accd20
+2025-05-06,Zizhi Wo,wozizhi@huawei.com,xfs: Remove deprecated xfs_bufd sysctl parameters,c0a5c4084709
+2025-05-06,Zizhi Wo,wozizhi@huawei.com,blk-throttle: Prevents the bps restricted io from entering the bps queue again,d1ba22ab2bec
+2025-05-06,Zizhi Wo,wozizhi@huawei.com,blk-throttle: Split the service queue,28ad83b774a6
+2025-05-06,Zizhi Wo,wozizhi@huawei.com,blk-throttle: Split the blkthrotl queue,f2c4902bd08b
+2025-05-06,Zizhi Wo,wozizhi@huawei.com,"blk-throttle: Introduce flag ""BIO_TG_BPS_THROTTLED""",c4da7bf54b1f
+2025-05-06,Zizhi Wo,wozizhi@huawei.com,blk-throttle: Split throtl_charge_bio() into bps and iops functions,a404be5399d7
+2025-05-06,Zizhi Wo,wozizhi@huawei.com,blk-throttle: Refactor tg_dispatch_time by extracting tg_dispatch_bps/iops_time,3660cd4228d9
+2025-05-06,Zizhi Wo,wozizhi@huawei.com,blk-throttle: Rename tg_may_dispatch() to tg_dispatch_time(),fd6c08b26460
+2025-04-25,Shiju Jose,shiju.jose@huawei.com,ACPICA: actbl2.h: ACPI 6.5: RAS2: Rename structure and field names of the RAS2 table,d46825d2e505
+2025-04-10,Wupeng Ma,mawupeng1@huawei.com,mm: hugetlb: fix incorrect fallback for subpool,a833a693a490
+2025-04-14,Li Lingfeng,lilingfeng3@huawei.com,nfsd: Initialize ssc before laundromat_work to prevent NULL dereference,b31da62889e6
+2025-03-01,Long Li,leo.lilong@huawei.com,sunrpc: fix race in cache cleanup causing stale nextcheck time,2298abcbe11e
+2025-03-01,Long Li,leo.lilong@huawei.com,sunrpc: update nextcheck time when adding new cache entries,5ca00634c8bb
+2025-05-06,Yu Kuai,yukuai3@huawei.com,md: clean up accounting for issued sync IO,752d0464b78a
+2025-05-06,Yu Kuai,yukuai3@huawei.com,md: fix is_mddev_idle(),e5797ae7033f
+2025-05-06,Yu Kuai,yukuai3@huawei.com,md: add a new api sync_io_depth,03720d82d730
+2025-05-06,Yu Kuai,yukuai3@huawei.com,md: record dm-raid gendisk in mddev,7168be3c8a6b
+2025-05-06,Yu Kuai,yukuai3@huawei.com,block: export API to get the number of bdev inflight IO,f2987c5816bd
+2025-05-06,Yu Kuai,yukuai3@huawei.com,block: clean up blk_mq_in_flight_rw(),6b6c3a97abde
+2025-05-06,Yu Kuai,yukuai3@huawei.com,block: WARN if bdev inflight counter is negative,f5482ee5edb9
+2025-05-06,Yu Kuai,yukuai3@huawei.com,block: reuse part_in_flight_rw for part_in_flight,5b8f19aee474
+2025-05-06,Yu Kuai,yukuai3@huawei.com,blk-mq: remove blk_mq_in_flight(),c151919080ad
+2025-04-21,Ye Bin,yebin10@huawei.com,arm64/cpuinfo: only show one cpu's info in c_show(),7bb797757bf5
+2025-05-09,Long Li,leo.lilong@huawei.com,io_uring: update parameter name in io_pin_pages function declaration,6ae4308116f1
+2024-08-30,Jinjie Ruan,ruanjinjie@huawei.com,gpu: host1x: Use for_each_available_child_of_node_scoped(),78184f6e3db1
+2025-05-06,Yu Kuai,yukuai3@huawei.com,brd: fix discard end sector,a26a339a654b
+2025-05-06,Yu Kuai,yukuai3@huawei.com,brd: fix aligned_sector from brd_do_discard(),d4099f8893b0
+2025-05-06,Yu Kuai,yukuai3@huawei.com,brd: protect page with rcu,0e8acffc1be1
+2025-04-22,Qinxin Xia,xiaqinxin@huawei.com,iommu/arm-smmu-v3: Fix incorrect return in arm_smmu_attach_dev,be5a2d3f8f97
+2025-04-17,Zizhi Wo,wozizhi@huawei.com,blk-throttle: Add an additional overflow check to the call calculate_bytes/io_allowed,18b8144a1bd8
+2025-04-17,Zizhi Wo,wozizhi@huawei.com,blk-throttle: Delete unnecessary carryover-related fields from throtl_grp,7b89d46051ab
+2025-04-17,Zizhi Wo,wozizhi@huawei.com,blk-throttle: Fix wrong tg->[bytes/io]_disp update in __tg_update_carryover(),f66cf69eb876
+2025-04-30,Wang Zhaolong,wangzhaolong1@huawei.com,ksmbd: fix memory leak in parse_lease_state(),eb4447bcce91
+2025-04-30,Jian Shen,shenjian15@huawei.com,net: hns3: defer calling ptp_clock_register(),4971394d9d62
+2025-04-30,Hao Lan,lanhao@huawei.com,net: hns3: fixed debugfs tm_qset size,e317aebeefcb
+2025-04-30,Yonglong Liu,liuyonglong@huawei.com,net: hns3: fix an interrupt residual problem,8e6b9c6ea5a5
+2025-04-30,Jian Shen,shenjian15@huawei.com,net: hns3: store rx VLAN tag offload state for VF,ef2383d078ed
+2025-04-11,Lifeng Zheng,zhenglifeng1@huawei.com,ACPI: CPPC: Add three functions related to autonomous selection,f35e5b3ccfd3
+2025-04-11,Lifeng Zheng,zhenglifeng1@huawei.com,ACPI: CPPC: Modify cppc_get_auto_sel_caps() to cppc_get_auto_sel(),2605e4ab6615
+2025-04-11,Lifeng Zheng,zhenglifeng1@huawei.com,ACPI: CPPC: Refactor register value get and set ABIs,ab482f1bac6b
+2025-04-11,Lifeng Zheng,zhenglifeng1@huawei.com,ACPI: CPPC: Add cppc_set_reg_val(),e05c75072c2e
+2025-04-11,Lifeng Zheng,zhenglifeng1@huawei.com,ACPI: CPPC: Extract cppc_get_reg_val_in_pcc(),b5ef45e6a177
+2025-04-11,Lifeng Zheng,zhenglifeng1@huawei.com,ACPI: CPPC: Rename cppc_get_perf() to cppc_get_reg_val(),714d103ce868
+2025-04-11,Lifeng Zheng,zhenglifeng1@huawei.com,ACPI: CPPC: Optimize cppc_get_perf(),45f3763a2122
+2025-04-11,Lifeng Zheng,zhenglifeng1@huawei.com,ACPI: CPPC: Add IS_OPTIONAL_CPC_REG macro to judge if a cpc_reg is optional,e3d7935a6c61
+2025-04-29,Hongbo Li,lihongbo22@huawei.com,erofs: remove unused enum type,9fcd53c32066
+2024-09-18,Junhao He,hejunhao3@huawei.com,coresight: Fixes device's owner field for registered using coresight_init_driver(),9f52aecc952d
+2025-04-24,Hongbo Li,lihongbo22@huawei.com,MAINTAINERS: erofs: add myself as reviewer,8d16dd7b651b
+2025-04-17,Li Lingfeng,lilingfeng3@huawei.com,nfs: handle failure of nfs_get_lock_context in unlock path,c457dc1ec770
+2025-04-18,Junhao He,hejunhao3@huawei.com,MAINTAINERS: Add hisilicon PMU JSON events under its entry,85447f68a1e3
+2025-04-18,Junhao He,hejunhao3@huawei.com,perf vendor events arm64: Drop hip08 PublicDescription if same as BriefDescription,c756441c3524
+2025-04-18,Junhao He,hejunhao3@huawei.com,perf vendor events arm64: Fill up Desc field for Hisi hip08 hha pmu,43fff3e948ca
+2025-04-17,Yue Haibing,yuehaibing@huawei.com,usb: typec: ucsi: Fix unmet dependencies for UCSI_HUAWEI_GAOKUN,0bc3e641157c
+2025-04-06,Jonathan Cameron,Jonathan.Cameron@huawei.com,MAINTAINERS: IIO: Update reviewers for the subsystem,2a44c3ed8063
+2025-03-31,Jonathan Cameron,Jonathan.Cameron@huawei.com,iio: Adjust internals of handling of direct mode claiming to suit new API.,5d1dff5b45b7
+2025-03-31,Jonathan Cameron,Jonathan.Cameron@huawei.com,staging: iio: ad5933: Switch to sparse friendly iio_device_claim/release_direct(),692760702f80
+2025-03-31,Jonathan Cameron,Jonathan.Cameron@huawei.com,iio: temp: maxim_thermocouple: Drop unused mutex.h include.,e2729d5e04b9
+2025-03-31,Jonathan Cameron,Jonathan.Cameron@huawei.com,iio: temp: maxim_thermocouple: Switch to sparse friendly iio_device_claim/release_direct(),333248709901
+2025-03-31,Jonathan Cameron,Jonathan.Cameron@huawei.com,iio: proximity: sx9500: Switch to sparse friendly iio_device_claim/release_direct(),0ed4424478d3
+2025-03-31,Jonathan Cameron,Jonathan.Cameron@huawei.com,iio: proximity: pulsed-light: Switch to sparse friendly iio_device_claim/release_direct(),3e3f57659b3d
+2025-03-31,Jonathan Cameron,Jonathan.Cameron@huawei.com,iio: proximity: hx9023s: Switch to sparse friendly iio_device_claim/release_direct(),9dc7ed3bfe43
+2025-03-31,Jonathan Cameron,Jonathan.Cameron@huawei.com,iio: pressure: zpa2326: Switch to sparse friendly iio_device_claim/release_direct(),66024cb953d2
+2025-03-31,Jonathan Cameron,Jonathan.Cameron@huawei.com,iio: pressure: rohm-bm1390: Switch to sparse friendly iio_device_claim/release_direct(),71a998e791d8
+2025-03-31,Jonathan Cameron,Jonathan.Cameron@huawei.com,iio: pressure: ms5611: Switch to sparse friendly iio_device_claim/release_direct(),1bfa7698bc9f
+2025-03-31,Jonathan Cameron,Jonathan.Cameron@huawei.com,iio: pressure: mpl3115: Switch to sparse friendly iio_device_claim/release_direct(),d2de91b3eded
+2025-03-31,Jonathan Cameron,Jonathan.Cameron@huawei.com,iio: pressure: mpl3115: factor out core of IIO_INFO_RAW read to simplify code flow,770ee1a2c5d9
+2025-03-31,Jonathan Cameron,Jonathan.Cameron@huawei.com,iio: pressure: icp10100: Switch to sparse friendly iio_device_claim/release_direct(),b2a3a51000a7
+2025-03-31,Jonathan Cameron,Jonathan.Cameron@huawei.com,iio: pressure: dlhl60d: Switch to sparse friendly iio_device_claim/release_direct(),74fc7aacda0f
+2025-03-31,Jonathan Cameron,Jonathan.Cameron@huawei.com,iio: magnetometer: rm3100: Switch to sparse friendly iio_device_claim/release_direct(),e0a4d6a93eb1
+2025-03-31,Jonathan Cameron,Jonathan.Cameron@huawei.com,iio: magnetometer: mag3110: Switch to sparse friendly iio_device_claim/release_direct(),587895606e11
+2025-03-31,Jonathan Cameron,Jonathan.Cameron@huawei.com,iio: magnetometer: mag3110: Factor out core of read/write_raw() and use guard() to simplify code flow.,b5228482ebb9
+2025-03-31,Jonathan Cameron,Jonathan.Cameron@huawei.com,iio: imu: st_lsm6dsx: Switch to sparse friendly iio_device_claim/release_direct(),0daeba3edabf
+2025-03-31,Jonathan Cameron,Jonathan.Cameron@huawei.com,iio: imu: st_lsm6dsx: Switch to sparse friendly claim/release_direct(),a332a90eacd1
+2025-03-31,Jonathan Cameron,Jonathan.Cameron@huawei.com,iio: imu: st_lsm6dsx: Factor out parts of st_lsm6dsx_shub_write_raw() to allow direct returns,ee56bbcaad71
+2025-03-31,Jonathan Cameron,Jonathan.Cameron@huawei.com,iio: imu: smi240: Switch to sparse friendly iio_device_claim/release_direct(),59d3109aabf1
+2025-03-31,Jonathan Cameron,Jonathan.Cameron@huawei.com,iio: imu: inv_mpu6050: Switch to sparse friendly iio_device_claim/release_direct(),4455bc5c303b
+2025-03-31,Jonathan Cameron,Jonathan.Cameron@huawei.com,iio: imu: inv_icm42600: Switch to sparse friendly iio_device_claim/release_direct(),cbff19a382bb
+2025-03-31,Jonathan Cameron,Jonathan.Cameron@huawei.com,iio: humidity: hts211: Switch to sparse friendly iio_device_claim/release_direct(),ca75b9fb28d6
+2025-03-31,Jonathan Cameron,Jonathan.Cameron@huawei.com,iio: humidity: hts211: Factor out everything under direct mode claim into helper functions.,db532a4114c7
+2025-03-31,Jonathan Cameron,Jonathan.Cameron@huawei.com,iio: humidity: hdc2010: Switch to sparse friendly iio_device_claim/release_direct(),35a34861ce8f
+2025-03-31,Jonathan Cameron,Jonathan.Cameron@huawei.com,iio: humidity: hdc100x: Switch to sparse friendly iio_device_claim/release_direct(),0d51e888e030
+2025-03-31,Jonathan Cameron,Jonathan.Cameron@huawei.com,iio: humidity: hdc100x: Use guard(mutex) to simplify code flow,d9e6b59e5ba9
+2025-03-31,Jonathan Cameron,Jonathan.Cameron@huawei.com,iio: health: max30102: Switch to sparse friendly iio_device_claim/release_direct(),6c9dc1e8f296
+2025-03-31,Jonathan Cameron,Jonathan.Cameron@huawei.com,iio: gyro: adxrs290: Switch to sparse friendly iio_device_claim/release_direct(),fcc065fdf52f
+2025-03-31,Jonathan Cameron,Jonathan.Cameron@huawei.com,iio: common: st_sensors: Switch to sparse friendly iio_device_claim/release_direct(),f664ab98b238
+2025-03-31,Jonathan Cameron,Jonathan.Cameron@huawei.com,iio: common: scmi: Switch to sparse friendly iio_device_claim/release_direct(),0ceb75d0afae
+2025-03-31,Jonathan Cameron,Jonathan.Cameron@huawei.com,iio: chemical: scd4x: Switch to sparse friendly iio_device_claim/release_direct(),ba22e78635f9
+2025-03-31,Jonathan Cameron,Jonathan.Cameron@huawei.com,iio: chemical: atlas-sensor: Switch to sparse friendly iio_device_claim/release_direct(),3976dc832340
+2025-03-31,Jonathan Cameron,Jonathan.Cameron@huawei.com,iio: chemical: ccs811: Switch to sparse friendly iio_device_claim/release_direct(),e9786c540804
+2025-03-31,Jonathan Cameron,Jonathan.Cameron@huawei.com,iio: chemical: ccs811: Factor out handling of read of IIO_INFO_RAW to simplify error paths.,fef6da136ef2
+2025-03-31,Jonathan Cameron,Jonathan.Cameron@huawei.com,iio: addac: ad74115: Switch to sparse friendly iio_device_claim/release_direct(),36ee4794dd79
+2025-03-09,Jonathan Cameron,Jonathan.Cameron@huawei.com,iio: light: vcnl4035: Switch to sparse friendly iio_device_claim/release_direct(),cac2bc675bcf
+2025-03-09,Jonathan Cameron,Jonathan.Cameron@huawei.com,iio: light: vcnl4000: Switch to sparse friendly iio_device_claim/release_direct(),8d7c205ff9ff
+2025-03-09,Jonathan Cameron,Jonathan.Cameron@huawei.com,iio: light: tcs3472: Switch to sparse friendly iio_device_claim/release_direct(),abce31c33db6
+2025-03-09,Jonathan Cameron,Jonathan.Cameron@huawei.com,iio: light: tcs3414: Switch to sparse friendly iio_device_claim/release_direct(),65a6ce5aeb82
+2025-03-09,Jonathan Cameron,Jonathan.Cameron@huawei.com,iio: light: st_uvis25: Switch to sparse friendly iio_device_claim/release_direct(),565e9c17e4dc
+2025-03-09,Jonathan Cameron,Jonathan.Cameron@huawei.com,iio: light: si1145: Switch to sparse friendly iio_device_claim/release_direct(),43622f88b06d
+2025-03-09,Jonathan Cameron,Jonathan.Cameron@huawei.com,iio: light: rpr0521: Switch to sparse friendly iio_device_claim/release_direct(),e0dc0feb991b
+2025-03-09,Jonathan Cameron,Jonathan.Cameron@huawei.com,iio: light: rpr0521: Factor out handling of IIO_INFO_RAW and use guard(),9c97c7d2a901
+2025-03-09,Jonathan Cameron,Jonathan.Cameron@huawei.com,iio: light: rohm-bu27034: Switch to sparse friendly iio_device_claim/release_direct(),e08acc4c82a3
+2025-03-09,Jonathan Cameron,Jonathan.Cameron@huawei.com,iio: light: opt4060: Switch to sparse friendly iio_device_claim/release_direct(),7e8c0ec196e7
+2025-03-09,Jonathan Cameron,Jonathan.Cameron@huawei.com,iio: light: ltr501: Switch to sparse friendly iio_device_claim/release_direct(),2983ad971d02
+2025-03-09,Jonathan Cameron,Jonathan.Cameron@huawei.com,iio: light: ltr501: Factor out core of write_raw() where direct mode claim is held.,5a7387f208e5
+2025-03-09,Jonathan Cameron,Jonathan.Cameron@huawei.com,iio: light: ltr501: Factor out IIO_INFO_RAW leg of read_raw() callback.,05e50a1da592
+2025-03-09,Jonathan Cameron,Jonathan.Cameron@huawei.com,iio: light: as73211: Switch to sparse friendly iio_device_claim/release_direct(),6025d20bc3ed
+2025-03-09,Jonathan Cameron,Jonathan.Cameron@huawei.com,iio: light: as73211: Use guard() and move mode switch into inner write_raw fucntion,8dd92667f0a5
+2025-03-09,Jonathan Cameron,Jonathan.Cameron@huawei.com,iio: light: isl29125: Switch to sparse friendly iio_device_claim/release_direct(),d793d614dc3f
+2025-03-09,Jonathan Cameron,Jonathan.Cameron@huawei.com,iio: light: gp2ap020a00f: Switch to sparse friendly iio_device_claim/release_direct(),403443117b02
+2025-03-09,Jonathan Cameron,Jonathan.Cameron@huawei.com,iio: light: apds9306: Switch to sparse friendly iio_device_claim/release_direct(),354eedf0083f
+2025-03-09,Jonathan Cameron,Jonathan.Cameron@huawei.com,iio: adc: rcar: Switch to sparse friendly iio_device_claim/release_direct(),c86f8e8f9f56
+2025-03-09,Jonathan Cameron,Jonathan.Cameron@huawei.com,iio: adc: mxs-lradc: Switch to sparse friendly iio_device_claim/release_direct(),e6d364b40862
+2025-03-09,Jonathan Cameron,Jonathan.Cameron@huawei.com,iio: adc: ti-ads1015: Switch to sparse friendly iio_device_claim/release_direct(),ee4ef2cbf40e
+2025-03-09,Jonathan Cameron,Jonathan.Cameron@huawei.com,iio: adc: ti-ads1015: Use guard(mutex) and factor out code for INFO_RAW,5655ba5ada99
+2025-03-09,Jonathan Cameron,Jonathan.Cameron@huawei.com,iio: adc: ti-ads1100: Switch to sparse friendly iio_device_claim/release_direct(),3ba3800286bb
+2025-03-09,Jonathan Cameron,Jonathan.Cameron@huawei.com,iio: adc: ti-ads1100: Use guard(mutex) to allow direct returns,d36adc77ee43
+2025-03-09,Jonathan Cameron,Jonathan.Cameron@huawei.com,iio: adc: vf610: Switch to sparse friendly iio_device_claim/release_direct(),5fe8331928c6
+2025-03-09,Jonathan Cameron,Jonathan.Cameron@huawei.com,iio: adc: vf610: Move claim of direct mode to caller of vf610_read_sample and use guard(mutex),16d92b70b261
+2025-04-14,Yihang Li,liyihang9@huawei.com,scsi: hisi_sas: Wait until error handling is complete,1ca57644e2e9
+2025-04-14,Yihang Li,liyihang9@huawei.com,scsi: hisi_sas: Call I_T_nexus after soft reset for SATA disk,e4d953ca557e
+2025-04-14,Yihang Li,liyihang9@huawei.com,scsi: hisi_sas: Coding style cleanup,92c8fe152415
+2025-04-14,Yihang Li,liyihang9@huawei.com,scsi: hisi_sas: Use macro instead of magic number,4ca7fe99fc84
+2025-04-13,Jonathan Cameron,Jonathan.Cameron@huawei.com,iio: adc: ad7266: Fix potential timestamp alignment issue.,52d349884738
+2025-04-13,Jonathan Cameron,Jonathan.Cameron@huawei.com,iio: adc: ad7768-1: Fix insufficient alignment of timestamp.,ffbc26bc91c1
+2025-04-13,Jonathan Cameron,Jonathan.Cameron@huawei.com,iio: adc: dln2: Use aligned_s64 for timestamp,5097eaae98e5
+2025-04-13,Jonathan Cameron,Jonathan.Cameron@huawei.com,iio: accel: adxl355: Make timestamp 64-bit aligned using aligned_s64,1bb942287e05
+2025-04-13,Jonathan Cameron,Jonathan.Cameron@huawei.com,iio: temp: maxim-thermocouple: Fix potential lack of DMA safe buffer.,f79aeb6c631b
+2025-04-02,Jie Hai,haijie1@huawei.com,MAINTAINERS: Maintainer change for hisi_dma,1c398492b2e8
+2025-04-12,Zheng Qixing,zhengqixing@huawei.com,block: fix resource leak in blk_register_queue() error path,40f2eb9b5314
+2025-04-10,Li Lingfeng,lilingfeng3@huawei.com,nfsd: decrease sc_count directly if fail to queue dl_recall,a1d14d931bf7
+2025-04-10,Jijie Shao,shaojijie@huawei.com,net: hibmcge: fix multiple phy_stop() issue,e1d0b52d87ca
+2025-04-10,Jijie Shao,shaojijie@huawei.com,net: hibmcge: fix not restore rx pause mac addr after reset issue,ae6c1dce3244
+2025-04-10,Jijie Shao,shaojijie@huawei.com,net: hibmcge: fix the incorrect np_link fail state issue.,1d6c3e06232e
+2025-04-10,Jijie Shao,shaojijie@huawei.com,net: hibmcge: fix wrong mtu log issue,4e4ac53335de
+2025-04-10,Jijie Shao,shaojijie@huawei.com,net: hibmcge: fix the share of irq statistics among different network ports issue,4ad3df755a96
+2025-04-10,Jijie Shao,shaojijie@huawei.com,net: hibmcge: fix incorrect multicast filtering issue,9afaaa54e3eb
+2025-04-10,Jijie Shao,shaojijie@huawei.com,net: hibmcge: fix incorrect pause frame statistics issue,5b04080cd602
+2025-04-07,Jinjiang Tu,tujinjiang@huawei.com,mm/hugetlb: fix set_max_huge_pages() when there are surplus pages,aabf58bfaace
+2025-04-03,Liu Shixin,liushixin2@huawei.com,mm/hugetlb: fix nid mismatch in alloc_surplus_hugetlb_folio(),382360d289c1
+2025-03-31,Baihan Li,libaihan@huawei.com,drm/hisilicon/hibmc: Add vga connector detect functions,4c962bc929f1
+2025-03-31,Baihan Li,libaihan@huawei.com,drm/hisilicon/hibmc: Add MSI irq getting and requesting for HPD,b11bc1ae4658
+2025-03-31,Baihan Li,libaihan@huawei.com,drm/hisilicon/hibmc: Enable this hot plug detect of irq feature,3c7623fb5bb6
+2025-03-31,Baihan Li,libaihan@huawei.com,drm/hisilicon/hibmc: Add colorbar-cfg feature and its debugfs file,2f6182616cfd
+2025-03-31,Baihan Li,libaihan@huawei.com,drm/hisilicon/hibmc: Getting connector info and EDID by using AUX channel,bd1c935811ae
+2025-03-31,Baihan Li,libaihan@huawei.com,drm/hisilicon/hibmc: Refactor the member of drm_aux in struct hibmc_dp,1e7f35512e77
+2025-03-31,Baihan Li,libaihan@huawei.com,drm/hisilicon/hibmc: Add dp serdes cfg in dp process,5f80fb4d6abd
+2025-03-31,Baihan Li,libaihan@huawei.com,"drm/hisilicon/hibmc: Add dp serdes cfg to adjust serdes rate, voltage and pre-emphasis",9e736cd444f4
+2025-03-31,Baihan Li,libaihan@huawei.com,drm/hisilicon/hibmc: Restructuring the header dp_reg.h,f9698f802e50
+2025-04-01,Hou Tao,houtao1@huawei.com,selftests/bpf: Add test case for atomic update of fd htab,7c6fb1cf33fb
+2025-04-01,Hou Tao,houtao1@huawei.com,bpf: Don't allocate per-cpu extra_elems for fd htab,6704b1e8cfc5
+2025-04-01,Hou Tao,houtao1@huawei.com,bpf: Add is_fd_htab() helper,e8a65856c75d
+2025-04-01,Hou Tao,houtao1@huawei.com,bpf: Support atomic update for htab of maps,2c304172e031
+2025-04-01,Hou Tao,houtao1@huawei.com,bpf: Rename __htab_percpu_map_update_elem to htab_map_update_elem_in_place,5771e306b6cd
+2025-04-01,Hou Tao,houtao1@huawei.com,bpf: Factor out htab_elem_value helper(),ba2b31b0f39f
+2025-03-27,Chengchang Tang,tangchengchang@huawei.com,RDMA/hns: Fix wrong maximum DMA segment size,9beb2c91fb86
+2025-03-27,Chengchang Tang,tangchengchang@huawei.com,RDMA/hns: Remove unused parameters,3aadd652c2c8
+2025-03-24,Yue Haibing,yuehaibing@huawei.com,RDMA/usnic: Fix passing zero to PTR_ERR in usnic_ib_pci_probe(),95ba3850fed0
+2025-04-03,Zheng Qixing,zhengqixing@huawei.com,md/md-bitmap: fix stats collection for external bitmaps,6ec1f0239485
+2025-03-25,Yu Kuai,yukuai3@huawei.com,md/raid10: fix missing discard IO accounting,d05af90d6218
+2025-02-27,Wang Liang,wangliang74@huawei.com,xsk: Fix __xsk_generic_xmit() error code when cq is full,5d0b204654de
+2025-03-24,Jinjiang Tu,tujinjiang@huawei.com,mm/memory_hotplug: fix call folio_test_large with tail page in do_migrate_range,9342bc134ae7
+2025-01-22,Liu Shixin,liushixin2@huawei.com,mm: page_isolation: avoid calling folio_hstate() without hugetlb_lock,a0a9f2180b90
+2025-04-01,Shiju Jose,shiju.jose@huawei.com,Documentation/EDAC: Fix warning document isn't included in any toctree,212120a164d5
+2025-03-31,Wang Zhaolong,wangzhaolong1@huawei.com,smb: client: Update IO sizes after reconnection,764da2fff399
+2025-03-31,Wang Zhaolong,wangzhaolong1@huawei.com,smb: client: Store original IO parameters and prevent zero IO sizes,287906b20035
+2025-03-31,Wang Zhaolong,wangzhaolong1@huawei.com,smb:client: smb: client: Add reverse mapping from tcon to superblocks,a091d9711bde
+2025-03-25,Jinqian Yang,yangjinqian1@huawei.com,arm64: Add support for HIP09 Spectre-BHB mitigation,e18c09b204e8
+2025-03-13,Huisong Li,lihuisong@huawei.com,mailbox: pcc: Fix the possible race in updation of chan_in_use flag,9779d45c7493
+2025-02-18,Wang Zhaolong,wangzhaolong1@huawei.com,smb: client: Fix netns refcount imbalance causing leaks and use-after-free,4e7f1644f2ac
+2025-03-23,Yue Haibing,yuehaibing@huawei.com,drm/xe: Fix unmet direct dependencies warning,5e66cf6edddb
+2025-03-21,Wang Liang,wangliang74@huawei.com,net: fix NULL pointer dereference in l3mdev_l3_rcv,0032c99e83b9
+2025-03-21,Wang Liang,wangliang74@huawei.com,bonding: check xdp prog when set bond mode,094ee6017ea0
+2025-03-23,Yue Haibing,yuehaibing@huawei.com,drm/xe: Fix unmet direct dependencies warning,689582882802
+2025-03-18,Jinjiang Tu,tujinjiang@huawei.com,mm/vmscan: don't try to reclaim hwpoison folio,1b0449544c64
+2025-03-18,Jinjiang Tu,tujinjiang@huawei.com,mm/hwpoison: introduce folio_contain_hwpoisoned_page() helper,5f5ee52d4f58
+2025-03-19,Huisong Li,lihuisong@huawei.com,hwmon: (acpi_power_meter) Replace the deprecated hwmon_device_register,16746ce8adfe
+2025-03-19,Zhang Yi,yi.zhang@huawei.com,ext4: correct the error handle in ext4_fallocate(),129245cfbd6d
+2024-12-06,Zhang Yi,yi.zhang@huawei.com,jbd2: add a missing data flush during file and fs synchronization,aac45075f6d7
+2025-03-12,Xingui Yang,yangxingui@huawei.com,scsi: hisi_sas: Fix I/O errors caused by hardware port ID changes,daff37f00c75
+2025-03-12,Xingui Yang,yangxingui@huawei.com,scsi: hisi_sas: Enable force phy when SATA disk directly connected,8aa580cd9284
+2025-03-15,Yue Haibing,yuehaibing@huawei.com,drm/i915/display: Fix build error without DRM_FBDEV_EMULATION,af9ec6e4682c
+2025-03-15,Yue Haibing,yuehaibing@huawei.com,drm/i915/display: Fix build error without DRM_FBDEV_EMULATION,97e81f78d3cb
+2022-11-03,Yang Yingliang,yangyingliang@huawei.com,i2c: amd-mp2: drop free_irq() of devm_request_irq() allocated irq,6ea39cc38889
+2025-03-20,Yongjian Sun,sunyongjian1@huawei.com,libfs: Fix duplicate directory entry in offset_dir_lookup,f70681e9e606
+2025-03-17,Pu Lehui,pulehui@huawei.com,riscv: fgraph: Fix stack layout to match __arch_ftrace_regs argument of ftrace_return_to_handler,67a5ba8f742f
+2025-03-17,Pu Lehui,pulehui@huawei.com,riscv: fgraph: Select HAVE_FUNCTION_GRAPH_TRACER depends on HAVE_DYNAMIC_FTRACE_WITH_ARGS,e8eb8e1bdae9
+2024-11-09,Jinjie Ruan,ruanjinjie@huawei.com,riscv: Remove unused TASK_TI_FLAGS,a4a58f510bd8
+2025-03-12,Yue Haibing,yuehaibing@huawei.com,net: skbuff: Remove unused skb_add_data(),24faa63bcea8
+2025-03-05,Liu Shixin,liushixin2@huawei.com,mm/hugetlb: update nr_huge_pages and surplus_huge_pages together,2273dea6b1e1
+2025-03-06,Baokun Li,libaokun1@huawei.com,jbd2: remove jbd2_journal_unfile_buffer(),743717670a36
+2025-02-24,Zizhi Wo,wozizhi@huawei.com,ext4: update the comment about mb_optimize_scan,243efbdf8ea6
+2025-02-17,Zhang Yi,yi.zhang@huawei.com,jbd2: fix off-by-one while erasing journal,18aba2adb3e2
+2025-02-13,Baokun Li,libaokun1@huawei.com,ext4: goto right label 'out_mmap_sem' in ext4_setattr(),7e91ae31e2d2
+2025-02-08,Ye Bin,yebin10@huawei.com,ext4: fix out-of-bound read in ext4_xattr_inode_dec_ref_all(),5701875f9609
+2025-02-08,Ye Bin,yebin10@huawei.com,ext4: introduce ITAIL helper,69f3a3039b0d
+2025-02-20,Xingui Yang,yangxingui@huawei.com,scsi: hisi_sas: Fixed failure to issue vendor specific commands,750d4fbe2c20
+2025-01-24,Chen Ridong,chenridong@huawei.com,memcg: add CONFIG_MEMCG_V1 for 'local' functions,610dc18c502d
+2025-01-24,Chen Ridong,chenridong@huawei.com,memcg: factor out the replace_stock_objcg function,bc812d1905df
+2025-01-24,Chen Ridong,chenridong@huawei.com,memcg: call the free function when allocation of pn fails,2059c8e320e2
+2025-01-24,Chen Ridong,chenridong@huawei.com,memcg: use OFP_PEAK_UNSET instead of -1,1c81f1a69926
+2025-03-04,Jinjiang Tu,tujinjiang@huawei.com,mm/hugetlb: fix surplus pages in dissolve_free_huge_page(),cb402bbdabca
+2025-03-01,Ye Bin,yebin10@huawei.com,proc: fix UAF in proc_get_inode(),654b33ada4ab
+2025-03-15,Hou Tao,houtao1@huawei.com,bpf: Check map->record at the beginning of check_and_free_fields(),bb2243f4328b
+2025-03-14,Huisong Li,lihuisong@huawei.com,soc: hisilicon: kunpeng_hccs: Fix incorrect string assembly,262666c04be6
+2025-01-22,Baokun Li,libaokun1@huawei.com,ext4: show 'shutdown' hint when ext4 is forced to shutdown,5855c3519463
+2025-01-22,Baokun Li,libaokun1@huawei.com,ext4: show 'emergency_ro' when EXT4_FLAGS_EMERGENCY_RO is set,6b76715d5e41
+2025-01-22,Baokun Li,libaokun1@huawei.com,ext4: correct behavior under errors=remount-ro mode,8f984530c242
+2025-01-22,Baokun Li,libaokun1@huawei.com,ext4: add more ext4_emergency_state() checks around sb_rdonly(),5bc27f4d73d3
+2025-01-22,Baokun Li,libaokun1@huawei.com,ext4: add ext4_emergency_state() helper function,0a1b2f5ea987
+2025-01-22,Baokun Li,libaokun1@huawei.com,ext4: add EXT4_FLAGS_EMERGENCY_RO bit,f3054e53c2f3
+2025-01-22,Baokun Li,libaokun1@huawei.com,ext4: convert EXT4_FLAGS_* defines to enum,99708f8a9d30
+2025-01-22,Baokun Li,libaokun1@huawei.com,ext4: pack holes in ext4_inode_info,bd29881aff6d
+2025-01-22,Baokun Li,libaokun1@huawei.com,ext4: remove unused member 'i_unwritten' from 'ext4_inode_info',5a1cd0e975c7
+2025-01-22,Baokun Li,libaokun1@huawei.com,ext4: update the descriptions of data_err=abort and data_err=ignore,62c3da1eacca
+2025-01-22,Baokun Li,libaokun1@huawei.com,jbd2: drop JBD2_ABORT_ON_SYNCDATA_ERR,6e969ef3d7cf
+2025-01-22,Baokun Li,libaokun1@huawei.com,ext4: abort journal on data writeback failure if in data_err=abort mode,ce51afb8cc5e
+2025-01-22,Baokun Li,libaokun1@huawei.com,ext4: extract ext4_has_journal_option() from __ext4_fill_super(),b1a49bd81320
+2025-01-22,Baokun Li,libaokun1@huawei.com,ext4: reject the 'data_err=abort' option in nojournal mode,26343ca0df71
+2025-01-22,Baokun Li,libaokun1@huawei.com,ext4: do not convert the unwritten extents if data writeback fails,e856f93e0fb2
+2025-01-22,Baokun Li,libaokun1@huawei.com,ext4: replace opencoded ext4_end_io_end() in ext4_put_io_end(),2f94b537c48d
+2025-03-13,Wang Liang,wangliang74@huawei.com,RDMA/core: Fix use-after-free when rename device name,1d6a9e7449e2
+2025-03-07,Jian Shen,shenjian15@huawei.com,net: hns3: use string choices helper,9e3285040514
+2025-02-25,Gu Bowen,gubowen5@huawei.com,mmc: atmel-mci: Add missing clk_disable_unprepare(),e51a349d2dcf
+2025-03-09,Yue Haibing,yuehaibing@huawei.com,arm64/fpsimd: Remove unused declaration fpsimd_kvm_prepare(),31208bad3937
+2025-02-13,Li Lingfeng,lilingfeng3@huawei.com,nfsd: put dl_stid if fail to queue dl_recall,230ca758453c
+2025-01-26,Li Lingfeng,lilingfeng3@huawei.com,nfsd: remove the redundant mapping of nfserr_mlink,904201c7b5f1
+2024-12-27,Li Lingfeng,lilingfeng3@huawei.com,sunrpc: clean cache_detail immediately when flush is written frequently,fc2a169c56de
+2025-03-05,Yue Haibing,yuehaibing@huawei.com,io_uring: Remove unused declaration io_alloc_async_data(),30c970354ce2
+2025-03-07,Tim Schumacher,tim.schumacher1@huawei.com,selinux: Chain up tool resolving errors in install_policy.sh,6ae0042f4d3f
+2024-10-22,Yuan Can,yuancan@huawei.com,media: siano: Fix error handling in smsdvb_module_init(),734ac57e47b3
+2025-02-27,Zheng Qixing,zhengqixing@huawei.com,badblocks: use sector_t instead of int to avoid truncation of badblocks length,d301f164c3fb
+2025-02-27,Zheng Qixing,zhengqixing@huawei.com,md: improve return types of badblocks handling functions,7e5102dd99f3
+2025-02-27,Zheng Qixing,zhengqixing@huawei.com,badblocks: return boolean from badblocks_set() and badblocks_clear(),c8775aefba95
+2025-02-27,Zheng Qixing,zhengqixing@huawei.com,badblocks: fix missing bad blocks on retry in _badblocks_check(),5236f041fa6c
+2025-02-27,Li Nan,linan122@huawei.com,badblocks: fix merge issue when new badblocks align with pre+1,9ec65dec634a
+2025-02-27,Li Nan,linan122@huawei.com,badblocks: try can_merge_front before overlap_front,3a23d05f9c1a
+2025-02-27,Li Nan,linan122@huawei.com,badblocks: fix the using of MAX_BADBLOCKS,37446680dfbf
+2025-02-27,Li Nan,linan122@huawei.com,badblocks: return error if any badblock set fails,7f500f0a59b1
+2025-02-27,Li Nan,linan122@huawei.com,badblocks: return error directly when setting badblocks exceeds 512,28243dcd1f49
+2025-02-27,Li Nan,linan122@huawei.com,badblocks: attempt to merge adjacent badblocks during ack_all_badblocks,32e9ad4d11f6
+2025-02-27,Li Nan,linan122@huawei.com,badblocks: factor out a helper try_adjacent_combine,270b68fee968
+2025-02-27,Li Nan,linan122@huawei.com,badblocks: Fix error shitf ops,7d83c5d73c1a
+2024-10-22,Li Huafei,lihuafei1@huawei.com,watchdog/hardlockup/perf: Warn if watchdog_ev is leaked,05763885e327
+2024-10-22,Li Huafei,lihuafei1@huawei.com,watchdog/hardlockup/perf: Fix perf_event memory leak,d6834d9c9903
+2024-10-25,Zeng Heng,zengheng4@huawei.com,x86/platform/olpc: Remove unused variable 'len' in olpc_dt_compatible_match(),ef69de53c46a
+2024-08-31,Zhang Zekun,zhangzekun11@huawei.com,PCI: tegra: Use helper function for_each_child_of_node_scoped(),bffc72387aef
+2024-08-31,Zhang Zekun,zhangzekun11@huawei.com,PCI: apple: Use helper function for_each_child_of_node_scoped(),f60b4e06a945
+2024-08-31,Zhang Zekun,zhangzekun11@huawei.com,PCI: mt7621: Use helper function for_each_available_child_of_node_scoped(),8905f8b6f55f
+2024-08-31,Zhang Zekun,zhangzekun11@huawei.com,PCI: mediatek: Use helper function for_each_available_child_of_node_scoped(),a51adf82f87b
+2024-08-31,Zhang Zekun,zhangzekun11@huawei.com,PCI: kirin: Tidy up _probe() related function with dev_err_probe(),d52334785483
+2025-02-17,Ma Wupeng,mawupeng1@huawei.com,"hwpoison, memory_hotplug: lock folio before unmap hwpoisoned folio",af288a426c3e
+2025-02-17,Ma Wupeng,mawupeng1@huawei.com,mm: memory-hotplug: check folio ref count first in do_migrate_range,773b9a6aa6d3
+2025-02-17,Ma Wupeng,mawupeng1@huawei.com,mm: memory-failure: update ttu flag inside unmap_poisoned_folio,b81679b1633a
+2025-02-27,Yu Kuai,yukuai3@huawei.com,blk-throttle: fix lower bps rate by throtl_trim_slice(),29cb95593430
+2025-02-22,Jonathan Cameron,Jonathan.Cameron@huawei.com,staging: iio: accel: adis16240: Drop driver for this impact sensor,21ce1ce04350
+2024-08-31,Zhang Zekun,zhangzekun11@huawei.com,PCI: kirin: Use helper function for_each_available_child_of_node_scoped(),9a0f3c50bd51
+2025-03-01,Ye Bin,yebin10@huawei.com,mm/slab: call kmalloc_noprof() unconditionally in kmalloc_array_noprof(),939c5de3c70d
+2025-02-27,Yu Kuai,yukuai3@huawei.com,"md/raid1,raid10: don't ignore IO flags",e879a0d9cb08
+2025-02-27,Yu Kuai,yukuai3@huawei.com,md/raid5: merge reshape_progress checking inside get_reshape_loc(),1320fe874175
+2025-02-20,Yu Kuai,yukuai3@huawei.com,md: fix mddev uaf while iterating all_mddevs list,8542870237c3
+2025-02-15,Yu Kuai,yukuai3@huawei.com,md: switch md-cluster to use md_submodle_head,87a86277c9f5
+2025-02-15,Yu Kuai,yukuai3@huawei.com,md: don't export md_cluster_ops,c594de0455b3
+2025-02-15,Yu Kuai,yukuai3@huawei.com,md/md-cluster: cleanup md_cluster_ops reference,ff84e1b1d215
+2025-02-15,Yu Kuai,yukuai3@huawei.com,md: switch personalities to use md_submodule_head,3d44e1d1575a
+2025-02-15,Yu Kuai,yukuai3@huawei.com,md: introduce struct md_submodule_head and APIs,d3beb7c9c61d
+2025-02-15,Yu Kuai,yukuai3@huawei.com,md: only include md-cluster.h if necessary,bf0a73264fa4
+2025-02-15,Yu Kuai,yukuai3@huawei.com,md: merge common code into find_pers(),9faab548974e
+2025-02-17,Jonathan Cameron,Jonathan.Cameron@huawei.com,iio: adc: Switch to sparse friendly iio_device_claim/release_direct(),1a21a9842e3b
+2025-02-17,Jonathan Cameron,Jonathan.Cameron@huawei.com,iio: adc: max11410: Switch to sparse friendly iio_device_claim/release_direct(),01528347680f
+2025-02-17,Jonathan Cameron,Jonathan.Cameron@huawei.com,iio: adc: max11410: Factor out writing of sampling frequency to simplify errro paths.,386c1d6e41cf
+2025-02-17,Jonathan Cameron,Jonathan.Cameron@huawei.com,iio: adc: max1027: Switch to sparse friendly iio_device_claim/release_direct(),71dfa35f7bee
+2025-02-17,Jonathan Cameron,Jonathan.Cameron@huawei.com,iio: adc: max1027: Move claim of direct mode up one level and use guard(),2ce5314c689c
+2025-02-17,Jonathan Cameron,Jonathan.Cameron@huawei.com,iio: adc: at91-sama5d2: Switch to sparse friendly iio_device_claim/release_direct(),173386d03633
+2025-02-17,Jonathan Cameron,Jonathan.Cameron@huawei.com,iio: adc: at91-sama5d2: Move claim of direct mode up a level and use guard(),b3179f59c104
+2025-02-17,Jonathan Cameron,Jonathan.Cameron@huawei.com,iio: adc: ad_sigma_delta: Switch to sparse friendly iio_device_claim/release_direct(),6eedf172d964
+2025-02-17,Jonathan Cameron,Jonathan.Cameron@huawei.com,iio: adc: ad799x: Switch to sparse friendly iio_device_claim/release_direct(),bbd841f9d02c
+2025-02-17,Jonathan Cameron,Jonathan.Cameron@huawei.com,iio: adc: ad7793: Switch to sparse friendly iio_device_claim/release_direct(),4d47f64ca82e
+2025-02-17,Jonathan Cameron,Jonathan.Cameron@huawei.com,iio: adc: ad7793: Factor out core of ad7793_write_raw() to simplify error handling,f1a4a2e6b85e
+2025-02-17,Jonathan Cameron,Jonathan.Cameron@huawei.com,iio: adc: ad7791: Switch to sparse friendly iio_device_claim/release_direct(),85e840ced7a8
+2025-02-17,Jonathan Cameron,Jonathan.Cameron@huawei.com,iio: adc: ad7791: Factor out core of ad7791_write_raw() to simplify error handling,c05cbf02df28
+2025-02-17,Jonathan Cameron,Jonathan.Cameron@huawei.com,iio: adc: ad7606: Switch to sparse friendly iio_device_claim/release_direct(),15bed4f0cbf1
+2025-02-17,Jonathan Cameron,Jonathan.Cameron@huawei.com,iio: adc: ad7768-1: Switch to sparse friendly iio_device_claim/release_direct(),e76750f50aaa
+2025-02-17,Jonathan Cameron,Jonathan.Cameron@huawei.com,iio: adc: ad7768-1: Move setting of val a bit later to avoid unnecessary return value check,0af1c801a152
+2025-02-17,Jonathan Cameron,Jonathan.Cameron@huawei.com,iio: adc: ad7192: Switch to sparse friendly iio_device_claim/release_direct(),4758f987d3a1
+2025-02-17,Jonathan Cameron,Jonathan.Cameron@huawei.com,iio: adc: ad7192: Factor out core of ad7192_write_raw() to simplify error handling.,32143dbd9591
+2025-02-17,Jonathan Cameron,Jonathan.Cameron@huawei.com,iio: adc: ad4030: Switch to sparse friendly iio_device_claim/release_direct(),5ff6b02d9bb8
+2025-02-17,Jonathan Cameron,Jonathan.Cameron@huawei.com,iio: adc: stm32-dfsdm: Switch to sparse friendly iio_device_claim/release_direct(),e493763302ce
+2025-02-17,Jonathan Cameron,Jonathan.Cameron@huawei.com,iio: adc: stm32-dfsdm: Factor out core of reading INFO_RAW,728341b0ca4d
+2025-02-17,Jonathan Cameron,Jonathan.Cameron@huawei.com,iio: accel: Switch to sparse friendly iio_device_claim/release_direct(),3cb26cba4a60
+2025-02-17,Jonathan Cameron,Jonathan.Cameron@huawei.com,iio: accel: msa311: Switch to sparse friendly iio_device_claim/release_direct(),18a53d40122d
+2025-02-17,Jonathan Cameron,Jonathan.Cameron@huawei.com,iio: accel: msa311: Fix failure to release runtime pm if direct mode claim fails.,60a0cf2ebab9
+2025-02-17,Jonathan Cameron,Jonathan.Cameron@huawei.com,iio: accel: kx022a: Switch to sparse friendly iio_device_claim/release_direct(),6c21fc09c3e6
+2025-02-17,Jonathan Cameron,Jonathan.Cameron@huawei.com,iio: accel: kx022a: Factor out guts of write_raw() to allow direct returns,305f655d059d
+2025-02-17,Jonathan Cameron,Jonathan.Cameron@huawei.com,iio: accel: mma8452: Switch to sparse friendly iio_device_claim/release_direct(),9ab72adb9039
+2025-02-17,Jonathan Cameron,Jonathan.Cameron@huawei.com,iio: accel: mma8452: Factor out guts of write_raw() to simplify locking,cce9172f3d40
+2025-02-17,Jonathan Cameron,Jonathan.Cameron@huawei.com,iio: accel: mma8452: Ensure error return on failure to matching oversampling ratio,df330c808182
+2025-02-28,Jijie Shao,shaojijie@huawei.com,net: hibmcge: Add support for ioctl,615552c601ed
+2025-02-28,Jijie Shao,shaojijie@huawei.com,net: hibmcge: Add support for BMC diagnose feature,7a5d60dcf998
+2025-02-28,Jijie Shao,shaojijie@huawei.com,net: hibmcge: Add support for mac link exception handling feature,e0306637e85d
+2025-02-28,Jijie Shao,shaojijie@huawei.com,net: hibmcge: Add support for abnormal irq handling feature,fd394a334b1c
+2025-02-28,Jijie Shao,shaojijie@huawei.com,net: hibmcge: Add support for checksum offload,833b65a3b54d
+2025-02-28,Jijie Shao,shaojijie@huawei.com,net: hibmcge: Add support for dump statistics,c0bf9bf31e79
+2025-02-28,Peiyang Wang,wangpeiyang1@huawei.com,net: hns3: make sure ptp clock is unregister and freed if hclge_ptp_get_cycle returns an error,b7365eab3983
+2025-03-04,Huisong Li,lihuisong@huawei.com,hwmon: Fix the missing of 'average' word in hwmon_power_attr_templates,232427772fc1
+2025-02-12,GONG Ruiqi,gongruiqi1@huawei.com,slab: Achieve better kmalloc caches randomization in kvmalloc,539f552892b7
+2025-02-12,GONG Ruiqi,gongruiqi1@huawei.com,slab: Adjust placement of __kvmalloc_node_noprof,f1157db8b539
+2025-02-28,Yue Haibing,yuehaibing@huawei.com,mptcp: Remove unused declaration mptcp_set_owner_r(),60d7505292c4
+2025-02-10,Huisong Li,lihuisong@huawei.com,rtc: ds3232: Use HWMON_CHANNEL_INFO macro to simplify code,d659dfec7d35
+2025-02-10,Huisong Li,lihuisong@huawei.com,rtc: ab-eoz9: Use HWMON_CHANNEL_INFO macro to simplify code,f432c5d502b4
+2025-02-20,Huisong Li,lihuisong@huawei.com,hwmon: (acpi_power_meter) Fix the fake power alarm reporting,0ea627381eb5
+2024-11-26,Zhang Kunbo,zhangkunbo@huawei.com,x86/platform: Fix missing declaration of 'x86_apple_machine',e008eeec7868
+2024-11-26,Zhang Kunbo,zhangkunbo@huawei.com,x86/irq: Fix missing declaration of 'io_apic_irqs',b8ffd979356e
+2025-02-20,Shiju Jose,shiju.jose@huawei.com,cxl/mbox: Add SET_FEATURE mailbox command,14d502cc2718
+2025-02-20,Shiju Jose,shiju.jose@huawei.com,cxl/mbox: Add GET_FEATURE mailbox command,5e5ac21f629d
+2025-02-24,Shiju Jose,shiju.jose@huawei.com,EDAC: Update memory repair control interface for memory sparing feature,81e42fc1d303
+2025-02-12,Shiju Jose,shiju.jose@huawei.com,EDAC: Add a memory repair control feature,699ea5219c4b
+2025-02-24,Wang Hai,wanghai38@huawei.com,tcp: Defer ts_recent changes until req is owned,8d52da23b6c6
+2025-02-12,Shiju Jose,shiju.jose@huawei.com,EDAC: Add a Error Check Scrub control feature,bcbd069b11b0
+2025-02-12,Shiju Jose,shiju.jose@huawei.com,EDAC: Add scrub control feature,f90b738166fe
+2025-02-12,Shiju Jose,shiju.jose@huawei.com,EDAC: Add support for EDAC device features control,db99ea5f2c03
+2025-02-19,Pu Lehui,pulehui@huawei.com,"kbuild, bpf: Correct pahole version that supports distilled base btf feature",1ffe30efd2f2
+2025-02-24,Tong Tiangen,tongtiangen@huawei.com,uprobes: Reject the shared zeropage in uprobe_write_opcode(),bddf10d26e6e
+2025-02-10,Huisong Li,lihuisong@huawei.com,media: video-i2c: Use HWMON_CHANNEL_INFO macro to simplify code,9020350c3303
+2025-02-20,Hou Tao,houtao1@huawei.com,bpf: Use preempt_count() directly in bpf_send_signal_common(),b4a8b5bba712
+2025-02-17,Ye Bin,yebin10@huawei.com,scsi: core: Clear driver private data when retrying request,dce5c4afd035
+2025-02-12,Xiaofei Tan,tanxiaofei@huawei.com,ACPI: HED: Always initialize before evged,cccf6ee090c8
+2025-02-11,Chen Ridong,chenridong@huawei.com,memcg: avoid dead loop when setting memory.max,99333229dee4
+2025-02-09,Jonathan Cameron,Jonathan.Cameron@huawei.com,iio: Drop iio_device_claim_direct_scoped() and related infrastructure,4c571885898c
+2025-02-09,Jonathan Cameron,Jonathan.Cameron@huawei.com,iio: light: bh1745: Stop using iio_device_claim_direct_scoped(),668d7167fc78
+2025-02-09,Jonathan Cameron,Jonathan.Cameron@huawei.com,iio: imu: bmi323: Stop using iio_device_claim_direct_scoped(),0bee1bf85a9e
+2025-02-09,Jonathan Cameron,Jonathan.Cameron@huawei.com,iio: dummy: Stop using iio_device_claim_direct_scoped(),73dad3ec96ae
+2025-02-09,Jonathan Cameron,Jonathan.Cameron@huawei.com,iio: dac: ad8460: Stop using iio_device_claim_direct_scoped(),41a316c8e531
+2025-02-09,Jonathan Cameron,Jonathan.Cameron@huawei.com,iio: dac: ad3552r-hs: Stop using iio_device_claim_direct_scoped(),798fa301e19f
+2025-02-09,Jonathan Cameron,Jonathan.Cameron@huawei.com,iio: chemical: ens160: Stop using iio_device_claim_direct_scoped(),5e802eed70b1
+2025-02-09,Jonathan Cameron,Jonathan.Cameron@huawei.com,iio: addac: ad74413r: Stop using iio_device_claim_direct_scoped(),e4c569742b60
+2025-02-09,Jonathan Cameron,Jonathan.Cameron@huawei.com,iio: adc: ti-ads1119: Stop using iio_device_claim_direct_scoped(),69deb972f9aa
+2025-02-09,Jonathan Cameron,Jonathan.Cameron@huawei.com,iio: adc: ti-adc161s626: Stop using iio_device_claim_direct_scoped(),dc100956600c
+2025-02-09,Jonathan Cameron,Jonathan.Cameron@huawei.com,iio: adc: rtq6056: Stop using iio_device_claim_direct_scoped(),27ac40b6275d
+2025-02-09,Jonathan Cameron,Jonathan.Cameron@huawei.com,iio: adc: max1363: Stop using iio_device_claim_direct_scoped(),5fd89f430d9e
+2025-02-09,Jonathan Cameron,Jonathan.Cameron@huawei.com,iio: adc: ad9467: Stop using iio_device_claim_direct_scoped(),7b22c000308a
+2025-02-09,Jonathan Cameron,Jonathan.Cameron@huawei.com,iio: adc: ad7779: Stop using iio_device_claim_direct_scoped(),82a0760c109f
+2025-02-09,Jonathan Cameron,Jonathan.Cameron@huawei.com,iio: adc: ad7625: Stop using iio_device_claim_direct_scoped(),48a24fd21d11
+2025-02-09,Jonathan Cameron,Jonathan.Cameron@huawei.com,iio: adc: ad7606: Stop using iio_device_claim_direct_scoped(),8a1812d040c0
+2025-02-09,Jonathan Cameron,Jonathan.Cameron@huawei.com,iio: adc: ad4695: Stop using iio_device_claim_direct_scoped(),20a57c2714a8
+2025-02-09,Jonathan Cameron,Jonathan.Cameron@huawei.com,iio: adc: ad4130: Stop using iio_device_claim_direct_scoped(),b70fb3c1951e
+2025-02-09,Jonathan Cameron,Jonathan.Cameron@huawei.com,iio: adc: ad4000: Stop using iio_device_claim_direct_scoped(),e48c56d1503c
+2025-02-09,Jonathan Cameron,Jonathan.Cameron@huawei.com,iio: accel: adxl367: Stop using iio_device_claim_direct_scoped(),7c00c85a635b
+2025-02-09,Jonathan Cameron,Jonathan.Cameron@huawei.com,iio: proximity: sx9360: Stop using iio_device_claim_direct_scoped(),7b7f7e6ee01b
+2025-02-09,Jonathan Cameron,Jonathan.Cameron@huawei.com,iio: proximity: sx9324: Stop using iio_device_claim_direct_scoped(),ec59a125ea25
+2025-02-09,Jonathan Cameron,Jonathan.Cameron@huawei.com,iio: proximity: sx9310: Stop using iio_device_claim_direct_scoped(),f238f1efc2ae
+2025-02-09,Jonathan Cameron,Jonathan.Cameron@huawei.com,iio: temperature: tmp006: Stop using iio_device_claim_direct_scoped(),bcbd26d8662b
+2025-02-09,Jonathan Cameron,Jonathan.Cameron@huawei.com,iio: chemical: scd30: Switch to sparse friendly claim/release_direct(),403f0f9b3609
+2025-02-09,Jonathan Cameron,Jonathan.Cameron@huawei.com,iio: chemical: scd30: Use guard(mutex) to allow early returns,5feb5532870f
+2025-02-09,Jonathan Cameron,Jonathan.Cameron@huawei.com,iio: core: Rework claim and release of direct mode to work with sparse.,d795e38df4b7
+2025-01-18,Yue Haibing,yuehaibing@huawei.com,pinctrl: nuvoton: npcm8xx: Fix error handling in npcm8xx_gpio_fw(),d6c6fd77e581
+2025-01-18,Yue Haibing,yuehaibing@huawei.com,pinctrl: pistachio: Remove dead code in pistachio_gpio_register(),75b456278ee3
+2025-02-15,Zheng Qixing,zhengqixing@huawei.com,md/raid1: fix memory leak in raid1_run() if no active rdev,5fbcf76e0dfe
+2025-02-13,Li Nan,linan122@huawei.com,md: ensure resync is prioritized over recovery,4b10a3bc67c1
+2024-08-28,Jinjie Ruan,ruanjinjie@huawei.com,drm: zynqmp_dp: Use devm_platform_ioremap_resource_byname(),f7d07bcd0651
+2025-02-10,Huisong Li,lihuisong@huawei.com,net: phy: aquantia: Use HWMON_CHANNEL_INFO macro to simplify code,d6085a23b3b4
+2025-02-10,Huisong Li,lihuisong@huawei.com,net: phy: marvell10g: Use HWMON_CHANNEL_INFO macro to simplify code,4798f4834b2e
+2025-02-10,Huisong Li,lihuisong@huawei.com,net: phy: marvell: Use HWMON_CHANNEL_INFO macro to simplify code,0cb595e80edc
+2025-02-10,Huisong Li,lihuisong@huawei.com,net: nfp: Use HWMON_CHANNEL_INFO macro to simplify code,e05427c4d138
+2025-02-10,Huisong Li,lihuisong@huawei.com,net: aquantia: Use HWMON_CHANNEL_INFO macro to simplify code,43a0d7f26ad7
+2024-12-20,Zhang Yi,yi.zhang@huawei.com,ext4: move out common parts into ext4_fallocate(),2890e5e0f49e
+2024-12-20,Zhang Yi,yi.zhang@huawei.com,ext4: move out inode_lock into ext4_fallocate(),ea3f17efd36b
+2024-12-20,Zhang Yi,yi.zhang@huawei.com,ext4: factor out ext4_do_fallocate(),fd2f764826df
+2024-12-20,Zhang Yi,yi.zhang@huawei.com,ext4: refactor ext4_insert_range(),49425504376c
+2024-12-20,Zhang Yi,yi.zhang@huawei.com,ext4: refactor ext4_collapse_range(),162e3c5ad167
+2024-12-20,Zhang Yi,yi.zhang@huawei.com,ext4: refactor ext4_zero_range(),53471e0bedad
+2024-12-20,Zhang Yi,yi.zhang@huawei.com,ext4: refactor ext4_punch_hole(),982bf37da09d
+2024-12-20,Zhang Yi,yi.zhang@huawei.com,ext4: don't write back data before punch hole in nojournal mode,43d0105e2c75
+2024-12-20,Zhang Yi,yi.zhang@huawei.com,ext4: don't explicit update times in ext4_fallocate(),73ae756ecdfa
+2024-12-20,Zhang Yi,yi.zhang@huawei.com,ext4: remove writable userspace mappings before truncating page cache,17207d0bb209
+2025-01-18,lizhi,lizhi206@huawei.com,crypto: hisilicon/hpre - adapt ECDH for high-performance cores,1d19058d86e5
+2025-01-11,Kaixiong Yu,yukaixiong@huawei.com,sysctl: remove unneeded include,dccf3c99febf
+2025-01-11,Kaixiong Yu,yukaixiong@huawei.com,sysctl: remove the vm_table,fa89dbda458b
+2025-01-11,Kaixiong Yu,yukaixiong@huawei.com,sh: vdso: move the sysctl to arch/sh/kernel/vsyscall/vsyscall.c,f569ca4b145d
+2025-01-11,Kaixiong Yu,yukaixiong@huawei.com,x86: vdso: move the sysctl to arch/x86/entry/vdso/vdso32-setup.c,a33e288147d5
+2025-01-11,Kaixiong Yu,yukaixiong@huawei.com,fs: dcache: move the sysctl to fs/dcache.c,52e66823e0be
+2025-01-11,Kaixiong Yu,yukaixiong@huawei.com,sunrpc: simplify rpcauth_cache_shrink_count(),c8c3fd194678
+2025-01-11,Kaixiong Yu,yukaixiong@huawei.com,fs: drop_caches: move sysctl to fs/drop_caches.c,f5d64ae331d0
+2025-01-11,Kaixiong Yu,yukaixiong@huawei.com,fs: fs-writeback: move sysctl to fs/fs-writeback.c,94eed61d5877
+2025-01-11,Kaixiong Yu,yukaixiong@huawei.com,mm: nommu: move sysctl to mm/nommu.c,97f5420ef1f4
+2025-01-11,Kaixiong Yu,yukaixiong@huawei.com,security: min_addr: move sysctl to security/min_addr.c,b121dd4d5572
+2025-01-11,Kaixiong Yu,yukaixiong@huawei.com,mm: mmap: move sysctl to mm/mmap.c,aacdde720214
+2025-01-11,Kaixiong Yu,yukaixiong@huawei.com,mm: util: move sysctls to mm/util.c,b1e8d7134eb6
+2025-01-11,Kaixiong Yu,yukaixiong@huawei.com,mm: vmscan: move vmscan sysctls to mm/vmscan.c,538d5baacd8a
+2025-01-11,Kaixiong Yu,yukaixiong@huawei.com,mm: swap: move sysctl to mm/swap.c,7e05627ee17b
+2025-01-11,Kaixiong Yu,yukaixiong@huawei.com,mm: filemap: move sysctl to mm/filemap.c,73aa354af21d
+2025-01-11,Kaixiong Yu,yukaixiong@huawei.com,mm: vmstat: move sysctls to mm/vmstat.c,b8974b89603c
+2025-02-07,Lifeng Zheng,zhenglifeng1@huawei.com,cpufreq: Use str_enable_disable() helper,4ba6d37ccca1
+2024-10-11,Ye Bin,yebin10@huawei.com,fs/ntfs3: Fix 'proc_info_root' leak when init ntfs failed,1d1a7e252549
+2024-10-11,Ye Bin,yebin10@huawei.com,fs/ntfs3: Factor out ntfs_{create/remove}_proc_root(),c5a396295370
+2024-10-11,Ye Bin,yebin10@huawei.com,fs/ntfs3: Factor out ntfs_{create/remove}_procdir(),e2d74c47a3d3
+2025-01-24,Liao Chang,liaochang1@huawei.com,uprobes: Remove the spinlock within handle_singlestep(),83179cd67846
+2025-02-04,Roberto Sassu,roberto.sassu@huawei.com,ima: Reset IMA_NONACTION_RULE_FLAGS after post_setattr,57a0ef02fefa
+2025-01-24,Huisong Li,lihuisong@huawei.com,w1: w1_therm: w1: Use HWMON_CHANNEL_INFO macro to simplify code,33c145297840
+2025-01-24,Liao Chang,liaochang1@huawei.com,uprobes: Remove redundant spinlock in uprobe_deny_signal(),eae8a56ae0c7
+2025-01-10,Lifeng Zheng,zhenglifeng1@huawei.com,cpufreq/amd-pstate: Fix per-policy boost flag incorrect when fail,fa803513ab68
+2025-01-26,Li Lingfeng,lilingfeng3@huawei.com,nfsd: clear acl_access/acl_default after releasing them,7faf14a7b036
+2023-05-22,Lin Yujun,linyujun809@huawei.com,hexagon: Fix unbalanced spinlock in die(),03410e87563a
+2025-01-23,Liu Shixin,liushixin2@huawei.com,mm/compaction: fix UBSAN shift-out-of-bounds warning,d1366e74342e
+2024-12-24,Chen Ridong,chenridong@huawei.com,memcg: fix soft lockup in the OOM process,ade81479c7dd
+2025-01-24,Yu Kuai,yukuai3@huawei.com,md/md-bitmap: Synchronize bitmap_get_stats() with bitmap lifetime,8d28d0ddb986
+2025-01-17,Lifeng Zheng,zhenglifeng1@huawei.com,cpufreq: ACPI: Remove set_boost in acpi_cpufreq_cpu_init(),2b16c631832d
+2025-01-17,Lifeng Zheng,zhenglifeng1@huawei.com,cpufreq: CPPC: Fix wrong max_freq in policy initialization,03d8b4e76266
+2025-01-17,Lifeng Zheng,zhenglifeng1@huawei.com,cpufreq: Introduce a more generic way to set default per-policy boost flag,dd016f379ebc
+2025-01-17,Lifeng Zheng,zhenglifeng1@huawei.com,cpufreq: Fix re-boost issue after hotplugging a CPU,1608f0230510
+2025-01-18,Jian Shen,shenjian15@huawei.com,net: hns3: fix oops when unload drivers paralleling,92e599577377
+2025-01-20,Hou Tao,houtao1@huawei.com,dm-crypt: track tag_offset in convert_context,8b8f80377657
+2025-01-20,Hou Tao,houtao1@huawei.com,dm-crypt: don't initialize cc_sector again,996c451d982d
+2025-01-20,Hou Tao,houtao1@huawei.com,dm-crypt: don't update io->sector after kcryptd_crypt_write_io_submit(),9fdbbdbbc92b
+2025-01-20,Hou Tao,houtao1@huawei.com,dm-crypt: use bi_sector in bio when initialize integrity seed,2f8c28d0d973
+2025-01-20,Hou Tao,houtao1@huawei.com,dm-crypt: fully initialize clone->bi_iter in crypt_alloc_buffer(),7c88f7cfab55
+2025-01-20,Hou Tao,houtao1@huawei.com,dm-crypt: set atomic as false when calling crypt_convert() in kworker,6fd2cb38c006
+2025-01-17,Hou Tao,houtao1@huawei.com,selftests/bpf: Add test case for the freeing of bpf_timer,0a5d2efa3827
+2025-01-17,Hou Tao,houtao1@huawei.com,bpf: Cancel the running bpf_timer through kworker for PREEMPT_RT,58f038e6d209
+2025-01-17,Hou Tao,houtao1@huawei.com,bpf: Free element after unlock in __htab_map_lookup_and_delete_elem(),47363f1553e6
+2025-01-17,Hou Tao,houtao1@huawei.com,bpf: Bail out early in __htab_map_lookup_and_delete_elem(),588c6ead325a
+2025-01-17,Hou Tao,houtao1@huawei.com,bpf: Free special fields after unlock in htab_lru_map_delete_node(),45dc92c32a47
+2025-01-20,Zhihao Cheng,chengzhihao1@huawei.com,ubi: ubi_get_ec_info: Fix compiling error 'cast specifies array type',69146a8c893f
+2025-01-10,Chen Ridong,chenridong@huawei.com,padata: avoid UAF for reorder_work,dd7d37ccf6b1
+2025-01-10,Chen Ridong,chenridong@huawei.com,padata: fix UAF in padata_reorder,e01780ea4661
+2025-01-10,Chen Ridong,chenridong@huawei.com,padata: add pd get/put refcnt helper,ae154202cc6a
+2024-12-24,pangliyuan,pangliyuan1@huawei.com,ubifs: skip dumping tnc tree when zroot is null,bdb0ca39e0ac
+2024-12-14,Zhihao Cheng,chengzhihao1@huawei.com,"ubi: Revert ""ubi: wl: Close down wear-leveling before nand is suspended""",844c6fdc13cf
+2025-01-16,Liu Jian,liujian56@huawei.com,net: let net.core.dev_weight always be non-zero,d1f9f79fa2af
+2024-12-18,Zhang Kunbo,zhangkunbo@huawei.com,sparc: replace zero-length array with flexible-array member,f4ab18683022
+2025-01-15,Pu Lehui,pulehui@huawei.com,selftests/bpf: Add distilled BTF test about marking BTF_IS_EMBEDDED,556a39940663
+2025-01-15,Pu Lehui,pulehui@huawei.com,libbpf: Fix incorrect traversal end type ID when marking BTF_IS_EMBEDDED,5ca681a86ef9
+2025-01-15,Pu Lehui,pulehui@huawei.com,libbpf: Fix return zero when elf_begin failed,5436a54332c1
+2025-01-15,Pu Lehui,pulehui@huawei.com,selftests/bpf: Fix btf leak on new btf alloc failure in btf_distill test,4a04cb326a6c
+2025-01-11,Liu Shixin,liushixin2@huawei.com,mm: khugepaged: fix call hpage_collapse_scan_file() for anonymous vma,f1897f2f08b2
+2024-12-18,Zhang Kunbo,zhangkunbo@huawei.com,wifi: mt76: mt7925: replace zero-length array with flexible-array member,8ad8b8c2dc87
+2025-01-03,Yang Shen,shenyang39@huawei.com,crypto: hisilicon/qm - support new function communication,061b27e37238
+2024-09-03,Liao Chen,liaochen4@huawei.com,PCI: mvebu: Enable module autoloading,26cdda544479
+2025-01-07,Hongbo Li,lihongbo22@huawei.com,bcachefs: bcachefs_metadata_version_directory_size,c72deb03ff04
+2025-01-07,Hongbo Li,lihongbo22@huawei.com,bcachefs: make directory i_size meaningful,e614a6c52d32
+2025-01-09,Yu Kuai,yukuai3@huawei.com,"md/md-bitmap: move bitmap_{start, end}write to md upper layer",cd5fc6533818
+2025-01-09,Yu Kuai,yukuai3@huawei.com,md/raid5: implement pers->bitmap_sector(),9c89f604476c
+2025-01-09,Yu Kuai,yukuai3@huawei.com,md: add a new callback pers->bitmap_sector(),0c984a283a3e
+2025-01-09,Yu Kuai,yukuai3@huawei.com,md/md-bitmap: remove the last parameter for bimtap_ops->endwrite(),4f0e7d0e03b7
+2025-01-09,Yu Kuai,yukuai3@huawei.com,md/md-bitmap: factor behind write counters out from bitmap_{start/end}write(),08c50142a128
+2025-01-11,Shiju Jose,shiju.jose@huawei.com,cxl/test: Update test code for event records to CXL spec rev 3.1,6cdbd84dc42b
+2025-01-11,Shiju Jose,shiju.jose@huawei.com,cxl/events: Update Memory Module Event Record to CXL spec rev 3.1,4c6e20eb564e
+2025-01-11,Shiju Jose,shiju.jose@huawei.com,cxl/events: Update DRAM Event Record to CXL spec rev 3.1,24ec41f7c7b2
+2025-01-11,Shiju Jose,shiju.jose@huawei.com,cxl/events: Update General Media Event Record to CXL spec rev 3.1,ae8341313058
+2025-01-11,Shiju Jose,shiju.jose@huawei.com,cxl/events: Add Component Identifier formatting for CXL spec rev 3.1,816667585016
+2025-01-11,Shiju Jose,shiju.jose@huawei.com,cxl/events: Update Common Event Record to CXL spec rev 3.1,5e31e3477f16
+2025-01-02,Yu Kuai,yukuai3@huawei.com,md: reintroduce md-linear,127186cfb184
+2024-12-23,Long Li,leo.lilong@huawei.com,xfs: remove bp->b_error check in xfs_attr3_root_inactive,09f7680dea87
+2024-12-23,Long Li,leo.lilong@huawei.com,xfs: remove redundant update for ticket->t_curr_res in xfs_log_ticket_regrant,adcaff355bd8
+2024-12-09,Long Li,leo.lilong@huawei.com,xfs: clean up xfs_end_ioend() to reuse local variables,99fc33d16b24
+2025-01-11,Long Li,leo.lilong@huawei.com,xfs: fix mount hang during primary superblock recovery failure,efebe42d95fb
+2024-12-10,pangliyuan,pangliyuan1@huawei.com,Squashfs: don't allocate fragment caches more than fragments,78188dd1d24b
+2024-11-12,Hongbo Li,lihongbo22@huawei.com,bcachefs: add counter_flags for counters,d01ea14da718
+2025-01-09,Huisong Li,lihuisong@huawei.com,hwmon: (acpi_power_meter) Fix update the power trip points on failure,02f1a5911550
+2025-01-09,Huisong Li,lihuisong@huawei.com,hwmon: (acpi_power_meter) Fix uninitialized variables,7532e68f5d8f
+2025-01-08,Yu Kuai,yukuai3@huawei.com,"block, bfq: fix waker_bfqq UAF after bfq_split_bfqq()",fcede1f0a043
+2025-01-08,Hou Tao,houtao1@huawei.com,bpf: Remove migrate_{disable|enable} from bpf_selem_free(),d86088e2c35d
+2025-01-08,Hou Tao,houtao1@huawei.com,bpf: Remove migrate_{disable|enable} from bpf_local_storage_free(),7b984359e097
+2025-01-08,Hou Tao,houtao1@huawei.com,bpf: Remove migrate_{disable|enable} from bpf_local_storage_alloc(),4855a75ebf48
+2025-01-08,Hou Tao,houtao1@huawei.com,bpf: Remove migrate_{disable|enable} from bpf_selem_alloc(),2269b32ab00e
+2025-01-08,Hou Tao,houtao1@huawei.com,"bpf: Remove migrate_{disable,enable} in bpf_cpumask_release()",6a52b965ab6f
+2025-01-08,Hou Tao,houtao1@huawei.com,bpf: Remove migrate_{disable|enable} in bpf_obj_free_fields(),1d2dbe7120e8
+2025-01-08,Hou Tao,houtao1@huawei.com,bpf: Disable migration before calling ops->map_free(),4b7e7cd1c105
+2025-01-08,Hou Tao,houtao1@huawei.com,bpf: Disable migration in bpf_selem_free_rcu,090d7f2e640b
+2025-01-08,Hou Tao,houtao1@huawei.com,bpf: Disable migration when cloning sock storage,dfccfc47bde5
+2025-01-08,Hou Tao,houtao1@huawei.com,bpf: Disable migration when destroying sock storage,7d1032d1e303
+2025-01-08,Hou Tao,houtao1@huawei.com,bpf: Disable migration when destroying inode storage,e319cdc89566
+2025-01-08,Hou Tao,houtao1@huawei.com,bpf: Remove migrate_{disable|enable} from bpf_task_storage_lock helpers,9e6c958b5466
+2025-01-08,Hou Tao,houtao1@huawei.com,bpf: Remove migrate_{disable|enable} from bpf_cgrp_storage_lock helpers,25dc65f75b08
+2025-01-08,Hou Tao,houtao1@huawei.com,bpf: Remove migrate_{disable|enable} in htab_elem_free,53f2ba0b1cc0
+2025-01-08,Hou Tao,houtao1@huawei.com,bpf: Remove migrate_{disable|enable} in ->map_for_each_callback,ea5b229630a6
+2025-01-08,Hou Tao,houtao1@huawei.com,bpf: Remove migrate_{disable|enable} from LPM trie,1b1a01db17af
+2025-01-06,Chen Ridong,chenridong@huawei.com,cgroup/cpuset: remove kernfs active break,3cb97a927fff
+2025-01-06,Jie Wang,wangjie125@huawei.com,net: hns3: fix kernel crash when 1588 is sent on HIP08 devices,9741e72b2286
+2025-01-06,Hao Lan,lanhao@huawei.com,net: hns3: fixed hclge_fetch_pf_reg accesses bar space out of bounds issue,7997ddd46c54
+2025-01-06,Jian Shen,shenjian15@huawei.com,net: hns3: initialize reset_timer before hclgevf_misc_irq_init(),247fd1e33e1c
+2025-01-06,Jian Shen,shenjian15@huawei.com,net: hns3: don't auto enable misc vector,98b1e3b27734
+2025-01-06,Hao Lan,lanhao@huawei.com,net: hns3: Resolved the issue that the debugfs query result is inconsistent.,5191a8d3c2ab
+2025-01-06,Hao Lan,lanhao@huawei.com,net: hns3: fix missing features due to dev->features configuration too early,ac1e2836fe29
+2025-01-06,Hao Lan,lanhao@huawei.com,net: hns3: fixed reset failure issues caused by the incorrect reset type,5a4b584c6769
+2025-01-04,Pu Lehui,pulehui@huawei.com,bpf: Move out synchronize_rcu_tasks_trace from mutex CS,ca3c4f646a9f
+2024-10-15,Zhen Lei,thunder.leizhen@huawei.com,media: nuvoton: Fix an error check in npcm_video_ece_init(),c4b7779abc66
+2025-01-06,Yue Haibing,yuehaibing@huawei.com,ixgbevf: Fix passing 0 to ERR_PTR in ixgbevf_run_xdp(),35f715cb77c3
+2025-01-06,Yue Haibing,yuehaibing@huawei.com,ixgbe: Fix passing 0 to ERR_PTR in ixgbe_run_xdp(),c824125cbb18
+2025-01-06,Yue Haibing,yuehaibing@huawei.com,igb: Fix passing 0 to ERR_PTR in igb_run_xdp(),8ae94669b1f3
+2025-01-06,Yue Haibing,yuehaibing@huawei.com,igc: Fix passing 0 to ERR_PTR in igc_xdp_run_prog(),8b6237e1f4d4
+2024-11-14,Li Huafei,lihuafei1@huawei.com,topology: Keep the cpumask unchanged when printing cpumap,cbd399f78e23
+2025-01-07,GONG Ruiqi,gongruiqi1@huawei.com,usb: typec: fix pm usage counter imbalance in ucsi_ccg_sync_control(),b0e525d7a22e
+2025-01-03,Yu Kuai,yukuai3@huawei.com,nbd: don't allow reconnect after disconnect,844b8cdc6816
+2024-12-25,Yang Erkun,yangerkun@huawei.com,nfsd: fix UAF when access ex_uuid or ex_stats,2530766492ec
+2024-12-25,Yang Erkun,yangerkun@huawei.com,SUNRPC: no need get cache ref when protected by rcu,1b10f0b603c0
+2024-12-25,Yang Erkun,yangerkun@huawei.com,nfsd: no need get cache ref when protected by rcu,c224edca7af0
+2024-12-25,Yang Erkun,yangerkun@huawei.com,SUNRPC: introduce cache_check_rcu to help check in rcu context,2f55dbe4e207
+2024-12-09,Yang Erkun,yangerkun@huawei.com,block: retry call probe after request_module in blk_request_module,457ef47c08d2
+2025-01-03,Baihan Li,libaihan@huawei.com,drm/hisilicon/hibmc: add dp module in hibmc,0ab6ea261c1f
+2025-01-03,Baihan Li,libaihan@huawei.com,drm/hisilicon/hibmc: refactored struct hibmc_drm_private,587013d72c1a
+2025-01-03,Baihan Li,libaihan@huawei.com,drm/hisilicon/hibmc: add dp hw moduel in hibmc driver,94ee73ee3020
+2025-01-03,Baihan Li,libaihan@huawei.com,drm/hisilicon/hibmc: add dp link moduel in hibmc drivers,54063d86e036
+2025-01-03,Baihan Li,libaihan@huawei.com,drm/hisilicon/hibmc: add dp aux in hibmc drivers,057e77972556
+2024-10-11,Zheng Yejian,zhengyejian@huaweicloud.com,"kallsyms: Fix wrong ""big"" kernel symbol type read from procfs",f3f9f42232de
+2025-10-23,Tengda Wu,wutengda@huaweicloud.com,x86/dumpstack: Prevent KASAN false positive warnings in __show_regs(),ced37e9ceae5
+2025-09-02,Wang Zhaolong,wangzhaolong@huaweicloud.com,mtd: core: skip badblocks increment for blocks already known bad,9781c381c159
+2025-09-04,Zizhi Wo,wozizhi@huaweicloud.com,tty/vt: Add missing return value for VT_RESIZE in vt_ioctl(),da7e8b382396
+2025-08-19,Luo Gengkun,luogengkun@huaweicloud.com,tracing: Fix tracing_marker may trigger page fault during preempt_disable,3d62ab32df06
+2025-08-29,Wang Zhaolong,wangzhaolong@huaweicloud.com,smb: client: Fix NULL pointer dereference in cifs_debug_dirs_proc_show(),6976c7a69daf
+2025-08-22,Tengda Wu,wutengda@huaweicloud.com,ftrace: Fix potential warning in trace_printk_seq during ftrace_dump,4013aef2ced9
+2025-08-01,Wang Zhaolong,wangzhaolong@huaweicloud.com,smb: client: remove redundant lstrp update in negotiate protocol,e19d8dd694d2
+2025-08-11,Wang Zhaolong,wangzhaolong@huaweicloud.com,smb: client: fix mid_q_entry memleak leak with per-mid locking,e3835731e169
+2025-08-04,Wang Zhaolong,wangzhaolong@huaweicloud.com,smb: client: smb: client: eliminate mid_flags field,3fd8ec2fc93b
+2025-08-04,Wang Zhaolong,wangzhaolong@huaweicloud.com,smb: client: add mid_counter_lock to protect the mid counter counter,9bd42798d5bf
+2025-08-04,Wang Zhaolong,wangzhaolong@huaweicloud.com,smb: client: rename server mid_lock to mid_queue_lock,f3ba7c9b0421
+2025-07-17,Wang Zhaolong,wangzhaolong@huaweicloud.com,smb: client: fix netns refcount leak after net_passive changes,59b33fab4ca4
+2025-05-22,Kemeng Shi,shikemeng@huaweicloud.com,mm: swap: remove stale comment stale comment in cluster_alloc_swap_entry(),8678d1faf1d4
+2025-05-22,Kemeng Shi,shikemeng@huaweicloud.com,mm: swap: fix potential buffer overflow in setup_clusters(),152c1339dc13
+2025-05-22,Kemeng Shi,shikemeng@huaweicloud.com,mm: swap: correctly use maxpages in swapon syscall to avoid potential deadloop,255116c5b0fa
+2025-05-22,Kemeng Shi,shikemeng@huaweicloud.com,mm: swap: move nr_swap_pages counter decrement from folio_alloc_swap() to swap_range_alloc(),4f78252da887
+2025-07-05,Wang Zhaolong,wangzhaolong@huaweicloud.com,smb: client: fix use-after-free in crypt_message when using async crypto,b220bed63330
+2025-07-07,Wang Zhaolong,wangzhaolong@huaweicloud.com,smb: client: fix use-after-free in cifs_oplock_break,705c79101ccf
+2025-07-03,Wang Zhaolong,wangzhaolong@huaweicloud.com,smb: client: fix race condition in negotiate timeout by using more precise timing,266b5d02e14f
+2025-06-26,Luo Gengkun,luogengkun@huaweicloud.com,perf/core: Fix the WARN_ON_ONCE is out of lock protected region,7b4c5a37544b
+2025-06-04,Tengda Wu,wutengda@huaweicloud.com,arm64/ptrace: Fix stack-out-of-bounds read in regs_get_kernel_stack_nth(),39dfc971e42d
+2025-06-04,Luo Gengkun,luogengkun@huaweicloud.com,perf/core: Fix WARN in perf_cgroup_switch(),3172fb986666
+2025-05-17,Kemeng Shi,shikemeng@huaweicloud.com,mm/shmem: remove unneeded xa_is_value() check in shmem_unuse_swap_entries(),c5a9deace609
+2025-05-17,Kemeng Shi,shikemeng@huaweicloud.com,mm: shmem: only remove inode from swaplist when it's swapped page count is 0,a5cdbe9f376f
+2025-05-17,Kemeng Shi,shikemeng@huaweicloud.com,mm/shmem: fix potential dead loop in shmem_unuse(),3f778ab1b524
+2025-05-17,Kemeng Shi,shikemeng@huaweicloud.com,mm: shmem: add missing shmem_unacct_size() in __shmem_file_setup(),594ec2ab389a
+2025-05-17,Kemeng Shi,shikemeng@huaweicloud.com,mm: shmem: avoid unpaired folio_unlock() in shmem_swapin_folio(),e08d5f515613
+2025-05-26,Pan Taixi,pantaixi@huaweicloud.com,tracing: Fix compilation warning on arm32,2fbdb6d8e03b
+2025-04-21,Luo Gengkun,luogengkun@huaweicloud.com,watchdog: fix watchdog may detect false positive of softlockup,7123dbbef88c
+2025-03-26,Kemeng Shi,shikemeng@huaweicloud.com,mm: swap: replace cluster_swap_free_nr() with swap_entries_put_[map/cache](),ec9827cd28b1
+2025-03-26,Kemeng Shi,shikemeng@huaweicloud.com,mm: swap: factor out helper to drop cache of entries within a single cluster,d4f8000bd6b0
+2025-03-26,Kemeng Shi,shikemeng@huaweicloud.com,mm: swap: free each cluster individually in swap_entries_put_map_nr(),4d71d9062dd7
+2025-03-26,Kemeng Shi,shikemeng@huaweicloud.com,mm: swap: drop last SWAP_MAP_SHMEM flag in batch in swap_entries_put_nr(),f2252acf4447
+2025-03-26,Kemeng Shi,shikemeng@huaweicloud.com,mm: swap: use swap_entries_free() drop last ref count in swap_entries_put_nr(),46e0ab2c6206
+2025-03-26,Kemeng Shi,shikemeng@huaweicloud.com,mm: swap: use swap_entries_free() to free swap entry in swap_entry_put_locked(),835b868878d0
+2025-03-26,Kemeng Shi,shikemeng@huaweicloud.com,mm: swap: enable swap_entry_range_free() to drop any kind of last ref,64944ef6a13e
+2025-03-26,Kemeng Shi,shikemeng@huaweicloud.com,mm: swap: rename __swap_[entry/entries]_free[_locked] to swap_[entry/entries]_put[_locked],9c1c38bcdc92
+2025-04-23,Luo Gengkun,luogengkun@huaweicloud.com,perf/x86: Fix non-sampling (counting) events on certain x86 platforms,1a97fea9db9e
+2025-03-20,Tengda Wu,wutengda@huaweicloud.com,tracing: Fix use-after-free in print_graph_function_flags during tracer switching,7f81f27b1093
+2025-02-23,Kemeng Shi,shikemeng@huaweicloud.com,mm: swap: remove stale comment of swap_reclaim_full_clusters(),0a8a5b6c4129
+2025-02-23,Kemeng Shi,shikemeng@huaweicloud.com,"mm, swap: correct comment in swap_usage_sub()",2310f0894225
+2025-02-23,Kemeng Shi,shikemeng@huaweicloud.com,"mm, swap: remove setting SWAP_MAP_BAD for discard cluster",43e9bbc3bb19
+2025-01-24,Kemeng Shi,shikemeng@huaweicloud.com,"ext4: remove unused input ""inode"" in ext4_find_dest_de",477aa77ccea4
+2025-01-24,Kemeng Shi,shikemeng@huaweicloud.com,ext4: remove unneeded forward declaration in namei.c,e8eac9fc4832
+2025-01-24,Kemeng Shi,shikemeng@huaweicloud.com,ext4: add missing brelse() for bh2 in ext4_dx_add_entry(),eb640af64db6
+2025-03-14,Tengda Wu,wutengda@huaweicloud.com,tracing: Correct the refcount if the hist/hist_debug file fails to open,0b4ffbe4888a
+2025-01-23,Kemeng Shi,shikemeng@huaweicloud.com,jbd2: Correct stale comment of release_buffer_page,fd3b3d7f51e6
+2025-01-23,Kemeng Shi,shikemeng@huaweicloud.com,jbd2: correct stale function name in comment,da5803391e37
+2025-01-23,Kemeng Shi,shikemeng@huaweicloud.com,jbd2: remove stale comment of update_t_max_wait,6c146277903f
+2025-01-23,Kemeng Shi,shikemeng@huaweicloud.com,jbd2: remove unused return value of do_readahead,0d26708d8ec4
+2025-01-23,Kemeng Shi,shikemeng@huaweicloud.com,jbd2: remove unused return value of jbd2_journal_cancel_revoke,9e6d3f9c8a85
+2025-01-23,Kemeng Shi,shikemeng@huaweicloud.com,jbd2: remove unused h_jdata flag of handle,ec2249384924
+2025-02-23,Kemeng Shi,shikemeng@huaweicloud.com,"mm, swap: avoid BUG_ON in relocate_cluster()",57d910cffaa0
+2025-02-23,Kemeng Shi,shikemeng@huaweicloud.com,mm: swap: use correct step in loop to wait all clusters in wait_for_allocation(),7a2e7ae5d136
+2025-02-24,Kemeng Shi,shikemeng@huaweicloud.com,mm: swap: add back full cluster when no entry is reclaimed,51f271c1940f
+2024-12-23,Luo Gengkun,luogengkun@huaweicloud.com,perf: Remove unnecessary parameter of security check,9ec84f79c5a7
+2024-11-05,Jonas Oberhauser,jonas.oberhauser@huaweicloud.com,tools/memory-model: Distinguish between syntactic and semantic tags,dcc5197839f2
+2024-09-30,Jonas Oberhauser,jonas.oberhauser@huaweicloud.com,tools/memory-model: Switch to softcoded herd7 tags,fafa18068359
+2025-01-22,Luo Gengkun,luogengkun@huaweicloud.com,perf/core: Order the PMU list to fix warning about unordered pmu_ctx_list,2016066c6619
+2024-09-30,Jonas Oberhauser,jonas.oberhauser@huaweicloud.com,tools/memory-model: Define effect of Mb tags on RMWs in tools/...,29279349a566
+2024-09-30,Jonas Oberhauser,jonas.oberhauser@huaweicloud.com,tools/memory-model: Define applicable tags on operation in tools/...,723177d71224
+2024-09-30,Jonas Oberhauser,jonas.oberhauser@huaweicloud.com,tools/memory-model: Legitimize current use of tags in LKMM macros,de6f99723392
+2025-02-14,Kemeng Shi,shikemeng@huaweicloud.com,test_xarray: fix failure in check_pause when CONFIG_XARRAY_MULTI is not defined,8344017aaf32
+2024-12-18,Kemeng Shi,shikemeng@huaweicloud.com,ext4: remove unneeded forward declaration,5e22ff3bc935
+2024-12-18,Kemeng Shi,shikemeng@huaweicloud.com,jbd2: remove unused transaction->t_private_list,06b9e91425b2
+2024-12-18,Kemeng Shi,shikemeng@huaweicloud.com,ext4: remove unused ext4 journal callback,fa1008e3df62
+2025-01-22,Tengda Wu,wutengda@huaweicloud.com,selftests/bpf: Fix freplace_link segfault in tailcalls prog test,a63a631c9b5c
+2024-12-13,Kemeng Shi,shikemeng@huaweicloud.com,Xarray: use xa_mark_t in xas_squash_marks() to keep code consistent,13fd5cf37456
+2024-12-13,Kemeng Shi,shikemeng@huaweicloud.com,Xarray: remove repeat check in xas_squash_marks(),1988b318b32d
+2024-12-13,Kemeng Shi,shikemeng@huaweicloud.com,Xarray: distinguish large entries correctly in xas_split_alloc(),97db889b961e
+2024-12-13,Kemeng Shi,shikemeng@huaweicloud.com,Xarray: move forward index correctly in xas_pause(),c9ba5249ef8b
+2024-12-13,Kemeng Shi,shikemeng@huaweicloud.com,Xarray: do not return sibling entries from xas_find_marked(),7e060df04f56
+2025-02-05,Mikhail Ivanov,ivanov.mikhail1@huawei-partners.com,selftests/landlock: Test that MPTCP actions are not restricted,3d4033985ff5
+2025-02-05,Mikhail Ivanov,ivanov.mikhail1@huawei-partners.com,selftests/landlock: Test TCP accesses with protocol=IPPROTO_TCP,f5534d511bcd
+2025-02-05,Mikhail Ivanov,ivanov.mikhail1@huawei-partners.com,landlock: Fix non-TCP sockets restriction,854277e2cc8c

@@ -1,0 +1,44 @@
+﻿Date,Author Name,Author Email,Subject,Commit Hash
+2025-11-26,Li RongQing,lirongqing@baidu.com,RDMA/core: Reduce cond_resched() frequency in __ib_umem_release,f37e28687923
+2025-10-06,Fushuai Wang,wangfushuai@baidu.com,mm/vmscan: remove redundant __GFP_NOWARN,bd63d0fde2a2
+2025-11-13,Li RongQing,lirongqing@baidu.com,RDMA/core: Prevent soft lockup during large user memory region cleanup,d056bc45b62b
+2025-10-15,Li RongQing,lirongqing@baidu.com,hung_task: panic when there are more than N hung tasks at the same time,9544f9e6947f
+2025-10-10,Fushuai Wang,wangfushuai@baidu.com,selftests: livepatch: use canonical ftrace path,5cb5575308bc
+2025-10-07,Fushuai Wang,wangfushuai@baidu.com,cifs: Fix copy_to_iter return value check,0cc380d0e1d3
+2025-10-07,Fushuai Wang,wangfushuai@baidu.com,bpf: Use rcu_read_lock_dont_migrate in bpf_sk_storage.c,0db4941d9dae
+2025-08-11,Fushuai Wang,wangfushuai@baidu.com,tracing/osnoise: Use for_each_online_cpu() instead of for_each_cpu(),1d67d67a8c88
+2025-08-11,Fushuai Wang,wangfushuai@baidu.com,soc/fsl/qbman: Use for_each_online_cpu() instead of for_each_cpu(),5498f07842cb
+2025-09-01,Li RongQing,lirongqing@baidu.com,mm/hugetlb: retry to allocate for early boot hugepage allocation,2a8f3f44f5ac
+2025-09-17,Fushuai Wang,wangfushuai@baidu.com,perf trace: Fix IS_ERR() vs NULL check bug,b0f4ade163e5
+2025-09-14,Fushuai Wang,wangfushuai@baidu.com,drm/xe: Use ERR_CAST instead of ERR_PTR(PTR_ERR(...)),84afb84bcc28
+2025-08-14,Li RongQing,lirongqing@baidu.com,mm/hugetlb: early exit from hugetlb_pages_alloc_boot() when max_huge_pages=0,b322e88b3d55
+2025-07-22,Li RongQing,lirongqing@baidu.com,x86/kvm: Prefer native qspinlock for dedicated vCPUs irrespective of PV_UNHALT,960550503965
+2025-07-03,Li RongQing,lirongqing@baidu.com,virtio_fs: fix the hash table using in virtio_fs_enqueue_req(),7dbe64424877
+2025-06-15,Li RongQing,lirongqing@baidu.com,virtio_fs: Remove redundant spinlock in virtio_fs_request_complete(),b4da63cea158
+2025-08-11,Fushuai Wang,wangfushuai@baidu.com,irqchip/sifive-plic: Use for_each_present_cpu() instead of for_each_cpu(),b92ff23b1204
+2025-08-19,Li RongQing,lirongqing@baidu.com,x86/bugs: Fix GDS mitigation selecting when mitigation is off,d4932a1b148b
+2025-08-15,Li RongQing,lirongqing@baidu.com,eth: nfp: Remove u64_stats_update_begin()/end() for stats fetch,1fb39d4c23b1
+2025-08-18,Fushuai Wang,wangfushuai@baidu.com,bpf: Replace get_next_cpu() with cpumask_next_wrap(),d87fdb1f27d7
+2025-08-11,Fushuai Wang,wangfushuai@baidu.com,IB/hfi1: Use for_each_online_cpu() instead of for_each_cpu(),211dc59b7bb5
+2025-08-11,Fushuai Wang,wangfushuai@baidu.com,x86/fpu: Fix NULL dereference in avx512_status(),31cd31c9e17e
+2025-07-31,Li RongQing,lirongqing@baidu.com,nfs/localio: use read_seqbegin() rather than read_seqbegin_or_lock(),533210f23936
+2025-06-23,Li RongQing,lirongqing@baidu.com,cpufreq: intel_pstate: Add Granite Rapids support in no-HWP mode,fc64e0421598
+2025-06-15,Fushuai Wang,wangfushuai@baidu.com,exit: fix misleading comment in forget_original_parent(),d71b90e5ba83
+2025-06-28,Fushuai Wang,wangfushuai@baidu.com,sfc: siena: eliminate xdp_rxq_info_valid using XDP base API,ca899622c528
+2025-06-28,Fushuai Wang,wangfushuai@baidu.com,sfc: eliminate xdp_rxq_info_valid using XDP base API,582643672deb
+2025-06-26,Fushuai Wang,wangfushuai@baidu.com,net/mlx5e: Fix error handling in RQ memory model registration,7012d4f3c7a8
+2025-06-26,Fushuai Wang,wangfushuai@baidu.com,dpaa2-eth: fix xdp_rxq_info leak,2def09ead4ad
+2025-06-12,Fushuai Wang,wangfushuai@baidu.com,selftests/bpf: fix signedness bug in redir_partial(),6a4bd31f680a
+2025-06-07,wangfushuai,wangfushuai@baidu.com,docs: proc: update VmFlags documentation in smaps,1b8e4091ffb4
+2025-05-15,Wenjie Xu,xuwenjie04@baidu.com,hugetlb: show nr_huge_pages in report_hugepages(),3aefb1f06994
+2025-05-21,Li RongQing,lirongqing@baidu.com,vfio/type1: Fix error unwind in migration dirty bitmap allocation,4518e5a60c7f
+2025-05-06,Li RongQing,lirongqing@baidu.com,KVM: Remove obsolete comment about locking for kvm_io_bus_read/write,37d8bad41d2b
+2025-04-10,Li RongQing,lirongqing@baidu.com,fs: Make file-nr output the total allocated file handles,ef181fa11d9e
+2025-03-06,Li RongQing,lirongqing@baidu.com,perf/x86/intel/bts: Check if bts_ctx is allocated when calling BTS functions,7a310c644cf5
+2025-01-22,Li RongQing,lirongqing@baidu.com,perf/x86/intel/bts: Allocate bts_ctx only if necessary,3acfcefa795c
+2025-02-18,Li RongQing,lirongqing@baidu.com,PM: EM: use kfree_rcu() to simplify the code,1618f635bdf5
+2025-01-22,Li RongQing,lirongqing@baidu.com,KVM: x86: Use kvfree_rcu() to free old optimized APIC map,82c470121c7b
+2025-02-10,Li RongQing,lirongqing@baidu.com,sched_ext: Take NUMA node into account when allocating per-CPU cpumasks,1a4e0d8682eb
+2025-01-09,Li RongQing,lirongqing@baidu.com,net: ethtool: Use hwprov under rcu_read_lock,b493f881aaa7
+2025-01-03,Gao Shiyuan,gaoshiyuan@baidu.com,KVM: VMX: Fix comment of handle_vmx_instruction(),4d141e444e26
+2025-01-04,Gao Shiyuan,gaoshiyuan@baidu.com,iommu/amd: remove return value of amd_iommu_detect,5bb494d5cbb9

@@ -1,0 +1,252 @@
+﻿Date,Author Name,Author Email,Subject,Commit Hash
+2025-12-31,Tiezhu Yang,yangtiezhu@loongson.cn,LoongArch: Remove unnecessary checks for ORC unwinder,4cd641a79e69
+2025-12-31,Tiezhu Yang,yangtiezhu@loongson.cn,LoongArch: Remove is_entry_func() and kernel_entry_end,6e5416d63bcb
+2025-12-31,Tiezhu Yang,yangtiezhu@loongson.cn,LoongArch: Use UNWIND_HINT_END_OF_STACK for entry points,1b2f4706c6a2
+2025-12-06,Song Gao,gaosong@loongson.cn,LoongArch: Add and use some macros for AVEC,dbb994b44c33
+2025-12-06,Tiezhu Yang,yangtiezhu@loongson.cn,LoongArch: Use unsigned long for _end and _text,a258a3cb1895
+2025-11-28,Bibo Mao,maobibo@loongson.cn,KVM: LoongArch: selftests: Add time counter test case,0f90fa6e2e9d
+2025-11-28,Bibo Mao,maobibo@loongson.cn,KVM: LoongArch: selftests: Add SW emulated timer test case,4e8824094069
+2025-11-28,Bibo Mao,maobibo@loongson.cn,KVM: LoongArch: selftests: Add timer interrupt test case,df41742343fa
+2025-11-27,Bibo Mao,maobibo@loongson.cn,KVM: LoongArch: selftests: Add exception handler register interface,d84fe2f30b0a
+2025-11-27,Bibo Mao,maobibo@loongson.cn,KVM: LoongArch: selftests: Add basic interfaces,1c5d3a1eab32
+2025-11-27,Bibo Mao,maobibo@loongson.cn,KVM: LoongArch: selftests: Add system registers save/restore on exception,985a96983bed
+2025-11-27,Bibo Mao,maobibo@loongson.cn,LoongArch: KVM: Use 64-bit register definition for EIOINTC,d3e43a1f34ac
+2025-11-27,Song Gao,gaosong@loongson.cn,LoongArch: KVM: Add AVEC basic support,7bcd8d0b2237
+2025-11-27,Bibo Mao,maobibo@loongson.cn,LoongArch: KVM: Get VM PMU capability from HW GCFG register,74087611f0ba
+2025-10-11,Binbin Zhou,zhoubinbin@loongson.cn,LoongArch: dts: Add uart new compatible string,13532b5186a7
+2025-10-11,Binbin Zhou,zhoubinbin@loongson.cn,serial: 8250: Add Loongson uart driver support,25e95d763176
+2025-10-11,Binbin Zhou,zhoubinbin@loongson.cn,dt-bindings: serial: 8250: Add Loongson uart compatible,7cf86b66e562
+2025-11-20,Bibo Mao,maobibo@loongson.cn,LoongArch: Fix NUMA node parsing with numa_memblks,acf5de1b23b0
+2025-11-09,Binbin Zhou,zhoubinbin@loongson.cn,mmc: meson-mx-sdio: Use devm_mmc_alloc_host() helper,baa74c214427
+2025-11-07,Binbin Zhou,zhoubinbin@loongson.cn,watchdog: loongson1: Add Loongson-2k0300 watchdog support,e0c50cddbd94
+2025-11-07,Binbin Zhou,zhoubinbin@loongson.cn,"dt-bindings: watchdog: loongson,ls1x-wdt: Add ls2k0300-wdt compatible",e4948e801129
+2025-11-07,Binbin Zhou,zhoubinbin@loongson.cn,watchdog: loongson1: Drop CONFIG_OF,9d8ca99d60a1
+2025-11-07,Binbin Zhou,zhoubinbin@loongson.cn,watchdog: loongson1: Simplify ls1x_wdt_probe code,6121d0b8891a
+2025-11-07,Binbin Zhou,zhoubinbin@loongson.cn,watchdog: loongson1: Add missing MODULE_PARM_DESC,f909b3d4f1ab
+2025-11-09,Bibo Mao,maobibo@loongson.cn,LoongArch: KVM: Fix max supported vCPUs set with EIOINTC,237e74bfa261
+2025-11-09,Bibo Mao,maobibo@loongson.cn,LoongArch: KVM: Skip PMU checking on vCPU context switch,11f340ece403
+2025-11-09,Bibo Mao,maobibo@loongson.cn,LoongArch: KVM: Restore guest PMU if it is enabled,5001bcf86edf
+2025-11-09,Bibo Mao,maobibo@loongson.cn,LoongArch: KVM: Add delay until timer interrupt injected,d3c9515e4f9d
+2025-11-09,Bibo Mao,maobibo@loongson.cn,LoongArch: KVM: Set page with write attribute if dirty track disabled,37e9d1a91382
+2025-11-09,Tiezhu Yang,yangtiezhu@loongson.cn,LoongArch: Refine the init_hw_perf_events() function,4c8a7c982772
+2025-11-09,Tianyang Zhang,zhangtianyang@loongson.cn,"LoongArch: Let {pte,pmd}_modify() record the status of _PAGE_DIRTY",a073d637c8cf
+2025-10-23,Binbin Zhou,zhoubinbin@loongson.cn,gpio: loongson-64bit: Switch to dynamic allocate GPIO base in byte mode,3cde66094575
+2025-10-16,Tiezhu Yang,yangtiezhu@loongson.cn,drm/amd: Fix set but not used warnings,46791d147d3a
+2025-10-18,Tiezhu Yang,yangtiezhu@loongson.cn,selftests/bpf: Silence unused-but-set build warnings,c67f4ae73798
+2025-10-15,Binbin Zhou,zhoubinbin@loongson.cn,MAINTAINERS: Add entry on Loongson-2K IPMI driver,35bcedc1a793
+2025-10-02,Tiezhu Yang,yangtiezhu@loongson.cn,LoongArch: BPF: Optimize sign-extention mov instructions,24ff0347bbfd
+2025-10-02,Tiezhu Yang,yangtiezhu@loongson.cn,LoongArch: Handle new atomic instructions for probes,db740f5689e6
+2025-10-02,Tiezhu Yang,yangtiezhu@loongson.cn,LoongArch: Add cflag -fno-isolate-erroneous-paths-dereference,abb2a5572264
+2025-09-04,Binbin Zhou,zhoubinbin@loongson.cn,mfd: ls2kbmc: Add Loongson-2K BMC reset function support,d952bba3fbb5
+2025-09-04,Binbin Zhou,zhoubinbin@loongson.cn,mfd: ls2kbmc: Introduce Loongson-2K BMC core driver,0d64f6d1ffe9
+2025-09-23,Bibo Mao,maobibo@loongson.cn,LoongArch: KVM: Add different length support in loongarch_pch_pic_write(),f851fdd895de
+2025-09-23,Bibo Mao,maobibo@loongson.cn,LoongArch: KVM: Add different length support in loongarch_pch_pic_read(),f8a73df503f5
+2025-09-23,Bibo Mao,maobibo@loongson.cn,LoongArch: KVM: Add IRR and ISR register read emulation,eb626c7704dc
+2025-09-23,Bibo Mao,maobibo@loongson.cn,LoongArch: KVM: Set version information at initial stage,2f412eb7650c
+2025-09-23,Bibo Mao,maobibo@loongson.cn,LoongArch: KVM: Access mailbox directly in mail_send(),3da2b0d439aa
+2025-09-23,Bibo Mao,maobibo@loongson.cn,LoongArch: KVM: Add implementation with IOCSR_IPI_SET,1cf7b2881d83
+2025-09-23,Bibo Mao,maobibo@loongson.cn,LoongArch: KVM: Add sign extension with kernel IOCSR read emulation,44598fe77663
+2025-09-23,Bibo Mao,maobibo@loongson.cn,LoongArch: KVM: Add sign extension with kernel MMIO read emulation,80edf90831a2
+2025-09-23,Bibo Mao,maobibo@loongson.cn,LoongArch: KVM: Add PTW feature detection on new hardware,7109f51bcc80
+2025-09-18,Bibo Mao,maobibo@loongson.cn,LoongArch: KVM: Avoid copy_*_user() with lock hold in kvm_pch_pic_regs_access(),8dc5245673cf
+2025-09-18,Bibo Mao,maobibo@loongson.cn,LoongArch: KVM: Avoid copy_*_user() with lock hold in kvm_eiointc_sw_status_access(),01a8e68396a6
+2025-09-18,Bibo Mao,maobibo@loongson.cn,LoongArch: KVM: Avoid copy_*_user() with lock hold in kvm_eiointc_regs_access(),62f11796a0df
+2025-09-18,Bibo Mao,maobibo@loongson.cn,LoongArch: KVM: Avoid copy_*_user() with lock hold in kvm_eiointc_ctrl_access(),47256c4c8b1b
+2025-09-18,Bibo Mao,maobibo@loongson.cn,LoongArch: KVM: Fix VM migration failure with PTW enabled,f58c9aa1065f
+2025-09-18,Tiezhu Yang,yangtiezhu@loongson.cn,LoongArch: Fix unreliable stack for live patching,677d4a52d4dc
+2025-09-18,Tiezhu Yang,yangtiezhu@loongson.cn,LoongArch: Update help info of ARCH_STRICT_ALIGN,f5003098e2f3
+2025-09-18,Tiezhu Yang,yangtiezhu@loongson.cn,LoongArch: Handle jump tables options for RUST,74f8295c6fb8
+2025-09-18,Tiezhu Yang,yangtiezhu@loongson.cn,LoongArch: Make LTO case independent in Makefile,b15212824a01
+2025-09-18,Tiezhu Yang,yangtiezhu@loongson.cn,objtool/LoongArch: Mark special atomic instruction as INSN_BUG type,539d7344d4fe
+2025-09-18,Tiezhu Yang,yangtiezhu@loongson.cn,objtool/LoongArch: Mark types based on break immediate code,baad7830ee9a
+2025-09-04,Binbin Zhou,zhoubinbin@loongson.cn,ipmi: Add Loongson-2K BMC support,d46651d4e3c0
+2025-09-04,Binbin Zhou,zhoubinbin@loongson.cn,mtd: rawnand: loongson: Add Loongson-2K1000 NAND controller support,5808ae66f22e
+2025-09-04,Binbin Zhou,zhoubinbin@loongson.cn,"dt-bindings: mtd: loongson,ls1b-nand-controller: Document the Loongson-2K1000 NAND controller",0b1ae6480c3b
+2025-09-04,Binbin Zhou,zhoubinbin@loongson.cn,mtd: rawnand: loongson: Add Loongson-2K0500 NAND controller support,e55bbdd4a4b6
+2025-09-04,Binbin Zhou,zhoubinbin@loongson.cn,"dt-bindings: mtd: loongson,ls1b-nand-controller: Document the Loongson-2K0500 NAND controller",4a2bab7ccceb
+2025-09-04,Binbin Zhou,zhoubinbin@loongson.cn,mtd: rawnand: loongson: Add nand chip select support,7ad5bdf88d72
+2025-09-04,Binbin Zhou,zhoubinbin@loongson.cn,mtd: rawnand: loongson1: Rename the prefix from ls1x to loongson,7a1e3a452a57
+2025-09-09,Ming Wang,wangming01@loongson.cn,irqchip/loongson-pch-lpc: Use legacy domain for PCH-LPC IRQ controller,c33c43f71bda
+2025-09-06,Bibo Mao,maobibo@loongson.cn,LoongArch: Remove clockevents shutdown call on offlining,d55dd6f5e47d
+2025-09-06,Bibo Mao,maobibo@loongson.cn,tick: Do not set device to detached state in tick_shutdown(),fe2a449a45b1
+2025-07-05,Qunqin Zhao,zhaoqunqin@loongson.cn,MAINTAINERS: Add entry for Loongson Security Engine drivers,74fddd5fbab8
+2025-07-05,Qunqin Zhao,zhaoqunqin@loongson.cn,tpm: Add a driver for Loongson TPM device,5c83b07df9c5
+2025-07-05,Qunqin Zhao,zhaoqunqin@loongson.cn,crypto: loongson - add Loongson RNG driver support,766b2d724c8d
+2025-07-05,Qunqin Zhao,zhaoqunqin@loongson.cn,mfd: Add support for Loongson Security Engine chip controller,e551fa3159e3
+2025-08-26,Tiezhu Yang,yangtiezhu@loongson.cn,selftests/bpf: Remove entries from config.{arch} already present in config,d0f27ff27c04
+2025-08-04,Bibo Mao,maobibo@loongson.cn,irqchip/loongson-eiointc: Add multiple interrupt pin routing support,8ff1c16c753e
+2025-08-04,Bibo Mao,maobibo@loongson.cn,irqchip/loongson-eiointc: Route interrupt parsed from bios table,7fb83eb664e9
+2025-08-20,Bibo Mao,maobibo@loongson.cn,LoongArch: KVM: Add address alignment check in pch_pic register access,538c06e3964a
+2025-08-20,Song Gao,gaosong@loongson.cn,LoongArch: KVM: Use kvm_get_vcpu_by_id() instead of kvm_get_vcpu(),0dfd9ea7bf80
+2025-08-20,Bibo Mao,maobibo@loongson.cn,LoongArch: KVM: Fix stack protector issue in send_ipi_data(),5c68549c81bc
+2025-08-20,Bibo Mao,maobibo@loongson.cn,LoongArch: KVM: Make function kvm_own_lbt() robust,4be8cefc1326
+2025-08-20,Kanglong Wang,wangkanglong@loongson.cn,LoongArch: Optimize module load time by optimizing PLT/GOT counting,63dbd8fb2af3
+2025-08-20,Xianglai Li,lixianglai@loongson.cn,LoongArch: Add cpuhotplug hooks to fix high cpu usage of vCPU threads,8ef7f3132e40
+2025-08-20,Ming Wang,wangming01@loongson.cn,LoongArch: Increase COMMAND_LINE_SIZE up to 4096,f7794a4d92ad
+2025-08-20,Tiezhu Yang,yangtiezhu@loongson.cn,LoongArch: Pass annotate-tablejump option if LTO is enabled,5dfea6644d20
+2025-08-20,Tiezhu Yang,yangtiezhu@loongson.cn,objtool/LoongArch: Get table size correctly if LTO is enabled,a47bc954cf0e
+2025-08-11,Tiezhu Yang,yangtiezhu@loongson.cn,net: stmmac: Return early if invalid in loongson_dwmac_fix_reset(),bfd9d893edfa
+2025-08-11,Tiezhu Yang,yangtiezhu@loongson.cn,net: stmmac: Change first parameter of fix_soc_reset(),139235103f60
+2025-08-11,Tiezhu Yang,yangtiezhu@loongson.cn,net: stmmac: Check stmmac_hw_setup() in stmmac_resume(),6896c2449a18
+2025-08-05,Binbin Zhou,zhoubinbin@loongson.cn,LoongArch: dts: Add eMMC/SDIO controller support to Loongson-2K2000,d3eece04f302
+2025-08-05,Binbin Zhou,zhoubinbin@loongson.cn,LoongArch: dts: Add SDIO controller support to Loongson-2K1000,df0fbf7fab30
+2025-08-05,Binbin Zhou,zhoubinbin@loongson.cn,LoongArch: dts: Add SDIO controller support to Loongson-2K0500,06d380c470ef
+2025-08-05,Tiezhu Yang,yangtiezhu@loongson.cn,LoongArch: BPF: Set bpf_jit_bypass_spec_v1/v4(),8568df83ea7d
+2025-08-05,Tiezhu Yang,yangtiezhu@loongson.cn,LoongArch: BPF: Add struct ops support for trampoline,6abf17d690d8
+2025-08-03,Ming Wang,wangming01@loongson.cn,LoongArch: Support mem=<size> kernel parameter,243f8de49f07
+2025-07-21,Bibo Mao,maobibo@loongson.cn,LoongArch: KVM: Add stat information with kernel irqchip,46ecfb68ddd8
+2025-07-21,Bibo Mao,maobibo@loongson.cn,LoongArch: KVM: Replace eiointc_enable_irq() with eiointc_update_irq(),9c79c951a388
+2025-07-21,Bibo Mao,maobibo@loongson.cn,LoongArch: KVM: Use generic function loongarch_eiointc_write(),b0096e1e5783
+2025-07-21,Bibo Mao,maobibo@loongson.cn,LoongArch: KVM: Use generic function loongarch_eiointc_read(),3e394eac6a61
+2025-07-21,Bibo Mao,maobibo@loongson.cn,LoongArch: KVM: Use standard bitops API with eiointc,d23bd878f6ea
+2025-07-21,Bibo Mao,maobibo@loongson.cn,LoongArch: KVM: Remove never called default case statement,9afce1f1ee1f
+2025-07-21,Bibo Mao,maobibo@loongson.cn,LoongArch: KVM: Remove unused parameter len,a0630332fd50
+2025-07-21,Bibo Mao,maobibo@loongson.cn,LoongArch: KVM: Remove unnecessary local variable,d42fd71333fc
+2025-07-16,Binbin Zhou,zhoubinbin@loongson.cn,mmc: loongson2: Unify the function prefixes for loongson2_mmc_pdata,e70821288f69
+2025-07-14,Binbin Zhou,zhoubinbin@loongson.cn,gpio: loongson-64bit: Extend GPIO irq support,27cb8f702eb7
+2025-06-24,Binbin Zhou,zhoubinbin@loongson.cn,mmc: loongson2: Add Loongson-2K2000 SD/SDIO/eMMC controller driver,d0f8e961deae
+2025-06-24,Binbin Zhou,zhoubinbin@loongson.cn,"dt-bindings: mmc: loongson,ls2k0500-mmc: Add compatible for Loongson-2K2000",96e72886a416
+2025-06-24,Binbin Zhou,zhoubinbin@loongson.cn,mmc: loongson2: Add Loongson-2K SD/SDIO controller driver,2115772014bd
+2025-06-24,Binbin Zhou,zhoubinbin@loongson.cn,dt-bindings: mmc: Add Loongson-2K SD/SDIO/eMMC controller binding,fe62ee33fcf9
+2025-06-27,Bibo Mao,maobibo@loongson.cn,"LoongArch: KVM: Disable updating of ""num_cpu"" and ""feature""",955853cf8365
+2025-06-27,Bibo Mao,maobibo@loongson.cn,"LoongArch: KVM: Check validity of ""num_cpu"" from user space",cc8d5b209e09
+2025-06-27,Bibo Mao,maobibo@loongson.cn,LoongArch: KVM: Check interrupt route from physical CPU,45515c643d0a
+2025-06-27,Bibo Mao,maobibo@loongson.cn,LoongArch: KVM: Fix interrupt route update with EIOINTC,c34bbc2c9907
+2025-06-27,Bibo Mao,maobibo@loongson.cn,LoongArch: KVM: Add address alignment check for IOCSR emulation,9159c5e733cf
+2025-06-26,Bibo Mao,maobibo@loongson.cn,LoongArch: KVM: Avoid overflow with array index,080e8d2ecdfd
+2025-06-26,Ming Wang,wangming01@loongson.cn,LoongArch: Reserve the EFI memory map region,39503fc84b4e
+2025-06-07,Binbin Zhou,zhoubinbin@loongson.cn,mmc: sdhci: Drop sdhci_free_host()/sdhci_pltfm_free() interface,1f129bc3ebe5
+2025-06-07,Binbin Zhou,zhoubinbin@loongson.cn,mmc: sdhci_f_sdh30: Drop the use of sdhci_pltfm_free(),10e70d56a119
+2025-06-07,Binbin Zhou,zhoubinbin@loongson.cn,mmc: sdhci_am654: Drop the use of sdhci_pltfm_free(),c246e780250f
+2025-06-07,Binbin Zhou,zhoubinbin@loongson.cn,mmc: sdhci-xenon: Drop the use of sdhci_pltfm_free(),f9a06dfdfd5d
+2025-06-07,Binbin Zhou,zhoubinbin@loongson.cn,mmc: sdhci-tegra: Drop the use of sdhci_pltfm_free(),7361fb3e8c38
+2025-06-07,Binbin Zhou,zhoubinbin@loongson.cn,mmc: sdhci-st: Drop the use of sdhci_pltfm_free(),79856047b9d6
+2025-06-07,Binbin Zhou,zhoubinbin@loongson.cn,mmc: sdhci-sprd: Drop the use of sdhci_pltfm_free(),426b463f65c9
+2025-06-07,Binbin Zhou,zhoubinbin@loongson.cn,mmc: sdhci-pxav3: Drop the use of sdhci_pltfm_free(),7e1ff21d27cf
+2025-06-07,Binbin Zhou,zhoubinbin@loongson.cn,mmc: sdhci-pxav2: Drop the use of sdhci_pltfm_free(),072f5e2c34a9
+2025-06-07,Binbin Zhou,zhoubinbin@loongson.cn,mmc: sdhci-pic32: Drop the use of sdhci_pltfm_free(),3a55e989bb08
+2025-06-07,Binbin Zhou,zhoubinbin@loongson.cn,mmc: sdhci-omap: Drop the use of sdhci_pltfm_free(),18cd5e59c031
+2025-06-07,Binbin Zhou,zhoubinbin@loongson.cn,mmc: sdhci-of-sparx5: Drop the use of sdhci_pltfm_free(),ccade5236b03
+2025-06-07,Binbin Zhou,zhoubinbin@loongson.cn,mmc: sdhci-of-ma35d1: Drop the use of sdhci_pltfm_free(),01bc623f9a5c
+2025-06-07,Binbin Zhou,zhoubinbin@loongson.cn,mmc: sdhci-of-k1: Drop the use of sdhci_pltfm_free(),da94d533ec9a
+2025-06-07,Binbin Zhou,zhoubinbin@loongson.cn,mmc: sdhci-of-esdhc: Drop the use of sdhci_pltfm_free(),a1402b12dc09
+2025-06-07,Binbin Zhou,zhoubinbin@loongson.cn,mmc: sdhci-of-dwcmshc: Drop the use of sdhci_pltfm_free(),91a001a1a074
+2025-06-07,Binbin Zhou,zhoubinbin@loongson.cn,mmc: sdhci-of-at91: Drop the use of sdhci_pltfm_free(),6cb3aeccf643
+2025-06-07,Binbin Zhou,zhoubinbin@loongson.cn,mmc: sdhci-of-aspeed: Drop the use of sdhci_pltfm_free(),aa8eeffc0f15
+2025-06-07,Binbin Zhou,zhoubinbin@loongson.cn,mmc: sdhci-of-arasan: Drop the use of sdhci_pltfm_free(),62a8554fce5d
+2025-06-07,Binbin Zhou,zhoubinbin@loongson.cn,mmc: sdhci-npcm: Drop the use of sdhci_pltfm_free(),bb9c8ae108e3
+2025-06-07,Binbin Zhou,zhoubinbin@loongson.cn,mmc: sdhci-msm: Drop the use of sdhci_pltfm_free(),ba7f99c514df
+2025-06-07,Binbin Zhou,zhoubinbin@loongson.cn,mmc: sdhci-iproc: Drop the use of sdhci_pltfm_free(),4340922f5cde
+2025-06-07,Binbin Zhou,zhoubinbin@loongson.cn,mmc: sdhci-esdhc-mcf: Drop the use of sdhci_pltfm_free(),eb270f417ce6
+2025-06-07,Binbin Zhou,zhoubinbin@loongson.cn,mmc: sdhci-esdhc-imx: Drop the use of sdhci_pltfm_free(),06d7faf7b4ff
+2025-06-07,Binbin Zhou,zhoubinbin@loongson.cn,mmc: sdhci-dove: Drop the use of sdhci_pltfm_free(),9a334ff0ac7e
+2025-06-07,Binbin Zhou,zhoubinbin@loongson.cn,mmc: sdhci-cadence: Drop the use of sdhci_pltfm_free(),8407238837e5
+2025-06-07,Binbin Zhou,zhoubinbin@loongson.cn,mmc: sdhci-brcmstb: Drop the use of sdhci_pltfm_free(),04609d34672b
+2025-06-07,Binbin Zhou,zhoubinbin@loongson.cn,mmc: sdhci-bcm-kona: Drop the use of sdhci_pltfm_free(),8f993834353a
+2025-06-07,Binbin Zhou,zhoubinbin@loongson.cn,mmc: sdhci-pltfm: Drop the use of sdhci_pltfm_free(),f192b9b667ff
+2025-06-07,Binbin Zhou,zhoubinbin@loongson.cn,mmc: sdhci-spear: Drop the use of sdhci_free_host(),e0df12ac3d32
+2025-06-07,Binbin Zhou,zhoubinbin@loongson.cn,mmc: sdhci-s3c: Drop the use of sdhci_free_host(),41c1abd729bf
+2025-06-07,Binbin Zhou,zhoubinbin@loongson.cn,mmc: sdhci-pci: Drop the use of sdhci_free_host(),5590376d7bbe
+2025-06-07,Binbin Zhou,zhoubinbin@loongson.cn,mmc: sdhci-milbeaut: Drop the use of sdhci_free_host(),dbbbdeabf6e6
+2025-06-07,Binbin Zhou,zhoubinbin@loongson.cn,mmc: sdhci-acpi: Drop the use of sdhci_free_host(),cb815f9a2d5c
+2025-06-07,Binbin Zhou,zhoubinbin@loongson.cn,mmc: sdhci: Use devm_mmc_alloc_host() helper,f6fce1182bb0
+2025-06-03,Binbin Zhou,zhoubinbin@loongson.cn,mmc: mmc_spi: Use devm_mmc_alloc_host() helper,71f118b427bb
+2025-06-03,Binbin Zhou,zhoubinbin@loongson.cn,mmc: sunxi: Use devm_mmc_alloc_host() helper,5a8af2759611
+2025-06-03,Binbin Zhou,zhoubinbin@loongson.cn,mmc: tmio: Use devm_mmc_alloc_host() helper,4c2fc69f28f3
+2025-06-03,Binbin Zhou,zhoubinbin@loongson.cn,mmc: wmt-sdmmc: Use devm_mmc_alloc_host() helper,99e85793aa6a
+2025-06-03,Binbin Zhou,zhoubinbin@loongson.cn,mmc: wbsd: Use devm_mmc_alloc_host() helper,51b8ca24f82b
+2025-06-03,Binbin Zhou,zhoubinbin@loongson.cn,mmc: vub300: Use devm_mmc_alloc_host() helper,dcfdd698dc52
+2025-06-03,Binbin Zhou,zhoubinbin@loongson.cn,mmc: via-sdmmc: Use devm_mmc_alloc_host() helper,93f0d3ecae69
+2025-06-03,Binbin Zhou,zhoubinbin@loongson.cn,mmc: ushc: Use devm_mmc_alloc_host() helper,155391da150d
+2025-06-03,Binbin Zhou,zhoubinbin@loongson.cn,mmc: usdhi6ro10: Use devm_mmc_alloc_host() helper,1fdbbdb4f473
+2025-06-03,Binbin Zhou,zhoubinbin@loongson.cn,mmc: toshsd: Use devm_mmc_alloc_host() helper,c92d54a47ac1
+2025-06-03,Binbin Zhou,zhoubinbin@loongson.cn,mmc: tifm_sd: Use devm_mmc_alloc_host() helper,dfab551e7494
+2025-06-03,Binbin Zhou,zhoubinbin@loongson.cn,mmc: sh_mmicf: Use devm_mmc_alloc_host() helper,e048939d6d92
+2025-06-03,Binbin Zhou,zhoubinbin@loongson.cn,mmc: sdricoh_cs: Use devm_mmc_alloc_host() helper,2db145dff506
+2025-06-03,Binbin Zhou,zhoubinbin@loongson.cn,mmc: rtsx_usb_sdmmc: Use devm_mmc_alloc_host() helper,ee4337092eb4
+2025-06-03,Binbin Zhou,zhoubinbin@loongson.cn,mmc: rtsx_pci: Use devm_mmc_alloc_host() helper,ffcf51d60ab2
+2025-06-03,Binbin Zhou,zhoubinbin@loongson.cn,mmc: pxamci: Use devm_mmc_alloc_host() helper,58c40f3faf74
+2025-06-03,Binbin Zhou,zhoubinbin@loongson.cn,mmc: owl-mmc: Use devm_mmc_alloc_host() helper,fb2f73107fdc
+2025-06-03,Binbin Zhou,zhoubinbin@loongson.cn,mmc: omap_hsmmc: Use devm_mmc_alloc_host() helper,ecb4728dd7ea
+2025-06-03,Binbin Zhou,zhoubinbin@loongson.cn,mmc: omap: Use devm_mmc_alloc_host() helper,98d215657569
+2025-06-03,Binbin Zhou,zhoubinbin@loongson.cn,mmc: mxs-mmc: Use devm_mmc_alloc_host() helper,c53700e7459b
+2025-06-03,Binbin Zhou,zhoubinbin@loongson.cn,mmc: mxcmmc: Use devm_mmc_alloc_host() helper,c6aa07ac9fbd
+2025-06-03,Binbin Zhou,zhoubinbin@loongson.cn,mmc: mvsdio: Use devm_mmc_alloc_host() helper,2a52d0c772bc
+2025-06-03,Binbin Zhou,zhoubinbin@loongson.cn,mmc: moxart-mmc: Use devm_mmc_alloc_host() helper,973aa22b9f1a
+2025-06-03,Binbin Zhou,zhoubinbin@loongson.cn,mmc: mmci: Use devm_mmc_alloc_host() helper,c799f3a1f099
+2025-06-03,Binbin Zhou,zhoubinbin@loongson.cn,mmc: meson-mx-sdhc: Use devm_mmc_alloc_host() helper,8f4ab5abbbb6
+2025-06-03,Binbin Zhou,zhoubinbin@loongson.cn,mmc: litex_mmc: Use devm_mmc_alloc_host() helper,c8e5ba21da31
+2025-06-03,Binbin Zhou,zhoubinbin@loongson.cn,mmc: jz4740: Use devm_mmc_alloc_host() helper,535ee4b4a100
+2025-06-03,Binbin Zhou,zhoubinbin@loongson.cn,mmc: dw_mmc: Use devm_mmc_alloc_host() helper,17a71a3f9098
+2025-06-03,Binbin Zhou,zhoubinbin@loongson.cn,mmc: davinci_mmc: Use devm_mmc_alloc_host() helper,8bc8c97bac8f
+2025-06-03,Binbin Zhou,zhoubinbin@loongson.cn,mmc: cb710: Use devm_mmc_alloc_host() helper,1f150edbea35
+2025-06-03,Binbin Zhou,zhoubinbin@loongson.cn,mmc: cavium: Use devm_mmc_alloc_host() helper,f32b90e6887f
+2025-06-03,Binbin Zhou,zhoubinbin@loongson.cn,mmc: bcm2835: Use devm_mmc_alloc_host() helper,5f0aa2f72519
+2025-06-03,Binbin Zhou,zhoubinbin@loongson.cn,mmc: au1xmmc: Use devm_mmc_alloc_host() helper,16ca54d05207
+2025-06-03,Binbin Zhou,zhoubinbin@loongson.cn,mmc: atmel: Use devm_mmc_alloc_host() helper,56637056f945
+2025-06-03,Binbin Zhou,zhoubinbin@loongson.cn,mmc: alcor: Use devm_mmc_alloc_host() helper,2cf4083d3985
+2025-06-10,Binbin Zhou,zhoubinbin@loongson.cn,gpio: loongson-64bit: Correct Loongson-7A2000 ACPI GPIO access mode,72f37957007d
+2025-06-05,Binbin Zhou,zhoubinbin@loongson.cn,LoongArch: dts: Add PWM support to Loongson-2K2000,1cf806006574
+2025-06-05,Binbin Zhou,zhoubinbin@loongson.cn,LoongArch: dts: Add PWM support to Loongson-2K1000,abd000dbaee4
+2025-06-05,Binbin Zhou,zhoubinbin@loongson.cn,LoongArch: dts: Add PWM support to Loongson-2K0500,07aeb50e6c74
+2025-04-22,Tiezhu Yang,yangtiezhu@loongson.cn,riscv: Make regs_irqs_disabled() more clear,d7e0cce10366
+2025-05-30,Tianyang Zhang,zhangtianyang@loongson.cn,LoongArch: Fix panic caused by NULL-PMD in huge_pte_offset(),ee084fa96123
+2025-05-30,Tianyang Zhang,zhangtianyang@loongson.cn,LoongArch: Add SCHED_MC (Multi-core scheduler) support,93f437315660
+2025-04-16,Tianyang Zhang,zhangtianyang@loongson.cn,mm/page_alloc.c: avoid infinite retries caused by cpuset race,e05741fb10c3
+2025-05-20,Bibo Mao,maobibo@loongson.cn,KVM: selftests: Add supported test cases for LoongArch,a867688c8cbb
+2025-05-20,Bibo Mao,maobibo@loongson.cn,KVM: selftests: Add ucall test support for LoongArch,304b93b1a044
+2025-05-20,Bibo Mao,maobibo@loongson.cn,KVM: selftests: Add core KVM selftests support for LoongArch,2ebf31d59f58
+2025-05-20,Bibo Mao,maobibo@loongson.cn,KVM: selftests: Add KVM selftests header files for LoongArch,21872c74b07b
+2025-05-20,Bibo Mao,maobibo@loongson.cn,KVM: selftests: Add VM_MODE_P47V47_16K VM mode,a5460d191915
+2025-05-20,Bibo Mao,maobibo@loongson.cn,LoongArch: KVM: Do not flush tlb if HW PTW supported,05d70ebf74c9
+2025-05-20,Bibo Mao,maobibo@loongson.cn,LoongArch: KVM: Add ecode parameter for exception handlers,fecd903c3c02
+2025-05-19,Qunqin Zhao,zhaoqunqin@loongson.cn,Input: atkbd - do not reset keyboard by default on Loongson,21597378dd51
+2025-05-14,Tiezhu Yang,yangtiezhu@loongson.cn,LoongArch: uprobes: Remove redundant code about resume_era,12614f794274
+2025-05-14,Tiezhu Yang,yangtiezhu@loongson.cn,"LoongArch: uprobes: Remove user_{en,dis}able_single_step()",0b326b2371f9
+2025-05-14,Tianyang Zhang,zhangtianyang@loongson.cn,LoongArch: Prevent cond_resched() occurring within kernel-fpu,2468b0e3d565
+2025-04-22,Tiezhu Yang,yangtiezhu@loongson.cn,rtla: Define __NR_sched_setattr for LoongArch,6a38c51a2557
+2025-04-24,Bibo Mao,maobibo@loongson.cn,LoongArch: KVM: Fix PMU pass-through issue if VM exits to host finally,5add0dbbebd6
+2025-04-24,Bibo Mao,maobibo@loongson.cn,LoongArch: KVM: Fully clear some CSRs when VM reboot,9ea86232a552
+2025-04-24,Ming Wang,wangming01@loongson.cn,LoongArch: Return NULL from huge_pte_offset() for invalid PMD,bd51834d1cf6
+2025-04-24,Tiezhu Yang,yangtiezhu@loongson.cn,"LoongArch: Handle fp, lsx, lasx and lbt assembly symbols",2ef174b13344
+2025-04-24,Tiezhu Yang,yangtiezhu@loongson.cn,LoongArch: Make do_xyz() exception handlers more robust,cc73cc6bcdb5
+2025-04-24,Tiezhu Yang,yangtiezhu@loongson.cn,LoongArch: Make regs_irqs_disabled() more clear,bb0511d59db9
+2025-03-31,Binbin Zhou,zhoubinbin@loongson.cn,pwm: Add Loongson PWM controller support,2b62c89448dd
+2025-03-31,Binbin Zhou,zhoubinbin@loongson.cn,dt-bindings: pwm: Add Loongson PWM controller,90cd430f04d0
+2025-03-30,Bibo Mao,maobibo@loongson.cn,LoongArch: Always select HAVE_VIRT_CPU_ACCOUNTING_GEN,08dac3b83aac
+2025-03-30,WANG Rui,wangrui@loongson.cn,rust: Fix enabling Rust and building with GCC for LoongArch,13c23cb4ed09
+2025-03-18,Bibo Mao,maobibo@loongson.cn,LoongArch: KVM: Register perf callbacks for guest,6bfb3a715de9
+2025-03-18,Bibo Mao,maobibo@loongson.cn,LoongArch: KVM: Implement arch-specific functions for guest perf,2bf463d7619a
+2025-03-18,Bibo Mao,maobibo@loongson.cn,LoongArch: KVM: Add stub for kvm_arch_vcpu_preempted_in_kernel(),6a16e448e551
+2025-03-18,Bibo Mao,maobibo@loongson.cn,LoongArch: KVM: Remove PGD saving during VM context switch,062ac0cb8383
+2024-12-17,Tiezhu Yang,yangtiezhu@loongson.cn,LoongArch: Enable jump table for objtool,e20ab7d454ee
+2025-02-11,Tiezhu Yang,yangtiezhu@loongson.cn,objtool/LoongArch: Add support for goto table,88cbb468d454
+2025-02-11,Tiezhu Yang,yangtiezhu@loongson.cn,objtool/LoongArch: Add support for switch table,b95f852d3af2
+2025-02-11,Tiezhu Yang,yangtiezhu@loongson.cn,objtool: Handle PC relative relocation type,c4b93b06230a
+2025-02-11,Tiezhu Yang,yangtiezhu@loongson.cn,objtool: Handle different entry size of rodata,091bf313f8a8
+2025-02-11,Tiezhu Yang,yangtiezhu@loongson.cn,objtool: Handle various symbol types of rodata,ab6ce22b7896
+2025-03-08,Bibo Mao,maobibo@loongson.cn,LoongArch: KVM: Fix GPA size issue about VM,6bdbb73dc8d9
+2025-03-08,Bibo Mao,maobibo@loongson.cn,LoongArch: KVM: Reload guest CSR registers after sleep,78d7bc5a02e1
+2025-03-08,Bibo Mao,maobibo@loongson.cn,LoongArch: KVM: Add interrupt checking for AVEC,6fb1867d5a44
+2025-03-08,Bibo Mao,maobibo@loongson.cn,LoongArch: Set hugetlb mmap base address aligned with pmd size,3109d5ff484b
+2025-03-08,Bibo Mao,maobibo@loongson.cn,LoongArch: Set max_pfn with the PFN of the last page,c8477bb0a8e7
+2025-03-08,Tiezhu Yang,yangtiezhu@loongson.cn,LoongArch: Convert unreachable() to BUG(),da64a2359092
+2025-03-03,Binbin Zhou,zhoubinbin@loongson.cn,gpio: loongson-64bit: Add more gpio chip support,44fe79020b91
+2025-03-03,Binbin Zhou,zhoubinbin@loongson.cn,dt-bindings: gpio: loongson: Add new loongson gpio chip compatible,e4a345c55e1b
+2025-02-20,Binbin Zhou,zhoubinbin@loongson.cn,i2c: ls2x: Fix frequency division register access,71c49ee9bb41
+2020-06-09,Bibo Mao,maobibo@loongson.cn,MIPS: Use arch specific syscall name match function,756276ce78d5
+2025-02-19,Qunqin Zhao,zhaoqunqin@loongson.cn,net: stmmac: dwmac-loongson: Add fix_soc_reset() callback,f06e4bfd010f
+2025-02-13,Bibo Mao,maobibo@loongson.cn,LoongArch: KVM: Set host with kernel mode when switch to VM mode,3011b29ec5a3
+2025-02-13,Bibo Mao,maobibo@loongson.cn,LoongArch: KVM: Remove duplicated cache attribute setting,d8cc4fee3f8a
+2025-02-13,Bibo Mao,maobibo@loongson.cn,LoongArch: KVM: Fix typo issue about GCFG feature detection,bdb13252e5d1
+2025-01-26,Tiezhu Yang,yangtiezhu@loongson.cn,LoongArch: Extend the maximum number of watchpoints,531936dee53e
+2025-01-26,Tiezhu Yang,yangtiezhu@loongson.cn,"LoongArch: Change 8 to 14 for LOONGARCH_MAX_{BRP,WRP}",f502ea618bf1
+2025-01-11,Tianyang Zhang,zhangtianyang@loongson.cn,irqchip/loongarch-avec: Add multi-nodes topology support,2af257388473
+2025-01-14,Binbin Zhou,zhoubinbin@loongson.cn,clk: clk-loongson2: Fix the number count of clk provider,5fb33b679763
+2025-01-14,Binbin Zhou,zhoubinbin@loongson.cn,clk: clk-loongson2: Switch to use devm_clk_hw_register_fixed_rate_parent_data(),54e020bd1190
+2025-01-14,Qunqin Zhao,zhaoqunqin@loongson.cn,ALSA: hda: Add AZX_DCAPS_NO_TCSEL flag for Loongson HDA devices,3784950b7b9e
+2025-01-13,Bibo Mao,maobibo@loongson.cn,LoongArch: KVM: Add hypercall service support for usermode VMM,2737dee1067c
+2025-01-13,Bibo Mao,maobibo@loongson.cn,LoongArch: KVM: Clear LLBCTL if secondary mmu mapping is changed,4d38d0416ece
+2024-12-05,Ming Wang,wangming01@loongson.cn,rtc: loongson: clear TOY_MATCH0_REG in loongson_rtc_isr(),09471d8f5b39
+2025-01-07,Binbin Zhou,zhoubinbin@loongson.cn,gpio: loongson: Fix Loongson-2K2000 ACPI GPIO register offset,e59f4c97172d
+2024-12-19,Zhao Qunqin,zhaoqunqin@loongson.cn,EDAC: Add an EDAC driver for the Loongson memory controller,558aff7a63f6

@@ -1,0 +1,10 @@
+﻿Date,Author Name,Author Email,Subject,Commit Hash
+2025-07-04,Ziyan Fu,fuzy5@lenovo.com,watchdog: iTCO_wdt: Report error if timeout configuration fails,40efc43eb7ff
+2025-01-23,Jiwei Sun,sunjw10@lenovo.com,PCI: Adjust the position of reading the Link Control 2 register,b85af48de3ec
+2025-01-23,Jiwei Sun,sunjw10@lenovo.com,PCI: Fix link speed calculation on retrain failure,9989e0ca7462
+2025-04-29,Ziyan Fu,fuzy5@lenovo.com,watchdog: iTCO_wdt: Update the heartbeat value after clamping timeout,158f9f2f7152
+2025-02-09,Jos Wang,joswang@lenovo.com,usb: typec: displayport: Receive DP Status Update NAK request exit dp altmode,b4b38ffb38c9
+2025-02-25,Adrian Huang,ahuang12@lenovo.com,af_unix: Fix memory leak in unix_dgram_sendmsg(),bc23d4e30866
+2025-02-20,Adrian Huang,ahuang12@lenovo.com,tracing: Fix memory leak when reading set_event file,2fa6a01345b5
+2025-02-13,Jos Wang,joswang@lenovo.com,usb: typec: tcpm: PSSourceOffTimer timeout in PR_Swap enters ERROR_RECOVERY,659f5d55feb7
+2025-01-05,Jos Wang,joswang@lenovo.com,usb: typec: tcpm: set SRC_SEND_CAPABILITIES timeout to PD_T_SENDER_RESPONSE,2eb3da037c2c

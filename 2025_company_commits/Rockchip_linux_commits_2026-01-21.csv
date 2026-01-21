@@ -1,0 +1,204 @@
+﻿Date,Author Name,Author Email,Subject,Commit Hash
+2025-11-26,Shawn Lin,shawn.lin@rock-chips.com,mmc: sdhci-of-dwcmshc: reduce CIT for better performance,79cf71c0b177
+2025-11-26,Shawn Lin,shawn.lin@rock-chips.com,mmc: sdhci-of-dwcmshc: Disable internal clock auto gate for Rockchip SOCs,c7ce6453b769
+2025-11-18,Shawn Lin,shawn.lin@rock-chips.com,PCI: dw-rockchip: Configure L1SS support,b5e719f26107
+2025-11-14,Shawn Lin,shawn.lin@rock-chips.com,PCI: dwc: Fix wrong PORT_LOGIC_LTSSM_STATE_MASK definition,bcc9a4a0bca3
+2025-11-21,Elaine Zhang,zhangqing@rock-chips.com,clk: rockchip: Add clock and reset driver for RK3506,18191dd750e6
+2025-11-21,Finley Xiao,finley.xiao@rock-chips.com,dt-bindings: clock: rockchip: Add RK3506 clock and reset unit,84898f8e9cea
+2025-11-11,Elaine Zhang,zhangqing@rock-chips.com,clk: rockchip: Add clock controller for the RV1126B,652c108cc44c
+2025-11-11,Elaine Zhang,zhangqing@rock-chips.com,"dt-bindings: clock, reset: Add support for rv1126b",d0d9a9629f50
+2025-11-11,Elaine Zhang,zhangqing@rock-chips.com,clk: rockchip: Implement rockchip_clk_register_armclk_multi_pll(),826eaa8f5bac
+2025-11-18,Shawn Lin,shawn.lin@rock-chips.com,phy: rockchip: naneng-combphy: Fix PCIe L1ss support RK3562,be866e68966d
+2025-11-18,Shawn Lin,shawn.lin@rock-chips.com,phy: rockchip: naneng-combphy: Fix PCIe L1ss support RK3528,a2a18e5da64f
+2025-11-06,Chaoyi Chen,chaoyi.chen@rock-chips.com,phy: rockchip: inno-dsidphy: Add support for rk3506,785a9d5bb145
+2025-11-06,Chaoyi Chen,chaoyi.chen@rock-chips.com,dt-bindings: phy: rockchip-inno-dsidphy: Add compatible for rk3506,323c5c05a0a0
+2025-11-13,Shawn Lin,shawn.lin@rock-chips.com,scsi: ufs: rockchip: Fix compile error without CONFIG_GPIOLIB,cda5f23eed84
+2025-11-13,Shawn Lin,shawn.lin@rock-chips.com,scsi: ufs: rockchip: Reset controller on PRE_CHANGE of hce enable notify,b0ee72db9132
+2025-10-17,Finley Xiao,finley.xiao@rock-chips.com,pmdomain: rockchip: Add support for RV1126B,47c7b3c24b42
+2025-11-06,Chaoyi Chen,chaoyi.chen@rock-chips.com,drm/panel: ilitek-ili9881d: Add support for Wanchanglong W552946AAA panel,89b34ebed02e
+2025-11-06,Chaoyi Chen,chaoyi.chen@rock-chips.com,dt-bindings: ili9881c: Add compatible string for Wanchanglong w552946aaa,15e794bcbc95
+2025-11-12,Andy Yan,andy.yan@rock-chips.com,drm/rockchip: vop2: Use OVL_LAYER_SEL configuration instead of use win_mask calculate used layers,d3fe9aa49585
+2025-11-10,Damon Ding,damon.ding@rock-chips.com,drm/rockchip: analogix_dp: Use dev_err_probe() instead of DRM_DEV_ERROR() during probing,836b5e9c6dbd
+2025-11-11,Shawn Lin,shawn.lin@rock-chips.com,arm64: dts: rockchip: Remove sdmmc max-frequency on RK3588S EVB1 board,f151b74eadc6
+2025-11-12,Shawn Lin,shawn.lin@rock-chips.com,PCI/ASPM: Avoid L0s and L1 on Hi1105 [19e5:1105] Wi-Fi,921b3f59b7b0
+2025-11-04,Shawn Lin,shawn.lin@rock-chips.com,mmc: dw_mmc-rockchip: Add memory clock auto-gating support,ff6f0286c896
+2025-11-04,Shawn Lin,shawn.lin@rock-chips.com,mmc: core: Allow more host caps to be modified through debugfs,5f87aaf5b62e
+2025-11-04,Shawn Lin,shawn.lin@rock-chips.com,mmc: dw_mmc-rockchip: Fix wrong internal phase calculate,739f04f4a462
+2025-11-04,Ye Zhang,ye.zhang@rock-chips.com,pinctrl: rockchip: Add rk3506 pinctrl support,dbd2317d7b9f
+2025-11-04,Ye Zhang,ye.zhang@rock-chips.com,dt-bindings: pinctrl: Add rk3506 pinctrl support,13064950339f
+2025-10-23,David Wu,david.wu@rock-chips.com,ethernet: stmmac: dwmac-rk: Add RK3506 GMAC support,2010163a8ea4
+2025-10-17,Finley Xiao,finley.xiao@rock-chips.com,dt-bindings: power: rockchip: Add support for RV1126B,295926ef36bb
+2025-10-20,Shawn Lin,shawn.lin@rock-chips.com,mmc: sdhci-of-dwcmshc: Change DLL_STRBIN_TAPNUM_DEFAULT to 0x4,a28352cf2d2f
+2025-10-10,Shawn Lin,shawn.lin@rock-chips.com,mmc: dw_mmc: Use dma_set_mask_and_coherent() helper,cb24b4a9d903
+2025-09-18,Chaoyi Chen,chaoyi.chen@rock-chips.com,arm64: dts: rockchip: Enable DisplayPort for rk3588-evb2,134fae98cfba
+2025-09-28,Damon Ding,damon.ding@rock-chips.com,drm/rockchip: analogix_dp: Apply devm_clk_get_optional() for &rockchip_dp_device.grfclk,0dc25a11b893
+2025-09-16,Chaoyi Chen,chaoyi.chen@rock-chips.com,"Revert ""net: ethernet: stmmac: dwmac-rk: Make the clk_phy could be used for external phy""",a09655dde754
+2025-08-26,William Wu,william.wu@rock-chips.com,usb: gadget: f_hid: Fix zero length packet transfer,ed6f727c575b
+2025-08-22,William Wu,william.wu@rock-chips.com,usb: gadget: configfs: Correctly set use_os_string at bind,e271cc0d2501
+2025-08-22,Andy Yan,andy.yan@rock-chips.com,arm64: dts: rockchip: Enable DP2HDMI for ROCK 5 ITX,07c53a9e9707
+2025-08-22,Andy Yan,andy.yan@rock-chips.com,arm64: dts: rockchip: Enable DisplayPort for rk3588s Cool Pi 4B,7260b0f1d6a1
+2025-08-22,Andy Yan,andy.yan@rock-chips.com,arm64: dts: rockchip: Add DP1 for rk3588,64566e35757f
+2025-08-22,Andy Yan,andy.yan@rock-chips.com,arm64: dts: rockchip: Add DP0 for rk3588,680826a5299b
+2025-08-22,Andy Yan,andy.yan@rock-chips.com,MAINTAINERS: Add entry for DW DPTX Controller bridge,0b6da6d3a8d5
+2025-08-22,Andy Yan,andy.yan@rock-chips.com,drm/rockchip: Add RK3588 DPTX output support,d68ba7bac955
+2025-08-22,Andy Yan,andy.yan@rock-chips.com,drm/bridge: synopsys: Add DW DPTX Controller support library,86eecc3a9c2e
+2025-08-22,Andy Yan,andy.yan@rock-chips.com,dt-bindings: display: rockchip: Add schema for RK3588 DPTX Controller,2b036b13c8c2
+2025-07-07,Guochun Huang,hero.huang@rock-chips.com,drm/rockchip: dsi2: add support rk3576,b6f11f114759
+2025-08-22,Andy Yan,andy.yan@rock-chips.com,drm/bridge: simple-bridge: Add support for radxa ra620,73b81fcb12df
+2025-08-22,Andy Yan,andy.yan@rock-chips.com,dt-bindings: display: simple-bridge: Add ra620 compatible,480a76c64f4f
+2025-08-15,Chaoyi Chen,chaoyi.chen@rock-chips.com,net: ethernet: stmmac: dwmac-rk: Make the clk_phy could be used for external phy,da114122b831
+2025-07-31,Chaoyi Chen,chaoyi.chen@rock-chips.com,arm64: dts: rockchip: Enable eMMC on rk3576-evb1-v10,6294d0590d5f
+2025-06-10,Ye Zhang,ye.zhang@rock-chips.com,thermal/drivers/rockchip: Support RK3576 SoC in the thermal driver,feb69bccf5d3
+2025-07-03,Andy Yan,andy.yan@rock-chips.com,drm/bridge: Pass down connector to drm bridge detect hook,5d156a9c3d5e
+2025-07-03,Andy Yan,andy.yan@rock-chips.com,drm/bridge: Make dp/hdmi_audio_* callback keep the same paramter order with get_modes,02bb63d1a593
+2025-06-15,Andy Yan,andy.yan@rock-chips.com,clk: rockchip: rk3568: Add PLL rate for 132MHz,132b62280a9d
+2025-07-06,Andy Yan,andy.yan@rock-chips.com,arm64: dts: rockchip: Enable mipi dsi on rk3568-evb1-v10,06b29cb849bc
+2025-04-21,Andy Yan,andy.yan@rock-chips.com,drm/rockchip: vop2: Fix the update of LAYER/PORT select registers when there are multi display output on rk3588/rk3568,3e89a8c68354
+2025-05-12,Andy Yan,andy.yan@rock-chips.com,drm/rockchip: inno_hdmi: Simpify clk get/enable by devm_clk_get_enabled api,6a1b9229ecf1
+2025-05-12,Andy Yan,andy.yan@rock-chips.com,drm/rockchip: inno_hdmi: switch i2c registration to devm functions,078bb17c7bbf
+2025-05-12,Andy Yan,andy.yan@rock-chips.com,drm/rockchip: inno_hdmi: Use sleep_range instead of udelay,1749267beee7
+2025-05-12,Andy Yan,andy.yan@rock-chips.com,drm/rockchip: inno_hdmi: Move ddc/i2c configuration and HOTPLUG unmute to inno_hdmi_init_hw,52ac749b4505
+2025-05-12,Andy Yan,andy.yan@rock-chips.com,drm/rockchip: inno_hdmi: Rename function inno_hdmi_reset to inno_hdmi_init_hw,55137487bdee
+2025-05-12,Andy Yan,andy.yan@rock-chips.com,drm/rockchip: inno_hdmi: Remove unnecessary parentheses to make checkpatch happy,7431c5462c7f
+2025-05-12,Andy Yan,andy.yan@rock-chips.com,drm/rockchip: inno_hdmi: Refactor register macros to make checkpatch happy,372a927f93fe
+2025-05-12,Andy Yan,andy.yan@rock-chips.com,drm/rockchip: inno_hdmi: Merge register definition to c file,9c3111df6a68
+2025-05-29,Chaoyi Chen,chaoyi.chen@rock-chips.com,drm/rockchip: cdn-dp: Convert to drm bridge,afbbca25d06e
+2025-05-26,Chaoyi Chen,chaoyi.chen@rock-chips.com,drm/rockchip: lvds: Convert to drm bridge,40a382aae1d4
+2025-06-18,Andy Yan,andy.yan@rock-chips.com,drm/panel: raydium-rm67200: Add missing drm_display_mode flags,4dfed55bfb4b
+2025-06-18,Andy Yan,andy.yan@rock-chips.com,drm/panel: raydium-rm67200: Move initialization from enable() to prepare stage,691674a282bd
+2025-06-16,Andy Yan,andy.yan@rock-chips.com,drivers/panel: raydium-rm67200: Make reset-gpio optional,941461216c8d
+2025-06-16,Andy Yan,andy.yan@rock-chips.com,dt-bindings: display: panel: Make reset-gpio as optional for Raydium RM67200,7513437b42d3
+2025-06-23,Simon Xue,xxm@rock-chips.com,iommu/rockchip: prevent iommus dead loop when two masters share one IOMMU,62e062a29ad5
+2025-06-20,Chaoyi Chen,chaoyi.chen@rock-chips.com,drm/bridge-connector: Fix bridge in drm_connector_hdmi_audio_init(),103578241512
+2025-06-18,Andy Yan,andy.yan@rock-chips.com,arm64: dts: rockchip: Enable gpu on rk3576-evb1-v10,974baaa14702
+2025-05-22,Andy Yan,andy.yan@rock-chips.com,arm64: dts: rockchip: Adjust the HDMI DDC IO driver strength for rk3588,af9feb0b85f9
+2025-06-03,Shawn Lin,shawn.lin@rock-chips.com,"arm64: dts: rockchip: fix rk3576 pcie1 linux,pci-domain",af0f43d5d0d6
+2025-03-02,Damon Ding,damon.ding@rock-chips.com,drm/bridge: analogix_dp: Remove the unnecessary calls to clk_disable_unprepare() during probing,6579a03e68ff
+2025-05-06,Kever Yang,kever.yang@rock-chips.com,dt-bindings: watchdog: Add rk3562 compatible,37c3714498fb
+2025-05-20,Chaoyi Chen,chaoyi.chen@rock-chips.com,dt-bindings: display: rockchip: Convert cdn-dp-rockchip.txt to yaml,70a299ed2e03
+2025-05-09,Andy Yan,andy.yan@rock-chips.com,drm/rockchip: cleanup fb when drm_gem_fb_afbc_init failed,099593a28138
+2025-04-15,Frank Wang,frank.wang@rock-chips.com,phy: rockchip: inno-usb2: Add usb2 phy support for rk3562,80edd21db00c
+2025-04-15,Kever Yang,kever.yang@rock-chips.com,"dt-bindings: phy: rockchip,inno-usb2phy: add rk3562",abf55cdf9c5e
+2025-04-27,Algea Cao,algea.cao@rock-chips.com,phy: phy-rockchip-samsung-hdptx: Fix PHY PLL output 50.25MHz error,f9475055b11c
+2025-05-09,Finley Xiao,finley.xiao@rock-chips.com,arm64: dts: rockchip: Add RK3562 evb2 devicetree,ceb6ef1ea900
+2025-05-09,Finley Xiao,finley.xiao@rock-chips.com,arm64: dts: rockchip: add core dtsi for RK3562 SoC,515fd6222473
+2025-05-09,Kever Yang,kever.yang@rock-chips.com,dt-bindings: arm: rockchip: Add rk3562 evb2 board,b7016249819f
+2025-05-09,Kever Yang,kever.yang@rock-chips.com,dt-bindings: soc: rockchip: Add rk3562 syscon compatibles,472a4e77a207
+2025-05-09,Kever Yang,kever.yang@rock-chips.com,dt-bindings: rockchip: pmu: Add rk3562 compatible,01ccbe64f9e5
+2025-05-06,Chaoyi Chen,chaoyi.chen@rock-chips.com,arm64: dts: rockchip: Add rk3399-evb-ind board,2435fca0580c
+2025-05-06,Chaoyi Chen,chaoyi.chen@rock-chips.com,dt-bindings: arm: rockchip: Add rk3399 industry evaluation board,ff7c417e54a8
+2025-04-22,Andy Yan,andy.yan@rock-chips.com,"Revert ""ARM: dts: rockchip: drop grf reference from rk3036 hdmi""",dd6c77864aa6
+2025-04-22,Andy Yan,andy.yan@rock-chips.com,ARM: dts: rockchip: Add ref clk for hdmi,cdc602ad0640
+2025-04-22,Andy Yan,andy.yan@rock-chips.com,drm/rockchip: inno-hdmi: Fix video timing HSYNC/VSYNC polarity setting for rk3036,ad10b82c2bca
+2025-04-22,Andy Yan,andy.yan@rock-chips.com,drm/rockchip: inno-hdmi: Simplify error handler with dev_err_probe,31b4403c6c52
+2025-04-22,Andy Yan,andy.yan@rock-chips.com,"dt-bindings: display: rockchip,inno-hdmi: Document GRF for RK3036 HDMI",e0c93980d293
+2025-04-22,Andy Yan,andy.yan@rock-chips.com,"dt-bindings: display: rockchip,inno-hdmi: Fix Document of RK3036 compatible",c0673bb35655
+2025-04-28,Andy Yan,andy.yan@rock-chips.com,drm/rockchip: rk3066_hdmi: switch to drm bridge,57d6811e8a6d
+2025-04-18,Chaoyi Chen,chaoyi.chen@rock-chips.com,arm64: dts: rockchip: Add rk3588 evb2 board,2acfe31a8ce5
+2025-04-18,Chaoyi Chen,chaoyi.chen@rock-chips.com,dt-bindings: arm: rockchip: Add rk3588 evb2 board,b3610f20905f
+2025-04-23,Shawn Lin,shawn.lin@rock-chips.com,arm64: dts: rockchip: Add pcie1 slot for rk3576 evb1 board,faebc6375bbf
+2025-04-14,Shawn Lin,shawn.lin@rock-chips.com,PCI: dw-rockchip: Move rockchip_pcie_ep_hide_broken_ats_cap_rk3588() to dw_pcie_ep_ops::init(),d4a5d7e6d91f
+2025-04-17,Shawn Lin,shawn.lin@rock-chips.com,PCI: dw-rockchip: Enable ASPM L0s capability for both RC and EP modes,198e69cc4150
+2025-04-17,Shawn Lin,shawn.lin@rock-chips.com,PCI: dw-rockchip: Remove PCIE_L0S_ENTRY check from rockchip_pcie_link_up(),7d9b5d611553
+2025-04-15,Finley Xiao,finley.xiao@rock-chips.com,pmdomain: rockchip: Add support for RK3562 SoC,f89c082d4491
+2025-04-15,Finley Xiao,finley.xiao@rock-chips.com,dt-bindings: power: rockchip: Add support for RK3562 SoC,2798cf48d267
+2025-04-15,Kever Yang,kever.yang@rock-chips.com,dt-bindings: PCI: dwc: rockchip: Add rk3562 support,c928080166a1
+2025-04-14,Kever Yang,kever.yang@rock-chips.com,dt-bindings: PCI: dw: rockchip: Add rk3576 support,215113ab9cc8
+2025-04-14,Kever Yang,kever.yang@rock-chips.com,arm64: dts: rockchip: Add rk3576 pcie nodes,d4b9fc2af45d
+2025-03-10,Damon Ding,damon.ding@rock-chips.com,arm64: dts: rockchip: Enable eDP0 display on RK3588S EVB1 board,53862b991e79
+2025-03-10,Damon Ding,damon.ding@rock-chips.com,arm64: dts: rockchip: Add eDP0 node for RK3588,dc79d3d5e7c7
+2025-03-10,Damon Ding,damon.ding@rock-chips.com,drm/rockchip: analogix_dp: Add support for RK3588,729f8eefdcad
+2025-03-10,Damon Ding,damon.ding@rock-chips.com,drm/bridge: analogix_dp: Add support for RK3588,0e8b86b6df14
+2025-03-10,Damon Ding,damon.ding@rock-chips.com,dt-bindings: display: rockchip: analogix-dp: Add support for RK3588,f855146263b1
+2025-03-10,Damon Ding,damon.ding@rock-chips.com,drm/rockchip: analogix_dp: Add support to get panel from the DP AUX bus,d7b4936b2bc0
+2025-03-10,Damon Ding,damon.ding@rock-chips.com,drm/bridge: analogix_dp: Add support for &drm_dp_aux.wait_hpd_asserted(),c8f0b7cb01ea
+2025-03-10,Damon Ding,damon.ding@rock-chips.com,drm/bridge: analogix_dp: Add support to get panel from the DP AUX bus,e5e9fa9f7aad
+2025-03-10,Damon Ding,damon.ding@rock-chips.com,drm/bridge: analogix_dp: Support to get &analogix_dp_device.plat_data and &analogix_dp_device.aux,fd073dffef04
+2025-03-10,Damon Ding,damon.ding@rock-chips.com,dt-bindings: display: rockchip: analogix-dp: Add support to get panel from the DP AUX bus,46b0caaad3a5
+2025-03-10,Damon Ding,damon.ding@rock-chips.com,drm/bridge: analogix_dp: Add support for phy configuration.,2c0883459ed6
+2025-03-10,Damon Ding,damon.ding@rock-chips.com,drm/bridge: analogix_dp: Remove CONFIG_PM related check in analogix_dp_bind()/analogix_dp_unbind(),c71db051142a
+2025-03-10,Damon Ding,damon.ding@rock-chips.com,drm/bridge: analogix_dp: Add irq flag IRQF_NO_AUTOEN instead of calling disable_irq(),efab13e7d13a
+2025-04-11,Andy Yan,andy.yan@rock-chips.com,drm/bridge: dw-hdmi: Avoid including uapi headers,4890d68db651
+2025-04-08,Shawn Lin,shawn.lin@rock-chips.com,arm64: dts: rockchip: Rename vcc3v3_pcie0 to vcc3v3_pcie1 for rk3576-evb1-v10,cdba8e71599a
+2025-03-17,Andy Yan,andy.yan@rock-chips.com,drm/rockchip: dw_hdmi_qp: Fix io init for dw_hdmi_qp_rockchip_resume,1d34597a1e23
+2025-03-12,Andy Yan,andy.yan@rock-chips.com,drm/rockchip: vop2: Fix interface enable/mux setting of DP1 on rk3588,210db264cf87
+2025-03-18,Andy Yan,andy.yan@rock-chips.com,drm/rockchip: vop2: Make overlay layer select register configuration take effect by vsync,c5996e4ab109
+2025-03-12,Simon Xue,xxm@rock-chips.com,iio: adc: rockchip: Fix clock initialization sequence,839f81de3970
+2025-03-24,Andy Yan,andy.yan@rock-chips.com,ARM: dts: rockchip: Add aliases for rk3036-kylin MMC devices,d15d8d234248
+2024-12-21,Andy Yan,andy.yan@rock-chips.com,arm64: dts: rockchip: aliase sdhci as mmc0 for rk3566 box demo,b6490faab67c
+2025-03-05,Shawn Lin,shawn.lin@rock-chips.com,arm64: dts: rockchip: Enable ufshc on rk3576 evb1 board,530f2bebc091
+2025-03-18,Andy Yan,andy.yan@rock-chips.com,drm/bridge: it6505: Switch to common helpers to power up/down dp link,f09d9f921f2b
+2025-03-18,Andy Yan,andy.yan@rock-chips.com,drm/bridge: anx78xx: Switch to common helpers to power up/down dp link,39f14a01994b
+2025-03-18,Andy Yan,andy.yan@rock-chips.com,drm/bridge: anx6345: Switch to common helpers to power up/down dp link,4adde49ba497
+2025-03-18,Andy Yan,andy.yan@rock-chips.com,drm/bridge: cdns-mhdp8546: Switch to common helpers to power up/down dp link,23ee8c6b34fd
+2025-03-18,Andy Yan,andy.yan@rock-chips.com,drm/dp: Pull drm_dp_link_power_up/down from Tegra to common drm_dp_helper,09cdda7a60f4
+2025-03-19,David Wu,david.wu@rock-chips.com,net: stmmac: dwmac-rk: Add GMAC support for RK3528,1725f0eb37d6
+2025-02-27,Kever Yang,kever.yang@rock-chips.com,dt-bindings: serial: snps-dw-apb-uart: Add support for rk3562,87975ca99177
+2025-02-27,Kever Yang,kever.yang@rock-chips.com,dt-bindings: i2c: i2c-rk3x: Add rk3562 support,ff885b6fd5dc
+2025-02-27,Jon Lin,jon.lin@rock-chips.com,phy: rockchip-naneng-combo: Support rk3562,f13bff25161b
+2025-02-27,Kever Yang,kever.yang@rock-chips.com,dt-bindings: phy: rockchip: Add rk3562 naneng-combophy compatible,86ae16893409
+2025-03-02,Andy Yan,andy.yan@rock-chips.com,phy: rockchip: usbdp: Avoid call hpd_event_trigger in dp_phy_init,28dc672a1a87
+2025-03-12,Andy Yan,andy.yan@rock-chips.com,phy: rockchip: usbdp: Only verify link rates/lanes/voltage when the corresponding set flags are set,969a38be437b
+2025-02-27,Kever Yang,kever.yang@rock-chips.com,dt-bindings: mmc: rockchip-dw-mshc: Add support for rk3562,ab5d7073adba
+2025-02-27,Kever Yang,kever.yang@rock-chips.com,dt-bindings: mmc: Add support for rk3562 eMMC,e50bbfe98251
+2025-03-05,Andy Yan,andy.yan@rock-chips.com,arm64: dts: rockchip: Enable hdmi out display for rk3576-evb-v10,7641678ecb0c
+2025-03-05,Shawn Lin,shawn.lin@rock-chips.com,arm64: defconfig: Enable Rockchip UFS host driver,769c2b450b89
+2025-02-18,Shawn Lin,shawn.lin@rock-chips.com,PCI: Add Rockchip Vendor ID,20bbb083bbc9
+2024-12-31,Andy Yan,andy.yan@rock-chips.com,arm64: dts: rockchip: Enable hdmi display on sige5,2062b91b9f3c
+2024-12-31,Andy Yan,andy.yan@rock-chips.com,arm64: dts: rockchip: Add hdmi for rk3576,ad0ea230ab2a
+2024-12-31,Andy Yan,andy.yan@rock-chips.com,arm64: dts: rockchip: Add vop for rk3576,d74b842cab08
+2025-02-27,Simon Xue,xxm@rock-chips.com,iio: adc: rockchip_saradc: add rk3562,1e30116da036
+2025-02-27,Kever Yang,kever.yang@rock-chips.com,"dt-bindings: iio: adc: Add rockchip,rk3562-saradc string",94e4fc4004e4
+2025-02-28,Steven Liu,steven.liu@rock-chips.com,pinctrl: rockchip: Add support for RK3528,a5e4cde64785
+2025-02-26,Shawn Lin,shawn.lin@rock-chips.com,scsi: ufs: rockchip: Fix devm_clk_bulk_get_all_enabled() return value,4fffffd3b134
+2025-03-03,Andy Yan,andy.yan@rock-chips.com,drm/rockchip: vop2: Add support for rk3576,944757a4cba6
+2025-03-03,Andy Yan,andy.yan@rock-chips.com,dt-bindings: display: vop2: Add rk3576 support,c3b7c5a4d7c1
+2025-03-03,Andy Yan,andy.yan@rock-chips.com,"dt-bindings: display: vop2: Add missing rockchip,grf property for rk3566/8",47d31e6598e4
+2025-03-03,Andy Yan,andy.yan@rock-chips.com,dt-bindings: display: vop2: describe constraint SoC by SoC,1803bfb59656
+2025-03-03,Andy Yan,andy.yan@rock-chips.com,drm/rockchip: vop2: Add uv swap for cluster window,e7aae9f6d762
+2025-03-03,Andy Yan,andy.yan@rock-chips.com,drm/rockchip: vop2: Set plane possible crtcs by possible vp mask,b90fa71a1160
+2025-03-03,Andy Yan,andy.yan@rock-chips.com,drm/rockchip: vop2: Register the primary plane and overlay plane separately,6fd4f8a26a21
+2025-02-27,Kever Yang,kever.yang@rock-chips.com,dt-bindings: usb: dwc3: Add support for rk3562,a6e804c44db4
+2025-02-18,Andy Yan,andy.yan@rock-chips.com,drm/rockchip: vop2: Introduce vop hardware version,301618ed1d8a
+2025-02-18,Andy Yan,andy.yan@rock-chips.com,drm/rockchip: vop2: Support for different layer select configuration between VPs,5439c4f3cb0e
+2025-02-18,Andy Yan,andy.yan@rock-chips.com,drm/rockchip: vop2: Merge vop2_cluster/esmart_init function,145c9b36892a
+2025-02-18,Andy Yan,andy.yan@rock-chips.com,drm/rockchip: vop2: Add platform specific callback,328e6885996c
+2025-02-18,Andy Yan,andy.yan@rock-chips.com,drm/rockchip: vop2: Remove AFBC from TRANSFORM_OFFSET register macro,838a871a4d51
+2025-02-18,Andy Yan,andy.yan@rock-chips.com,drm/rockchip: vop2: use devm_regmap_field_alloc for cluster-regs,ff0b6c031ed3
+2025-02-27,Finley Xiao,finley.xiao@rock-chips.com,clk: rockchip: Add clock controller for the RK3562,f863d4cc79a7
+2025-02-27,Kever Yang,kever.yang@rock-chips.com,"dt-bindings: pwm: rockchip: Add rockchip,rk3562-pwm",058210e84b48
+2025-02-27,Kever Yang,kever.yang@rock-chips.com,"dt-bindings: gpu: Add rockchip,rk3562-mali compatible",049e7ac203d5
+2025-02-27,Kever Yang,kever.yang@rock-chips.com,dt-bindings: clock: Add RK3562 cru,dd113c4fefc8
+2025-02-27,Kever Yang,kever.yang@rock-chips.com,spi: dt-bindings: Add rk3562 support,825687c1662c
+2025-02-24,Damon Ding,damon.ding@rock-chips.com,drm/rockchip: analogix_dp: Expand device data to support multiple edp display,718b3bb9c0ab
+2025-02-24,Damon Ding,damon.ding@rock-chips.com,drm/rockchip: analogix_dp: Use formalized struct definition for grf field,2bf9f610494d
+2025-02-17,Sugar Zhang,sugar.zhang@rock-chips.com,drm/bridge: synopsys: Add audio support for dw-hdmi-qp,fd0141d1a8a2
+2025-02-05,Shawn Lin,shawn.lin@rock-chips.com,scsi: arm64: dts: rockchip: Add UFS support for RK3576 SoC,c75e5e010fef
+2025-02-05,Shawn Lin,shawn.lin@rock-chips.com,scsi: ufs: rockchip: Initial support for UFS,d3cbe455d6eb
+2025-02-05,Shawn Lin,shawn.lin@rock-chips.com,scsi: ufs: core: Export ufshcd_dme_reset() and ufshcd_dme_enable(),6b070711b702
+2025-02-05,Shawn Lin,shawn.lin@rock-chips.com,scsi: ufs: dt-bindings: Document Rockchip UFS host controller,d90e92023771
+2025-02-19,Shawn Lin,shawn.lin@rock-chips.com,pmdomain: rockchip: Check if SMC could be handled by TA,61eeb9678789
+2025-02-05,Damon Ding,damon.ding@rock-chips.com,phy: phy-rockchip-samsung-hdptx: Add eDP mode support for RK3588,8f831f272b4c
+2025-02-05,Damon Ding,damon.ding@rock-chips.com,phy: phy-rockchip-samsung-hdptx: Add the '_MASK' suffix to all registers,2dc8224e3758
+2025-02-05,Damon Ding,damon.ding@rock-chips.com,phy: phy-rockchip-samsung-hdptx: Supplement some register names with their full version,f70602410720
+2025-02-05,Damon Ding,damon.ding@rock-chips.com,phy: phy-rockchip-samsung-hdptx: Swap the definitions of LCPLL_REF and ROPLL_REF,2947c8065e9e
+2025-02-05,Shawn Lin,shawn.lin@rock-chips.com,pmdomain: rockchip: Add smc call to inform firmware,58ebba35ddab
+2025-02-05,Shawn Lin,shawn.lin@rock-chips.com,soc: rockchip: add header for suspend mode SIP interface,184055a9ae2b
+2024-12-31,Andy Yan,andy.yan@rock-chips.com,dt-bindings: phy: Add rk3576 hdptx phy,ad205ffc0dd0
+2024-12-05,Kever Yang,kever.yang@rock-chips.com,dt-bindings: vendor-prefixes: Update rockchip company name,c548f8e82506
+2025-02-06,Damon Ding,damon.ding@rock-chips.com,arm64: dts: rockchip: Fix label name of hdptxphy for RK3588,2efdb041019f
+2025-02-06,Damon Ding,damon.ding@rock-chips.com,dt-bindings: display: rockchip: Fix label name of hdptxphy for RK3588 HDMI TX Controller,81dde32e7266
+2025-02-05,Damon Ding,damon.ding@rock-chips.com,drm/edp-panel: Add LG Display panel model LP079QX1-SP0V,0e1daf2b32dc
+2024-12-24,Kever Yang,kever.yang@rock-chips.com,dt-bindings: mfd: syscon: Add rk3562 QoS register compatible,aba4f736fc55
+2025-01-07,Kever Yang,kever.yang@rock-chips.com,arm64: dts: rockchip: Add rk3576 evb1 board,f135a1a07352
+2025-01-07,Kever Yang,kever.yang@rock-chips.com,dt-bindings: arm: rockchip: Add rk3576 evb1 board,88dc3756ece1
+2025-01-07,Kever Yang,kever.yang@rock-chips.com,dt-bindings: arm: rockchip: Sort for boards not in correct order,ffd07673f08a
+2025-01-07,Frank Wang,frank.wang@rock-chips.com,arm64: dts: rockchip: add usb related nodes for rk3576,23ec57a32da4
+2025-01-07,Kever Yang,kever.yang@rock-chips.com,arm64: dts: rockchip: Add rk3576 naneng combphy nodes,ddbf63b25866
+2024-12-31,Andy Yan,andy.yan@rock-chips.com,drm/rockchip: dw_hdmi_qp: Add basic RK3576 HDMI output support,36439120efbd
+2024-12-31,Andy Yan,andy.yan@rock-chips.com,dt-bindings: display: rockchip: Add rk3576 hdmi controller,3a5981b65f77
+2024-12-31,Andy Yan,andy.yan@rock-chips.com,drm/rockchip: dw_hdmi_qp: Add platform ctrl callback,3f60dbd40d3f
+2024-12-19,Jon Lin,jon.lin@rock-chips.com,spi: rockchip-sfc: Support sclk_x2 version,af103eb7d7d8
+2024-12-31,Andy Yan,andy.yan@rock-chips.com,dt-bindings: iommu: rockchip: Add Rockchip RK3576,5a0751fc9eab
+2024-12-31,Andy Yan,andy.yan@rock-chips.com,drm/rockchip: vop2: Support 32x8 superblock afbc,938fbb16aba8
+2024-12-31,Andy Yan,andy.yan@rock-chips.com,dt-bindings: soc: rockchip: add rk3576 hdptxphy grf syscon,39b771a85f6b

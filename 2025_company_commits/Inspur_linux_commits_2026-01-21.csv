@@ -1,0 +1,88 @@
+﻿Date,Author Name,Author Email,Subject,Commit Hash
+2025-11-03,Chu Guangqing,chuguangqing@inspur.com,nvme: fix typo error in nvme target,b645d5a25d49
+2025-11-25,Chu Guangqing,chuguangqing@inspur.com,tpm_crb: Fix a spelling mistake,76b1a8aebe0d
+2025-11-25,Chu Guangqing,chuguangqing@inspur.com,zram: fix a spelling mistake,8f4338b1141e
+2025-11-25,Chu Guangqing,chuguangqing@inspur.com,ACPI: PM: Fix a spelling mistake,a508939e1535
+2025-11-25,Chu Guangqing,chuguangqing@inspur.com,ACPI: LPSS: Fix a spelling mistake,037dada8bbb1
+2025-11-03,Chu Guangqing,chuguangqing@inspur.com,can: bxcan: Fix a typo error for assign,b305fbdad4ed
+2025-10-29,Bo Liu,liubo03@inspur.com,arm64: Fix double word in comments,337f7e3a4b4d
+2025-10-24,Chu Guangqing,chuguangqing@inspur.com,iio: light: apds9960: convert to use maple tree register cache,698dcf54282a
+2025-10-24,Chu Guangqing,chuguangqing@inspur.com,iio: light: apds9306: convert to use maple tree register cache,52d182b2ff99
+2025-10-24,Chu Guangqing,chuguangqing@inspur.com,iio: light: veml3235: convert to use maple tree register cache,00d3bd9e3f71
+2025-10-24,Chu Guangqing,chuguangqing@inspur.com,iio: adc: ade9000: convert to use maple tree register cache,e5191f62a67a
+2025-10-29,Bo Liu,liubo03@inspur.com,s390: Fix double word in comments,858063c1aec8
+2025-10-15,Chu Guangqing,chuguangqing@inspur.com,vfio/mtty: Fix spelling typo in samples/vfio-mdev,abe7d636403b
+2025-11-03,Chu Guangqing,chuguangqing@inspur.com,xen/netfront: Comment Correction: Fix Spelling Error and Description of Queue Quantity Rules,52665fcc2241
+2025-11-03,Chu Guangqing,chuguangqing@inspur.com,net: sungem_phy: Fix a typo error in sungem_phy,96c68954cd3b
+2025-11-03,Chu Guangqing,chuguangqing@inspur.com,veth: Fix a typo error in veth,9781642e5890
+2025-11-03,Chu Guangqing,chuguangqing@inspur.com,gtp: Fix a typo error for size,2428803d5eef
+2025-11-03,Chu Guangqing,chuguangqing@inspur.com,virtio_net: Fix a typo error in virtio_net,f4b2786fb14b
+2025-10-31,Chu Guangqing,chuguangqing@inspur.com,ACPI: CPPC: Fix typo in a comment,1642fabff19f
+2025-10-31,Chu Guangqing,chuguangqing@inspur.com,perf vendor events AmpereOneX: Fix spelling typo in the metrics file,0d1e63183d5c
+2025-10-31,Chu Guangqing,chuguangqing@inspur.com,perf vendor events arm64: Fix typo in Ampere eMag json file,1d7f783809fc
+2025-10-15,Chu Guangqing,chuguangqing@inspur.com,samples/bpf: Fix spelling typos in samples/bpf,b74938a3bd37
+2025-08-06,chuguangqing,chuguangqing@inspur.com,fs: ext4: change GFP_KERNEL to GFP_NOFS to avoid deadlock,1534f72dc2a1
+2025-09-23,Bo Liu (OpenAnolis),liubo03@inspur.com,erofs: Add support for FS_IOC_GETFSLABEL,1cf12c717741
+2025-09-05,Charles Han,hanchunchao@inspur.com,ASoC: codecs: fs210x: Add NULL check in fs210x_register_snd_component,be585f7ebc99
+2025-08-15,Charles Han,hanchunchao@inspur.com,ACPI: APEI: EINJ: fix potential NULL dereference in __einj_error_inject(),7459e87ae1d7
+2025-07-22,Bo Liu (OpenAnolis),liubo03@inspur.com,erofs: implement metadata compression,414091322c63
+2025-07-17,Bo Liu (OpenAnolis),liubo03@inspur.com,erofs: fix build error with CONFIG_EROFS_FS_ZIP_ACCEL=y,5e0bf36fd156
+2025-06-11,chuguangqing,chuguangqing@inspur.com,iio: light: opt4060: convert to use maple tree register cache,5cc26087667a
+2025-06-11,chuguangqing,chuguangqing@inspur.com,iio: light: ltr501: convert to use maple tree register cache,f9428623818a
+2025-06-11,chuguangqing,chuguangqing@inspur.com,iio: light: isl29028: convert to use maple tree register cache,7eab62ecbcbb
+2025-06-11,chuguangqing,chuguangqing@inspur.com,iio: imu: bno055: convert to use maple tree register cache,a5afaa5de32d
+2025-06-11,chuguangqing,chuguangqing@inspur.com,iio: imu: icm42600: convert to use maple tree register cache,3be2dd518526
+2025-06-11,chuguangqing,chuguangqing@inspur.com,iio: health: afe4404: convert to use maple tree register cache,2619f7b14c40
+2025-06-11,chuguangqing,chuguangqing@inspur.com,iio: health: afe4403: convert to use maple tree register cache,bc6c48bfadc2
+2025-06-11,chuguangqing,chuguangqing@inspur.com,iio: dac: bd79703: convert to use maple tree register cache,3547b9ab0434
+2025-06-11,chuguangqing,chuguangqing@inspur.com,iio: dac: ad5380: convert to use maple tree register cache,cc42e969ebbb
+2025-06-11,chuguangqing,chuguangqing@inspur.com,iio: chemical: bme680: convert to use maple tree register cache,5c3f0624831c
+2025-05-19,Charles Han,hanchunchao@inspur.com,power: supply: max14577: Handle NULL pdata when CONFIG_OF is not set,2937f5d2e24e
+2025-05-19,Charles Han,hanchunchao@inspur.com,power: supply: cpcap-charger: Fix null check for power_supply_get_by_name,d9fa3aae08f9
+2025-05-22,Bo Liu,liubo03@inspur.com,erofs: support DEFLATE decompression by using Intel QAT,b4a29efc5146
+2025-04-07,Charles Han,hanchunchao@inspur.com,wifi: mt76: mt7996: Add NULL check in mt7996_thermal_init,caf4b347c5dc
+2025-04-10,Charles Han,hanchunchao@inspur.com,btrfs: update and correct description of btrfs_get_or_create_delayed_node(),ecf5b757c74c
+2025-04-23,Bo Liu,liubo03@inspur.com,"hwmon: (isl28022, nct7363) Convert to use maple tree register cache",a92d87d2f90e
+2025-04-23,Bo Liu,liubo03@inspur.com,regulator: pf9453: convert to use maple tree register cache,5410aa3aa7f7
+2025-03-25,Charles Han,hanchunchao@inspur.com,pinctrl: qcom: tlmm-test: Fix potential null dereference in tlmm kunit test,1938be9fbad1
+2025-04-10,Bo Liu,liubo03@inspur.com,erofs: remove duplicate code,f5ffef9881a7
+2025-03-27,Charles Han,hanchunchao@inspur.com,drm/amd/pp: Fix potential NULL pointer dereference in atomctrl_initialize_mc_reg_table,820116a39f96
+2025-02-13,Charles Han,hanchunchao@inspur.com,Documentation: Remove repeated word in docs,aa52eb6d1672
+2025-03-05,Charles Han,hanchunchao@inspur.com,drm/sti: fix inconsistent indenting warning,e773db73fd24
+2025-03-05,Charles Han,hanchunchao@inspur.com,serial: icom: fix code format problems,9e2a0d4591d2
+2025-02-17,Bo Liu,liubo03@inspur.com,erofs: get rid of erofs_kmap_type,706e50e46af8
+2025-01-10,Charles Han,hanchunchao@inspur.com,ext4: fix potential null dereference in ext4 kunit test,57e7239ce0ed
+2025-03-05,Charles Han,hanchunchao@inspur.com,drm/vc4: plane: fix inconsistent indenting warning,ce468a7b63f1
+2025-02-28,Bo Liu,liubo03@inspur.com,power: supply: smb347: convert to use maple tree register cache,bfa2b6370b79
+2025-02-28,Bo Liu,liubo03@inspur.com,power: supply: rt9455: convert to use maple tree register cache,af4499fb2a3f
+2025-02-28,Bo Liu,liubo03@inspur.com,power: supply: max1720x: convert to use maple tree register cache,dde0409a223b
+2025-02-28,Bo Liu,liubo03@inspur.com,power: supply: ltc4162l: convert to use maple tree register cache,8cf985e069ca
+2025-02-28,Bo Liu,liubo03@inspur.com,power: supply: bq25980: convert to use maple tree register cache,f8be87583c12
+2025-02-28,Bo Liu,liubo03@inspur.com,power: supply: bq25890: convert to use maple tree register cache,21153cf9a79a
+2025-02-28,Bo Liu,liubo03@inspur.com,power: supply: bq2515x: convert to use maple tree register cache,71a7627d3a1c
+2025-02-28,Bo Liu,liubo03@inspur.com,power: supply: bq24257: convert to use maple tree register cache,6d166a69863f
+2025-02-28,Bo Liu,liubo03@inspur.com,power: supply: bd99954: convert to use maple tree register cache,0857367003bc
+2025-03-07,Charles Han,hanchunchao@inspur.com,clk: mmp: Fix NULL vs IS_ERR() check,00153c64a72d
+2025-03-05,Charles Han,hanchunchao@inspur.com,drm/amdgpu: fix inconsistent indenting warning,571d36837c84
+2025-03-05,Charles Han,hanchunchao@inspur.com,drm: pl111: fix inconsistent indenting warning,2d4d775d11d3
+2025-03-05,Charles Han,hanchunchao@inspur.com,drm/imx: legacy-bridge: fix inconsistent indenting warning,5f7a654b5ed2
+2025-03-05,Charles Han,hanchunchao@inspur.com,drm/gma500: fix inconsistent indenting warning,4423e607ff50
+2025-03-05,Charles Han,hanchunchao@inspur.com,PCI: mediatek-gen3: Fix inconsistent indentation,98e87cc501c1
+2025-03-05,Charles Han,hanchunchao@inspur.com,x86/delay: Fix inconsistent whitespace,f739365158a3
+2025-02-28,Charles Han,hanchunchao@inspur.com,ALSA: seq: seq_oss_event: fix inconsistent indenting warning in note_on_event(),3abe3d342fc6
+2025-02-27,Charles Han,hanchunchao@inspur.com,ALSA: opti9xx: fix inconsistent indenting warning in snd_opti9xx_configure(),e747104c99fd
+2025-02-27,Charles Han,hanchunchao@inspur.com,ALSA: emu10k1: fix inconsistent indenting warning in snd_emu10k1_synth_free(),aeb7cf20285a
+2025-02-12,Charles Han,hanchunchao@inspur.com,pinctrl: nuvoton: npcm8xx: Add NULL check in npcm8xx_gpio_fw,acf40ab42799
+2025-02-12,Bo Liu,liubo03@inspur.com,iio: accel: kx022a: convert to use maple tree register cache,9d7d7bfb45c5
+2025-02-12,Bo Liu,liubo03@inspur.com,iio: accel: bmi088: convert to use maple tree register cache,7ed9db68c375
+2025-02-12,Bo Liu,liubo03@inspur.com,iio: accel: bma400: convert to use maple tree register cache,58e9fe259750
+2025-02-12,Bo Liu,liubo03@inspur.com,iio: accel: msa311: convert to use maple tree register cache,7a2dd31359b0
+2025-02-11,Charles Han,hanchunchao@inspur.com,drm: xlnx: zynqmp_dpsub: Add NULL check in zynqmp_audio_init,d0660f9c588a
+2025-02-07,Charles Han,hanchunchao@inspur.com,Documentation: Remove repeated word in docs,07ab93f3cc88
+2025-01-24,Charles Han,hanchunchao@inspur.com,scsi: isci: Fix double word in comments,120430bff612
+2024-11-15,Charles Han,hanchunchao@inspur.com,HID: multitouch: Add NULL check in mt_input_configured,9b8e2220d3a0
+2024-11-14,Charles Han,hanchunchao@inspur.com,HID: winwing: Add NULL check in winwing_init_led(),45ab5166a82d
+2024-12-27,Charles Han,hanchunchao@inspur.com,Bluetooth: btbcm: Fix NULL deref in btbcm_get_board_name(),b88655bc6593
+2024-10-25,Charles Han,hanchunchao@inspur.com,wifi: mt76: mt7925: fix NULL deref check in mt7925_change_vif_links,5cd0bd815c8a
+2024-12-29,Deming Wang,wangdeming@inspur.com,wifi: iwlwifi: api: remove the double word,42986665305c
+2025-01-10,Charles Han,hanchunchao@inspur.com,firewire: test: Fix potential null dereference in firewire kunit test,352fafe97784

@@ -1,0 +1,63 @@
+﻿Date,Author Name,Author Email,Subject,Commit Hash
+2025-12-04,caoping,caoping@cmss.chinamobile.com,net/handshake: restore destructor on submit failure,6af2a01d65f8
+2025-11-06,zhang jiao,zhangjiao2@cmss.chinamobile.com,fs/proc/page: remove unused KPMBITS,14954cd190e8
+2025-11-06,Zhang Chujun,zhangchujun@cmss.chinamobile.com,selftests/dma: fix invalid array access in printf,26347f844381
+2025-09-22,liujing,liujing@cmss.chinamobile.com,perf sample: Fix the wrong format specifier,38367a22abba
+2025-11-03,Zhang Chujun,zhangchujun@cmss.chinamobile.com,mm/debug: fix missing space in case statement,77a7cfd96c17
+2025-11-10,zhang jiao,zhangjiao2@cmss.chinamobile.com,workqueue: Remove unused assert_rcu_or_wq_mutex_or_pool_mutex,4457265c61f3
+2025-11-06,Zhang Chujun,zhangchujun@cmss.chinamobile.com,tracing/tools: Fix incorrcet short option in usage text for --threads,53afec2c8fb2
+2025-11-06,Zhang Chujun,zhangchujun@cmss.chinamobile.com,selftest/alsa: correct grammar in conf_get_bool error string,79d062bdefbd
+2025-10-28,Zhang Chujun,zhangchujun@cmss.chinamobile.com,bpftool: Fix missing closing parethesis for BTF_KIND_UNKN,88427328e35d
+2025-09-30,Tang Bin,tangbin@cmss.chinamobile.com,ASoC: codecs: Fix the error of excessive semicolons,5e537031f322
+2025-09-30,Tang Bin,tangbin@cmss.chinamobile.com,ASoc: tas2783A: Remove unneeded variable assignment,3c89238ca35b
+2025-09-10,zhang jiao,zhangjiao2@cmss.chinamobile.com,vhost: vringh: Modify the return value check,82a8d0fda55b
+2025-09-03,zhang jiao,zhangjiao2@cmss.chinamobile.com,samples/cgroup: rm unused MEMCG_EVENTS macro,152d42584a98
+2025-09-03,zhang jiao,zhangjiao2@cmss.chinamobile.com,fs/proc/base.c: fix the wrong format specifier,13f23538ef49
+2025-09-03,zhang jiao,zhangjiao2@cmss.chinamobile.com,tools: gpio: remove the include directory on make clean,ed42d80f3bae
+2024-12-09,Liu Jing,liujing@cmss.chinamobile.com,media: atomisp: Fix spelling error in ia_css_sdis2_types.h,2f9fc1b53c7b
+2024-11-17,Zhu Jun,zhujun2@cmss.chinamobile.com,firmware: tegra: bpmp: Fix typo in bpmp-abi.h,27321c788b3a
+2024-12-18,Zhou Ding,zhouding@cmss.chinamobile.com,x86/boot: Add missing has_cpuflag() prototype,7d8f03f7dd9f
+2025-01-28,Luo Yifan,luoyifan@cmss.chinamobile.com,tools/bootconfig: Fix the wrong format specifier,f6ab7384d554
+2024-12-09,liujing,liujing@cmss.chinamobile.com,dm raid: fix spelling errors in raid_ctr(),193700b9b218
+2024-12-04,Zhu Jun,zhujun2@cmss.chinamobile.com,posix-timers: Fix typo in __lock_timer(),9f38e83a8897
+2024-12-02,zhang jiao,zhangjiao2@cmss.chinamobile.com,selftests: kselftest: Fix the wrong format specifier,5a7a4e46f85e
+2024-12-02,zhang jiao,zhangjiao2@cmss.chinamobile.com,selftests/ipc: Remove unused variables,eed8ecdf123e
+2024-11-25,luoyifan,luoyifan@cmss.chinamobile.com,ARM: 9437/1: vfp: Fix typographical errors in vfpmodule.c,386f2d9d57b6
+2024-11-17,guanjing,guanjing@cmss.chinamobile.com,selftests: mm: fix conversion specifiers in transact_test(),c58c4d244ec5
+2024-12-03,zhang jiao,zhangjiao2@cmss.chinamobile.com,tools/accounting/procacct: fix minor errors,d5cf6b0d170f
+2024-12-04,liujing,liujing@cmss.chinamobile.com,MIPS: Fix the wrong format specifier,3398b1b8111d
+2024-12-09,liujing,liujing@cmss.chinamobile.com,soc/tegra: Fix spelling error in tegra234_lookup_slave_timeout(),c475b6815594
+2024-11-18,Ba Jing,bajing@cmss.chinamobile.com,selftests/landlock: Remove unused macros in ptrace_test.c,b665ee5f08df
+2024-12-20,guanjing,guanjing@cmss.chinamobile.com,firewall: remove misplaced semicolon from stm32_firewall_get_firewall,155c5bf26f98
+2024-11-20,zhang jiao,zhangjiao2@cmss.chinamobile.com,virtio_balloon: Use outer variable 'page',302b49daf0c7
+2025-12-04,caoping,caoping@cmss.chinamobile.com,net/handshake: restore destructor on submit failure,6af2a01d65f8
+2025-11-06,zhang jiao,zhangjiao2@cmss.chinamobile.com,fs/proc/page: remove unused KPMBITS,14954cd190e8
+2025-11-06,Zhang Chujun,zhangchujun@cmss.chinamobile.com,selftests/dma: fix invalid array access in printf,26347f844381
+2025-09-22,liujing,liujing@cmss.chinamobile.com,perf sample: Fix the wrong format specifier,38367a22abba
+2025-11-03,Zhang Chujun,zhangchujun@cmss.chinamobile.com,mm/debug: fix missing space in case statement,77a7cfd96c17
+2025-11-10,zhang jiao,zhangjiao2@cmss.chinamobile.com,workqueue: Remove unused assert_rcu_or_wq_mutex_or_pool_mutex,4457265c61f3
+2025-11-06,Zhang Chujun,zhangchujun@cmss.chinamobile.com,tracing/tools: Fix incorrcet short option in usage text for --threads,53afec2c8fb2
+2025-11-06,Zhang Chujun,zhangchujun@cmss.chinamobile.com,selftest/alsa: correct grammar in conf_get_bool error string,79d062bdefbd
+2025-10-28,Zhang Chujun,zhangchujun@cmss.chinamobile.com,bpftool: Fix missing closing parethesis for BTF_KIND_UNKN,88427328e35d
+2025-09-30,Tang Bin,tangbin@cmss.chinamobile.com,ASoC: codecs: Fix the error of excessive semicolons,5e537031f322
+2025-09-30,Tang Bin,tangbin@cmss.chinamobile.com,ASoc: tas2783A: Remove unneeded variable assignment,3c89238ca35b
+2025-09-10,zhang jiao,zhangjiao2@cmss.chinamobile.com,vhost: vringh: Modify the return value check,82a8d0fda55b
+2025-09-03,zhang jiao,zhangjiao2@cmss.chinamobile.com,samples/cgroup: rm unused MEMCG_EVENTS macro,152d42584a98
+2025-09-03,zhang jiao,zhangjiao2@cmss.chinamobile.com,fs/proc/base.c: fix the wrong format specifier,13f23538ef49
+2025-09-03,zhang jiao,zhangjiao2@cmss.chinamobile.com,tools: gpio: remove the include directory on make clean,ed42d80f3bae
+2024-12-09,Liu Jing,liujing@cmss.chinamobile.com,media: atomisp: Fix spelling error in ia_css_sdis2_types.h,2f9fc1b53c7b
+2024-11-17,Zhu Jun,zhujun2@cmss.chinamobile.com,firmware: tegra: bpmp: Fix typo in bpmp-abi.h,27321c788b3a
+2024-12-18,Zhou Ding,zhouding@cmss.chinamobile.com,x86/boot: Add missing has_cpuflag() prototype,7d8f03f7dd9f
+2025-01-28,Luo Yifan,luoyifan@cmss.chinamobile.com,tools/bootconfig: Fix the wrong format specifier,f6ab7384d554
+2024-12-09,liujing,liujing@cmss.chinamobile.com,dm raid: fix spelling errors in raid_ctr(),193700b9b218
+2024-12-04,Zhu Jun,zhujun2@cmss.chinamobile.com,posix-timers: Fix typo in __lock_timer(),9f38e83a8897
+2024-12-02,zhang jiao,zhangjiao2@cmss.chinamobile.com,selftests: kselftest: Fix the wrong format specifier,5a7a4e46f85e
+2024-12-02,zhang jiao,zhangjiao2@cmss.chinamobile.com,selftests/ipc: Remove unused variables,eed8ecdf123e
+2024-11-25,luoyifan,luoyifan@cmss.chinamobile.com,ARM: 9437/1: vfp: Fix typographical errors in vfpmodule.c,386f2d9d57b6
+2024-11-17,guanjing,guanjing@cmss.chinamobile.com,selftests: mm: fix conversion specifiers in transact_test(),c58c4d244ec5
+2024-12-03,zhang jiao,zhangjiao2@cmss.chinamobile.com,tools/accounting/procacct: fix minor errors,d5cf6b0d170f
+2024-12-04,liujing,liujing@cmss.chinamobile.com,MIPS: Fix the wrong format specifier,3398b1b8111d
+2024-12-09,liujing,liujing@cmss.chinamobile.com,soc/tegra: Fix spelling error in tegra234_lookup_slave_timeout(),c475b6815594
+2024-11-18,Ba Jing,bajing@cmss.chinamobile.com,selftests/landlock: Remove unused macros in ptrace_test.c,b665ee5f08df
+2024-12-20,guanjing,guanjing@cmss.chinamobile.com,firewall: remove misplaced semicolon from stm32_firewall_get_firewall,155c5bf26f98
+2024-11-20,zhang jiao,zhangjiao2@cmss.chinamobile.com,virtio_balloon: Use outer variable 'page',302b49daf0c7

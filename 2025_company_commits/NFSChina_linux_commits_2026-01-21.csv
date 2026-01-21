@@ -1,0 +1,21 @@
+﻿Date,Author Name,Author Email,Subject,Commit Hash
+2025-05-27,Su Hui,suhui@nfschina.com,hpfs: Replace simple_strtoul with kstrtoint in hpfs_parse_param,fd8a620f195e
+2025-08-04,Li Qiong,liqiong@nfschina.com,mm/slub: avoid accessing metadata when pointer is invalid in object_err(),b4efccec8d06
+2025-07-25,Su Hui,suhui@nfschina.com,usb: xhci: print xhci->xhc_state when queue_command failed,7919407eca2e
+2025-06-04,Su Hui,suhui@nfschina.com,nfsd: Change the type of ek_fsidtype from int to u8 and use kstrtou8,fdc368e96d0e
+2025-06-26,Su Hui,suhui@nfschina.com,fs/proc/vmcore: a few cleanups for vmcore_add_device_dump(),ad0039db4217
+2025-05-27,Su Hui,suhui@nfschina.com,ocfs2: replace simple_strtol with kstrtol,85df0d505ed6
+2025-05-15,Su Hui,suhui@nfschina.com,soc: aspeed: lpc: Fix impossible judgment condition,d9f0a97e859b
+2025-04-22,Su Hui,suhui@nfschina.com,rcuscale: using kcalloc() to relpace kmalloc(),bed3af437f38
+2025-04-21,Su Hui,suhui@nfschina.com,mm/damon/sysfs-schemes: use kmalloc_array() and size_add(),ee43f26b49e9
+2025-04-30,Su Hui,suhui@nfschina.com,"alarmtimer: Switch spin_{lock,unlock}_irqsave() to guards",2117c1d503b4
+2025-04-30,Su Hui,suhui@nfschina.com,alarmtimer: Remove dead return value in clock2alarm(),d8ca84d48a2a
+2025-04-30,Su Hui,suhui@nfschina.com,time/jiffies: Change register_refined_jiffies() to void __init,007c07168ac0
+2025-03-14,Li Qiong,liqiong@nfschina.com,usb: gadget: udc-xilinx: Remove the invalid comment,015c0e63eb7c
+2025-03-14,Li Qiong,liqiong@nfschina.com,usb: cdns3: Remove the invalid comment,b9e4b9545424
+2025-02-21,Su Hui,suhui@nfschina.com,include/linux/log2.h: mark is_power_of_2() with __always_inline,c29564d8b46f
+2025-02-11,Su Hui,suhui@nfschina.com,accel/amdxdna: Add missing include linux/slab.h,838c17fd077e
+2025-01-19,Su Hui,suhui@nfschina.com,drm/panthor: avoid garbage value in panthor_ioctl_dev_query(),3b32b7f638fe
+2025-01-19,Su Hui,suhui@nfschina.com,fs/stat.c: avoid harmless garbage value problem in vfs_statx_path(),0fac3ed473dd
+2024-12-16,Youwan Wang,youwan@nfschina.com,HID: multitouch: Add quirk for Hantick 5288 touchpad,b5e65ae557da
+2025-01-06,Su Hui,suhui@nfschina.com,"eth: fbnic: Revert ""eth: fbnic: Add hardware monitoring support via HWMON interface""",95978931d55f

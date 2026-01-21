@@ -1,0 +1,110 @@
+﻿Date,Author Name,Author Email,Subject,Commit Hash
+2025-12-06,Qiang Ma,maqianga@uniontech.com,LoongArch: Correct the calculation logic of thread_count,1de0ae21f136
+2025-12-04,Wentao Guan,guanwentao@uniontech.com,gpio: regmap: Fix memleak in error path in gpio_regmap_register(),52721cfc78c7
+2025-11-14,Wentao Guan,guanwentao@uniontech.com,nvmem: layouts: fix nvmem_layout_bus_uevent,03bc4831ef06
+2025-10-30,Cryolitia PukNgae,cryolitia@uniontech.com,hwmon: (gpd-fan) initialize EC on driver load for Win 4,c55a8e24cd12
+2025-10-31,Qiang Ma,maqianga@uniontech.com,efi/riscv: Remove the useless failure return message print,935f94ccb95b
+2025-11-05,Gou Hao,gouhao@uniontech.com,xfs-doc: Fix typo error,1f37cae5d1c7
+2025-11-09,Qiang Ma,maqianga@uniontech.com,LoongArch: kexec: Print out debugging message if required,62cda5e54f7c
+2025-10-02,Wentao Guan,guanwentao@uniontech.com,LoongArch: Try VMA lock-based page fault handling first,892979b0a97c
+2025-09-28,Cryolitia PukNgae,cryolitia@uniontech.com,ALSA: doc: improved docs about quirk_flags in snd-usb-audio,a767d3583d4e
+2025-09-28,Cryolitia PukNgae,cryolitia@uniontech.com,ALSA: usb-audio: make param quirk_flags change-able in runtime,98b5427bb64f
+2025-09-28,Cryolitia PukNgae,cryolitia@uniontech.com,ALSA: usb-audio: improve module param quirk_flags,ffd586126a82
+2025-09-28,Cryolitia PukNgae,cryolitia@uniontech.com,ALSA: usb-audio: add two-way convert between name and bit for QUIRK_FLAG_*,ce0172627390
+2025-09-24,Cryolitia PukNgae,cryolitia@uniontech.com,hwmon: (gpd-fan) complete Kconfig dependencies,205c73026221
+2025-09-19,Cryolitia PukNgae,cryolitia@uniontech.com,hwmon: (gpd-fan) Fix range check for pwm input,1fac317b6cae
+2025-09-08,Cryolitia PukNgae,cryolitia@uniontech.com,hwmon: document: add gpd-fan,69001f21ded7
+2025-09-08,Cryolitia PukNgae,cryolitia@uniontech.com,hwmon: add GPD devices sensor driver,0ab88e239439
+2025-09-03,Cryolitia PukNgae,cryolitia@uniontech.com,ALSA: usb-audio: apply quirk for MOONDROP Quark2,a73349c5dd27
+2025-09-03,Cryolitia PukNgae,cryolitia@uniontech.com,"ALSA: usb-audio: apply ""mixer_min_mute"" quirks on some devices",806a38293fc0
+2025-09-03,Cryolitia PukNgae,cryolitia@uniontech.com,ALSA: usb-audio: add quirk QUIRK_FLAG_MIXER_CAPTURE_MIN_MUTE,759b5ce3e6e8
+2025-09-03,Cryolitia PukNgae,cryolitia@uniontech.com,ALSA: usb-audio: rename QUIRK_FLAG_MIXER_MIN_MUTE to QUIRK_FLAG_MIXER_PLAYBACK_MIN_MUTE,ace1817ab49b
+2025-08-29,Cryolitia PukNgae,cryolitia@uniontech.com,ALSA: docs: Add documents for recently changes in snd-usb-audio,78811dd56def
+2025-08-29,qaqland,anguoli@uniontech.com,ALSA: usb-audio: Add mute TLV for playback volumes on more devices,2cbe4ac193ed
+2025-08-14,Morduan Zang,zhangdandan@uniontech.com,vfio/nvgrace-gpu: fix grammatical error,767b1ed8b980
+2025-06-10,Chen Linxuan,chenlinxuan@uniontech.com,selftests: filesystems: Add functional test for the abort file in fusectl,1a7b13781b0d
+2025-06-10,Chen Linxuan,chenlinxuan@uniontech.com,doc: fuse: Add max_background and congestion_threshold,e49a6828aba4
+2025-08-27,Cryolitia PukNgae,cryolitia@uniontech.com,ALSA: usb-audio: move mixer_quirks' min_mute into common quirk,2c3ca8cc55a3
+2025-08-21,Cryolitia PukNgae,cryolitia@uniontech.com,iio: imu: bmi270: Match PNP ID found on newer GPD firmware,dc757dc1572d
+2025-08-22,Cryolitia PukNgae,cryolitia@uniontech.com,ASoC: codecs: idt821034: fix wrong log in idt821034_chip_direction_output(),b1c99d5bd24c
+2025-08-22,Cryolitia PukNgae,cryolitia@uniontech.com,ALSA: usb-audio: Add mute TLV for playback volumes on some devices,9c6182843b0d
+2025-08-19,Cryolitia PukNgae,cryolitia@uniontech.com,selftests: net: fix memory leak in tls.c,e5b71dd3ad0e
+2025-08-20,Cryolitia PukNgae,cryolitia@uniontech.com,libbpf: Add documentation to version and error API functions,78e097fbca71
+2025-08-06,Cryolitia PukNgae,cryolitia@uniontech.com,scsi: hpsa: Fix incorrect comment format,e115d3d70ecc
+2025-08-06,Cryolitia PukNgae,cryolitia@uniontech.com,drm/amdgpu: fix incorrect comment format,388b68aef731
+2025-08-05,Wentao Guan,guanwentao@uniontech.com,LoongArch: vDSO: Remove -nostdlib complier flag,d35ec48fa6c8
+2025-07-22,WangYuli,wangyuli@uniontech.com,scripts/spelling.txt: add notifer||notifier to spelling.txt,53f433891e69
+2025-07-22,WangYuli,wangyuli@uniontech.com,"xen/xenbus: fix typo ""notifer""",004f42dd90b7
+2025-07-22,WangYuli,wangyuli@uniontech.com,"net: mvneta: fix typo ""notifer""",545040384e78
+2025-07-22,WangYuli,wangyuli@uniontech.com,"drm/xe: fix typo ""notifer""",26197b0fd220
+2025-07-22,WangYuli,wangyuli@uniontech.com,"cxl: mce: fix typo ""notifer""",fbedfb051a4c
+2025-07-22,WangYuli,wangyuli@uniontech.com,"KVM: x86: fix typo ""notifer""",a30469cac8ce
+2025-06-23,WangYuli,wangyuli@uniontech.com,virtio: virtio_dma_buf: fix missing parameter documentation,95109b467646
+2025-07-31,WangYuli,wangyuli@uniontech.com,selftests: ALSA: fix memory leak in utimer test,6260da046819
+2025-07-04,WangYuli,wangyuli@uniontech.com,ipvs: Rename del_timer in comment in ip_vs_conn_expire_now(),bfabc4f70ee7
+2025-07-10,Hao Li,lihao1@uniontech.com,Bluetooth: btusb: Add RTL8852BE device 0x13d3:0x3618,385d358a0e12
+2025-07-22,WangYuli,wangyuli@uniontech.com,"serial: 8250_dw: Fix typo ""notifer""",a8d455db2621
+2025-07-15,WangYuli,wangyuli@uniontech.com,"wifi: iwlwifi: Fix typo ""ransport""",9296cc59b227
+2025-07-10,WangYuli,wangyuli@uniontech.com,selftests/thermal: remove duplicate newlines in perror calls,599579e857ab
+2025-07-10,WangYuli,wangyuli@uniontech.com,selftests/thermal: remove duplicate sprintf() call in workload_hint_test,813b46808822
+2025-07-15,WangYuli,wangyuli@uniontech.com,"wifi: brcmfmac: Fix typo ""notifer""",6d0a67c600a6
+2025-06-11,tuhaowen,tuhaowen@uniontech.com,PM: sleep: console: Fix the black screen issue,4266e8fa56d3
+2025-06-23,WangYuli,wangyuli@uniontech.com,gitignore: allow .pylintrc to be tracked,38d573a624a5
+2025-06-11,ChengZhenghan,chengzhenghan@uniontech.com,crypto: x86 - Fix build warnings about export.h,d2b23a8dd887
+2025-05-29,Xu Rao,raoxu@uniontech.com,usb: core: modify comments xhci_hc_driver has HCD_MEMORY just like ehci ohci,9962d0433a86
+2025-06-03,Wentao Guan,guanwentao@uniontech.com,ACPI: resource: Use IRQ override on MACHENIKE 16P,c99ad987d3e9
+2025-05-30,Yuli Wang,wangyuli@uniontech.com,LoongArch: Enable ARCH_SUPPORTS_MSEAL_SYSTEM_MAPPINGS,b37981ce540d
+2025-05-21,WangYuli,wangyuli@uniontech.com,wireguard: selftests: cleanup CONFIG_UBSAN_SANITIZE_ALL,e74e9ee2c800
+2025-04-15,WangYuli,wangyuli@uniontech.com,Bluetooth: btusb: Add RTL8851BE device 0x0bda:0xb850,c4dbb1bdada9
+2025-05-17,WangYuli,wangyuli@uniontech.com,spmi: Only use Hikey 970 SPMI controller driver when ARM64,cdd18ef98259
+2025-05-15,Xu Rao,raoxu@uniontech.com,usb: xhci: Add debugfs support for xHCI port bandwidth,59d50e53e070
+2025-05-13,Chen Linxuan,chenlinxuan@uniontech.com,fs: fuse: add dev id to /dev/fuse fdinfo,f09222980d77
+2025-05-07,Chen Linxuan,chenlinxuan@uniontech.com,docs: filesystems: add fuse-passthrough.rst,18ee43c398af
+2025-05-07,Chen Linxuan,chenlinxuan@uniontech.com,MAINTAINERS: update filter of FUSE documentation,767c4b82715a
+2025-04-22,WangYuli,wangyuli@uniontech.com,kbuild: rpm-pkg: Add (elfutils-devel or libdw-devel) to BuildRequires,5bd6bdd0f76e
+2025-04-22,WangYuli,wangyuli@uniontech.com,kbuild: deb-pkg: Add libdw-dev:native to Build-Depends-Arch,657f96cb7c06
+2025-04-21,WangYuli,wangyuli@uniontech.com,"treewide: fix typo ""previlege""",2e27fa943b74
+2025-04-11,WangYuli,wangyuli@uniontech.com,ocfs2: o2net_idle_timer: Rename del_timer_sync in comment,50af973cd71a
+2025-04-24,Wentao Guan,guanwentao@uniontech.com,nvme-pci: add quirks for WDC Blue SN550 15b7:5009,ab35ad950d43
+2025-04-22,Wentao Guan,guanwentao@uniontech.com,nvme-pci: add quirks for device 126f:1001,5b960f92ac3e
+2025-04-08,Chen Linxuan,chenlinxuan@uniontech.com,docs: tproxy: fix formatting for nft code block,149a133a5481
+2025-04-16,WangYuli,wangyuli@uniontech.com,MIPS: Loongson64: Add missing '#interrupt-cells' for loongson64c_ls7a,6d223b8ffcd1
+2025-04-24,Yuli Wang,wangyuli@uniontech.com,LoongArch: Select ARCH_USE_MEMTEST,fb8e9f59d6f2
+2025-04-23,WangYuli,wangyuli@uniontech.com,"bpf, docs: Fix non-standard line break",4cc20482143c
+2025-04-17,Wentao Guan,guanwentao@uniontech.com,HID: intel-thc-hid: intel-quicki2c: pass correct arguments to acpi_evaluate_object,37d66cf07871
+2025-04-15,Chen Linxuan,chenlinxuan@uniontech.com,drm/i915/pxp: fix undefined reference to `intel_pxp_gsccs_is_ready_for_sessions',7e21ea8149a0
+2025-04-14,WangYuli,wangyuli@uniontech.com,scsi: scsi_transport_fc: Rename del_timer() in comment,c8c70ff3a766
+2025-04-18,WangYuli,wangyuli@uniontech.com,Input: sparcspkr - avoid unannotated fall-through,8b1d858cbd4e
+2025-04-11,WangYuli,wangyuli@uniontech.com,"riscv: KGDB: Remove "".option norvc/.option rvc"" for kgdb_compiled_break",550c2aa787d1
+2025-04-11,WangYuli,wangyuli@uniontech.com,riscv: KGDB: Do not inline arch_kgdb_breakpoint(),3af4bec9c1db
+2025-04-15,Chen Linxuan,chenlinxuan@uniontech.com,drm/i915/pxp: fix undefined reference to `intel_pxp_gsccs_is_ready_for_sessions',b484c1e225a6
+2025-04-11,WangYuli,wangyuli@uniontech.com,bna: bnad_dim_timeout: Rename del_timer_sync in comment,1450e4525f9a
+2025-04-11,Chen Linxuan,chenlinxuan@uniontech.com,RDMA/hns: initialize db in update_srq_db(),ffe1cee21f8b
+2025-04-10,Gou Hao,gouhao@uniontech.com,iomap: skip unnecessary ifs_block_is_uptodate check,8e3c15ee0d29
+2025-03-30,Yuli Wang,wangyuli@uniontech.com,LoongArch: Rework the arch_kgdb_breakpoint() implementation,29c92a41c6d2
+2025-03-30,Yuli Wang,wangyuli@uniontech.com,LoongArch: Enable UBSAN (Undefined Behavior Sanitizer),892a79634196
+2025-03-11,WangYuli,wangyuli@uniontech.com,MAINTAINERS: TPM DEVICE DRIVER: add missing includes,372f97a24a70
+2025-03-18,Wentao Guan,guanwentao@uniontech.com,Bluetooth: HCI: Add definition of hci_rp_remote_name_req_cancel,e8c00f5433d0
+2025-03-18,WangYuli,wangyuli@uniontech.com,mlxsw: spectrum_acl_bloom_filter: Workaround for some LLVM versions,4af9939a4977
+2025-03-18,WangYuli,wangyuli@uniontech.com,docs: networking: strparser: Fix a typo,6d1929475e36
+2025-03-19,WangYuli,wangyuli@uniontech.com,netfilter: nf_tables: Only use nf_skip_indirect_calls() when MITIGATION_RETPOLINE,e3a4182edd1a
+2025-03-12,WangYuli,wangyuli@uniontech.com,nvmet-fc: Remove unused functions,1b304c006b0f
+2025-03-17,Chen Linxuan,chenlinxuan@uniontech.com,blk-cgroup: improve policy registration error handling,e1a0202c6bfd
+2025-03-11,WangYuli,wangyuli@uniontech.com,s390/boot: Ignore vmlinux.map,0d5b0a4c816c
+2025-02-25,WangYuli,wangyuli@uniontech.com,kbuild: deb-pkg: add debarch for ARCH=loongarch64,1195306ee359
+2025-03-10,WangYuli,wangyuli@uniontech.com,backlight: tdo24m: Eliminate redundant whitespace,c9fe785857fd
+2025-03-08,Yuli Wang,wangyuli@uniontech.com,LoongArch: Eliminate superfluous get_numa_distances_cnt(),a0d3c8bcb920
+2025-02-14,Wentao Guan,guanwentao@uniontech.com,HID: i2c-hid: improve i2c_hid_get_report error message,723aa55c08c9
+2025-02-18,WangYuli,wangyuli@uniontech.com,MIPS: ds1287: Match ds1287_set_base_clock() function types,a759109b2343
+2025-02-18,WangYuli,wangyuli@uniontech.com,MIPS: cevt-ds1287: Add missing ds1287.h include,f3be225f338a
+2025-02-18,WangYuli,wangyuli@uniontech.com,MIPS: dec: Declare which_prom() as static,55fa5868519b
+2025-02-13,Yuli Wang,wangyuli@uniontech.com,LoongArch: csum: Fix OoB access in IP checksum code for negative lengths,6287f1a8c161
+2025-02-13,Yuli Wang,wangyuli@uniontech.com,LoongArch: Remove the deprecated notifier hook mechanism,6b72cd9ef062
+2025-02-13,Yuli Wang,wangyuli@uniontech.com,LoongArch: Use str_yes_no() helper function for /proc/cpuinfo,03a99d16e64f
+2025-02-07,WangYuli,wangyuli@uniontech.com,docs/zh_CN: Update the translation of dev-tools/ubsan to v6.14-rc1,8bc237a1320c
+2025-02-07,WangYuli,wangyuli@uniontech.com,kbuild: install-extmod-build: add missing quotation marks for CC variable,f354fc88a72a
+2025-01-17,Chen Linxuan,chenlinxuan@uniontech.com,erofs: remove dead code in erofs_fc_parse_param,6e2c2342e2b6
+2025-01-16,Chen Linxuan,chenlinxuan@uniontech.com,erofs: return SHRINK_EMPTY if no objects to free,41fb0fabc401
+2025-01-13,WangYuli,wangyuli@uniontech.com,wifi: mt76: mt76u_vendor_request: Do not print error messages when -EPROTO,f1b1e133a770
+2025-01-07,WangYuli,wangyuli@uniontech.com,usb: host: xhci-plat: Assign shared_hcd->rsrc_start,594c82329eef
+2025-01-04,WangYuli,wangyuli@uniontech.com,MIPS: ftrace: Declare ftrace_get_parent_ra_addr() as static,ddd068d81445
