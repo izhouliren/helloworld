@@ -135,6 +135,18 @@ def analyze_company_contributions(csv_file):
         print(f"处理文件 {csv_file} 时出错: {e}")
         return None
 
+def format_keywords(keywords):
+    """
+    格式化关键词，确保在Markdown中能正确换行
+    """
+    # 每行显示5个关键词，用实际换行符分隔
+    keyword_list = [kw[0] for kw in keywords]
+    formatted = []
+    for i in range(0, len(keyword_list), 5):
+        formatted.append(', '.join(keyword_list[i:i+5]))
+    # 使用实际换行符而不是转义序列
+    return '\n'.join(formatted)
+
 def generate_summary():
     """
     生成公司贡献总结报告
@@ -194,11 +206,19 @@ def generate_summary():
         
         # 模块贡献
         if contrib['top_modules']:
-            markdown_content += f"- **主要贡献模块**: {', '.join([m[0] for m in contrib['top_modules'][:5]])}\n"
+            # 限制每行显示的模块数量，避免过长
+            modules = [m[0] for m in contrib['top_modules'][:5]]
+            markdown_content += f"- **主要贡献模块**: {', '.join(modules)}\n"
         
         # 顶级作者
         if contrib['top_authors']:
-            top_authors_str = ', '.join([f"{a[0]} ({a[1]}条)" for a in contrib['top_authors']])
+            # 限制每行显示的作者数量，避免过长
+            authors = []
+            for a in contrib['top_authors'][:3]:  # 只显示前3位作者
+                authors.append(f"{a[0]} ({a[1]}条)")
+            if len(contrib['top_authors']) > 3:
+                authors.append(f"等{len(contrib['top_authors'])}人")
+            top_authors_str = ', '.join(authors)
             markdown_content += f"- **核心贡献者**: {top_authors_str}\n"
         
         markdown_content += "\n"
@@ -214,11 +234,11 @@ def generate_summary():
                 markdown_content += f"- **{module}**: {count} 条 ({percentage:.1f}%)\n"
             markdown_content += "\n"
         
-        # 关键词分析
+        # 关键词分析 - 优化格式，确保换行
         if contrib['top_keywords']:
             markdown_content += "#### 技术关键词\n\n"
-            top_keywords_str = ', '.join([kw[0] for kw in contrib['top_keywords']])
-            markdown_content += f"主要技术关键词: {top_keywords_str}\n\n"
+            formatted_keywords = format_keywords(contrib['top_keywords'])
+            markdown_content += f"主要技术关键词:\n{formatted_keywords}\n\n"
         
         # 时间分布
         if contrib['monthly_distribution']:
