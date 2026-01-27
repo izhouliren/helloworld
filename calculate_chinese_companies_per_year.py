@@ -34,7 +34,7 @@ def is_chinese_company(contributor):
 
 def main():
     # 读取CSV文件
-    csv_path = '/home/pi/helloworld/all_kernel_contribute_data_20250201.csv'
+    csv_path = '/home/pi/helloworld/all_kernel_contribute_data_20260117.csv'
     
     # 存储每年的中国公司集合
     yearly_companies = defaultdict(set)
