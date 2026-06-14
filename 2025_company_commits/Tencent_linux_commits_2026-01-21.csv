@@ -1,0 +1,125 @@
+﻿Date,Author Name,Author Email,Subject,Commit Hash
+2025-11-28,Tianchu Chen,flynnnchen@tencent.com,char: applicom: fix NULL pointer dereference in ac_ioctl,82d12088c297
+2025-11-28,Tianchu Chen,flynnnchen@tencent.com,spi: ch341: fix out-of-bounds memory access in ch341_transfer_one,545d1287e40a
+2025-11-10,Wanpeng Li,wanpengli@tencent.com,KVM: Fix last_boosted_vcpu index assignment bug,32bd348be3fa
+2025-11-16,Tianchu Chen,flynnnchen@tencent.com,usb: storage: sddr55: Reject out-of-bound new_pba,b59d4fda7e7d
+2025-11-18,Jason Xing,kernelxing@tencent.com,net: prefetch the next skb in napi_skb_cache_get(),5d7fc63ab841
+2025-11-18,Jason Xing,kernelxing@tencent.com,net: use NAPI_SKB_CACHE_FREE to keep 32 as default to do bulk free,2d67b5c5c67f
+2025-11-18,Jason Xing,kernelxing@tencent.com,net: increase default NAPI_SKB_CACHE_BULK to 32,01d738561899
+2025-11-18,Jason Xing,kernelxing@tencent.com,net: increase default NAPI_SKB_CACHE_SIZE to 128,3505730d9042
+2025-10-24,Kairui Song,kasong@tencent.com,"mm, swap: remove redundant argument for isolating a cluster",4fd58b51ef09
+2025-10-24,Kairui Song,kasong@tencent.com,"mm/migrate, swap: drop usage of folio_index",ab61de9b78dd
+2025-10-24,Kairui Song,kasong@tencent.com,"mm, swap: cleanup swap entry allocation parameter",a983471cfc45
+2025-10-24,Kairui Song,kasong@tencent.com,"mm, swap: rename helper for setup bad slots",e4adea27b970
+2025-10-24,Kairui Song,kasong@tencent.com,"mm, swap: do not perform synchronous discard during allocation",9fb749cd1507
+2025-11-11,Kairui Song,kasong@tencent.com,"mm, swap: fix potential UAF issue for VMA readahead",1c2a936edd71
+2025-11-13,Yongliang Gao,leonylgao@tencent.com,trace/pid_list: optimize pid_list->lock contention,97e047f44d34
+2025-10-31,Jason Xing,kernelxing@tencent.com,xsk: add indirect call for xsk_destruct_skb,8da7bea7db69
+2025-10-25,Wei Yang,albinwyang@tencent.com,fs/proc: fix uaf in proc_readdir_de(),895b4c0c79b0
+2025-10-22,Kairui Song,kasong@tencent.com,mm/shmem: fix THP allocation and fallback loop,fc745ff31756
+2025-10-30,Jason Xing,kernelxing@tencent.com,xsk: use a smaller new lock for shared pool case,30ed05adca4a
+2025-10-30,Jason Xing,kernelxing@tencent.com,xsk: do not enable/disable irq when grabbing/releasing xsk_tx_list_lock,462280043466
+2025-09-17,Kairui Song,kasong@tencent.com,"mm, swap: use a single page for swap table when the size fits",f83938e4188c
+2025-09-17,Kairui Song,kasong@tencent.com,"mm, swap: implement dynamic allocation of swap table",07adc4cf1ecd
+2025-09-17,Kairui Song,kasong@tencent.com,"mm, swap: remove contention workaround for swap cache",685a17fbd35e
+2025-09-17,Kairui Song,kasong@tencent.com,"mm, swap: mark swap address space ro and add context debug check",8b47299a411a
+2025-09-17,Kairui Song,kasong@tencent.com,"mm, swap: use the swap table for the swap cache and switch API",8578e0c00dcf
+2025-09-17,Kairui Song,kasong@tencent.com,"mm, swap: wrap swap cache replacement with a helper",094dc8b059b1
+2025-09-17,Kairui Song,kasong@tencent.com,"mm/shmem, swap: remove redundant error handling for replacing folio",84a7a9823e73
+2025-09-17,Kairui Song,kasong@tencent.com,"mm, swap: cleanup swap cache API and add kerneldoc",fd8d4f862f8c
+2025-09-17,Kairui Song,kasong@tencent.com,"mm, swap: tidy up swap device and cluster info helpers",0fcf8ef4fdab
+2025-09-17,Kairui Song,kasong@tencent.com,"mm, swap: rename and move some swap cluster definition and helpers",4522aed4fffb
+2025-09-17,Kairui Song,kasong@tencent.com,"mm, swap: always lock and check the swap cache folio before use",ae38eb210590
+2025-09-17,Kairui Song,kasong@tencent.com,"mm, swap: check page poison flag after locking it",3518b931df0c
+2025-09-17,Kairui Song,kasong@tencent.com,"mm, swap: fix swap cache index error when retrying reclaim",a733d8de7f1c
+2025-09-17,Kairui Song,kasong@tencent.com,"mm, swap: use unified helper for swap cache look up",f28124617f34
+2025-08-26,Kairui Song,kasong@tencent.com,mm/page-writeback: drop usage of folio_index,46afff459925
+2025-08-12,Kairui Song,kasong@tencent.com,mm/mincore: use a helper for checking the swap cache,1f2052755c15
+2025-08-12,Kairui Song,kasong@tencent.com,"mm/mincore, swap: consolidate swap cache checking for mincore",27763edac928
+2025-08-07,Kairui Song,kasong@tencent.com,"mm, swap: prefer nonfull over free clusters",9a42aed48421
+2025-08-07,Kairui Song,kasong@tencent.com,"mm, swap: remove fragment clusters counter",913fff314547
+2025-08-07,Kairui Song,kasong@tencent.com,"mm, swap: only scan one cluster in fragment list",b25786b4a981
+2025-08-19,Jason Xing,kernelxing@tencent.com,ixgbe: xsk: resolve the negative overflow of budget in ixgbe_xmit_zc,4d4d9ef9dfee
+2025-06-23,Tianxiang Peng,txpeng@tencent.com,x86/cpu/hygon: Add missing resctrl_cpu_detect() in bsp_init helper,d8df126349da
+2025-07-04,Siyang Liu,Security@tencent.com,drm/amd/display: fix a Null pointer dereference vulnerability,1bcf63a44381
+2025-07-04,Siyang Liu,Security@tencent.com,drm/amd/display: fix a Null pointer dereference vulnerability,9dd8e2ba268c
+2025-07-28,Kairui Song,kasong@tencent.com,"mm/shmem, swap: fix major fault counting",de55be42379c
+2025-07-28,Kairui Song,kasong@tencent.com,"mm/shmem, swap: rework swap entry and index calculation for large swapin",93c0476e7057
+2025-07-28,Kairui Song,kasong@tencent.com,"mm/shmem, swap: simplify swapin path and result handling",1326359f2280
+2025-07-28,Kairui Song,kasong@tencent.com,"mm/shmem, swap: never use swap cache and readahead for SWP_SYNCHRONOUS_IO",69805ea79db6
+2025-07-28,Kairui Song,kasong@tencent.com,"mm/shmem, swap: tidy up swap entry splitting",91ab656ece13
+2025-07-28,Kairui Song,kasong@tencent.com,"mm/shmem, swap: tidy up THP swapin checks",c262ffd72c85
+2025-07-28,Kairui Song,kasong@tencent.com,"mm/shmem, swap: avoid redundant Xarray lookup during swapin",0cfc0e7e3d06
+2025-07-28,Kairui Song,kasong@tencent.com,"mm/shmem, swap: improve cached mTHP handling and fix potential hang",5c241ed8d031
+2025-07-23,Jason Xing,kernelxing@tencent.com,igb: xsk: solve negative overflow of nb_pkts in zerocopy mode,3b7c13dfdcc2
+2025-07-23,Jason Xing,kernelxing@tencent.com,stmmac: xsk: fix negative overflow of budget in zerocopy mode,2764ab51d5f0
+2025-06-10,Jinliang Zheng,alexjlzheng@tencent.com,locking/rwsem: Use OWNER_NONSPINNABLE directly instead of OWNER_SPINNABLE,f84a15b90d96
+2025-07-11,Jinliang Zheng,alexjlzheng@tencent.com,iomap: avoid unnecessary ifs_set_range_uptodate() with locks,177bb4cba97a
+2025-04-29,Jinliang Zheng,alexjlzheng@tencent.com,ext4: remove duplicate check for EXT4_FC_REPLAY,b6f3801727e4
+2025-07-05,Jason Xing,kernelxing@tencent.com,net: xsk: introduce XDP_MAX_TX_SKB_BUDGET setsockopt,45e359be1ce8
+2025-06-12,Jason Xing,kernelxing@tencent.com,relayfs: support a counter tracking if data is too big to write,19f3cb64a25b
+2025-06-12,Jason Xing,kernelxing@tencent.com,blktrace: use rbuf->stats.full as a drop indicator in relayfs,7f2173894f7b
+2025-06-12,Jason Xing,kernelxing@tencent.com,relayfs: introduce getting relayfs statistics function,a53202ce7fba
+2025-06-12,Jason Xing,kernelxing@tencent.com,relayfs: support a counter tracking if per-cpu buffers is full,ca01a90ae7bf
+2025-06-12,Jason Xing,kernelxing@tencent.com,relayfs: abolish prev_padding,2489e958129f
+2025-05-27,Kairui Song,kasong@tencent.com,"mm, list_lru: refactor the locking code",453742ba5b3c
+2025-07-08,Jason Xing,kernelxing@tencent.com,Documentation: xsk: correct the obsolete references and examples,819802e25a09
+2025-07-03,Jason Xing,kernelxing@tencent.com,selftests/bpf: add a new test to check the consumer update case,680acde13ffd
+2025-07-03,Jason Xing,kernelxing@tencent.com,net: xsk: update tx queue consumer immediately after transmission,1eb8b0dac189
+2025-07-02,Jason Xing,kernelxing@tencent.com,bnxt_en: eliminate the compile warning in bnxt_request_irq due to CONFIG_RFS_ACCEL,b9fd9888a565
+2025-06-30,Xinyu Liu,katieeliu@tencent.com,usb: core: config: Prevent OOB read in SS endpoint companion parsing,cf16f408364e
+2025-06-23,Jason Xing,kernelxing@tencent.com,net: xsk: dpaa2: avoid repeatedly updating the global consumer,da7aee716163
+2025-06-20,Shouye Liu,shouyeliu@tencent.com,Documentation: amd-pstate:fix minimum performance state label error,4613bf5fd045
+2025-06-04,Kairui Song,kasong@tencent.com,mm: userfaultfd: fix race of userfaultfd_move and swap cache,0ea148a79919
+2025-06-10,Kairui Song,kasong@tencent.com,"mm/shmem, swap: fix softlockup with mTHP swapin",a05dd8ae5cbb
+2025-02-16,Yongliang Gao,leonylgao@tencent.com,rcu/cpu_stall_cputime: fix the hardirq count for x86 architecture,da6b85598af3
+2025-05-10,Jason Xing,kernelxing@tencent.com,net: stmmac: generate software timestamp just before the doorbell,33d4cc81fcd9
+2025-05-10,Jason Xing,kernelxing@tencent.com,net: cxgb4: generate software timestamp just before the doorbell,aaed2789b307
+2025-05-10,Jason Xing,kernelxing@tencent.com,net: atlantic: generate software timestamp just before the doorbell,285ad7477559
+2025-05-01,Kairui Song,kasong@tencent.com,"mm, swap: remove no longer used swap mapping helper",dd309bfc68ef
+2025-05-01,Kairui Song,kasong@tencent.com,mm: move folio_index to mm/swap.h and remove no longer needed helper,7d0f0f061531
+2025-05-01,Kairui Song,kasong@tencent.com,filemap: do not use folio_contains for swap cache folios,2b80f633c360
+2025-05-01,Kairui Song,kasong@tencent.com,f2fs: drop usage of folio_index,fe15ec046431
+2025-05-01,Kairui Song,kasong@tencent.com,fuse: drop usage of folio_index,74e6ee62a894
+2025-05-10,Jason Xing,kernelxing@tencent.com,net: mlx4: add SOF_TIMESTAMPING_TX_SOFTWARE flag when getting ts info,b86bcfee3057
+2025-04-15,Jinliang Zheng,alexjlzheng@tencent.com,mm: fix ratelimit_pages update error in dirty_ratio_handler(),f83f362d40cc
+2025-04-25,Kairui Song,kasong@tencent.com,mm/memory: fix mapcount / refcount sanity check for mTHP reuse,4b7c0857f87a
+2025-05-08,Jason Xing,kernelxing@tencent.com,net: thunder: make tx software timestamp independent,179542a98730
+2025-04-29,Kairui Song,kasong@tencent.com,"mm, swap: fix false warning for large allocation with !THP_SWAP",9a9794a81a8a
+2025-05-01,Kairui Song,kasong@tencent.com,f2fs: drop usage of folio_index,0427e811c9bc
+2025-05-01,Kairui Song,kasong@tencent.com,btrfs: open code folio_index() in btree_clear_folio_dirty_tag(),38e541051e1d
+2025-04-28,Jinliang Zheng,alexjlzheng@tencent.com,fs: remove useless plus one in super_cache_scan(),9f81d707022c
+2025-04-28,Peng Hao,flyingpeng@tencent.com,x86/sev: Remove unnecessary GFP_KERNEL_ACCOUNT for temporary variables,e0136112e99d
+2025-03-06,Peng Hao,flyingpeng@tencent.com,KVM: SVM: avoid frequency indirect calls,bb5081f4abf2
+2025-04-15,Jinliang Zheng,alexjlzheng@tencent.com,kernfs: switch global kernfs_rename_lock to per-fs lock,93b27a845ec1
+2025-04-15,Jinliang Zheng,alexjlzheng@tencent.com,kernfs: switch global kernfs_idr_lock to per-fs lock,cec59c440a05
+2025-04-17,Shouye Liu,shouyeliu@tencent.com,platform/x86/intel-uncore-freq: Fix missing uncore sysfs during CPU hotplug,8d6955ed76e8
+2025-03-14,Peng Hao,flyingpeng@tencent.com,x86/sev: Simplify the code by removing unnecessary 'else' statement,f0373cc0907c
+2025-02-27,Zeng Jingxiang,linuszeng@tencent.com,mm/list_lru: make the case where mlru is NULL as unlikely,b9585a3f3e0b
+2025-03-14,Kairui Song,kasong@tencent.com,"mm, swap: simplify folio swap allocation",b487a2da3575
+2025-03-14,Kairui Song,kasong@tencent.com,"mm, swap: remove swap slot cache",0ff67f990bd4
+2025-03-14,Kairui Song,kasong@tencent.com,"mm, swap: use percpu cluster as allocation fast path",1b7e90020eb7
+2025-03-14,Kairui Song,kasong@tencent.com,"mm, swap: don't update the counter up-front",280cfccaa20c
+2025-03-14,Kairui Song,kasong@tencent.com,"mm, swap: avoid redundant swap device pinning",78524b05f1a3
+2025-03-14,Kairui Song,kasong@tencent.com,"mm, swap: drop the flag TTRS_DIRECT",3123fb0a18d6
+2025-03-14,Kairui Song,kasong@tencent.com,"mm, swap: avoid reclaiming irrelevant swap cache",fae859550531
+2025-01-30,Kairui Song,kasong@tencent.com,"mm, swap: fix reclaim offset calculation error during allocation",498c48c66eb6
+2025-01-14,Kairui Song,kasong@tencent.com,"mm, swap_slots: remove slot cache for freeing path",4f79384a25d5
+2025-01-14,Kairui Song,kasong@tencent.com,"mm, swap: use a global swap cluster for non-rotation devices",bae8a4ef3efb
+2025-01-14,Kairui Song,kasong@tencent.com,"mm, swap: introduce a helper for retrieving cluster from offset",3f641cf938e6
+2025-01-14,Kairui Song,kasong@tencent.com,"mm, swap: simplify percpu cluster updating",e3ae2dec849b
+2025-01-14,Kairui Song,kasong@tencent.com,"mm, swap: reduce contention on device lock",3b644773eefd
+2025-01-14,Kairui Song,kasong@tencent.com,"mm, swap: use an enum to define all cluster flags and wrap flags changes",3494d184706f
+2025-01-14,Kairui Song,kasong@tencent.com,"mm, swap: hold a reference during scan and cleanup flag usage",9a0ddeb79880
+2025-01-14,Kairui Song,kasong@tencent.com,"mm, swap: clean up plist removal and adding",b228386cf237
+2025-01-14,Kairui Song,kasong@tencent.com,"mm, swap: clean up device availability check",27701521beb5
+2025-01-14,Kairui Song,kasong@tencent.com,"mm, swap: use cluster lock for HDD",0b310d9cfd94
+2025-01-14,Kairui Song,kasong@tencent.com,"mm, swap: remove old allocation path for HDD",7277433096f6
+2025-01-14,Kairui Song,kasong@tencent.com,"mm, swap: fold swap_info_get_cont in the only caller",e027ec414fe8
+2025-01-14,Kairui Song,kasong@tencent.com,"mm, swap: minor clean up for swap entry allocation",d563ced68250
+2024-12-18,Kairui Song,kasong@tencent.com,mm/swap_cgroup: decouple swap cgroup recording and clearing,6769183166b3
+2024-12-18,Kairui Song,kasong@tencent.com,mm/swap_cgroup: remove global swap cgroup lock,2b3a58b12134
+2024-12-18,Kairui Song,kasong@tencent.com,mm/swap_cgroup: remove swap_cgroup_cmpxchg,40733e7e0c26
+2024-12-18,Kairui Song,kasong@tencent.com,"mm, memcontrol: avoid duplicated memcg enable check",a53f311349ca
+2024-12-06,MengEn Sun,mengensun@tencent.com,ucounts: move kfree() out of critical zone protected by ucounts_lock,f49b42d415a3
+2025-01-07,Kairui Song,kasong@tencent.com,zram: fix potential UAF of zram table,212fe1c0df4a

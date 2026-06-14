@@ -1,0 +1,6 @@
+﻿Date,Author Name,Author Email,Subject,Commit Hash
+2025-08-27,xupengbo,xupengbo@oppo.com,sched/fair: Fix unfairness caused by stalled tg_load_avg_contrib when the last task migrates out,ca125231dd29
+2025-07-30,LongPing Wei,weilongping@oppo.com,dm: set DM_TARGET_PASSES_CRYPTO feature for dm-thin,55a0fbd2ac3f
+2025-07-31,LongPing Wei,weilongping@oppo.com,dm-thin: update the documentation,9576e1aecf62
+2025-04-17,LongPing Wei,weilongping@oppo.com,dm-bufio: don't schedule in atomic context,a3d8f0a7f5e8
+2025-03-27,LongPing Wei,weilongping@oppo.com,dm-verity: support block number limits for different ioprio classes,5c5d0d705028

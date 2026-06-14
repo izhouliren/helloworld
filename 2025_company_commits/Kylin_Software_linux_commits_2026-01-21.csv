@@ -1,0 +1,388 @@
+﻿Date,Author Name,Author Email,Subject,Commit Hash
+2025-12-31,Chenghao Duan,duanchenghao@kylinos.cn,samples/ftrace: Adjust LoongArch register restore order in direct calls,bb85d206be20
+2025-12-31,Chenghao Duan,duanchenghao@kylinos.cn,LoongArch: BPF: Enhance the bpf_arch_text_poke() function,73721d867677
+2025-12-31,Chenghao Duan,duanchenghao@kylinos.cn,LoongArch: BPF: Enable trampoline-based tracing for module functions,26138762d9a2
+2025-12-31,Chenghao Duan,duanchenghao@kylinos.cn,LoongArch: BPF: Adjust the jump offset of tail calls,61319d15a560
+2025-12-31,Chenghao Duan,duanchenghao@kylinos.cn,LoongArch: BPF: Save return address register ra to t0 before trampoline,d314e1f48260
+2025-12-31,Chenghao Duan,duanchenghao@kylinos.cn,LoongArch: Refactor register restoration in ftrace_common_return,45cb47c628df
+2025-12-31,Chenghao Duan,duanchenghao@kylinos.cn,LoongArch: Enable exception fixup for specific ADE subcode,9bdc1ab5e4ce
+2025-12-29,ZhangGuoDong,zhangguodong@kylinos.cn,smb/server: fix refcount leak in smb2_open(),f416c556997a
+2025-12-29,ZhangGuoDong,zhangguodong@kylinos.cn,smb/server: fix refcount leak in parse_durable_handle_context(),3296c3012a9d
+2025-12-28,ZhangGuoDong,zhangguodong@kylinos.cn,smb/server: call ksmbd_session_rpc_close() on error path in create_smb2_pipe(),7c28f8eef5ac
+2025-12-18,Chen Changcheng,chenchangcheng@kylinos.cn,usb: usb-storage: Maintain minimal modifications to the bcdDevice range.,0831269b5f71
+2025-12-20,ChenXiaoSong,chenxiaosong@kylinos.cn,smb/server: fix minimum SMB2 PDU size,4c7d8eb9a79a
+2025-12-20,ChenXiaoSong,chenxiaosong@kylinos.cn,smb/server: fix minimum SMB1 PDU size,3b9c30eb8f5a
+2025-11-20,Zongmin Zhou,zhouzongmin@kylinos.cn,riscv/atomic.h: use RISCV_FULL_BARRIER in _arch_atomic* function.,f02dd2547276
+2025-12-02,ZhangGuoDong,zhangguodong@kylinos.cn,smb: move some SMB1 definitions into common/smb1pdu.h,94d5b8dbc5d9
+2025-11-14,ZhangGuoDong,zhangguodong@kylinos.cn,smb/client: remove DeviceType Flags and Device Characteristics definitions,ab0347e67dac
+2025-11-30,ChenXiaoSong,chenxiaosong@kylinos.cn,smb: move File Attributes definitions into common/fscc.h,2b6abb893e71
+2025-12-01,ChenXiaoSong,chenxiaosong@kylinos.cn,smb: update struct duplicate_extents_to_file_ex,c97503321ed3
+2025-11-06,ChenXiaoSong,chenxiaosong@kylinos.cn,smb: move file_notify_information to common/fscc.h,08c2a7d2bae9
+2025-11-06,ChenXiaoSong,chenxiaosong@kylinos.cn,smb: move SMB2 Notify Action Flags into common/smb2pdu.h,6539e18517b6
+2025-11-06,ChenXiaoSong,chenxiaosong@kylinos.cn,smb: move notify completion filter flags into common/smb2pdu.h,9ec7629b430a
+2025-12-08,ChenXiaoSong,chenxiaosong@kylinos.cn,smb/client: add parentheses to NT error code definitions containing bitwise OR operator,a71a4aab4834
+2025-12-01,ChenXiaoSong,chenxiaosong@kylinos.cn,smb: add documentation references for smb2 change notify definitions,bcdd6cfaf2ec
+2025-12-08,ChenXiaoSong,chenxiaosong@kylinos.cn,smb/client: add 4 NT error code definitions,a9adafd40165
+2025-12-07,ChenXiaoSong,chenxiaosong@kylinos.cn,smb/client: fix NT_STATUS_UNABLE_TO_FREE_VM value,9f99caa8950a
+2025-12-07,ChenXiaoSong,chenxiaosong@kylinos.cn,smb/client: fix NT_STATUS_DEVICE_DOOR_OPEN value,b2b50fca34da
+2025-12-07,ChenXiaoSong,chenxiaosong@kylinos.cn,smb/client: fix NT_STATUS_NO_DATA_DETECTED value,a1237c203f17
+2025-11-18,ChenXiaoSong,chenxiaosong@kylinos.cn,smb/server: add comment to FileSystemName of FileFsAttributeInformation,2e0d224d8988
+2025-12-06,ChenXiaoSong,chenxiaosong@kylinos.cn,smb/server: remove unused nterr.h,98def4eb0244
+2025-12-03,ChenXiaoSong,chenxiaosong@kylinos.cn,smb/server: rename include guard in smb_common.h,01ab0d1640e3
+2025-12-09,Shida Zhang,zhangshida@kylinos.cn,block: prohibit calls to bio_chain_endio,cfdeb588ae1d
+2025-12-09,Shida Zhang,zhangshida@kylinos.cn,bcache: fix improper use of bi_end_io,53280e398471
+2025-12-05,Pei Xiao,xiaopei01@kylinos.cn,hwmon: (emc2305) fix device node refcount leak in error path,4910da6b36b1
+2025-12-05,Pei Xiao,xiaopei01@kylinos.cn,hwmon: (emc2305) fix double put in emc2305_probe_childs_from_dt,541dfb49dcb8
+2025-12-06,ChenXiaoSong,chenxiaosong@kylinos.cn,smb/client: update some SMB2 status strings,d8f52650b24d
+2025-12-05,ChenXiaoSong,chenxiaosong@kylinos.cn,smb/client: add two elements to smb2_error_map_table array,d159702c9492
+2025-12-05,ChenXiaoSong,chenxiaosong@kylinos.cn,smb: rename to STATUS_SMB_NO_PREAUTH_INTEGRITY_HASH_OVERLAP,523ecd976632
+2025-12-05,ChenXiaoSong,chenxiaosong@kylinos.cn,smb/client: remove unused elements from smb2_error_map_table array,bf80d1517dc8
+2025-12-05,ChenXiaoSong,chenxiaosong@kylinos.cn,smb/client: reduce loop count in map_smb2_to_linux_error() by half,6c1eb31ecb97
+2025-11-21,Gongwei Li,ligongwei@kylinos.cn,Drivers: hv: use kmalloc_array() instead of kmalloc(),b5110eaf6753
+2025-11-11,Baolin Liu,liubaolin@kylinos.cn,f2fs: simplify list initialization in f2fs_recover_fsync_data(),24fd7f001610
+2025-11-19,Gongwei Li,ligongwei@kylinos.cn,Bluetooth: btusb: Add new VID/PID 13d3/3533 for RTL8821CE,525459da4bd6
+2025-11-17,ChenXiaoSong,chenxiaosong@kylinos.cn,smb: move FILE_SYSTEM_ATTRIBUTE_INFO to common/fscc.h,c4a2a49f7df4
+2025-11-13,ChenXiaoSong,chenxiaosong@kylinos.cn,smb: move create_durable_reconn to common/smb2pdu.h,5003ad718af7
+2025-11-02,ChenXiaoSong,chenxiaosong@kylinos.cn,smb: fix some warnings reported by scripts/checkpatch.pl,e7e60e8bfcc5
+2025-11-02,ChenXiaoSong,chenxiaosong@kylinos.cn,smb: do some cleanups,95e8c1bfa56e
+2025-11-02,ChenXiaoSong,chenxiaosong@kylinos.cn,smb: move FILE_SYSTEM_SIZE_INFO to common/fscc.h,464b913993a1
+2025-11-02,ChenXiaoSong,chenxiaosong@kylinos.cn,smb: move some duplicate struct definitions to common/fscc.h,d7edd3892d97
+2025-11-02,ChenXiaoSong,chenxiaosong@kylinos.cn,smb: move list of FileSystemAttributes to common/fscc.h,84d8d4cf8873
+2025-11-02,ChenXiaoSong,chenxiaosong@kylinos.cn,smb: move SMB_NEGOTIATE_REQ to common/smb2pdu.h,d8ac9879182a
+2025-11-02,ZhangGuoDong,zhangguodong@kylinos.cn,smb: move some duplicate definitions to common/smb2pdu.h,1172d8598499
+2025-11-02,ChenXiaoSong,chenxiaosong@kylinos.cn,smb: move create_durable_rsp_v2 to common/smb2pdu.h,96721fd29226
+2025-11-02,ChenXiaoSong,chenxiaosong@kylinos.cn,smb: move create_durable_handle_reconnect_v2 to common/smb2pdu.h,81a45de432c6
+2025-11-02,ChenXiaoSong,chenxiaosong@kylinos.cn,smb: move create_durable_req_v2 to common/smb2pdu.h,833a75fc9ecc
+2025-11-02,ChenXiaoSong,chenxiaosong@kylinos.cn,smb: move MAX_CIFS_SMALL_BUFFER_SIZE to common/smbglob.h,884a1d4e9c09
+2025-11-02,ChenXiaoSong,chenxiaosong@kylinos.cn,smb/client: fix CAP_BULK_TRANSFER value,4a7f96078032
+2025-10-27,ZhangGuoDong,zhangguodong@kylinos.cn,smb: move resume_key_ioctl_rsp to common/smb2pdu.h,9c98f5eec877
+2025-10-27,ZhangGuoDong,zhangguodong@kylinos.cn,smb: move copychunk definitions to common/smb2pdu.h,cc26f593dc19
+2025-10-27,ZhangGuoDong,zhangguodong@kylinos.cn,smb: move smb_sockaddr_in and smb_sockaddr_in6 to common/smb2pdu.h,7844d50ca239
+2025-10-27,ZhangGuoDong,zhangguodong@kylinos.cn,smb: move SMB1_PROTO_NUMBER to common/smbglob.h,cd311445d9f5
+2025-11-21,ZhangGuoDong,zhangguodong@kylinos.cn,smb: move get_rfc1002_len() to common/smbglob.h,36c31540cf52
+2025-10-27,ZhangGuoDong,zhangguodong@kylinos.cn,smb: move smb_version_values to common/smbglob.h,34cf191bb6a3
+2025-10-27,ZhangGuoDong,zhangguodong@kylinos.cn,smb: rename common/cifsglob.h to common/smbglob.h,94b955167e3b
+2025-10-17,ChenXiaoSong,chenxiaosong@kylinos.cn,smb/server: update some misguided comment of smb2_0_server_cmds proc,7d9f51d36b6c
+2025-10-17,ChenXiaoSong,chenxiaosong@kylinos.cn,smb/server: fix return value of smb2_oplock_break(),a3c4445fdbbb
+2025-10-17,ChenXiaoSong,chenxiaosong@kylinos.cn,smb/server: fix return value of smb2_ioctl(),269df046c1e1
+2025-10-17,ChenXiaoSong,chenxiaosong@kylinos.cn,smb/server: fix return value of smb2_query_dir(),dafe22bc676d
+2025-10-17,ChenXiaoSong,chenxiaosong@kylinos.cn,smb/server: fix return value of smb2_notify(),d1a30b9ddc3d
+2025-10-17,ChenXiaoSong,chenxiaosong@kylinos.cn,smb/server: fix return value of smb2_read(),c5b462e35373
+2025-11-24,Miao Li,limiao@kylinos.cn,scsi: core: Correct documentation for scsi_device_quiesce(),c131c9bf98d9
+2025-11-21,Gongwei Li,ligongwei@kylinos.cn,soc: fsl: qbman: use kmalloc_array() instead of kmalloc(),760b8eec2cf8
+2025-11-18,Riwen Lu,luriwen@kylinos.cn,PM / devfreq: Fix typo in DFSO_DOWNDIFFERENTIAL macro name,d9600d57668c
+2025-11-11,Baolin Liu,liubaolin@kylinos.cn,btrfs: simplify list initialization in btrfs_compr_pool_scan(),9b3743a6760b
+2025-10-15,Xuanqiang Luo,luoxuanqiang@kylinos.cn,btrfs: remove redundant refcount check in btrfs_put_transaction(),225e747ea577
+2025-11-21,Chen Changcheng,chenchangcheng@kylinos.cn,usb: usb-storage: No additional quirks need to be added to the EL-R12 optical drive.,955a48a5353f
+2025-11-19,Hongyu Xie,xiehongyu1@kylinos.cn,usb: xhci: limit run_graceperiod for only usb 3.0 devices,8d3498372015
+2025-11-17,Chenguang Zhao,zhaochenguang@kylinos.cn,docs/zh_CN: Update the Chinese translation of kbuild.rst,6132026df02a
+2025-11-06,Hui Zhu,zhuhui@kylinos.cn,mm/hugetlb: extract sysctl into hugetlb_sysctl.c,cdcb53e1deef
+2025-11-06,Hui Zhu,zhuhui@kylinos.cn,mm/hugetlb: extract sysfs into hugetlb_sysfs.c,ecd6703f64d7
+2025-11-05,Zeng Chi,zengchi@kylinos.cn,lib/alloc_tag: use %pe format specifier,135e541ae8f3
+2025-11-18,Gang Yan,yangang@kylinos.cn,selftests: mptcp: add a check for 'add_addr_accepted',0eee0fdf9b7b
+2025-11-18,Gang Yan,yangang@kylinos.cn,mptcp: fix address removal logic in mptcp_pm_nl_rm_addr,92e239e36d60
+2025-11-18,Chengkaitao,chengkaitao@kylinos.cn,block: remove the declaration of elevator_init_mq function,8e1d91c2582d
+2025-11-18,Chengkaitao,chengkaitao@kylinos.cn,genirq: Use raw_spinlock_irq() in irq_set_affinity_notifier(),9d3faec60b13
+2025-11-13,Huiwen He,hehuiwen@kylinos.cn,drm/msm: fix missing NULL check after kcalloc in crashstate_get_bos(),3065e6a4d359
+2025-11-13,Huiwen He,hehuiwen@kylinos.cn,drm/msm: Fix NULL pointer dereference in crashstate_get_vm_logs(),3099e0247e32
+2025-10-16,Ye Liu,liuye@kylinos.cn,tools/mm/page_owner_sort: add help option support,5bf65d4a8dbe
+2025-10-15,Ye Liu,liuye@kylinos.cn,tools/mm: use <stdbool.h> in page_owner_sort.c,2f79ddb64b47
+2025-09-30,Song Hu,husong@kylinos.cn,mm/page_owner: simplify zone iteration logic in init_early_allocated_pages(),ca30ac479e6c
+2025-09-30,Song Hu,husong@kylinos.cn,mm/page_owner: rename proc-prefixed variables for clarity,9686080d627a
+2025-09-28,Li Qiang,liqiang01@kylinos.cn,via_wdt: fix critical boot hang due to unnamed resource allocation,7aa31ee9ec92
+2025-11-14,Guopeng Zhang,zhangguopeng@kylinos.cn,selftests/cgroup: conform test to KTAP format output,1dc830ee4c15
+2025-11-13,Riwen Lu,luriwen@kylinos.cn,PM: suspend: Make pm_test delay interruptible by wakeup events,a10ad1b10402
+2025-11-11,Baolin Liu,liubaolin@kylinos.cn,mm: simplify list initialization in barn_shrink(),6adf4b11fa50
+2025-09-29,Zhou Yuhang,zhouyuhang@kylinos.cn,samples: fix coding style issues in Kconfig,969493d7d6f9
+2025-09-19,Li Qiang,liqiang01@kylinos.cn,arm64: add unlikely hint to MTE async fault check in el0_svc_common,df717b9564c8
+2024-01-15,Kunwu Chan,chentao@kylinos.cn,powerpc/83xx: Add a null pointer check to mcu_gpiochip_add,2617bd81ae54
+2025-10-30,Yang Xiuwei,yangxiuwei@kylinos.cn,NFS: sysfs: fix leak when nfs_client kobject add fails,7a7a3456520b
+2025-11-09,Youling Tang,tangyouling@kylinos.cn,LoongArch: kexec: Initialize the kexec_buf structure,df16b8956cae
+2025-10-17,Gang Yan,yangang@kylinos.cn,kbuild: doc: improve KBUILD_BUILD_TIMESTAMP documentation,bfb046f67ae1
+2025-11-02,Huiwen He,hehuiwen@kylinos.cn,md/raid5: remove redundant __GFP_NOWARN,a811db391988
+2025-11-07,wangdicheng,wangdicheng@kylinos.cn,ALSA: au88x0: Fix array bounds warning in EQ drivers,4b1b92bdc4ca
+2025-11-07,wangdicheng,wangdicheng@kylinos.cn,ALSA: hda/senary: Replace magic numbers with defined constants,592d1c23afb2
+2025-10-29,Feng Jiang,jiangfeng@kylinos.cn,riscv: Remove redundant judgment for the default build target,5e8632987dd1
+2025-10-29,Feng Jiang,jiangfeng@kylinos.cn,riscv: Build loader.bin exclusively for Canaan K210,3ad1b71fdc57
+2025-11-05,Gongwei Li,ligongwei@kylinos.cn,audit: Use kzalloc() instead of kmalloc()/memset() in audit_krule_to_data(),77563f3d4704
+2025-11-05,Xuanqiang Luo,luoxuanqiang@kylinos.cn,rcu: use WRITE_ONCE() for ->next and ->pprev of hlist_nulls,34e82569d593
+2025-11-03,Huiwen He,hehuiwen@kylinos.cn,sctp: make sctp_transport_init() void,59b20b15c112
+2025-10-21,Xueqin Luo,luoxueqin@kylinos.cn,PM: hibernate: add sysfs interface for hibernate_compression_threads,ea358066ded3
+2025-10-21,Xueqin Luo,luoxueqin@kylinos.cn,PM: hibernate: make compression threads configurable,090bf5a0f400
+2025-10-21,Xueqin Luo,luoxueqin@kylinos.cn,PM: hibernate: dynamically allocate crc->unc_len/unc for configurable threads,e114e2eb7e85
+2025-10-30,Yu Peng,pengyu@kylinos.cn,x86/microcode: Mark early_parse_cmdline() as __init,ca8313fd8339
+2025-09-12,Zhang Heng,zhangheng@kylinos.cn,HID: quirks: work around VID/PID conflict for 0x4c4a/0x4155,beab067dbcff
+2025-10-17,Li Qiang,liqiang01@kylinos.cn,wifi: iwlwifi: mld: add null check for kzalloc() in iwl_mld_send_proto_offload(),3df28496673b
+2025-10-20,Siyuan Huang,huangsiyuan@kylinos.cn,rust: acpi: replace `core::mem::zeroed` with `pin_init::zeroed`,040beccb038b
+2025-10-24,tanze,tanze@kylinos.cn,ALSA: maestro3: using vmalloc_array() to handle the code,a0deef0ed594
+2025-10-24,tanze,tanze@kylinos.cn,perf auxtrace: Add auxtrace_synth_id_range_start() helper,ab29ff9f6fe0
+2025-10-23,Can Peng,pengcan@kylinos.cn,spi: spi-qpic-snand: make qcom_spi_ecc_engine_ops_pipelined const,fd5ef3d69f89
+2025-10-21,Pei Xiao,xiaopei01@kylinos.cn,eth: fbnic: fix integer overflow warning in TLV_MAX_DATA definition,d550d63d0082
+2025-10-20,Li Qiang,liqiang01@kylinos.cn,mtd: rawnand: realtek: Make rtl_ecc_engine_ops const,963135088592
+2025-09-18,Pei Xiao,xiaopei01@kylinos.cn,platform: Use IOMEM_ERR_PTR for ioremap error returns,cebd22dd3a0a
+2025-10-15,Li Qiang,liqiang01@kylinos.cn,uio: uio_fsl_elbc_gpcm:: Add null pointer check to uio_fsl_elbc_gpcm_probe,d48fb15e6ad1
+2025-10-14,Enze Li,lienze@kylinos.cn,mm/damon/core: fix potential memory leak by cleaning ops_filter in damon_destroy_scheme,7071537159be
+2025-10-11,Zihuan Zhang,zhangzihuan@kylinos.cn,cpufreq: preserve freq_table_sorted across suspend/hibernate,6db0f533d320
+2025-10-15,Haofeng Li,lihaofeng@kylinos.cn,timekeeping: Fix aux clocks sysfs initialization loop bound,39a9ed0fb6da
+2025-10-17,Qiang Liu,liuqiang@kylinos.cn,scsi: fnic: Self-assignment of intr_time_type has no effect,3d0d1c7a5c99
+2025-10-17,Li Qiang,liqiang01@kylinos.cn,hwmon: (cgbc-hwmon) Add missing NULL check after devm_kzalloc(),a09a5aa8bf25
+2025-10-14,Pei Xiao,xiaopei01@kylinos.cn,iio: adc: ti_am335x_adc: Limit step_avg to valid range for gcc complains,c9fb952360d0
+2025-09-24,YanLong Dai,daiyanlong@kylinos.cn,RDMA/bnxt_re: Fix a potential memory leak in destroy_gsi_sqp,88de89f18466
+2025-10-15,Xuanqiang Luo,luoxuanqiang@kylinos.cn,inet: Avoid ehash lookup race in inet_twsk_hashdance_schedule(),b8ec80b13021
+2025-10-15,Xuanqiang Luo,luoxuanqiang@kylinos.cn,inet: Avoid ehash lookup race in inet_ehash_insert(),1532ed0d0753
+2025-10-15,Xuanqiang Luo,luoxuanqiang@kylinos.cn,rculist: Add hlist_nulls_replace_rcu() and hlist_nulls_replace_init_rcu(),9c4609225ec1
+2025-10-15,Li Qiang,liqiang01@kylinos.cn,ASoC: amd/sdw_utils: avoid NULL deref when devm_kasprintf() fails,5726b68473f7
+2025-10-13,ZhangGuoDong,zhangguodong@kylinos.cn,smb: move some duplicate definitions to common/cifsglob.h,d877470b5991
+2025-10-12,ZhangGuoDong,zhangguodong@kylinos.cn,smb/server: fix possible refcount leak in smb2_sess_setup(),379510a815cb
+2025-10-12,ZhangGuoDong,zhangguodong@kylinos.cn,smb/server: fix possible memory leak in smb2_read(),6fced056d2cc
+2025-10-11,Yi Cong,yicong@kylinos.cn,r8152: add error handling in rtl8152_driver_init,75527d61d60d
+2025-10-09,Linmao Li,lilinmao@kylinos.cn,r8169: fix packet truncation after S4 resume on RTL8168H/RTL8111H,70f92ab97042
+2025-09-24,Zhou Yuhang,zhouyuhang@kylinos.cn,fs: update comment in init_file(),deafd21efdd1
+2025-10-02,Youling Tang,tangyouling@kylinos.cn,LoongArch: Automatically disable kaslr if boot from kexec_file,c8168b4faf1d
+2025-10-02,Youling Tang,tangyouling@kylinos.cn,LoongArch: Add crash dump support for kexec_file,1bcca8620a91
+2025-10-02,Youling Tang,tangyouling@kylinos.cn,LoongArch: Add ELF binary support for kexec_file,fc9c112f804a
+2025-10-02,Youling Tang,tangyouling@kylinos.cn,LoongArch: Add EFI binary support for kexec_file,55d990f0084c
+2025-10-02,Youling Tang,tangyouling@kylinos.cn,LoongArch: Add preparatory infrastructure for kexec_file,d162feec6b6e
+2025-10-02,Youling Tang,tangyouling@kylinos.cn,LoongArch: Add struct loongarch_image_header for kernel,30ade4fef7ad
+2025-10-01,Yuan Chen,chenyuan@kylinos.cn,tracing: Fix race condition in kprobe initialization causing NULL pointer dereference,9cf9aa7b0acf
+2025-08-15,Chi Zhiling,chizhiling@kylinos.cn,exfat: limit log print for IO error,6dfba108387b
+2025-09-25,Feng Yang,yangfeng@kylinos.cn,tracing: Fix the bug where bpf_get_stackid returns -EFAULT on the ARM64,fd2f74f8f3d3
+2025-09-22,Chenghao Duan,duanchenghao@kylinos.cn,riscv: bpf: Fix uninitialized symbol 'retval_off',d0bf7cd5df18
+2025-09-23,Zihuan Zhang,zhangzihuan@kylinos.cn,cpufreq: Replace pointer subtraction with iteration macro,9a1aa642c1fb
+2025-09-19,Can Peng,pengcan@kylinos.cn,arm/syscalls: mark syscall invocation as likely in invoke_syscall,da9e5c04be58
+2025-09-08,Jackie Liu,liuyun01@kylinos.cn,mm/shmem: remove unused entry_order after large swapin rework,5919f1282141
+2025-08-29,Chi Zhiling,chizhiling@kylinos.cn,mpage: convert do_mpage_readpage() to return void type,8583bb0f9a7e
+2025-08-29,Chi Zhiling,chizhiling@kylinos.cn,mpage: terminate read-ahead on read error,f6d8c7102049
+2025-07-11,Youling Tang,tangyouling@kylinos.cn,mm/filemap: align last_index to folio size,9fd53c812227
+2025-09-10,Haofeng Li,lihaofeng@kylinos.cn,time: Fix spelling mistakes in comments,391253b25f07
+2025-09-12,Yaxiong Tian,tianyaxiong@kylinos.cn,cpufreq: intel_pstate: Use likely() optimization in intel_pstate_sample(),02d09026a88f
+2025-09-08,Zihuan Zhang,zhangzihuan@kylinos.cn,cpufreq: Add defensive check during driver registration,7c0dde86c176
+2025-09-19,Yang Xiuwei,yangxiuwei@kylinos.cn,io_uring: fix incorrect io_kiocb reference in io_link_skb,2c139a47eff8
+2025-09-18,Tao Cui,cuitao@kylinos.cn,LoongArch: KVM: Remove unused returns and semicolons,091b29d53fe6
+2025-09-18,Tao Cui,cuitao@kylinos.cn,LoongArch: Replace sprintf() with sysfs_emit(),d6d69f0edde6
+2025-09-18,Tao Cui,cuitao@kylinos.cn,LoongArch: Check the return value when creating kobj,51adb03e6b86
+2025-09-15,chengkaitao,chengkaitao@kylinos.cn,block/mq-deadline: Remove the redundant rb_entry_rq in the deadline_from_pos().,74b1db86847c
+2025-07-28,Chi Zhiling,chizhiling@kylinos.cn,mm/filemap: skip non-uptodate folio if there are available folios,35224da7e30b
+2025-07-28,Chi Zhiling,chizhiling@kylinos.cn,mm/filemap: do not use is_partially_uptodate for entire folio,c4408277c0d7
+2025-08-12,liuqiqi,liuqiqi@kylinos.cn,mm: fix duplicate accounting of free pages in should_reclaim_retry(),4bd22a7ae574
+2025-08-15,Enze Li,lienze@kylinos.cn,mm/damon/Kconfig: make DAMON_STAT_ENABLED_DEFAULT depend on DAMON_STAT,4e915656a38a
+2025-08-14,Ye Liu,liuye@kylinos.cn,mm/page_alloc: remove redundant pcp->free_count initialization in per_cpu_pages_init(),5922deb3ecc0
+2025-08-14,Ye Liu,liuye@kylinos.cn,mm: fix typos in VMA comments,e4fe1388dfbd
+2025-08-14,Ye Liu,liuye@kylinos.cn,mm/page_alloc: simplify lowmem_reserve max calculation,0c04015d45e6
+2025-08-14,Enze Li,lienze@kylinos.cn,selftests/damon/access_memory_even: remove unused header file,a3f451ad3379
+2025-07-31,Hui Zhu,zhuhui@kylinos.cn,rust: allocator: add KUnit tests for alignment guarantees,868ade323e9d
+2025-07-18,Ye Liu,liuye@kylinos.cn,mm: replace (20 - PAGE_SHIFT) with common macros for pages<->MB conversion,79e1c24285c4
+2025-09-08,GuoHan Zhao,zhaoguohan@kylinos.cn,perf drm_pmu: Fix fd_dir leaks in for_each_drm_fdinfo_in_dir(),baa03483fdf3
+2025-09-12,Qiang Liu,liuqiang@kylinos.cn,slimbus: messaging: Remove redundant code,5c6794f16b22
+2025-09-08,Yuan CHen,chenyuan@kylinos.cn,clk: renesas: cpg-mssr: Fix memory leak in cpg_mssr_reserved_init(),cc55fc58fc1b
+2025-09-05,Vernon Yang,yanglincheng@kylinos.cn,PCI/AER: Fix NULL pointer access by aer_info,0a27bdb14b02
+2025-09-09,Ye Liu,liuye@kylinos.cn,mm/slub: Refactor note_cmpxchg_failure for better readability,41534d499e50
+2025-09-10,Zheng tan,tanzheng@kylinos.cn,wifi: cfg80211: Remove the redundant wiphy_dev,b2422712d15d
+2025-09-04,Qiang Liu,liuqiang@kylinos.cn,scsi: bfa: Remove self-assignment code,fea2bfde3d52
+2025-09-05,Zihuan Zhang,zhangzihuan@kylinos.cn,ACPI: processor: thermal: Release policy references using __free(),2167bb92bdeb
+2025-09-08,Feng Yang,yangfeng@kylinos.cn,selftests/bpf: Fix the issue where the error code is 0,93a83d044314
+2025-08-15,Genjian Zhang,zhanggenjian@kylinos.cn,null_blk: Fix the description of the cache_size module argument,7942b226e6b8
+2025-08-17,Yang Xiuwei,yangxiuwei@kylinos.cn,ARM: OMAP2+: use IS_ERR_OR_NULL() helper,045e81d8d7e6
+2025-09-02,Zihuan Zhang,zhangzihuan@kylinos.cn,cpufreq: Drop redundant freq_table parameter,97248d05b70e
+2025-09-02,Gang Yan,yangang@kylinos.cn,selftests: mptcp: add checks for fallback counters,3fff72f827ad
+2025-09-01,Zongmin Zhou,zhouzongmin@kylinos.cn,selftests: net: avoid memory leak,b0bc64512295
+2025-08-27,Feng Yang,yangfeng@kylinos.cn,bpf: Replace kvfree with kfree for kzalloc memory,e4980fa64636
+2025-08-29,Yuan Chen,chenyuan@kylinos.cn,bpftool: Add CET-aware symbol matching for x86_64 architectures,6417ca85305e
+2025-08-29,Yuan Chen,chenyuan@kylinos.cn,bpftool: Refactor kernel config reading into common helper,70f32a10ad42
+2025-08-19,Li Jun,lijun01@kylinos.cn,PM: hibernate: Fix typo in memory bitmaps description comment,98da8a4aecf5
+2025-08-27,Zihuan Zhang,zhangzihuan@kylinos.cn,cpufreq: tegra186: Use scope-based cleanup helper,7bc0084632dd
+2025-08-27,Zihuan Zhang,zhangzihuan@kylinos.cn,cpufreq: mediatek: Use scope-based cleanup helper,4aeda901d689
+2025-08-27,Zihuan Zhang,zhangzihuan@kylinos.cn,cpufreq: s5pv210: Use scope-based cleanup helper,95102e0cc156
+2025-08-27,Zihuan Zhang,zhangzihuan@kylinos.cn,cpufreq: CPPC: Use scope-based cleanup helper,c8dc2368b23e
+2025-08-27,Zihuan Zhang,zhangzihuan@kylinos.cn,cpufreq: brcmstb-avs: Use scope-based cleanup helper,eaa9c1f31aef
+2025-08-19,Qiang Liu,liuqiang@kylinos.cn,scsi: aic94xx: Remove redundant code,00f4699872d0
+2025-08-22,Zihuan Zhang,zhangzihuan@kylinos.cn,cpufreq: simplify setpolicy/target check in driver verification,1647830388ff
+2025-08-22,Zihuan Zhang,zhangzihuan@kylinos.cn,cpufreq: use strlen() for governor name comparison,e9e124501f0d
+2025-08-20,Guopeng Zhang,zhangguopeng@kylinos.cn,fs: fix indentation style,41a86f62424a
+2025-07-25,Zihuan Zhang,zhangzihuan@kylinos.cn,cpufreq: Avoid calling get_governor() for first policy,c5746dc1898a
+2025-08-04,Jiayi Li,lijiayi@kylinos.cn,memstick: Add timeout to prevent indefinite waiting,b65e630a55a4
+2025-08-15,Minhong He,heminhong@kylinos.cn,ipv6: sr: validate HMAC algorithm ID in seg6_hmac_info_add,84967deee9d9
+2025-08-04,Jiayi Li,lijiayi@kylinos.cn,memstick: Fix deadlock by moving removing flag earlier,99d7ab8db9d8
+2025-08-12,Qiang Liu,liuqiang@kylinos.cn,drm/amdgpu: remove duplicated argument wptr_va,fc4e990a326e
+2025-08-12,Baolin Liu,liubaolin@kylinos.cn,ext4: fix incorrect function name in comment,757fc66da91b
+2025-07-31,Hui Zhu,zhuhui@kylinos.cn,"rust: alloc: kvec: simplify KUnit test module name to ""rust_kvec""",a55498c7d8a6
+2025-07-31,Hui Zhu,zhuhui@kylinos.cn,rust: alloc: kvec: add doc example for as_slice method,7cedf7345cce
+2025-08-01,Miao Li,limiao@kylinos.cn,usb: quirks: Add DELAY_INIT quick for another SanDisk 3.2Gen1 Flash Drive,e664036cf364
+2025-07-31,Li Jun,lijun01@kylinos.cn,gpio: aggregator: fix macros coding style error,7ce73ee6dc59
+2025-08-05,Zhuoheng Li,lizhuoheng@kylinos.cn,staging: rtl8723bs: fix space-before-tab warnings,08a2e17462dc
+2025-07-30,Li Jun,lijun01@kylinos.cn,bpf: Standardize function declaration style,fa479132845e
+2025-08-05,Haoran Jiang,jianghaoran@kylinos.cn,LoongArch: BPF: Fix the tailcall hierarchy,c0fcc955ff82
+2025-08-05,Haoran Jiang,jianghaoran@kylinos.cn,LoongArch: BPF: Fix jump offset calculation in tailcall,cd39d9e6b7e4
+2025-08-05,Chenghao Duan,duanchenghao@kylinos.cn,LoongArch: BPF: Add basic bpf trampoline support,f9b6b41f0cf3
+2025-08-05,Chenghao Duan,duanchenghao@kylinos.cn,LoongArch: BPF: Add dynamic code modification support,9fbd18cf4c69
+2025-08-05,Chenghao Duan,duanchenghao@kylinos.cn,LoongArch: BPF: Rename and refactor validate_code(),ed1a1fe6ec5e
+2025-07-24,Yunshui Jiang,jiangyunshui@kylinos.cn,drm/amdgpu: use kmalloc_array() instead of kmalloc(),130c7ed88f62
+2025-07-23,Pei Xiao,xiaopei01@kylinos.cn,tee: fix memory leak in tee_dyn_shm_alloc_helper,50a74d0095cd
+2025-07-23,Pei Xiao,xiaopei01@kylinos.cn,tee: fix NULL pointer dereference in tee_shm_put,e4a718a3a47e
+2025-08-03,Chenghao Duan,duanchenghao@kylinos.cn,"LoongArch: Add larch_insn_gen_{beq,bne} helpers",6ab55e0a9eac
+2025-06-04,Pei Xiao,xiaopei01@kylinos.cn,vhost: Use ERR_CAST inlined function instead of ERR_PTR(PTR_ERR(...)),32d89a405adc
+2025-07-01,Yongzhen Zhang,zhangyongzhen@kylinos.cn,fbdev: fix potential buffer overflow in do_register_framebuffer(),523b84dc7cce
+2025-07-18,Enze Li,lienze@kylinos.cn,selftests/damon: introduce _common.sh to host shared function,511914506d19
+2025-07-24,Yi Cong,yicong@kylinos.cn,usbnet: Set duplex status to unknown in the absence of MII,a75afcd188e1
+2025-07-09,Pei Xiao,xiaopei01@kylinos.cn,clk: tegra: periph: Make tegra_clk_periph_ops static,65df390bc2a7
+2025-07-09,Pei Xiao,xiaopei01@kylinos.cn,clk: tegra: periph: Fix error handling and resolve unsigned compare warning,2dc2ca9000ee
+2025-06-04,Li Jun,lijun01@kylinos.cn,bus: del unnecessary init var,8adc8e1657e1
+2025-07-21,Jiayi Li,lijiayi@kylinos.cn,ACPI: processor: perflib: Fix initial _PPC limit application,d33bd88ac0eb
+2025-07-10,Chi Zhiling,chizhiling@kylinos.cn,readahead: use folio_nr_pages() instead of shift operation,c809579374f4
+2025-07-10,Feng Yang,yangfeng@kylinos.cn,bpf: Clean up individual BTF_ID code,62ef449b8d8e
+2025-07-12,Zihuan Zhang,zhangzihuan@kylinos.cn,PM: suspend: clean up redundant filesystems_freeze/thaw() handling,228b9deded00
+2025-07-11,Yun Lu,luyun@kylinos.cn,af_packet: fix soft lockup issue caused by tpacket_snd(),55f0bfc03705
+2025-07-11,Yun Lu,luyun@kylinos.cn,af_packet: fix the SO_SNDTIMEO constraint not effective on tpacked_snd(),c1ba3c0cbdb5
+2025-05-27,Baolin Liu,liubaolin@kylinos.cn,ext4: remove unused EXT_STATS macro from ext4_extents.h,a073e8577f18
+2025-06-10,Ye Liu,liuye@kylinos.cn,mm/memfd: clarify error handling labels in memfd_create(),03dfefdacfe7
+2025-06-05,Chi Zhiling,chizhiling@kylinos.cn,readahead: fix return value of page_cache_next_miss() when no hole is found,bbcaee20e03e
+2025-05-30,Ye Liu,liuye@kylinos.cn,tools/mm: add script to display page state for a given PID and VADDR,fee8870a09c8
+2025-07-08,Feng Yang,yangfeng@kylinos.cn,skbuff: Add MSG_MORE flag to optimize tcp large packet transmission,76d727ae02b5
+2025-07-09,Shixiong Ou,oushixiong@kylinos.cn,fbcon: Fix outdated registered_fb reference in comment,0f168e7be696
+2025-06-27,Yuan Chen,chenyuan@kylinos.cn,drm/msm: Add error handling for krealloc in metadata setup,1c8c354098ea
+2025-07-03,Yunshui Jiang,jiangyunshui@kylinos.cn,Input: cs40l50-vibra - fix potential NULL dereference in cs40l50_upload_owt(),4cf65845fdd0
+2025-06-24,Pei Xiao,xiaopei01@kylinos.cn,wifi: rtw88: coex: Use bitwise instead of arithmetic operator for flags,34d9a2aa7f50
+2025-07-02,Chenguang Zhao,zhaochenguang@kylinos.cn,net: ipv6: Fix spelling mistake,8b98f34ce1d8
+2025-06-30,Youling Tang,tangyouling@kylinos.cn,xfs: add FALLOC_FL_ALLOCATE_RANGE to supported flags mask,9e9b46672b1d
+2025-06-27,Hongyu Xie,xiehongyu1@kylinos.cn,xhci: Disable stream for xHC controller with XHCI_BROKEN_STREAMS,cd65ee81240e
+2025-06-24,Pei Xiao,xiaopei01@kylinos.cn,ALSA: usb: qcom: fix NULL pointer dereference in qmi_stop_session,5e9571750c4e
+2025-06-20,Yuan Chen,chenyuan@kylinos.cn,pinctrl: berlin: fix memory leak in berlin_pinctrl_build_state(),8f6f30355110
+2025-06-20,Yuan Chen,chenyuan@kylinos.cn,pinctrl: sunxi: Fix memory leak on krealloc failure,e3507c56cbb2
+2025-06-18,Yuan Chen,chenyuan@kylinos.cn,libbpf: Fix null pointer dereference in btf_dump__free on allocation failure,aa485e8789d5
+2025-06-20,Yuan Chen,chenyuan@kylinos.cn,bpftool: Fix memory leak in dump_xx_nlmsg on realloc failure,99fe8af069a9
+2025-06-19,wangdicheng,wangdicheng@kylinos.cn,ALSA: hda/realtek: Fixup ft alc257 rename alc3328,bb0d147c9cf4
+2025-04-07,Pei Xiao,xiaopei01@kylinos.cn,clk: sophgo: Use div64* for 64-by-32 division to simplify,2f80dfab8628
+2025-06-03,Jiayi Li,lijiayi@kylinos.cn,usb: core: Add 0x prefix to quirks debug output,47c428fce0b4
+2025-06-16,wangdicheng,wangdicheng@kylinos.cn,ALSA: hda/conexant: Renaming the codec with device ID 0x1f86 and 0x1f87,7f4c540e0859
+2025-05-27,Pei Xiao,xiaopei01@kylinos.cn,wifi: iwlwifi: cfg: Limit cb_size to valid range,d5352b491a3a
+2025-06-17,Yuan Chen,chenyuan@kylinos.cn,bpftool: Fix JSON writer resource leak in version command,85cd83fed826
+2025-05-10,chenchangcheng,chenchangcheng@kylinos.cn,media: uvcvideo: Fix bandwidth issue for Alcor camera,9764401bf6f8
+2025-06-13,wangdicheng,wangdicheng@kylinos.cn,ALSA: usb-audio: Rename ALSA kcontrol PCM and PCM1 for the KTMicro sound card,93adf20ff4d6
+2025-06-04,Li Jun,lijun01@kylinos.cn,IB/iser: Remove unnecessary local variable,682641135d44
+2025-06-05,luoqing,luoqing@kylinos.cn,RDMA/hns: ZERO_OR_NULL_PTR macro overdetection,1f505a4a4250
+2025-06-05,Zhang Heng,zhangheng@kylinos.cn,HID: Add IGNORE quirk for SMARTLINKTECHNOLOGY,1a8953f4f774
+2025-05-09,Zihuan Zhang,zhangzihuan@kylinos.cn,HID: debug: Use the __set_current_state(),d3db1ce9bf8f
+2025-06-06,Pei Xiao,xiaopei01@kylinos.cn,ASOC: rockchip: Use helper function devm_clk_get_enabled(),03b778d19948
+2025-06-06,Pei Xiao,xiaopei01@kylinos.cn,ASOC: rockchip: fix capture stream handling in rockchip_sai_xfer_stop,5dc302d00807
+2025-06-03,Ai Chao,aichao@kylinos.cn,ASoC: imx-card: Use helper function for_each_child_of_node_scoped(),111a2c8ab462
+2025-06-03,Ai Chao,aichao@kylinos.cn,ASoC: meson: Use helper function for_each_child_of_node_scoped(),618abc785e0c
+2025-06-03,Ai Chao,aichao@kylinos.cn,ASoC: renesas: Use helper function for_each_child_of_node_scoped(),077caf1d1763
+2025-05-30,Enze Li,lienze@kylinos.cn,mm/damon: s/primitives/code/ on comments,ea68ea9091d3
+2025-05-22,Shixiong Ou,oushixiong@kylinos.cn,drm/udl: use DRM_GEM_SHMEM_DRIVER_OPS_NO_MAP_SGT,b6cbfa872045
+2025-05-22,Shixiong Ou,oushixiong@kylinos.cn,drm/ast: use DRM_GEM_SHMEM_DRIVER_OPS_NO_MAP_SGT,ca43d3a2cfd6
+2025-05-22,Shixiong Ou,oushixiong@kylinos.cn,drm/shmem-helper: Import dmabuf without mapping its sg_table,660cd44659a0
+2025-05-31,Enze Li,lienze@kylinos.cn,selftests/damon/_damon_sysfs: skip testcases if CONFIG_DAMON_SYSFS is disabled,79509ec1d253
+2025-05-30,Youling Tang,tangyouling@kylinos.cn,LoongArch: Enable HAVE_ARCH_STACKLEAK,a45728fd4120
+2025-05-30,Youling Tang,tangyouling@kylinos.cn,LoongArch: Add some annotations in archhelp,980d4a42d595
+2025-05-30,Youling Tang,tangyouling@kylinos.cn,LoongArch: Using generic scripts/install.sh in `make install`,75cffd392bfa
+2025-05-30,Youling Tang,tangyouling@kylinos.cn,LoongArch: Add a default install.sh,a96c7330da0b
+2025-04-02,Feng Jiang,jiangfeng@kylinos.cn,wifi: mt76: scan: Fix 'mlink' dereferenced before IS_ERR_OR_NULL check,7e1fcf687c2f
+2025-04-19,sunliming,sunliming@kylinos.cn,wifi: mt76: mt7996: fix uninitialized symbol warning,187de25110c8
+2025-05-19,Hongyu Xie,xiehongyu1@kylinos.cn,usb: storage: Ignore UAS driver for SanDisk 3.2 Gen2 storage device,a541acceedf4
+2025-05-08,Jiayi Li,lijiayi@kylinos.cn,usb: quirks: Add NO_LPM quirk for SanDisk Extreme 55AE,19f795591947
+2025-05-15,tanze,tanze@kylinos.cn,kselftest/arm64: Set default OUTPUT path when undefined,b225219a4002
+2025-04-27,Ye Liu,liuye@kylinos.cn,mm/numa: remove unnecessary local variable in alloc_node_data(),a4b79af6c74c
+2025-04-27,Ye Liu,liuye@kylinos.cn,mm/debug_page_alloc: improve error message for invalid guardpage minorder,4048774ea5af
+2025-04-27,Ye Liu,liuye@kylinos.cn,mm/io-mapping: precompute remap protection flags for clarity,b94bff767f77
+2025-04-21,Ye Liu,liuye@kylinos.cn,mm/rmap: fix typo in comment in page_address_in_vma,0ca954046c93
+2025-04-21,Ye Liu,liuye@kylinos.cn,mm/rmap: rename page__anon_vma to anon_vma for consistency,f04cc63dc7d0
+2025-04-11,Enze Li,lienze@kylinos.cn,samples/damon/prcl: fix a comment typo,1477b8cd2688
+2025-04-11,Enze Li,lienze@kylinos.cn,selftests/damon: remove the remaining test scripts for DAMON debugfs interface,f736953e2b1f
+2025-03-18,Liu Ye,liuye@kylinos.cn,fs/proc/page: refactor to reduce code duplication,a40b3fa844b4
+2025-03-28,Ye Liu,liuye@kylinos.cn,mm/page_alloc: simplify free_page_is_bad by removing free_page_is_bad_report,3a531a993962
+2025-03-25,Ye Liu,liuye@kylinos.cn,mm/show_mem: optimize si_meminfo_node by reducing redundant code,26d4d18b7965
+2025-04-25,Pei Xiao,xiaopei01@kylinos.cn,ACPI: PCI: Constify fwnode_handle in acpi_pci_root_remap_iospace(),eba614b8280a
+2025-05-06,Feng Yang,yangfeng@kylinos.cn,sched_ext: Remove bpf_scx_get_func_proto,8c112a428b94
+2025-05-06,Feng Yang,yangfeng@kylinos.cn,bpf: Allow some trace helpers for all prog types,ee971630f20f
+2025-05-07,Zihuan Zhang,zhangzihuan@kylinos.cn,PM: hibernate: add configurable delay for pm_test,50c9bb30dc1f
+2025-05-02,Gang Yan,yangang@kylinos.cn,selftests: mptcp: add chk_sublfow in diag.sh,110f8f77fd8d
+2025-05-02,Gang Yan,yangang@kylinos.cn,selftests: mptcp: add helpers to get subflow_info,c7ac7452df70
+2025-05-02,Gang Yan,yangang@kylinos.cn,selftests: mptcp: refactor NLMSG handling with 'proto',caa6811ccaed
+2025-05-02,Gang Yan,yangang@kylinos.cn,selftests: mptcp: refactor send_query parameters for code clarity,3fea468dca4f
+2025-05-02,Gang Yan,yangang@kylinos.cn,selftests: mptcp: add struct params in mptcp_diag,cd732d5110a2
+2025-04-09,Feng Jiang,jiangfeng@kylinos.cn,drm: Fix potential overflow issue in event_string array,b662b162c3d0
+2025-04-23,Jiajia Liu,liujiajia@kylinos.cn,drm/i915/pch: fix warning for coffeelake on SunrisePoint PCH,090a47b4cd28
+2025-04-28,Feng Yang,yangfeng@kylinos.cn,selftests/bpf: Fix compilation errors,1ce65102d2d3
+2025-04-25,Xuanqiang Luo,luoxuanqiang@kylinos.cn,ice: Check VF VSI Pointer Value in ice_vc_add_fdir_fltr(),425c5f266b2e
+2025-04-04,Xuanqiang Luo,luoxuanqiang@kylinos.cn,netfilter: conntrack: Remove redundant NFCT_ALIGN call,eaa2b34db021
+2025-04-18,Yaxiong Tian,tianyaxiong@kylinos.cn,PM: EM: Fix potential division-by-zero error in em_compute_costs(),179c0c7044a3
+2025-04-24,Zihuan Zhang,zhangzihuan@kylinos.cn,PM: sleep: Remove unnecessary !!,9cd9d3fdd72b
+2025-04-25,Haoran Jiang,jianghaoran@kylinos.cn,samples/bpf: Fix compilation failure for samples/bpf on LoongArch Fedora,548762f05d19
+2025-04-23,Feng Yang,yangfeng@kylinos.cn,bpf: Streamline allowed helpers between tracing and base sets,6aca583f90b0
+2025-04-17,Feng Yang,yangfeng@kylinos.cn,selftests/bpf: Add test for attaching kprobe with long event names,9b72f3e5b760
+2025-04-17,Feng Yang,yangfeng@kylinos.cn,selftests/bpf: Add test for attaching uprobe with long event names,e1be7c45d244
+2025-04-17,Feng Yang,yangfeng@kylinos.cn,libbpf: Fix event name too long error,4dde20b1aa85
+2025-04-14,Miao Li,limiao@kylinos.cn,usb: quirks: Add delay init quirk for SanDisk 3.2Gen1 Flash Drive,37ffdbd695c0
+2025-04-07,wangxuewen,wangxuewen@kylinos.cn,mm/hugetlb: add a line break at the end of the format string,9e2bd6777357
+2025-04-01,Miao Li,limiao@kylinos.cn,usb: quirks: add DELAY_INIT quirk for Silicon Motion Flash Drive,2932b6b547ec
+2025-04-07,Pei Xiao,xiaopei01@kylinos.cn,iommu: remove unneeded semicolon,ae4814a3aab5
+2025-04-07,shitao,shitao@kylinos.cn,ACPI: battery: Round capacity percengate to closest integer,46d839adcc93
+2025-03-20,Ye Liu,liuye@kylinos.cn,mm/page_alloc: replace flag check with PageHWPoison() in check_new_page_bad(),bd145bdd26c6
+2025-03-28,Cong Liu,liucong2@kylinos.cn,selftests: mptcp: fix incorrect fd checks in main_loop,7335d4ac8129
+2025-03-28,Gang Yan,yangang@kylinos.cn,mptcp: fix NULL pointer in can_accept_new_subflow,443041deb5ef
+2025-02-23,Feng Yang,yangfeng@kylinos.cn,ring-buffer: Fix bytes_dropped calculation issue,c73f0b696485
+2025-03-10,Shixiong Ou,oushixiong@kylinos.cn,fbdev: fsl-diu-fb: add missing device_remove_file(),86d16cd12efa
+2025-03-14,Shixiong Ou,oushixiong@kylinos.cn,fbcon: Use static attribute groups for sysfs entries,26c36247a440
+2025-02-20,Shixiong Ou,oushixiong@kylinos.cn,fbdev: Register sysfs groups through device_add_group,5fc830d6aca1
+2025-02-19,Shixiong Ou,oushixiong@kylinos.cn,fbdev: lcdcfb: Register sysfs groups through driver core,a979182a2453
+2025-02-06,xueqin Luo,luoxueqin@kylinos.cn,thermal: core: Remove duplicate struct declaration,9e6ec8cf64e2
+2025-03-19,Liu Ye,liuye@kylinos.cn,mm/page_alloc: remove unnecessary __maybe_unused in order_to_pindex(),0a1e082b64cc
+2025-03-14,Feng Yang,yangfeng@kylinos.cn,perf kwork: Remove unreachable judgments,2b5b834cc3b9
+2025-03-13,Zhang Heng,zhangheng@kylinos.cn,mtd: mchp48l640: Use str_enable_disable() in mchp48l640_write_prepare(),3081f26059a8
+2025-03-13,Zhang Heng,zhangheng@kylinos.cn,mtd: rawnand: gpmi: Use str_enabled_disabled() in gpmi_nand_attach_chip(),9fe1617df3c8
+2025-03-12,Liu Ye,liuye@kylinos.cn,mm/debug: add line breaks,456620c5cb23
+2025-03-06,Liu Ye,liuye@kylinos.cn,mm/vmalloc: refactor __vmalloc_node_range_noprof(),f0e11a997ab4
+2025-03-05,Liu Ye,liuye@kylinos.cn,mm/shrinker: fix name consistency issue in shrinker_debugfs_rename(),ac55b38fe2f9
+2025-02-12,Liu Ye,liuye@kylinos.cn,mm/folio_queue: delete __folio_order and use folio_order directly,58abac769b05
+2025-02-06,Liu Ye,liuye@kylinos.cn,mm/memfd: fix spelling and grammatical issues,33c9b01ed2fc
+2025-01-15,Hao Zhang,zhanghao1@kylinos.cn,mm/vmscan: extract calculated pressure balance as a function,350dce38eb6e
+2025-03-05,Feng Yang,yangfeng@kylinos.cn,selftests/bpf: Fix cap_enable_effective() return code,339c1f8ea11c
+2025-03-08,sunliming,sunliming@kylinos.cn,binfmt_elf_fdpic: fix variable set but not used warning,8d68cabeb1ff
+2025-03-04,Miao Li,limiao@kylinos.cn,usb: quirks: Add DELAY_INIT and NO_LPM for Prolific Mass Storage Card Reader,ff712188daa3
+2025-02-27,Hao Zhang,zhanghao1@kylinos.cn,mm/page_alloc: fix uninitialized variable,8fe9ed44dc29
+2025-02-28,Gang Yan,yangang@kylinos.cn,selftests: mptcp: add a test for mptcp_diag_dump_one,ba2400166570
+2025-02-28,Gang Yan,yangang@kylinos.cn,selftests: mptcp: Add a tool to get specific msk_info,00f5e338cf7e
+2025-03-04,sunliming,sunliming@kylinos.cn,iio: imu: adis: fix uninitialized symbol warning,443238858a2d
+2025-02-18,Youling Tang,tangyouling@kylinos.cn,objtool: Add bch2_trans_unlocked_or_in_restart_error() to bcachefs noreturns,b4ae43b05353
+2025-01-14,liuye,liuye@kylinos.cn,selftests/x86/lam: Fix minor memory in do_uring(),c4f23a9d6e73
+2025-01-14,Yufeng Wang,wangyufeng@kylinos.cn,tools: virtio/linux/module.h add MODULE_DESCRIPTION() define.,ec05544c858f
+2025-01-14,Yufeng Wang,wangyufeng@kylinos.cn,tools: virtio/linux/compiler.h: Add data_race() define.,83dc0370f915
+2025-01-13,Yufeng Wang,wangyufeng@kylinos.cn,tools/virtio: Add DMA_MAPPING_ERROR and sg_dma_len api define for virtio test,ae376910f52b
+2025-02-21,Yiqian Xun,xunyiqian@kylinos.cn,selftests/user_events: Fix failures caused by test code,e402c70856a3
+2025-01-14,Zhang Heng,zhangheng@kylinos.cn,media: usb: use kmalloc_array() to replace kmalloc(),8deb1e2a392b
+2025-01-17,Zhang Heng,zhangheng@kylinos.cn,media: pwc: remove useless header files,648dec6840a8
+2025-02-19,Pei Xiao,xiaopei01@kylinos.cn,leds: st1202: Refactor st1202_led_set() to use !! operator for boolean conversion,2f372a5dce68
+2025-02-17,Pei Xiao,xiaopei01@kylinos.cn,net: freescale: ucc_geth: make ugeth_mac_ops be static const,9faaaef27c5d
+2025-02-08,xueqin Luo,luoxueqin@kylinos.cn,ACPI: thermal: Fix stale comment regarding trip points,01ca2846338d
+2025-01-28,Shixiong Ou,oushixiong@kylinos.cn,drm/bridge: analogix_dp: Use devm_platform_ioremap_resource(),43c00fb1a518
+2025-02-12,Lei Huang,huanglei@kylinos.cn,USB: quirks: add USB_QUIRK_NO_LPM quirk for Teclast dist,e169d96eecd4
+2025-02-08,Pei Xiao,xiaopei01@kylinos.cn,phy: freescale: fsl-samsung-hdmi: Use helper function devm_clk_get_enabled(),279950205dde
+2025-02-11,Pei Xiao,xiaopei01@kylinos.cn,phy: freescale: fsl-samsung-hdmi: Limit PLL lock detection clock divider to valid range,cd57e4327707
+2025-02-08,luoqing,luoqing@kylinos.cn,selftests: i915: Use struct_size() helper in kmalloc(),fc2ef5b6e1ab
+2025-02-06,Shixiong Ou,oushixiong@kylinos.cn,drm/bridge: convert to use devm_platform_ioremap_resource(),aaad45cfaa1b
+2025-01-17,Zhang Heng,zhangheng@kylinos.cn,ASoC: SOF: topology: Use krealloc_array() to replace krealloc(),a05143a8f713
+2024-11-19,liuye,liuye@kylinos.cn,mm/vmscan: fix hard LOCKUP in function isolate_lru_folios,1c7b17cf0594
+2025-01-14,liuye,liuye@kylinos.cn,selftests/mm/mkdirty: fix memory leak in test_uffdio_copy(),7882d8fc8fe0
+2025-01-14,liuye,liuye@kylinos.cn,selftests/memfd/memfd_test: fix possible NULL pointer dereference,73519ded992f
+2024-12-23,Zhang Heng,zhangheng@kylinos.cn,kdb: use kmap_local_page(),36975ec3a2c1
+2025-01-21,Shixiong Ou,oushixiong@kylinos.cn,fbdev: lcdcfb: Use backlight helper,d08e78362a5f
+2025-01-17,Xiangqian Zhang,zhangxiangqian@kylinos.cn,net: mii: Fix the Speed display when the network cable is not connected,f6f2e946aa4d
+2025-01-16,Liu Ye,liuye@kylinos.cn,selftests/net/ipsec: Fix Null pointer dereference in rtattr_pack(),3a0b7fa09521
+2025-01-16,Ai Chao,aichao@kylinos.cn,platform/mellanox: mlxreg-io: use sysfs_emit() instead of sprintf(),ff44b1ca889f
+2025-01-16,Ai Chao,aichao@kylinos.cn,platform/mellanox: mlxreg-hotplug: use sysfs_emit() instead of sprintf(),fcf1b6f8d824
+2025-01-16,Ai Chao,aichao@kylinos.cn,platform/mellanox: mlxbf-bootctl: use sysfs_emit() instead of sprintf(),9886f575de5a
+2025-01-13,Miao Li,limiao@kylinos.cn,usb: quirks: Add NO_LPM quirk for TOSHIBA TransMemory-Mx device,ba39e420c0e9
+2025-01-15,Ai Chao,aichao@kylinos.cn,platform/x86: lenovo-wmi-camera: Use SW_CAMERA_LENS_COVER instead of KEY_CAMERA_ACESS,d98bf6a6ed61
+2024-12-02,xueqin Luo,luoxueqin@kylinos.cn,wifi: mt76: mt7915: fix overflows seen when writing limit attributes,64d571742b0a
+2024-12-02,xueqin Luo,luoxueqin@kylinos.cn,wifi: mt76: mt7996: fix overflows seen when writing limit attributes,5adbc8ce5bbe
+2024-12-29,shitao,shitao@kylinos.cn,wifi: iwlwifi: Fix spelling typo in comment,eb5940010d39
+2024-11-27,Pei Xiao,xiaopei01@kylinos.cn,i3c: dw: Fix use-after-free in dw_i3c_master driver due to race condition,b75439c945b9
+2024-12-06,wangdicheng,wangdicheng@kylinos.cn,scsi: aic7xxx: Fix build 'aicasm' warning,77a4157ac75c
+2024-08-23,Kunwu Chan,chentao@kylinos.cn,ARM: riscpc: make ecard_bus_type constant,f554b68eafb6
+2025-01-08,Chenguang Zhao,zhaochenguang@kylinos.cn,net/mlx5: Fix variable not being completed when function returns,0e2909c6bec9
+2025-01-03,Shixiong Ou,oushixiong@kylinos.cn,fbdev: efifb: Change the return value type to void,021e111ed08d
+2025-01-03,Zhang Heng,zhangheng@kylinos.cn,iommu/msm: Use helper function devm_clk_get_prepared(),afc0cbc6e25b
+2024-12-31,Hongyu Xie,xiehongyu1@kylinos.cn,usb: cdns3: remove redundant if branch,dedab674428f
+2025-10-28,Qiu Wenbo,qiuwenbo@kylinsec.com.cn,platform/x86: int3472: Fix double free of GPIO device during unregister,f0f7a3f542c1
+2025-05-09,Liu Dalin,liudalin@kylinsec.com.cn,rtc: loongson: Add missing alarm notifications for ACPI RTC events,5af9f1fa5768
+2025-03-17,Luo Qiu,luoqiu@kylinsec.com.cn,memstick: rtsx_usb_ms: Fix slab-use-after-free in rtsx_usb_ms_drv_remove,4676741a3464

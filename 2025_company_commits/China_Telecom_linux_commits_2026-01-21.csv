@@ -1,0 +1,15 @@
+﻿Date,Author Name,Author Email,Subject,Commit Hash
+2025-12-05,Li Chen,chenl311@chinatelecom.cn,dm pcache: fix segment info indexing,13ea55ea2017
+2025-12-05,Li Chen,chenl311@chinatelecom.cn,dm pcache: fix cache info indexing,ee7633178321
+2025-11-11,Li Chen,chenl311@chinatelecom.cn,dm-pcache: zero cache_info before default init,a6ee8422b4f2
+2025-11-11,Li Chen,chenl311@chinatelecom.cn,dm-pcache: reuse meta_addr in pcache_meta_find_latest,840b80af74fd
+2025-11-11,Li Chen,chenl311@chinatelecom.cn,dm-pcache: allow built-in build and rename flush helper,341d14bd69d0
+2025-11-17,Li Chen,chenl311@chinatelecom.cn,block: rate-limit capacity change info log,3179a5f7f86b
+2025-07-10,Li Chen,chenl311@chinatelecom.cn,x86/smpboot: avoid SMT domain attach/destroy if SMT is not enabled,f79c9aa446d6
+2025-07-10,Li Chen,chenl311@chinatelecom.cn,x86/smpboot: moves x86_topology to static initialize and truncate,fbc2010d92e5
+2025-07-10,Li Chen,chenl311@chinatelecom.cn,x86/smpboot: remove redundant CONFIG_SCHED_SMT,992de2b02509
+2025-07-10,Li Chen,chenl311@chinatelecom.cn,smpboot: introduce SDTL_INIT() helper to tidy sched topology setup,e075f4360931
+2025-06-20,Li Chen,chenl311@chinatelecom.cn,fs: fat: Prevent fsfuzzer from dominating the console,896f612273da
+2025-06-20,Li Chen,chenl311@chinatelecom.cn,ACPI: Suppress misleading SPCR console message when SPCR table is absent,bad3fa2fb920
+2025-06-20,Li Chen,chenl311@chinatelecom.cn,ACPI: Return -ENODEV from acpi_parse_spcr() when SPCR support is disabled,b9f58d3572a8
+2025-06-20,Li Chen,chenl311@chinatelecom.cn,HID: rate-limit hid_warn to prevent log flooding,4051ead99888

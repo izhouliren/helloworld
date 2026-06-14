@@ -1,0 +1,331 @@
+﻿Date,Author Name,Author Email,Subject,Commit Hash
+2025-12-12,Jiapeng Chong,jiapeng.chong@linux.alibaba.com,ALSA: hda: Remove unnecessary print function dev_err(),cdc996667c26
+2025-12-12,Evan Li,evan.li@linux.alibaba.com,perf/x86/intel: Fix NULL event dereference crash in handle_pmi_common(),9415f749d34b
+2025-11-14,Baolin Wang,baolin.wang@linux.alibaba.com,mm: shmem: allow fallback to smaller large orders for tmpfs mmap() access,8826f09616b4
+2025-11-21,Fangyu Yu,fangyu.yu@linux.alibaba.com,RISC-V: KVM: Fix guest page fault within HLV* instructions,974555d6e417
+2025-11-13,Feng Tang,feng.tang@linux.alibaba.com,sys_info: add a default kernel sys_info mask,03ef32d665e8
+2025-11-13,Feng Tang,feng.tang@linux.alibaba.com,watchdog: add sys_info sysctls to dump sys info on system lockup,a9af76a78760
+2025-11-13,Feng Tang,feng.tang@linux.alibaba.com,hung_task: add hung_task_sys_info sysctl to dump sys info on task-hung,8b2b9b4f6f4f
+2025-11-13,Feng Tang,feng.tang@linux.alibaba.com,docs: panic: correct some sys_ifo names in sysctl doc,5f264c00b669
+2025-09-18,Baolin Wang,baolin.wang@linux.alibaba.com,mm: vmscan: simplify the folio refcount check in pageout(),4f8961b29501
+2025-09-18,Baolin Wang,baolin.wang@linux.alibaba.com,mm: vmscan: remove folio_test_private() check in pageout(),d94d9293a1ec
+2025-11-14,Huang Ying,ying.huang@linux.alibaba.com,"arm64, tlbflush: don't TLBI broadcast if page reused in write fault",cb1fa2e99955
+2025-11-14,Huang Ying,ying.huang@linux.alibaba.com,mm: add spurious fault fixing support for huge pmd,79301c7d605a
+2025-10-17,Baolin Wang,baolin.wang@linux.alibaba.com,mm: vmscan: simplify the logic for activating dirty file folios,2f05435df932
+2025-10-17,Baolin Wang,baolin.wang@linux.alibaba.com,mm: vmscan: filter out the dirty file folios for node_reclaim(),b34619af9c3f
+2025-10-10,Yadong Qi,yadong.qi@linux.alibaba.com,mm: vmalloc: WARN_ON if mapping size is not PAGE_SIZE aligned,a739e6b557af
+2025-11-14,Chen Pei,cp0613@linux.alibaba.com,tools: riscv: Fixed misalignment of CSR related definitions,e2cb69263e79
+2025-10-15,Jiapeng Chong,jiapeng.chong@linux.alibaba.com,x86: mshyperv: Remove duplicate asm/msr.h header,77c3a45a0f48
+2025-11-11,Xuan Zhuo,xuanzhuo@linux.alibaba.com,virtio-net: fix incorrect flags recording in big mode,0eff2eaa5322
+2025-10-25,Joseph Qi,joseph.qi@linux.alibaba.com,ocfs2: convert to host endian in ocfs2_validate_inode_block,6e89373cec09
+2025-10-25,Joseph Qi,joseph.qi@linux.alibaba.com,ocfs2: use correct endian in ocfs2_dinode_has_extents,c9dff86eb78a
+2025-11-06,Jiapeng Chong,jiapeng.chong@linux.alibaba.com,drm/amdgpu/userqueue: Remove duplicate amdgpu_reset.h header,3b832487a9e5
+2025-11-07,D. Wythe,alibuda@linux.alibaba.com,net/smc: fix mismatch between CLC header and proposal,ec33f2e5a2d0
+2025-11-07,D. Wythe,alibuda@linux.alibaba.com,bpf/selftests: Add selftest for bpf_smc_hs_ctrl,beb3c67297d9
+2025-11-07,D. Wythe,alibuda@linux.alibaba.com,net/smc: bpf: Introduce generic hook for handshake flow,15f295f55656
+2025-11-07,D. Wythe,alibuda@linux.alibaba.com,bpf: Export necessary symbols for modules with struct_ops,07c428ece322
+2025-10-13,Jiapeng Chong,jiapeng.chong@linux.alibaba.com,parisc: remove unneeded semicolon in perf_regs.c,3317aaca33dc
+2025-10-30,Jiapeng Chong,jiapeng.chong@linux.alibaba.com,drm/amd/display: remove unneeded semicolon,2a30ff5bc495
+2025-10-30,Jiapeng Chong,jiapeng.chong@linux.alibaba.com,drm/amd/display: remove unneeded semicolon,26c288c1709a
+2025-10-30,Jiapeng Chong,jiapeng.chong@linux.alibaba.com,drm/amd/display: remove unneeded semicolon,5d7ccf080cc4
+2025-10-23,Shuai Xue,xueshuai@linux.alibaba.com,perf record: skip synthesize event when open evsel failed,163e5f2b9663
+2025-10-23,Dust Li,dust.li@linux.alibaba.com,smc: rename smc_find_ism_store_rc to reflect broader usage,f0773d0b41b4
+2025-10-21,Fangyu Yu,fangyu.yu@linux.alibaba.com,RISC-V: KVM: Remove automatic I/O mapping for VM_PFNMAP,8c5fa3764fac
+2025-10-20,Jiapeng Chong,jiapeng.chong@linux.alibaba.com,net: macb: Remove duplicate linux/inetdevice.h header,962ac5ca99a5
+2025-09-13,Shuai Xue,xueshuai@linux.alibaba.com,"acpi,srat: Fix incorrect device handle check for Generic Initiator",7c3643f204ed
+2025-10-15,Huang Ying,ying.huang@linux.alibaba.com,"arm64, mm: avoid always making PTE dirty in pte_mkwrite()",143937ca51cc
+2025-10-16,Fangyu Yu,fangyu.yu@linux.alibaba.com,RISC-V: KVM: Read HGEIP CSR on the correct cpu,873f10cf8e4d
+2025-09-25,Guixin Liu,kanie@linux.alibaba.com,iommufd: Register iommufd mock devices with fwspec,2a918911ed3d
+2025-09-28,Jiapeng Chong,jiapeng.chong@linux.alibaba.com,nvdimm: Remove duplicate linux/slab.h header,5c34f2b6f89a
+2025-09-26,Jiapeng Chong,jiapeng.chong@linux.alibaba.com,bpftool: Remove duplicate string.h header,4b2113413e76
+2025-09-26,Jiapeng Chong,jiapeng.chong@linux.alibaba.com,bpf: Remove duplicate crypto/sha2.h header,87608c2a7718
+2025-09-26,D. Wythe,alibuda@linux.alibaba.com,libbpf: Fix error when st-prefix_ops and ops from differ btf,0cc114dc358c
+2025-08-01,Jiapeng Chong,jiapeng.chong@linux.alibaba.com,thermal/drivers/mediatek/lvts_thermal: Remove unneeded semicolon,5ea75f3479ee
+2025-09-23,Jiapeng Chong,jiapeng.chong@linux.alibaba.com,arm64: cpufeature: Remove duplicate asm/mmu.h header,ea0b39168d3a
+2025-09-13,Chen Pei,cp0613@linux.alibaba.com,ACPI: SPCR: Support Precise Baud Rate field,4d330fe54145
+2025-07-25,Jiapeng Chong,jiapeng.chong@linux.alibaba.com,btrfs: remove duplicate inclusion of linux/types.h,6d9cce2d1bb6
+2025-09-03,Baolin Wang,baolin.wang@linux.alibaba.com,mm: shmem: fix the strategy for the tmpfs 'huge=' options,69e0a3b49003
+2025-09-16,Yang Li,yang.lee@linux.alibaba.com,drm/xe: Remove duplicate header files,9e6eb49ec139
+2025-08-21,Fangyu Yu,fangyu.yu@linux.alibaba.com,RISC-V: KVM: Write hgatp register with valid mode bits,2b351e3d04be
+2025-09-10,Chen Pei,cp0613@linux.alibaba.com,ACPI: SPCR: Add support for DBG2 RISC-V SBI port subtype,bf4206d7ac27
+2025-08-25,Feng Tang,feng.tang@linux.alibaba.com,panic: add note that 'panic_print' parameter is deprecated,2683df6539cb
+2025-08-25,Feng Tang,feng.tang@linux.alibaba.com,panic: refine the document for 'panic_print',8c2b91fbb007
+2025-08-25,Feng Tang,feng.tang@linux.alibaba.com,lib/sys_info: handle sys_info_mask==0 case,31cf021b6161
+2025-08-26,Baolin Wang,baolin.wang@linux.alibaba.com,mm: shmem: drop the unnecessary folio_nr_pages(),6d11dec130ad
+2025-08-26,Baolin Wang,baolin.wang@linux.alibaba.com,mm: shmem: use 'folio' for shmem_partial_swap_usage(),ab1c34c83407
+2025-09-10,Yi Tao,escape@linux.alibaba.com,cgroup: replace global percpu_rwsem with per threadgroup resem when writing to cgroup.procs,0568f89d4fb8
+2025-09-10,Yi Tao,escape@linux.alibaba.com,cgroup: relocate cgroup_attach_lock within cgroup_procs_write_start,477abc2ec889
+2025-09-10,Yi Tao,escape@linux.alibaba.com,cgroup: refactor the cgroup_attach_lock code to make it clearer,a1ffc8ad3165
+2025-07-23,Yang Li,yang.lee@linux.alibaba.com,wifi: iwlwifi: Remove duplicated include in trans.c,c67a2470922f
+2025-08-07,Fangyu Yu,fangyu.yu@linux.alibaba.com,RISC-V: KVM: Fix pte settings within kvm_riscv_gstage_ioremap(),9bca8be646e0
+2025-08-18,D. Wythe,alibuda@linux.alibaba.com,net/smc: fix UAF on smcsk after smc_listen_out(),d9cef55ed491
+2025-07-25,Boshi Yu,boshiyu@linux.alibaba.com,RDMA/erdma: Use dma_map_page to map scatter MTT buffer,4d674c478dc5
+2025-07-25,Boshi Yu,boshiyu@linux.alibaba.com,RDMA/erdma: Fix unset QPN of GSI QP,d4ac86b47563
+2025-07-25,Boshi Yu,boshiyu@linux.alibaba.com,RDMA/erdma: Fix ignored return value of init_kernel_qp,d5c74713f011
+2025-07-25,Jiapeng Chong,jiapeng.chong@linux.alibaba.com,selftests/sched_ext: Remove duplicate sched.h header,e69980bd16f2
+2025-07-29,Tianjia Zhang,tianjia.zhang@linux.alibaba.com,selinux: use a consistent method to get full socket from skb,d4e8dc8e8b34
+2025-07-25,Jiapeng Chong,jiapeng.chong@linux.alibaba.com,mailbox: bcm74110: remove unneeded semicolon,7fbb5a5672cc
+2025-07-31,Baolin Wang,baolin.wang@linux.alibaba.com,mm: shmem: fix the shmem large folio allocation for the i915 driver,8d58d6562111
+2025-07-25,Jiapeng Chong,jiapeng.chong@linux.alibaba.com,nvme-auth: remove unneeded semicolon,b6160cd2c45c
+2025-07-25,Jiapeng Chong,jiapeng.chong@linux.alibaba.com,apparmor: Remove the unused variable rules,8936125e2328
+2025-07-26,Chen Pei,cp0613@linux.alibaba.com,perf tools: Remove libtraceevent in .gitignore,af470fb532fc
+2025-07-23,Yang Li,yang.lee@linux.alibaba.com,perf stat: Remove duplicated include in stat-shadow.c,db12d7ec6bdf
+2025-07-23,Yang Li,yang.lee@linux.alibaba.com,gpio: cadence: Remove duplicated include in gpio-cadence.c,ff4322b22f35
+2025-07-03,Feng Tang,feng.tang@linux.alibaba.com,panic: add note that panic_print sysctl interface is deprecated,ee13240cd78b
+2025-07-03,Feng Tang,feng.tang@linux.alibaba.com,panic: add 'panic_sys_info=' setup option for kernel cmdline,9743d12d0c63
+2025-07-03,Feng Tang,feng.tang@linux.alibaba.com,panic: add 'panic_sys_info' sysctl to take human readable string parameter,d747755917bf
+2025-07-03,Feng Tang,feng.tang@linux.alibaba.com,panic: generalize panic_print's function to show sys info,b76e89e50fc3
+2025-07-03,Feng Tang,feng.tang@linux.alibaba.com,panic: clean up code for console replay,261743b0135d
+2025-07-04,Baolin Wang,baolin.wang@linux.alibaba.com,mm: fault in complete folios instead of individual pages for tmpfs,e89d5bf3a4f9
+2025-07-17,Yin Fengwei,fengwei_yin@linux.alibaba.com,binfmt_elf: remove the 4k limitation of program header size,8030790477e8
+2025-07-14,Shuai Xue,xueshuai@linux.alibaba.com,ACPI: APEI: handle synchronous exceptions in task work,c1f1fda14137
+2025-07-14,Shuai Xue,xueshuai@linux.alibaba.com,ACPI: APEI: send SIGBUS to current task if synchronous memory error not recovered,79a5ae3c4c5e
+2025-06-13,Baolin Wang,baolin.wang@linux.alibaba.com,mm: huge_memory: fix the check for allowed huge orders in shmem,fa493f50df3a
+2025-06-13,Baolin Wang,baolin.wang@linux.alibaba.com,selftests: mm: add shmem collapse as a default test item,f081a460bbac
+2025-06-13,Baolin Wang,baolin.wang@linux.alibaba.com,selftests: khugepaged: fix the shmem collapse failure,7962e05a835f
+2025-06-05,Baolin Wang,baolin.wang@linux.alibaba.com,mm: fix the inaccurate memory statistics issue for users,82241a83cd15
+2025-05-31,Qinyun Tan,qinyuntan@linux.alibaba.com,"x86,fs/resctrl: Remove inappropriate references to cacheinfo in the resctrl subsystem",594902c986e2
+2025-06-12,Feng Tang,feng.tang@linux.alibaba.com,dma-contiguous: hornor the cma address limit setup by user,aa807b9f22df
+2025-05-13,Baolin Wang,baolin.wang@linux.alibaba.com,mm: khugepaged: decouple SHMEM and file folios' collapse,cc79061b8fc1
+2025-05-12,Baolin Wang,baolin.wang@linux.alibaba.com,mm: convert do_set_pmd() to take a folio,698c0089cdf0
+2025-05-12,Baolin Wang,baolin.wang@linux.alibaba.com,mm: khugepaged: convert set_huge_pmd() to take a folio,5053383829ab
+2025-05-09,Baolin Wang,baolin.wang@linux.alibaba.com,mm: mincore: use pte_batch_hint() to batch process large folios,4df65651f707
+2025-04-04,Shuai Xue,xueshuai@linux.alibaba.com,dmaengine: idxd: Refactor remove call with idxd_cleanup() helper,a409e919ca32
+2025-04-04,Shuai Xue,xueshuai@linux.alibaba.com,dmaengine: idxd: Add missing idxd cleanup to fix memory leak in remove call,d5449ff1b04d
+2025-04-04,Shuai Xue,xueshuai@linux.alibaba.com,dmaengine: idxd: fix memory leak in error handling path of idxd_pci_probe,90022b3a6981
+2025-04-04,Shuai Xue,xueshuai@linux.alibaba.com,dmaengine: idxd: fix memory leak in error handling path of idxd_alloc,46a5cca76c76
+2025-04-04,Shuai Xue,xueshuai@linux.alibaba.com,dmaengine: idxd: Add missing cleanups in cleanup internals,61d651572b6c
+2025-04-04,Shuai Xue,xueshuai@linux.alibaba.com,dmaengine: idxd: Add missing cleanup for early error out in idxd_setup_internals,61259fb96e02
+2025-04-04,Shuai Xue,xueshuai@linux.alibaba.com,dmaengine: idxd: fix memory leak in error handling path of idxd_setup_groups,aa6f4f945b10
+2025-04-04,Shuai Xue,xueshuai@linux.alibaba.com,dmaengine: idxd: fix memory leak in error handling path of idxd_setup_engines,817bced19d1d
+2025-04-04,Shuai Xue,xueshuai@linux.alibaba.com,dmaengine: idxd: fix memory leak in error handling path of idxd_setup_wqs,3fd2f4bc010c
+2025-04-09,Baolin Wang,baolin.wang@linux.alibaba.com,mm: huge_memory: add folio_mark_accessed() when zapping file THP,10d483f198cf
+2025-04-23,Feng Tang,feng.tang@linux.alibaba.com,selftests/mm: compaction_test: support platform with huge mount of memory,ab00ddd802f8
+2025-03-31,Jiapeng Chong,jiapeng.chong@linux.alibaba.com,um: Remove duplicate arch.h header,82c8e1280c74
+2024-06-19,Jiapeng Chong,jiapeng.chong@linux.alibaba.com,drm: Remove unused function rcar_cmm_write,760e296124ef
+2025-03-03,weizijie,zijie.wei@linux.alibaba.com,KVM: x86: Rescan I/O APIC routes after EOI interception for old routing,87e4951e250b
+2025-04-16,Jiapeng Chong,jiapeng.chong@linux.alibaba.com,HID: hid-steam: Remove the unused variable connected,acae9d5b51cf
+2025-01-15,Yang Li,yang.lee@linux.alibaba.com,wifi: iwlwifi: mvm: Remove duplicated include in iwl-utils.c,9991739ed3ee
+2025-04-15,Jiapeng Chong,jiapeng.chong@linux.alibaba.com,selftest/bpf/benchs: Remove duplicate sys/types.h header,7d0b43b68d1c
+2025-04-07,Baolin Wang,baolin.wang@linux.alibaba.com,selftests: mincore: fix tmpfs mincore test failure,8c583e538aa6
+2025-04-07,Yang Li,yang.lee@linux.alibaba.com,regulator: pf9453: Improve documentation for pf9453_regulator_set_ramp_delay_regmap,b3d9e96c96b0
+2025-03-27,Guixin Liu,kanie@linux.alibaba.com,gpio: tegra186: fix resource handling in ACPI probe path,8323f3a69de6
+2025-03-17,Jiapeng Chong,jiapeng.chong@linux.alibaba.com,ring-buffer: Remove the unused variable bmeta,de48d7fff7b4
+2025-03-12,Shuai Xue,xueshuai@linux.alibaba.com,mm: memory-failure: enhance comments for return value of memory_failure(),d2734f044f84
+2025-03-12,Shuai Xue,xueshuai@linux.alibaba.com,mm/hwpoison: do not send SIGBUS to processes with recovered clean pages,aaf99ac2ceb7
+2025-03-12,Shuai Xue,xueshuai@linux.alibaba.com,x86/mce: use is_copy_from_user() to determine copy-from-user context,1a15bb8303b6
+2025-03-13,Guixin Liu,kanie@linux.alibaba.com,scsi: target: tcm_loop: Fix wrong abort tag,1909b643034e
+2025-02-07,Baolin Wang,baolin.wang@linux.alibaba.com,MAINTAINERS: add Baolin as shmem reviewer,a91aaf8dd549
+2025-02-07,Baolin Wang,baolin.wang@linux.alibaba.com,mm: shmem: factor out the within_size logic into a new helper,086e66b690ae
+2025-02-07,Baolin Wang,baolin.wang@linux.alibaba.com,mm: shmem: change the return value of shmem_find_swap_entries(),cd81c424b53f
+2025-02-07,Baolin Wang,baolin.wang@linux.alibaba.com,mm: shmem: remove duplicate error validation,d5e4e147c0f5
+2025-02-07,Baolin Wang,baolin.wang@linux.alibaba.com,mm: shmem: remove 'fadvise()' comments,6d26a149f548
+2025-02-07,Baolin Wang,baolin.wang@linux.alibaba.com,mm: shmem: drop the unused macro,c0d017896b72
+2025-02-13,Guanjun,guanjun@linux.alibaba.com,filemap: remove redundant folio_test_large check in filemap_free_folio,b23ceebd63d8
+2025-02-10,Hongzhen Luo,hongzhen@linux.alibaba.com,erofs: use Z_EROFS_LCLUSTER_TYPE_MAX to simplify switches,3b7781aeaefb
+2025-03-04,Guangguan Wang,guangguan.wang@linux.alibaba.com,net/smc: use the correct ndev to find pnetid by pnetid table,bfc6c67ec2d6
+2025-03-12,Guixin Liu,kanie@linux.alibaba.com,block: remove unused parameter,61667cb6644f
+2025-03-12,Jiapeng Chong,jiapeng.chong@linux.alibaba.com,xfs: Remove duplicate xfs_rtbitmap.h header,fcb255537bee
+2025-03-07,Jiapeng Chong,jiapeng.chong@linux.alibaba.com,function_graph: Remove the unused variable func,5ba8f4a39ecd
+2025-03-07,Jiapeng Chong,jiapeng.chong@linux.alibaba.com,drm/msm/dpu: Remove duplicate dpu_hw_cwb.h header,2060a2db1253
+2025-03-06,Jiapeng Chong,jiapeng.chong@linux.alibaba.com,spi: stm32: Remove unnecessary print function dev_err(),3707fd9c383f
+2025-03-06,Cheng Xu,chengyou@linux.alibaba.com,RDMA/erdma: Prevent use-after-free in erdma_accept_newconn(),83437689249e
+2025-02-25,Baolin Wang,baolin.wang@linux.alibaba.com,mm: shmem: fix potential data corruption during shmem swapin,058313515d5a
+2025-03-05,Jiapeng Chong,jiapeng.chong@linux.alibaba.com,drm: adp: Remove unnecessary print function dev_err(),e4c0fd3f9655
+2025-03-03,Feng Tang,feng.tang@linux.alibaba.com,PCI/portdrv: Only disable pciehp interrupts early when needed,9d7db4db1982
+2025-02-26,Jiapeng Chong,jiapeng.chong@linux.alibaba.com,scsi: ufs: rockchip: Simplify bool conversion,3d8256903934
+2025-02-22,Philo Lu,lulie@linux.alibaba.com,ipvs: Always clear ipvs_property flag in skb_scrub_packet(),de2c211868b9
+2025-02-18,Jingbo Xu,jefflexu@linux.alibaba.com,mm/truncate: don't skip dirty page in folio_unmap_invalidate(),927289988068
+2025-02-18,Jingbo Xu,jefflexu@linux.alibaba.com,mm/filemap: fix miscalculated file range for filemap_fdatawrite_range_kick(),8510edf191d2
+2025-02-05,Feng Tang,feng.tang@linux.alibaba.com,mailmap: add entry for Feng Tang,3219585e894c
+2025-02-11,Tianchen Ding,dtcccc@linux.alibaba.com,"sched/eevdf: Force propagating min_slice of cfs_rq when {en,de}queue tasks",563bc2161b94
+2025-02-07,Jiang Liu,gerry@linux.alibaba.com,drm/amdgpu: reset psp->cmd to NULL after releasing the buffer,e92f3f94cad2
+2025-01-13,Jiang Liu,gerry@linux.alibaba.com,amdgpu/soc15: enable asic reset for dGPU in case of suspend abort,38e8ca3e4b6d
+2025-02-07,Jiang Liu,gerry@linux.alibaba.com,drm/amdgpu: avoid buffer overflow attach in smu_sys_set_pp_table(),1abb2648698b
+2025-02-07,Jiang Liu,gerry@linux.alibaba.com,drm/amdgpu: bail out when failed to load fw in psp_init_cap_microcode(),a0a455b4bc74
+2025-01-21,Jiapeng Chong,jiapeng.chong@linux.alibaba.com,apparmor: Modify mismatched function name,04fe43104e4e
+2025-01-21,Jiapeng Chong,jiapeng.chong@linux.alibaba.com,apparmor: Modify mismatched function name,aa904fa1182b
+2025-01-08,Chen Pei,cp0613@linux.alibaba.com,Documentation: riscv: Remove KPROBES_ON_FTRACE,b48e0f696b71
+2023-02-08,Yang Li,yang.lee@linux.alibaba.com,hexagon: Fix warning comparing pointer to 0,e8265a947b02
+2025-01-08,Baolin Wang,baolin.wang@linux.alibaba.com,mm: shmem: skip swapcache for swapin of synchronous swap device,1dd44c0af4fa
+2025-01-14,Guixin Liu,kanie@linux.alibaba.com,scsi: target: core: Add line break to status show,c9d2782988df
+2025-01-14,Jiapeng Chong,jiapeng.chong@linux.alibaba.com,kernel/cgroup: Remove the unused variable climit,8f52fd7a7de6
+2025-01-10,Philo Lu,lulie@linux.alibaba.com,udp: Make rehash4 independent in udp_lib_rehash(),644f9108f3a5
+2024-11-28,Baolin Wang,baolin.wang@linux.alibaba.com,docs: tmpfs: drop 'fadvise()' from the documentation,255ff62d1586
+2024-11-28,Baolin Wang,baolin.wang@linux.alibaba.com,mm: shmem: add a kernel command line to change the default huge policy for tmpfs,d635ccdb435c
+2024-11-28,Baolin Wang,baolin.wang@linux.alibaba.com,mm: shmem: add large folio support for tmpfs,acd7ccb284b8
+2024-11-28,Baolin Wang,baolin.wang@linux.alibaba.com,mm: shmem: change shmem_huge_global_enabled() to return huge order bitmap,736bbc68255f
+2024-11-28,Baolin Wang,baolin.wang@linux.alibaba.com,mm: factor out the order calculation into a new helper,da243c5479ad
+2025-01-04,Guangguan Wang,guangguan.wang@linux.alibaba.com,net/smc: fix data error when recvmsg with MSG_PEEK flag,a4b6539038c1
+2024-12-31,Tianchen Ding,dtcccc@linux.alibaba.com,sched: Fix race between yield_to() and try_to_wake_up(),5d808c78d972
+2025-01-07,Guixin Liu,kanie@linux.alibaba.com,scsi: mpi3mr: Fix possible crash when setting up bsg fails,295006f6e8c1
+2024-12-18,Guixin Liu,kanie@linux.alibaba.com,scsi: ufs: bsg: Set bsg_queue to NULL after removal,1e95c798d8a7
+2024-12-18,Guixin Liu,kanie@linux.alibaba.com,scsi: ufs: bsg: Delete bsg_dev when setting up bsg fails,fcf247deb3c3
+2025-01-08,Jiang Liu,gerry@linux.alibaba.com,drm/amdgpu: wrong array index to get ip block for PSP,edec9b069090
+2024-12-23,Jiang Liu,gerry@linux.alibaba.com,drm/amdgpu: tear down ttm range manager for doorbell in amdgpu_ttm_fini(),60a2c0c12b64
+2024-12-09,Guixin Liu,kanie@linux.alibaba.com,nvmet: handle rw's limited retry flag,3ec5c62cfcf0
+2025-12-12,Jiapeng Chong,jiapeng.chong@linux.alibaba.com,ALSA: hda: Remove unnecessary print function dev_err(),cdc996667c26
+2025-12-12,Evan Li,evan.li@linux.alibaba.com,perf/x86/intel: Fix NULL event dereference crash in handle_pmi_common(),9415f749d34b
+2025-11-14,Baolin Wang,baolin.wang@linux.alibaba.com,mm: shmem: allow fallback to smaller large orders for tmpfs mmap() access,8826f09616b4
+2025-11-21,Fangyu Yu,fangyu.yu@linux.alibaba.com,RISC-V: KVM: Fix guest page fault within HLV* instructions,974555d6e417
+2025-11-13,Feng Tang,feng.tang@linux.alibaba.com,sys_info: add a default kernel sys_info mask,03ef32d665e8
+2025-11-13,Feng Tang,feng.tang@linux.alibaba.com,watchdog: add sys_info sysctls to dump sys info on system lockup,a9af76a78760
+2025-11-13,Feng Tang,feng.tang@linux.alibaba.com,hung_task: add hung_task_sys_info sysctl to dump sys info on task-hung,8b2b9b4f6f4f
+2025-11-13,Feng Tang,feng.tang@linux.alibaba.com,docs: panic: correct some sys_ifo names in sysctl doc,5f264c00b669
+2025-09-18,Baolin Wang,baolin.wang@linux.alibaba.com,mm: vmscan: simplify the folio refcount check in pageout(),4f8961b29501
+2025-09-18,Baolin Wang,baolin.wang@linux.alibaba.com,mm: vmscan: remove folio_test_private() check in pageout(),d94d9293a1ec
+2025-11-14,Huang Ying,ying.huang@linux.alibaba.com,"arm64, tlbflush: don't TLBI broadcast if page reused in write fault",cb1fa2e99955
+2025-11-14,Huang Ying,ying.huang@linux.alibaba.com,mm: add spurious fault fixing support for huge pmd,79301c7d605a
+2025-10-17,Baolin Wang,baolin.wang@linux.alibaba.com,mm: vmscan: simplify the logic for activating dirty file folios,2f05435df932
+2025-10-17,Baolin Wang,baolin.wang@linux.alibaba.com,mm: vmscan: filter out the dirty file folios for node_reclaim(),b34619af9c3f
+2025-10-10,Yadong Qi,yadong.qi@linux.alibaba.com,mm: vmalloc: WARN_ON if mapping size is not PAGE_SIZE aligned,a739e6b557af
+2025-11-14,Chen Pei,cp0613@linux.alibaba.com,tools: riscv: Fixed misalignment of CSR related definitions,e2cb69263e79
+2025-10-15,Jiapeng Chong,jiapeng.chong@linux.alibaba.com,x86: mshyperv: Remove duplicate asm/msr.h header,77c3a45a0f48
+2025-11-11,Xuan Zhuo,xuanzhuo@linux.alibaba.com,virtio-net: fix incorrect flags recording in big mode,0eff2eaa5322
+2025-10-25,Joseph Qi,joseph.qi@linux.alibaba.com,ocfs2: convert to host endian in ocfs2_validate_inode_block,6e89373cec09
+2025-10-25,Joseph Qi,joseph.qi@linux.alibaba.com,ocfs2: use correct endian in ocfs2_dinode_has_extents,c9dff86eb78a
+2025-11-06,Jiapeng Chong,jiapeng.chong@linux.alibaba.com,drm/amdgpu/userqueue: Remove duplicate amdgpu_reset.h header,3b832487a9e5
+2025-11-07,D. Wythe,alibuda@linux.alibaba.com,net/smc: fix mismatch between CLC header and proposal,ec33f2e5a2d0
+2025-11-07,D. Wythe,alibuda@linux.alibaba.com,bpf/selftests: Add selftest for bpf_smc_hs_ctrl,beb3c67297d9
+2025-11-07,D. Wythe,alibuda@linux.alibaba.com,net/smc: bpf: Introduce generic hook for handshake flow,15f295f55656
+2025-11-07,D. Wythe,alibuda@linux.alibaba.com,bpf: Export necessary symbols for modules with struct_ops,07c428ece322
+2025-10-13,Jiapeng Chong,jiapeng.chong@linux.alibaba.com,parisc: remove unneeded semicolon in perf_regs.c,3317aaca33dc
+2025-10-30,Jiapeng Chong,jiapeng.chong@linux.alibaba.com,drm/amd/display: remove unneeded semicolon,2a30ff5bc495
+2025-10-30,Jiapeng Chong,jiapeng.chong@linux.alibaba.com,drm/amd/display: remove unneeded semicolon,26c288c1709a
+2025-10-30,Jiapeng Chong,jiapeng.chong@linux.alibaba.com,drm/amd/display: remove unneeded semicolon,5d7ccf080cc4
+2025-10-23,Shuai Xue,xueshuai@linux.alibaba.com,perf record: skip synthesize event when open evsel failed,163e5f2b9663
+2025-10-23,Dust Li,dust.li@linux.alibaba.com,smc: rename smc_find_ism_store_rc to reflect broader usage,f0773d0b41b4
+2025-10-21,Fangyu Yu,fangyu.yu@linux.alibaba.com,RISC-V: KVM: Remove automatic I/O mapping for VM_PFNMAP,8c5fa3764fac
+2025-10-20,Jiapeng Chong,jiapeng.chong@linux.alibaba.com,net: macb: Remove duplicate linux/inetdevice.h header,962ac5ca99a5
+2025-09-13,Shuai Xue,xueshuai@linux.alibaba.com,"acpi,srat: Fix incorrect device handle check for Generic Initiator",7c3643f204ed
+2025-10-15,Huang Ying,ying.huang@linux.alibaba.com,"arm64, mm: avoid always making PTE dirty in pte_mkwrite()",143937ca51cc
+2025-10-16,Fangyu Yu,fangyu.yu@linux.alibaba.com,RISC-V: KVM: Read HGEIP CSR on the correct cpu,873f10cf8e4d
+2025-09-25,Guixin Liu,kanie@linux.alibaba.com,iommufd: Register iommufd mock devices with fwspec,2a918911ed3d
+2025-09-28,Jiapeng Chong,jiapeng.chong@linux.alibaba.com,nvdimm: Remove duplicate linux/slab.h header,5c34f2b6f89a
+2025-09-26,Jiapeng Chong,jiapeng.chong@linux.alibaba.com,bpftool: Remove duplicate string.h header,4b2113413e76
+2025-09-26,Jiapeng Chong,jiapeng.chong@linux.alibaba.com,bpf: Remove duplicate crypto/sha2.h header,87608c2a7718
+2025-09-26,D. Wythe,alibuda@linux.alibaba.com,libbpf: Fix error when st-prefix_ops and ops from differ btf,0cc114dc358c
+2025-08-01,Jiapeng Chong,jiapeng.chong@linux.alibaba.com,thermal/drivers/mediatek/lvts_thermal: Remove unneeded semicolon,5ea75f3479ee
+2025-09-23,Jiapeng Chong,jiapeng.chong@linux.alibaba.com,arm64: cpufeature: Remove duplicate asm/mmu.h header,ea0b39168d3a
+2025-09-13,Chen Pei,cp0613@linux.alibaba.com,ACPI: SPCR: Support Precise Baud Rate field,4d330fe54145
+2025-07-25,Jiapeng Chong,jiapeng.chong@linux.alibaba.com,btrfs: remove duplicate inclusion of linux/types.h,6d9cce2d1bb6
+2025-09-03,Baolin Wang,baolin.wang@linux.alibaba.com,mm: shmem: fix the strategy for the tmpfs 'huge=' options,69e0a3b49003
+2025-09-16,Yang Li,yang.lee@linux.alibaba.com,drm/xe: Remove duplicate header files,9e6eb49ec139
+2025-08-21,Fangyu Yu,fangyu.yu@linux.alibaba.com,RISC-V: KVM: Write hgatp register with valid mode bits,2b351e3d04be
+2025-09-10,Chen Pei,cp0613@linux.alibaba.com,ACPI: SPCR: Add support for DBG2 RISC-V SBI port subtype,bf4206d7ac27
+2025-08-25,Feng Tang,feng.tang@linux.alibaba.com,panic: add note that 'panic_print' parameter is deprecated,2683df6539cb
+2025-08-25,Feng Tang,feng.tang@linux.alibaba.com,panic: refine the document for 'panic_print',8c2b91fbb007
+2025-08-25,Feng Tang,feng.tang@linux.alibaba.com,lib/sys_info: handle sys_info_mask==0 case,31cf021b6161
+2025-08-26,Baolin Wang,baolin.wang@linux.alibaba.com,mm: shmem: drop the unnecessary folio_nr_pages(),6d11dec130ad
+2025-08-26,Baolin Wang,baolin.wang@linux.alibaba.com,mm: shmem: use 'folio' for shmem_partial_swap_usage(),ab1c34c83407
+2025-09-10,Yi Tao,escape@linux.alibaba.com,cgroup: replace global percpu_rwsem with per threadgroup resem when writing to cgroup.procs,0568f89d4fb8
+2025-09-10,Yi Tao,escape@linux.alibaba.com,cgroup: relocate cgroup_attach_lock within cgroup_procs_write_start,477abc2ec889
+2025-09-10,Yi Tao,escape@linux.alibaba.com,cgroup: refactor the cgroup_attach_lock code to make it clearer,a1ffc8ad3165
+2025-07-23,Yang Li,yang.lee@linux.alibaba.com,wifi: iwlwifi: Remove duplicated include in trans.c,c67a2470922f
+2025-08-07,Fangyu Yu,fangyu.yu@linux.alibaba.com,RISC-V: KVM: Fix pte settings within kvm_riscv_gstage_ioremap(),9bca8be646e0
+2025-08-18,D. Wythe,alibuda@linux.alibaba.com,net/smc: fix UAF on smcsk after smc_listen_out(),d9cef55ed491
+2025-07-25,Boshi Yu,boshiyu@linux.alibaba.com,RDMA/erdma: Use dma_map_page to map scatter MTT buffer,4d674c478dc5
+2025-07-25,Boshi Yu,boshiyu@linux.alibaba.com,RDMA/erdma: Fix unset QPN of GSI QP,d4ac86b47563
+2025-07-25,Boshi Yu,boshiyu@linux.alibaba.com,RDMA/erdma: Fix ignored return value of init_kernel_qp,d5c74713f011
+2025-07-25,Jiapeng Chong,jiapeng.chong@linux.alibaba.com,selftests/sched_ext: Remove duplicate sched.h header,e69980bd16f2
+2025-07-29,Tianjia Zhang,tianjia.zhang@linux.alibaba.com,selinux: use a consistent method to get full socket from skb,d4e8dc8e8b34
+2025-07-25,Jiapeng Chong,jiapeng.chong@linux.alibaba.com,mailbox: bcm74110: remove unneeded semicolon,7fbb5a5672cc
+2025-07-31,Baolin Wang,baolin.wang@linux.alibaba.com,mm: shmem: fix the shmem large folio allocation for the i915 driver,8d58d6562111
+2025-07-25,Jiapeng Chong,jiapeng.chong@linux.alibaba.com,nvme-auth: remove unneeded semicolon,b6160cd2c45c
+2025-07-25,Jiapeng Chong,jiapeng.chong@linux.alibaba.com,apparmor: Remove the unused variable rules,8936125e2328
+2025-07-26,Chen Pei,cp0613@linux.alibaba.com,perf tools: Remove libtraceevent in .gitignore,af470fb532fc
+2025-07-23,Yang Li,yang.lee@linux.alibaba.com,perf stat: Remove duplicated include in stat-shadow.c,db12d7ec6bdf
+2025-07-23,Yang Li,yang.lee@linux.alibaba.com,gpio: cadence: Remove duplicated include in gpio-cadence.c,ff4322b22f35
+2025-07-03,Feng Tang,feng.tang@linux.alibaba.com,panic: add note that panic_print sysctl interface is deprecated,ee13240cd78b
+2025-07-03,Feng Tang,feng.tang@linux.alibaba.com,panic: add 'panic_sys_info=' setup option for kernel cmdline,9743d12d0c63
+2025-07-03,Feng Tang,feng.tang@linux.alibaba.com,panic: add 'panic_sys_info' sysctl to take human readable string parameter,d747755917bf
+2025-07-03,Feng Tang,feng.tang@linux.alibaba.com,panic: generalize panic_print's function to show sys info,b76e89e50fc3
+2025-07-03,Feng Tang,feng.tang@linux.alibaba.com,panic: clean up code for console replay,261743b0135d
+2025-07-04,Baolin Wang,baolin.wang@linux.alibaba.com,mm: fault in complete folios instead of individual pages for tmpfs,e89d5bf3a4f9
+2025-07-17,Yin Fengwei,fengwei_yin@linux.alibaba.com,binfmt_elf: remove the 4k limitation of program header size,8030790477e8
+2025-07-14,Shuai Xue,xueshuai@linux.alibaba.com,ACPI: APEI: handle synchronous exceptions in task work,c1f1fda14137
+2025-07-14,Shuai Xue,xueshuai@linux.alibaba.com,ACPI: APEI: send SIGBUS to current task if synchronous memory error not recovered,79a5ae3c4c5e
+2025-06-13,Baolin Wang,baolin.wang@linux.alibaba.com,mm: huge_memory: fix the check for allowed huge orders in shmem,fa493f50df3a
+2025-06-13,Baolin Wang,baolin.wang@linux.alibaba.com,selftests: mm: add shmem collapse as a default test item,f081a460bbac
+2025-06-13,Baolin Wang,baolin.wang@linux.alibaba.com,selftests: khugepaged: fix the shmem collapse failure,7962e05a835f
+2025-06-05,Baolin Wang,baolin.wang@linux.alibaba.com,mm: fix the inaccurate memory statistics issue for users,82241a83cd15
+2025-05-31,Qinyun Tan,qinyuntan@linux.alibaba.com,"x86,fs/resctrl: Remove inappropriate references to cacheinfo in the resctrl subsystem",594902c986e2
+2025-06-12,Feng Tang,feng.tang@linux.alibaba.com,dma-contiguous: hornor the cma address limit setup by user,aa807b9f22df
+2025-05-13,Baolin Wang,baolin.wang@linux.alibaba.com,mm: khugepaged: decouple SHMEM and file folios' collapse,cc79061b8fc1
+2025-05-12,Baolin Wang,baolin.wang@linux.alibaba.com,mm: convert do_set_pmd() to take a folio,698c0089cdf0
+2025-05-12,Baolin Wang,baolin.wang@linux.alibaba.com,mm: khugepaged: convert set_huge_pmd() to take a folio,5053383829ab
+2025-05-09,Baolin Wang,baolin.wang@linux.alibaba.com,mm: mincore: use pte_batch_hint() to batch process large folios,4df65651f707
+2025-04-04,Shuai Xue,xueshuai@linux.alibaba.com,dmaengine: idxd: Refactor remove call with idxd_cleanup() helper,a409e919ca32
+2025-04-04,Shuai Xue,xueshuai@linux.alibaba.com,dmaengine: idxd: Add missing idxd cleanup to fix memory leak in remove call,d5449ff1b04d
+2025-04-04,Shuai Xue,xueshuai@linux.alibaba.com,dmaengine: idxd: fix memory leak in error handling path of idxd_pci_probe,90022b3a6981
+2025-04-04,Shuai Xue,xueshuai@linux.alibaba.com,dmaengine: idxd: fix memory leak in error handling path of idxd_alloc,46a5cca76c76
+2025-04-04,Shuai Xue,xueshuai@linux.alibaba.com,dmaengine: idxd: Add missing cleanups in cleanup internals,61d651572b6c
+2025-04-04,Shuai Xue,xueshuai@linux.alibaba.com,dmaengine: idxd: Add missing cleanup for early error out in idxd_setup_internals,61259fb96e02
+2025-04-04,Shuai Xue,xueshuai@linux.alibaba.com,dmaengine: idxd: fix memory leak in error handling path of idxd_setup_groups,aa6f4f945b10
+2025-04-04,Shuai Xue,xueshuai@linux.alibaba.com,dmaengine: idxd: fix memory leak in error handling path of idxd_setup_engines,817bced19d1d
+2025-04-04,Shuai Xue,xueshuai@linux.alibaba.com,dmaengine: idxd: fix memory leak in error handling path of idxd_setup_wqs,3fd2f4bc010c
+2025-04-09,Baolin Wang,baolin.wang@linux.alibaba.com,mm: huge_memory: add folio_mark_accessed() when zapping file THP,10d483f198cf
+2025-04-23,Feng Tang,feng.tang@linux.alibaba.com,selftests/mm: compaction_test: support platform with huge mount of memory,ab00ddd802f8
+2025-03-31,Jiapeng Chong,jiapeng.chong@linux.alibaba.com,um: Remove duplicate arch.h header,82c8e1280c74
+2024-06-19,Jiapeng Chong,jiapeng.chong@linux.alibaba.com,drm: Remove unused function rcar_cmm_write,760e296124ef
+2025-03-03,weizijie,zijie.wei@linux.alibaba.com,KVM: x86: Rescan I/O APIC routes after EOI interception for old routing,87e4951e250b
+2025-04-16,Jiapeng Chong,jiapeng.chong@linux.alibaba.com,HID: hid-steam: Remove the unused variable connected,acae9d5b51cf
+2025-01-15,Yang Li,yang.lee@linux.alibaba.com,wifi: iwlwifi: mvm: Remove duplicated include in iwl-utils.c,9991739ed3ee
+2025-04-15,Jiapeng Chong,jiapeng.chong@linux.alibaba.com,selftest/bpf/benchs: Remove duplicate sys/types.h header,7d0b43b68d1c
+2025-04-07,Baolin Wang,baolin.wang@linux.alibaba.com,selftests: mincore: fix tmpfs mincore test failure,8c583e538aa6
+2025-04-07,Yang Li,yang.lee@linux.alibaba.com,regulator: pf9453: Improve documentation for pf9453_regulator_set_ramp_delay_regmap,b3d9e96c96b0
+2025-03-27,Guixin Liu,kanie@linux.alibaba.com,gpio: tegra186: fix resource handling in ACPI probe path,8323f3a69de6
+2025-03-17,Jiapeng Chong,jiapeng.chong@linux.alibaba.com,ring-buffer: Remove the unused variable bmeta,de48d7fff7b4
+2025-03-12,Shuai Xue,xueshuai@linux.alibaba.com,mm: memory-failure: enhance comments for return value of memory_failure(),d2734f044f84
+2025-03-12,Shuai Xue,xueshuai@linux.alibaba.com,mm/hwpoison: do not send SIGBUS to processes with recovered clean pages,aaf99ac2ceb7
+2025-03-12,Shuai Xue,xueshuai@linux.alibaba.com,x86/mce: use is_copy_from_user() to determine copy-from-user context,1a15bb8303b6
+2025-03-13,Guixin Liu,kanie@linux.alibaba.com,scsi: target: tcm_loop: Fix wrong abort tag,1909b643034e
+2025-02-07,Baolin Wang,baolin.wang@linux.alibaba.com,MAINTAINERS: add Baolin as shmem reviewer,a91aaf8dd549
+2025-02-07,Baolin Wang,baolin.wang@linux.alibaba.com,mm: shmem: factor out the within_size logic into a new helper,086e66b690ae
+2025-02-07,Baolin Wang,baolin.wang@linux.alibaba.com,mm: shmem: change the return value of shmem_find_swap_entries(),cd81c424b53f
+2025-02-07,Baolin Wang,baolin.wang@linux.alibaba.com,mm: shmem: remove duplicate error validation,d5e4e147c0f5
+2025-02-07,Baolin Wang,baolin.wang@linux.alibaba.com,mm: shmem: remove 'fadvise()' comments,6d26a149f548
+2025-02-07,Baolin Wang,baolin.wang@linux.alibaba.com,mm: shmem: drop the unused macro,c0d017896b72
+2025-02-13,Guanjun,guanjun@linux.alibaba.com,filemap: remove redundant folio_test_large check in filemap_free_folio,b23ceebd63d8
+2025-02-10,Hongzhen Luo,hongzhen@linux.alibaba.com,erofs: use Z_EROFS_LCLUSTER_TYPE_MAX to simplify switches,3b7781aeaefb
+2025-03-04,Guangguan Wang,guangguan.wang@linux.alibaba.com,net/smc: use the correct ndev to find pnetid by pnetid table,bfc6c67ec2d6
+2025-03-12,Guixin Liu,kanie@linux.alibaba.com,block: remove unused parameter,61667cb6644f
+2025-03-12,Jiapeng Chong,jiapeng.chong@linux.alibaba.com,xfs: Remove duplicate xfs_rtbitmap.h header,fcb255537bee
+2025-03-07,Jiapeng Chong,jiapeng.chong@linux.alibaba.com,function_graph: Remove the unused variable func,5ba8f4a39ecd
+2025-03-07,Jiapeng Chong,jiapeng.chong@linux.alibaba.com,drm/msm/dpu: Remove duplicate dpu_hw_cwb.h header,2060a2db1253
+2025-03-06,Jiapeng Chong,jiapeng.chong@linux.alibaba.com,spi: stm32: Remove unnecessary print function dev_err(),3707fd9c383f
+2025-03-06,Cheng Xu,chengyou@linux.alibaba.com,RDMA/erdma: Prevent use-after-free in erdma_accept_newconn(),83437689249e
+2025-02-25,Baolin Wang,baolin.wang@linux.alibaba.com,mm: shmem: fix potential data corruption during shmem swapin,058313515d5a
+2025-03-05,Jiapeng Chong,jiapeng.chong@linux.alibaba.com,drm: adp: Remove unnecessary print function dev_err(),e4c0fd3f9655
+2025-03-03,Feng Tang,feng.tang@linux.alibaba.com,PCI/portdrv: Only disable pciehp interrupts early when needed,9d7db4db1982
+2025-02-26,Jiapeng Chong,jiapeng.chong@linux.alibaba.com,scsi: ufs: rockchip: Simplify bool conversion,3d8256903934
+2025-02-22,Philo Lu,lulie@linux.alibaba.com,ipvs: Always clear ipvs_property flag in skb_scrub_packet(),de2c211868b9
+2025-02-18,Jingbo Xu,jefflexu@linux.alibaba.com,mm/truncate: don't skip dirty page in folio_unmap_invalidate(),927289988068
+2025-02-18,Jingbo Xu,jefflexu@linux.alibaba.com,mm/filemap: fix miscalculated file range for filemap_fdatawrite_range_kick(),8510edf191d2
+2025-02-05,Feng Tang,feng.tang@linux.alibaba.com,mailmap: add entry for Feng Tang,3219585e894c
+2025-02-11,Tianchen Ding,dtcccc@linux.alibaba.com,"sched/eevdf: Force propagating min_slice of cfs_rq when {en,de}queue tasks",563bc2161b94
+2025-02-07,Jiang Liu,gerry@linux.alibaba.com,drm/amdgpu: reset psp->cmd to NULL after releasing the buffer,e92f3f94cad2
+2025-01-13,Jiang Liu,gerry@linux.alibaba.com,amdgpu/soc15: enable asic reset for dGPU in case of suspend abort,38e8ca3e4b6d
+2025-02-07,Jiang Liu,gerry@linux.alibaba.com,drm/amdgpu: avoid buffer overflow attach in smu_sys_set_pp_table(),1abb2648698b
+2025-02-07,Jiang Liu,gerry@linux.alibaba.com,drm/amdgpu: bail out when failed to load fw in psp_init_cap_microcode(),a0a455b4bc74
+2025-01-21,Jiapeng Chong,jiapeng.chong@linux.alibaba.com,apparmor: Modify mismatched function name,04fe43104e4e
+2025-01-21,Jiapeng Chong,jiapeng.chong@linux.alibaba.com,apparmor: Modify mismatched function name,aa904fa1182b
+2025-01-08,Chen Pei,cp0613@linux.alibaba.com,Documentation: riscv: Remove KPROBES_ON_FTRACE,b48e0f696b71
+2023-02-08,Yang Li,yang.lee@linux.alibaba.com,hexagon: Fix warning comparing pointer to 0,e8265a947b02
+2025-01-08,Baolin Wang,baolin.wang@linux.alibaba.com,mm: shmem: skip swapcache for swapin of synchronous swap device,1dd44c0af4fa
+2025-01-14,Guixin Liu,kanie@linux.alibaba.com,scsi: target: core: Add line break to status show,c9d2782988df
+2025-01-14,Jiapeng Chong,jiapeng.chong@linux.alibaba.com,kernel/cgroup: Remove the unused variable climit,8f52fd7a7de6
+2025-01-10,Philo Lu,lulie@linux.alibaba.com,udp: Make rehash4 independent in udp_lib_rehash(),644f9108f3a5
+2024-11-28,Baolin Wang,baolin.wang@linux.alibaba.com,docs: tmpfs: drop 'fadvise()' from the documentation,255ff62d1586
+2024-11-28,Baolin Wang,baolin.wang@linux.alibaba.com,mm: shmem: add a kernel command line to change the default huge policy for tmpfs,d635ccdb435c
+2024-11-28,Baolin Wang,baolin.wang@linux.alibaba.com,mm: shmem: add large folio support for tmpfs,acd7ccb284b8
+2024-11-28,Baolin Wang,baolin.wang@linux.alibaba.com,mm: shmem: change shmem_huge_global_enabled() to return huge order bitmap,736bbc68255f
+2024-11-28,Baolin Wang,baolin.wang@linux.alibaba.com,mm: factor out the order calculation into a new helper,da243c5479ad
+2025-01-04,Guangguan Wang,guangguan.wang@linux.alibaba.com,net/smc: fix data error when recvmsg with MSG_PEEK flag,a4b6539038c1
+2024-12-31,Tianchen Ding,dtcccc@linux.alibaba.com,sched: Fix race between yield_to() and try_to_wake_up(),5d808c78d972
+2025-01-07,Guixin Liu,kanie@linux.alibaba.com,scsi: mpi3mr: Fix possible crash when setting up bsg fails,295006f6e8c1
+2024-12-18,Guixin Liu,kanie@linux.alibaba.com,scsi: ufs: bsg: Set bsg_queue to NULL after removal,1e95c798d8a7
+2024-12-18,Guixin Liu,kanie@linux.alibaba.com,scsi: ufs: bsg: Delete bsg_dev when setting up bsg fails,fcf247deb3c3
+2025-01-08,Jiang Liu,gerry@linux.alibaba.com,drm/amdgpu: wrong array index to get ip block for PSP,edec9b069090
+2024-12-23,Jiang Liu,gerry@linux.alibaba.com,drm/amdgpu: tear down ttm range manager for doorbell in amdgpu_ttm_fini(),60a2c0c12b64
+2024-12-09,Guixin Liu,kanie@linux.alibaba.com,nvmet: handle rw's limited retry flag,3ec5c62cfcf0

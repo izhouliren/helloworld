@@ -1,0 +1,340 @@
+﻿Date,Author Name,Author Email,Subject,Commit Hash
+2025-08-17,Qianfeng Rong,rongqianfeng@vivo.com,ubifs: vmalloc(array_size()) -> vmalloc_array(),0695aef23d67
+2025-08-11,Xichao Zhao,zhao.xichao@vivo.com,ubifs: Remove unnecessary variable assignments,c0d612b391b2
+2025-08-12,Xichao Zhao,zhao.xichao@vivo.com,ubifs: Simplify the code using ubifs_crc_node,0288d5fe25a2
+2025-08-12,Xichao Zhao,zhao.xichao@vivo.com,ubifs: Remove unnecessary parameters '*c',e35770610730
+2025-08-29,Yang Chenzhi,yang.chenzhi@vivo.com,hfsplus: fix missing hfs_bnode_get() in __hfs_bnode_create,152af1142878
+2025-11-13,Qianfeng Rong,rongqianfeng@vivo.com,bcache: remove redundant __GFP_NOWARN,21194c44b6bd
+2025-10-11,Zhichi Lin,zhichi.lin@vivo.com,scs: fix a wrong parameter in __scs_magic,08bd4c46d5e6
+2025-09-04,Liao Yuanhong,liaoyuanhong@vivo.com,media: siano: Remove redundant ternary operators,97e8e73777ab
+2025-09-09,Xichao Zhao,zhao.xichao@vivo.com,"media: dvb_ca_en50221: fix ""writen""->""written""",bb10fdfe8d33
+2025-10-27,Chunhai Guo,guochunhai@vivo.com,MAINTAINERS: erofs: add myself as reviewer,083d7af3350e
+2025-08-22,Xichao Zhao,zhao.xichao@vivo.com,Input: zforce_ts - omit error message when memory allocation fails,3c297278a61f
+2025-08-22,Xichao Zhao,zhao.xichao@vivo.com,Input: qnap-mcu-input - omit error message when memory allocation fails,d6137f25b191
+2025-08-27,Qianfeng Rong,rongqianfeng@vivo.com,media: dvb: Use int type to store negative error codes,248d140a106d
+2025-08-26,Liao Yuanhong,liaoyuanhong@vivo.com,media: dvb-frontends: Remove redundant ternary operators,a5e4a493756e
+2025-08-26,Liao Yuanhong,liaoyuanhong@vivo.com,media: synopsys: hdmirx: media: Remove redundant ternary operators,32768975e9b6
+2025-08-19,Xichao Zhao,zhao.xichao@vivo.com,staging: media: tegra-video: Remove the use of dev_err_probe(),801d26487f34
+2025-08-12,Qianfeng Rong,rongqianfeng@vivo.com,media: vivid: use vmalloc_array and vcalloc to simplify code,e2b0d6906a3e
+2025-08-12,Qianfeng Rong,rongqianfeng@vivo.com,media: pt1: use vmalloc_array to simplify code,1772b7f8045b
+2025-08-12,Qianfeng Rong,rongqianfeng@vivo.com,media: dvb-core: use vmalloc_array to simplify code,e4b21577b463
+2025-08-11,Liao Yuanhong,liaoyuanhong@vivo.com,mailbox: arm_mhuv3: Remove no_free_ptr() to maintain the original form of the pointer,d30352829667
+2025-08-18,Xichao Zhao,zhao.xichao@vivo.com,virtio-vdpa: Drop redundant conversion to bool,ed9f3ab9f3d3
+2025-08-07,Qianfeng Rong,rongqianfeng@vivo.com,virtio_balloon: Remove redundant __GFP_NOWARN,642d82e3c3f0
+2025-08-15,Xichao Zhao,zhao.xichao@vivo.com,mfd: max899x: Use dedicated interrupt wake setters,a5b03d81c23e
+2025-08-12,Xichao Zhao,zhao.xichao@vivo.com,mfd: kempld: Use PTR_ERR_OR_ZERO() to simplify code,ec9b6f054d9d
+2025-08-30,Qianfeng Rong,rongqianfeng@vivo.com,fbdev: mb862xxfb: Use int type to store negative error codes,4d23d9f7fa7c
+2025-08-04,Qianfeng Rong,rongqianfeng@vivo.com,fbdev: xenfb: Use vmalloc_array to simplify code,d391bb195574
+2025-08-25,Liao Yuanhong,liaoyuanhong@vivo.com,exfat: Remove unnecessary parentheses,cb8d6d4aa015
+2025-08-18,Xichao Zhao,zhao.xichao@vivo.com,exfat: drop redundant conversion to bool,2c88607ac82d
+2025-08-04,Qianfeng Rong,rongqianfeng@vivo.com,maple_tree: remove redundant __GFP_NOWARN,a8541957e7b1
+2025-08-27,Xichao Zhao,zhao.xichao@vivo.com,i2c: busses: Fix some spelling errors,12aad2960e9d
+2025-08-18,Xichao Zhao,zhao.xichao@vivo.com,ext4: replace min/max nesting with clamp(),981b696faf2d
+2025-09-02,Liao Yuanhong,liaoyuanhong@vivo.com,scsi: storvsc: Remove redundant ternary operators,15968590f07c
+2025-08-10,Qianfeng Rong,rongqianfeng@vivo.com,SUNRPC: Remove redundant __GFP_NOWARN,040058a8f7fd
+2025-08-08,Xichao Zhao,zhao.xichao@vivo.com,"NFSv4: fix ""prefered""->""preferred""",64afd8783920
+2025-08-25,Liao Yuanhong,liaoyuanhong@vivo.com,tracing: Remove redundant 0 value initialization,8613a55ac57b
+2025-08-17,Qianfeng Rong,rongqianfeng@vivo.com,tracing: Use vmalloc_array() to improve code,09da59344a5a
+2025-08-12,Xichao Zhao,zhao.xichao@vivo.com,btrfs: use PTR_ERR_OR_ZERO() to simplify code inbtrfs_control_ioctl(),28a38e20acf5
+2025-08-12,Xichao Zhao,zhao.xichao@vivo.com,"sunrpc: fix ""occurence""->""occurrence""",6c15463c4511
+2025-08-18,Xichao Zhao,zhao.xichao@vivo.com,NFSD: Drop redundant conversion to bool,f64397e04b4d
+2025-08-30,Qianfeng Rong,rongqianfeng@vivo.com,clk: ep93xx: Use int type to store negative error codes,41bba99777be
+2025-08-09,Qianfeng Rong,rongqianfeng@vivo.com,sparc64: Remove redundant __GFP_NOWARN,3751aa6e7147
+2025-08-12,Liao Yuanhong,liaoyuanhong@vivo.com,wifi: ath11k: Remove redundant semicolon,2418fcf20068
+2025-08-28,Liao Yuanhong,liaoyuanhong@vivo.com,drivers/perf: riscv: Remove redundant ternary operators,01dc937ac18d
+2025-08-19,Liao Yuanhong,liaoyuanhong@vivo.com,JFS: Remove redundant 0 value initialization,e551cc21bb0b
+2025-08-25,Liao Yuanhong,liaoyuanhong@vivo.com,JFS: Remove unnecessary parentheses,69f7321ce725
+2025-08-13,Xichao Zhao,zhao.xichao@vivo.com,drivers: perf: use us_to_ktime() where appropriate,1e558fb31bec
+2025-09-09,Xichao Zhao,zhao.xichao@vivo.com,power: supply: rx51: remove redundant condition checks,1bafaa156ed3
+2025-09-05,Qianfeng Rong,rongqianfeng@vivo.com,scsi: qla2xxx: Fix incorrect sign of error code in qla_nvme_xmt_ls_rsp(),9877c004e9f4
+2025-09-05,Qianfeng Rong,rongqianfeng@vivo.com,scsi: qla2xxx: Fix incorrect sign of error code in START_SP_W_RETRIES(),1f037e3acda7
+2025-09-05,Qianfeng Rong,rongqianfeng@vivo.com,scsi: qla2xxx: edif: Fix incorrect sign of error code,066b8f3fa85c
+2025-09-01,Liao Yuanhong,liaoyuanhong@vivo.com,KVM: x86: hyper-v: Use guard() instead of mutex_lock() to simplify code,cbd860293d13
+2025-09-01,Liao Yuanhong,liaoyuanhong@vivo.com,KVM: x86: Use guard() instead of mutex_lock() to simplify code,4319fa120f0f
+2025-08-27,Xichao Zhao,zhao.xichao@vivo.com,nvdimm: Use str_plural() to simplify the code,11bdf36be827
+2025-08-19,Qianfeng Rong,rongqianfeng@vivo.com,backlight: led_bl: Use devm_kcalloc() for array space allocation,d0fa8751525d
+2025-08-25,Liao Yuanhong,liaoyuanhong@vivo.com,kexec_core: remove redundant 0 value initialization,13818f7b8c85
+2025-08-18,Liao Yuanhong,liaoyuanhong@vivo.com,x86/crash: remove redundant 0 value initialization,6c609f36398a
+2025-08-12,Xichao Zhao,zhao.xichao@vivo.com,lib/fault-inject-usercopy.c: use PTR_ERR_OR_ZERO() to simplify code,6c0022d6dc34
+2025-08-11,Liao Yuanhong,liaoyuanhong@vivo.com,lib/digsig: remove unnecessary memset,ca78a04ce5c4
+2025-08-05,Qianfeng Rong,rongqianfeng@vivo.com,ref_tracker: remove redundant __GFP_NOWARN,06ef8b9aa25e
+2025-08-19,Xichao Zhao,zhao.xichao@vivo.com,lib/test_hmm: drop redundant conversion to bool,1aca4021f845
+2025-08-13,Liao Yuanhong,liaoyuanhong@vivo.com,lib/test_maple_tree.c: remove redundant semicolons,0ee82798282a
+2025-08-12,Qianfeng Rong,rongqianfeng@vivo.com,mm: remove redundant __GFP_NOWARN,adf085ff0d6f
+2025-08-11,Xichao Zhao,zhao.xichao@vivo.com,mm/kasan/init.c: remove unnecessary pointer variables,3e86861d00d5
+2025-08-04,Qianfeng Rong,rongqianfeng@vivo.com,xarray: remove redundant __GFP_NOWARN,9863124e0bfb
+2025-08-25,Xichao Zhao,zhao.xichao@vivo.com,can: m_can: use us_to_ktime() where appropriate,646cb48d4477
+2025-09-03,Qianfeng Rong,rongqianfeng@vivo.com,crypto: tegra - Use int type to store negative error codes,a710a71cd8ad
+2025-09-03,Qianfeng Rong,rongqianfeng@vivo.com,crypto: hisilicon/sec - Use int type to store negative error codes,a9a84a853c81
+2025-09-03,Qianfeng Rong,rongqianfeng@vivo.com,crypto: ccp - Use int type to store negative error codes,e002780c1439
+2025-09-12,Xichao Zhao,zhao.xichao@vivo.com,"slimbus: messaging: fix ""transfered""->""transferred""",ae0de6333368
+2025-08-12,Qianfeng Rong,rongqianfeng@vivo.com,mtd: use vmalloc_array and vcalloc to simplify code,81eb13a19a8e
+2025-08-27,Qianfeng Rong,rongqianfeng@vivo.com,media: redrat3: use int type to store negative error codes,ecba852dc9f4
+2025-08-27,Xichao Zhao,zhao.xichao@vivo.com,"RDMA/core: fix ""truely""->""truly""",2ed096dc4153
+2025-08-26,Qianfeng Rong,rongqianfeng@vivo.com,RDMA/rdmavt: Use int type to store negative error codes,490a253cb489
+2025-09-09,Xichao Zhao,zhao.xichao@vivo.com,"mtd: nand: ecc: fix ""writen""->""written""",dfea8f7183c7
+2025-09-04,Qianfeng Rong,rongqianfeng@vivo.com,scsi: lpfc: Use int type to store negative error codes,5cffc679ad1d
+2025-09-02,Qianfeng Rong,rongqianfeng@vivo.com,scsi: target: iscsi: Use int type to store negative value,b0aca7ae8285
+2025-08-20,Liao Yuanhong,liaoyuanhong@vivo.com,drm/msm/mdp4: remove the use of dev_err_probe(),a643abb67379
+2025-08-26,Qianfeng Rong,rongqianfeng@vivo.com,drm/msm/dpu: fix incorrect type for ret,88ec0e01a880
+2025-08-27,Qianfeng Rong,rongqianfeng@vivo.com,media: stm32-dcmi: use int type to store negative error codes,a1dcf9a069f7
+2025-08-27,Qianfeng Rong,rongqianfeng@vivo.com,media: raspberrypi: use int type to store negative error codes,27296c1f0027
+2025-08-27,Qianfeng Rong,rongqianfeng@vivo.com,media: i2c: mt9v111: fix incorrect type for ret,bacd71314544
+2025-08-19,Qianfeng Rong,rongqianfeng@vivo.com,soc: qcom: use devm_kcalloc() for array space allocation,4ea9e8e5066c
+2025-08-31,Qianfeng Rong,rongqianfeng@vivo.com,pinctrl: ma35: Use int type to store negative error codes,0fd0f79aec23
+2025-08-31,Qianfeng Rong,rongqianfeng@vivo.com,pinctrl: armada-37xx: Use int type to store negative error codes,decd50c19f2c
+2025-09-04,Liao Yuanhong,liaoyuanhong@vivo.com,drm/i915/gvt: Remove redundant ternary operators,30c3ffb88031
+2025-08-20,Xichao Zhao,zhao.xichao@vivo.com,PCI: plda: Remove dev_err_probe() when the errno is -ENOMEM,882569dca664
+2025-08-31,Qianfeng Rong,rongqianfeng@vivo.com,pinctrl: renesas: Use int type to store negative error codes,9f062fc5b0ff
+2025-09-03,Liao Yuanhong,liaoyuanhong@vivo.com,PM / devfreq: mtk-cci: avoid redundant conditions,6d0982ae7880
+2025-08-30,Qianfeng Rong,rongqianfeng@vivo.com,hwmon: (nct6775) Use int type to store negative error codes,d5c42cb4583c
+2025-08-20,Liao Yuanhong,liaoyuanhong@vivo.com,hwmon: (ltc4282) remove the use of dev_err_probe(),a6461d2039fa
+2025-08-19,Liao Yuanhong,liaoyuanhong@vivo.com,wifi: iwlwifi: Remove redundant header files,b4b34ba66443
+2025-08-20,Xichao Zhao,zhao.xichao@vivo.com,power: supply: Remove the use of dev_err_probe(),c3a49515225e
+2025-08-14,Qianfeng Rong,rongqianfeng@vivo.com,power: supply: use max() to improve code,d48d4e4f141b
+2025-08-27,Xichao Zhao,zhao.xichao@vivo.com,"drivers: base: fix ""publically""->""publicly""",2b2d4c744e1a
+2025-08-19,Xichao Zhao,zhao.xichao@vivo.com,siox: bus-gpio: Remove the use of dev_err_probe(),53d2bf583c6b
+2025-08-26,Qianfeng Rong,rongqianfeng@vivo.com,staging: gpib: use int type to store negative error codes,9d78ee44a9d7
+2025-08-19,Liao Yuanhong,liaoyuanhong@vivo.com,staging: gpib: tnt4882: Remove redundant header files,91180c666277
+2025-09-05,Xichao Zhao,zhao.xichao@vivo.com,tty: remove redundant condition checks,b601e1f41edd
+2025-08-27,Xichao Zhao,zhao.xichao@vivo.com,serial: sc16is7xx: drop redundant conversion to bool,aa1020f5cb50
+2025-09-02,Liao Yuanhong,liaoyuanhong@vivo.com,usb: gadget: tegra-xudc: Remove redundant ternary operators,6f9871b3e8c3
+2025-09-02,Liao Yuanhong,liaoyuanhong@vivo.com,usb: host: xhci-tegra: Remove redundant ternary operators,1c208fd306f2
+2025-08-22,Xichao Zhao,zhao.xichao@vivo.com,usb: phy: twl6030: Fix incorrect type for ret,b570b346ddd7
+2025-09-04,Qianfeng Rong,rongqianfeng@vivo.com,drm/amd/pm: use int type to store negative error codes,bddf30944d42
+2025-09-04,Liao Yuanhong,liaoyuanhong@vivo.com,drm/radeon/pm: Remove redundant ternary operators,a055658793dd
+2025-09-04,Liao Yuanhong,liaoyuanhong@vivo.com,drm/radeon/radeon_legacy_encoders: Remove redundant ternary operators,220c7a21cb0a
+2025-09-04,Liao Yuanhong,liaoyuanhong@vivo.com,drm/radeon/dpm: Remove redundant ternary operators,60d6f01b5a7d
+2025-09-04,Liao Yuanhong,liaoyuanhong@vivo.com,drm/radeon/atom: Remove redundant ternary operators,7a50377cea5f
+2025-09-04,Liao Yuanhong,liaoyuanhong@vivo.com,drm/amd/pm/powerplay/smumgr: remove redundant ternary operators,9ab06ab36d4a
+2025-09-04,Liao Yuanhong,liaoyuanhong@vivo.com,drm/amd/pm/powerplay/hwmgr/ppatomctrl: Remove redundant ternary operators,fa740b115b46
+2025-09-04,Liao Yuanhong,liaoyuanhong@vivo.com,amdgpu/pm/legacy: remove redundant ternary operators,db51c5d98b03
+2025-09-04,Liao Yuanhong,liaoyuanhong@vivo.com,drm/amd/display: Remove redundant ternary operators,53c271b9a06c
+2025-09-04,Qianfeng Rong,rongqianfeng@vivo.com,drm/amdkfd: Fix error code sign for EINVAL in svm_ioctl(),cbda64f3f580
+2025-09-03,Qianfeng Rong,rongqianfeng@vivo.com,drm/radeon/ci_dpm: Use int type to store negative error codes,3f36e712a8b1
+2025-09-03,Liao Yuanhong,liaoyuanhong@vivo.com,drm/amdgpu/vcn: Remove redundant ternary operators,086f66edf924
+2025-09-03,Liao Yuanhong,liaoyuanhong@vivo.com,drm/amdgpu/jpeg: Remove redundant ternary operators,9502b09933ed
+2025-09-03,Liao Yuanhong,liaoyuanhong@vivo.com,drm/amdgpu/ih: Remove redundant ternary operators,8a4bc4508c6b
+2025-09-03,Liao Yuanhong,liaoyuanhong@vivo.com,drm/amdgpu/gmc: Remove redundant ternary operators,60df3e81d742
+2025-09-03,Liao Yuanhong,liaoyuanhong@vivo.com,drm/amdgpu/gfx: Remove redundant ternary operators,d261e744af55
+2025-09-03,Liao Yuanhong,liaoyuanhong@vivo.com,drm/amdgpu/amdgpu_cper: Remove redundant ternary operators,7670daf65afa
+2025-09-02,Qianfeng Rong,rongqianfeng@vivo.com,cpufreq: speedstep-lib: Use int type to store negative error codes,e5e9b7bd8642
+2025-09-02,Qianfeng Rong,rongqianfeng@vivo.com,cpufreq: Use int type to store negative error codes,b49d70849530
+2025-08-29,Qianfeng Rong,rongqianfeng@vivo.com,iommu/omap: Use int type to store negative error codes,e520b2520c81
+2025-08-18,Xichao Zhao,zhao.xichao@vivo.com,iommu/amd: use str_plural() to simplify the code,d3d3b6042751
+2025-09-04,Liao Yuanhong,liaoyuanhong@vivo.com,drm/sti: Remove redundant ternary operators,7a9b19cca035
+2025-08-12,Xichao Zhao,zhao.xichao@vivo.com,configfs: use PTR_ERR_OR_ZERO() to simplify code,462272dd734b
+2025-09-03,Qianfeng Rong,rongqianfeng@vivo.com,net: dsa: dsa_loop: use int type to store negative error codes,a50e7864ca44
+2025-08-28,Liao Yuanhong,liaoyuanhong@vivo.com,platform/x86/amd/pmf: Remove redundant ternary operators,f490253809c8
+2025-08-26,Liao Yuanhong,liaoyuanhong@vivo.com,media: chips-media: wave5: Remove redundant ternary operators,9df928c90c10
+2025-09-03,Liao Yuanhong,liaoyuanhong@vivo.com,cpufreq: mediatek: avoid redundant conditions,3e681899cc6e
+2025-09-03,Xichao Zhao,zhao.xichao@vivo.com,"spi: mxs: fix ""transfered""->""transferred""",94b39cb3ad6d
+2025-08-21,Xichao Zhao,zhao.xichao@vivo.com,irqchip/renesas-rzg2l: Remove dev_err_probe() if error is -ENOMEM,d36bf356068c
+2025-08-29,Qianfeng Rong,rongqianfeng@vivo.com,irqchip: Use int type to store negative error codes,40c26230a1bf
+2025-09-02,Qianfeng Rong,rongqianfeng@vivo.com,block: use int to store blk_stack_limits() return value,b0b4518c992e
+2025-08-05,Qianfeng Rong,rongqianfeng@vivo.com,trace: Remove redundant __GFP_NOWARN,81ac63321eb9
+2025-08-17,Qianfeng Rong,rongqianfeng@vivo.com,netfilter: ebtables: Use vmalloc_array() to improve code,46015e6b3ea7
+2025-08-08,Xichao Zhao,zhao.xichao@vivo.com,"fsnotify: fix ""rewriten""->""rewritten""",6746c36c94dd
+2025-08-29,Qianfeng Rong,rongqianfeng@vivo.com,dm-pcache: use int type to store negative error codes,4466dd3d719c
+2025-09-01,Qianfeng Rong,rongqianfeng@vivo.com,iio: dac: ad5421: use int type to store negative error codes,3379c9003209
+2025-09-01,Qianfeng Rong,rongqianfeng@vivo.com,iio: dac: ad5360: use int type to store negative error codes,f9381ece76de
+2025-08-14,Qianfeng Rong,rongqianfeng@vivo.com,soundwire: Use min() to improve code,88f5d2a477ec
+2025-08-20,Liao Yuanhong,liaoyuanhong@vivo.com,drm/ssd130x: Remove the use of dev_err_probe(),a69997be443d
+2025-08-29,Qianfeng Rong,rongqianfeng@vivo.com,regulator: scmi: Use int type to store negative error codes,9d35d068fb13
+2025-08-30,Qianfeng Rong,rongqianfeng@vivo.com,mtd: rawnand: pl353: Use int type to store negative error codes,8a9e097def55
+2025-08-28,Liao Yuanhong,liaoyuanhong@vivo.com,phy: rockchip: usbdp: Remove redundant ternary operators,0c5375b06060
+2025-08-28,Liao Yuanhong,liaoyuanhong@vivo.com,phy: renesas: rcar-gen3-usb2: Remove redundant ternary operators,e7ec351347b6
+2025-08-28,Liao Yuanhong,liaoyuanhong@vivo.com,phy: hisilicon: Remove redundant ternary operators,da938e39a816
+2025-08-27,Xichao Zhao,zhao.xichao@vivo.com,"dm: fix ""writen""->""written""",9f5c33bdddcd
+2025-08-17,Qianfeng Rong,rongqianfeng@vivo.com,PM: hibernate: Use vmalloc_array() and vcalloc() to improve code,5545d56fd1a9
+2025-08-28,Liao Yuanhong,liaoyuanhong@vivo.com,wifi: rtw89: 8852bt: Remove redundant off_reverse variables,35ded83be0d4
+2025-08-27,Qianfeng Rong,rongqianfeng@vivo.com,wifi: rtw89: use int type to store negative error codes,a650d86bcaf5
+2025-08-18,Yang Chenzhi,yang.chenzhi@vivo.com,hfs: validate record offset in hfsplus_bmap_alloc,738d5a51864e
+2025-08-05,Yangtao Li,frank.li@vivo.com,hfsplus: return EIO when type of hidden directory mismatch in hfsplus_fill_super(),9282bc905f09
+2025-07-29,Yangtao Li,frank.li@vivo.com,MAINTAINERS: update location of hfs&hfsplus trees,44fd3e4fc9cd
+2025-08-27,Xichao Zhao,zhao.xichao@vivo.com,scsi: csiostor: Fix some spelling errors,80093afdcc48
+2025-08-26,Qianfeng Rong,rongqianfeng@vivo.com,scsi: pm8001: Use int instead of u32 to store error codes,bee3554d1a4e
+2025-08-21,Qianfeng Rong,rongqianfeng@vivo.com,crypto: hisilicon - use kcalloc() instead of kzalloc(),41eab2a95950
+2025-08-21,Qianfeng Rong,rongqianfeng@vivo.com,crypto: qat - use kcalloc() in qat_uclo_map_objs_from_mof(),4c634b6b3c77
+2025-08-20,Liao Yuanhong,liaoyuanhong@vivo.com,hwrng: cn10k - Remove the use of dev_err_probe(),5cd459ebaae0
+2025-08-20,Liao Yuanhong,liaoyuanhong@vivo.com,crypto: tegra - Remove the use of dev_err_probe(),8595bcb09b05
+2025-08-20,Liao Yuanhong,liaoyuanhong@vivo.com,crypto: jh7110 - Remove the use of dev_err_probe(),ce136503bd9f
+2025-08-28,Liao Yuanhong,liaoyuanhong@vivo.com,vsock/test: Remove redundant semicolons,2a63607bfda9
+2025-08-15,Liao Yuanhong,liaoyuanhong@vivo.com,drm/nouveau: Replace redundant return value judgment with PTR_ERR_OR_ZERO(),f3e82936857b
+2025-08-28,Liao Yuanhong,liaoyuanhong@vivo.com,f2fs: Use allocate_section_policy to control write priority in multi-devices setups,b639c20e748c
+2025-08-28,Qianfeng Rong,rongqianfeng@vivo.com,accel/amdxdna: Use int instead of u32 to store error codes,24de3daf6179
+2025-08-16,Qianfeng Rong,rongqianfeng@vivo.com,drm/amd/display: use max() to improve code,14570c649aef
+2025-08-29,Xichao Zhao,zhao.xichao@vivo.com,fs: Replace offsetof() with struct_size() in ioctl_file_dedupe_range(),38d1227fa71d
+2025-08-28,Qianfeng Rong,rongqianfeng@vivo.com,regmap: use int type to store negative error codes,f4672dc6e9c0
+2025-08-28,Qianfeng Rong,rongqianfeng@vivo.com,ASoC: qcom: use int type to store negative error codes,11f5c5f9e43e
+2025-08-28,Qianfeng Rong,rongqianfeng@vivo.com,ASoC: adau1977: use int type to store negative error codes,784771cdd770
+2025-08-28,Qianfeng Rong,rongqianfeng@vivo.com,ASoC: amd: use int type to store negative error codes,d985b60f4789
+2025-08-28,Liao Yuanhong,liaoyuanhong@vivo.com,regulator: core: Remove redundant ternary operators,899fb38dd76d
+2025-08-19,Qianfeng Rong,rongqianfeng@vivo.com,platform/x86/intel/pmc: use kcalloc() instead of kzalloc(),55df38414839
+2025-08-20,Xichao Zhao,zhao.xichao@vivo.com,platform/x86: x86-android-tablets: Remove the use of dev_err_probe(),faec01b1a499
+2025-08-15,Qianfeng Rong,rongqianfeng@vivo.com,wifi: mwifiex: Initialize the chan_stats array to zero,0e20450829ca
+2025-08-28,Qianfeng Rong,rongqianfeng@vivo.com,ALSA: lx_core: use int type to store negative error codes,4ef353d546cd
+2025-08-19,Liao Yuanhong,liaoyuanhong@vivo.com,drm/sched/tests: Remove redundant header files,77a62e557f54
+2025-08-26,Qianfeng Rong,rongqianfeng@vivo.com,ata: ahci_xgene: Use int type for 'rc' to store error codes,82b8166171bd
+2025-08-26,Qianfeng Rong,rongqianfeng@vivo.com,net: wwan: iosm: use int type to store negative error codes,f0c88a0d83b2
+2025-08-26,Qianfeng Rong,rongqianfeng@vivo.com,amd-xgbe: Use int type to store negative error codes,a6bac1822931
+2025-08-19,Liao Yuanhong,liaoyuanhong@vivo.com,drm/amd/display: Remove redundant header files,8ed5f8d9fe59
+2025-08-19,Liao Yuanhong,liaoyuanhong@vivo.com,drm/amdgpu/fence: Remove redundant 0 value initialization,ee6ba1e69dd7
+2025-08-18,Xichao Zhao,zhao.xichao@vivo.com,vfio/pci: drop redundant conversion to bool,473c3af395c9
+2025-08-19,Qianfeng Rong,rongqianfeng@vivo.com,PCI: keystone: Use kcalloc() instead of kzalloc(),ffdd27d36265
+2025-08-25,Qianfeng Rong,rongqianfeng@vivo.com,net: hns3: use kcalloc() instead of kzalloc(),7e484a97f6d5
+2025-08-25,Liao Yuanhong,liaoyuanhong@vivo.com,wifi: mac80211: fix incorrect type for ret,a33b375ab5b3
+2025-08-13,Xichao Zhao,zhao.xichao@vivo.com,binfmt_elf: Replace offsetof() with struct_size() in fill_note_info(),a728ce8ffbd2
+2025-08-21,Qianfeng Rong,rongqianfeng@vivo.com,RDMA/erdma: Use vcalloc() instead of vzalloc(),2aa35b24ad12
+2025-08-25,Xichao Zhao,zhao.xichao@vivo.com,exec: Fix incorrect type for ret,5e088248375d
+2025-08-18,Xichao Zhao,zhao.xichao@vivo.com,PNP: isapnp: use str_plural() to simplify the code,b8db5517fe52
+2025-08-13,Liao Yuanhong,liaoyuanhong@vivo.com,media: imx296: Remove redundant semicolons,f687d3785d2b
+2025-08-19,Qianfeng Rong,rongqianfeng@vivo.com,iio: common: scmi_iio: use kcalloc() instead of kzalloc(),ccef0530e60d
+2025-08-21,Xichao Zhao,zhao.xichao@vivo.com,iio: temperature: mlx90635: Remove dev_err_probe() if error is -ENOMEM,1f53971032a5
+2025-08-21,Xichao Zhao,zhao.xichao@vivo.com,iio: proximity: Remove dev_err_probe() if error is -ENOMEM,7216d7b9beb8
+2025-08-21,Xichao Zhao,zhao.xichao@vivo.com,iio: light: Remove dev_err_probe() if error is -ENOMEM,660586969ea3
+2025-08-21,Xichao Zhao,zhao.xichao@vivo.com,iio: imu: bmi323: Remove dev_err_probe() if error is -ENOMEM,d3a7db87dad6
+2025-08-21,Xichao Zhao,zhao.xichao@vivo.com,iio: chemical: Remove dev_err_probe() if error is -ENOMEM,e407199c961f
+2025-08-21,Xichao Zhao,zhao.xichao@vivo.com,iio: adc: Remove dev_err_probe() if error is -ENOMEM,3a4cdd1155de
+2025-08-21,Xichao Zhao,zhao.xichao@vivo.com,iio: accel: msa311: Remove dev_err_probe() if error is -ENOMEM,666a22bb31e4
+2025-08-19,Xichao Zhao,zhao.xichao@vivo.com,ASoC: SOF: imx: Remove the use of dev_err_probe(),f840737d1746
+2025-08-05,Pan Chuang,panchuang@vivo.com,genirq/devres: Add error handling in devm_request_*_irq(),55b48e23f5c4
+2025-08-21,Qianfeng Rong,rongqianfeng@vivo.com,refscale: Use kcalloc() instead of kzalloc(),9a0352dd4522
+2025-08-21,Qianfeng Rong,rongqianfeng@vivo.com,rcutorture: Use kcalloc() instead of kzalloc(),3e15cccf3ea2
+2025-08-20,Liao Yuanhong,liaoyuanhong@vivo.com,pds_fwctl: Remove the use of dev_err_probe(),f12343013022
+2025-08-20,Xichao Zhao,zhao.xichao@vivo.com,net: dsa: Remove the use of dev_err_probe(),5e91879a7a4e
+2025-08-20,Xichao Zhao,zhao.xichao@vivo.com,net: hibmcge: Remove the use of dev_err_probe(),ed1e7e22571c
+2025-08-13,Xichao Zhao,zhao.xichao@vivo.com,powercap: idle_inject: use us_to_ktime() where appropriate,03cf825911c9
+2025-08-05,Qianfeng Rong,rongqianfeng@vivo.com,uprobes: Remove redundant __GFP_NOWARN,e173287b5d21
+2025-08-19,Qianfeng Rong,rongqianfeng@vivo.com,pinctrl: sunxi: use kcalloc() instead of kzalloc(),a90d6f4aa0bb
+2025-08-19,Qianfeng Rong,rongqianfeng@vivo.com,pinctrl: qcom: sc8180x: use kcalloc() instead of kzalloc(),42311ea58302
+2025-08-19,Qianfeng Rong,rongqianfeng@vivo.com,pinctrl: pinctrl-zynqmp: use kcalloc() instead of kzalloc(),ae666486ee3b
+2025-08-19,Qianfeng Rong,rongqianfeng@vivo.com,pinctrl: microchip-sgpio: use kcalloc() instead of kzalloc(),2092b3b278be
+2025-08-19,Xichao Zhao,zhao.xichao@vivo.com,tty: serial: Modify the use of dev_err_probe(),706c3c02eecd
+2025-08-19,Xichao Zhao,zhao.xichao@vivo.com,usb: typec: mux: Remove the use of dev_err_probe(),d15fbd3ea75b
+2025-08-19,Qianfeng Rong,rongqianfeng@vivo.com,usb: typec: qcom-pmic-typec: use kcalloc() instead of kzalloc(),1f43a3401deb
+2025-08-07,Chunhai Guo,guochunhai@vivo.com,f2fs: add reserved nodes for privileged users,214187936968
+2025-08-08,Liao Yuanhong,liaoyuanhong@vivo.com,f2fs: Add bggc_io_aware to adjust the priority of BG_GC when issuing IO,00798cd24f01
+2025-08-20,Qianfeng Rong,rongqianfeng@vivo.com,ASoC: test-component: Use kcalloc() instead of kzalloc(),96bcb34df55f
+2025-08-20,Qianfeng Rong,rongqianfeng@vivo.com,ASoC: fsl: Use kcalloc() instead of kzalloc(),3b6f4bd6cda2
+2025-08-20,Qianfeng Rong,rongqianfeng@vivo.com,ASoC: codecs: Use kcalloc() instead of kzalloc(),45441b933cdf
+2025-08-13,Liao Yuanhong,liaoyuanhong@vivo.com,ring-buffer: Remove redundant semicolons,cd6e4faba96f
+2025-08-01,Xichao Zhao,zhao.xichao@vivo.com,powerpc/64: Drop unnecessary 'rc' variable,8b5d86a63bc9
+2025-08-15,Qianfeng Rong,rongqianfeng@vivo.com,scsi: lpfc: use min() to improve code,e79aa10e288c
+2025-08-15,Qianfeng Rong,rongqianfeng@vivo.com,scsi: hpsa: use min()/min_t() to improve code,0138c16872bd
+2025-08-06,Qianfeng Rong,rongqianfeng@vivo.com,scsi: scsi_debug: Use vcalloc() to simplify code,6b5da52a1825
+2025-08-06,Qianfeng Rong,rongqianfeng@vivo.com,scsi: ipr: Use vmalloc_array() to simplify code,daedd69abfee
+2025-08-08,Qianfeng Rong,rongqianfeng@vivo.com,KVM: TDX: Remove redundant __GFP_ZERO,7cbb14d361bd
+2025-08-07,Qianfeng Rong,rongqianfeng@vivo.com,KVM: remove redundant __GFP_NOWARN,cf6a8401b6a1
+2025-08-12,Xichao Zhao,zhao.xichao@vivo.com,mmc: meson-mx-sdhc: use PTR_ERR_OR_ZERO() to simplify code,40c3c7dec7cc
+2025-08-19,Xichao Zhao,zhao.xichao@vivo.com,spi: s3c64xx: Remove the use of dev_err_probe(),27848c082ba0
+2025-08-19,Xichao Zhao,zhao.xichao@vivo.com,spi: pxa2xx: Remove the use of dev_err_probe(),67259af78219
+2025-08-19,Xichao Zhao,zhao.xichao@vivo.com,spi: mt65xx: Remove the use of dev_err_probe(),2bee48c9d1cd
+2025-08-19,Xichao Zhao,zhao.xichao@vivo.com,spi: Remove the use of dev_err_probe(),2aade32d1ffc
+2025-08-19,Xichao Zhao,zhao.xichao@vivo.com,spi: SPISG: Remove the use of dev_err_probe(),0d00ebc6b869
+2025-08-19,Xichao Zhao,zhao.xichao@vivo.com,spi: spi_amd: Remove the use of dev_err_probe(),2a5d410916d3
+2025-08-19,Qianfeng Rong,rongqianfeng@vivo.com,spi: SPISG: Use devm_kcalloc() in aml_spisg_clk_init(),c1dd310f1d76
+2025-08-12,Liao Yuanhong,liaoyuanhong@vivo.com,pinctrl: equilibrium: Remove redundant semicolons,96d6bc84742f
+2025-08-11,Xichao Zhao,zhao.xichao@vivo.com,hpet: Use str_plural() to simplify the code,c585a4ad322c
+2025-08-12,Xichao Zhao,zhao.xichao@vivo.com,pinctrl: bcm: use PTR_ERR_OR_ZERO() to simplify code,faba66cfcef6
+2025-08-11,Qianfeng Rong,rongqianfeng@vivo.com,dm bufio: remove redundant __GFP_NOWARN,31a9403b0d54
+2025-08-06,Qianfeng Rong,rongqianfeng@vivo.com,dm: use vmalloc_array() to simplify code,c3797175b367
+2025-08-18,Liao Yuanhong,liaoyuanhong@vivo.com,wifi: rtw89: 8852bt: Simplify unnecessary if-else conditions in _dpk_onoff(),33319e8fd7ac
+2025-08-16,Qianfeng Rong,rongqianfeng@vivo.com,ppp: use vmalloc_array() to simplify code,dad3280591ab
+2025-08-16,Qianfeng Rong,rongqianfeng@vivo.com,nfp: flower: use vmalloc_array() to simplify code,fce214586f99
+2025-08-16,Qianfeng Rong,rongqianfeng@vivo.com,eth: intel: use vmalloc_array() to simplify code,4490d075c2d9
+2025-08-16,Qianfeng Rong,rongqianfeng@vivo.com,drm/radeon: Use vmalloc_array and vcalloc to simplify code,e3bd536580fe
+2025-08-08,Xichao Zhao,zhao.xichao@vivo.com,drm/amd/display: replace min/max nesting with clamp(),27b16364ea12
+2025-08-06,Liao Yuanhong,liaoyuanhong@vivo.com,drm/amd/display: Use swap() to simplify code,5599b214c4af
+2025-07-31,Xichao Zhao,zhao.xichao@vivo.com,drm/amd/display: Clean up coding style,8a614ddfad1f
+2025-08-15,Qianfeng Rong,rongqianfeng@vivo.com,security: use umax() to improve code,e73f759d2e98
+2025-08-15,Qianfeng Rong,rongqianfeng@vivo.com,spi: spl022: use min_t() to improve code,90179609efa4
+2025-08-15,Qianfeng Rong,rongqianfeng@vivo.com,spi: npcm-fiu: use min_t() to improve code,1bdc716023a7
+2025-08-15,Qianfeng Rong,rongqianfeng@vivo.com,spi: spi-fsl-lpspi: use min_t() to improve code,a750050349ea
+2025-08-17,Qianfeng Rong,rongqianfeng@vivo.com,regulator: bd718x7: Use kcalloc() instead of kzalloc(),550bc517e593
+2025-08-16,Qianfeng Rong,rongqianfeng@vivo.com,iio: imu: inv_icm42600: use min() to improve code,35e3d0cd8e89
+2025-08-13,Xichao Zhao,zhao.xichao@vivo.com,iio: adc: ti-tsc2046: use us_to_ktime() where appropriate,ea9b04212927
+2025-08-08,Qianfeng Rong,rongqianfeng@vivo.com,crypto: ccp - Remove redundant __GFP_ZERO,34c065fe1d0d
+2025-07-31,Xichao Zhao,zhao.xichao@vivo.com,hwrng: timeriomem - Use us_to_ktime() where appropriate,817fcdbd4ca2
+2025-08-13,Qianfeng Rong,rongqianfeng@vivo.com,drm/nouveau/gsp: fix mismatched alloc/free for kvmalloc(),989fe6771266
+2025-08-12,Qianfeng Rong,rongqianfeng@vivo.com,drm/amd/display: Use boolean context for pointer null checks,5c8d5e2619f7
+2025-08-12,Liao Yuanhong,liaoyuanhong@vivo.com,drm/amd/display: Remove redundant semicolons,90b810dd859c
+2025-08-12,Xichao Zhao,zhao.xichao@vivo.com,drm/radeon: replace min/max nesting with clamp(),3e03525ce15c
+2025-08-03,Qianfeng Rong,rongqianfeng@vivo.com,fs-writeback: Remove redundant __GFP_NOWARN,15769d9478bd
+2025-08-12,Xichao Zhao,zhao.xichao@vivo.com,sfc: replace min/max nesting with clamp(),6398d8a856fb
+2025-08-13,Liao Yuanhong,liaoyuanhong@vivo.com,ptp: ptp_clockmatrix: Remove redundant semicolons,4b6dc4c891cc
+2025-08-13,Liao Yuanhong,liaoyuanhong@vivo.com,clk: tegra: Remove redundant semicolons,a1e1c10878d7
+2025-08-13,Liao Yuanhong,liaoyuanhong@vivo.com,ASoC: Intel: sst: Remove redundant semicolons,0e62438e4764
+2025-08-13,Liao Yuanhong,liaoyuanhong@vivo.com,platform/chrome: wilco_ec: Remove redundant semicolons,f7439a723e5a
+2025-08-11,Liao Yuanhong,liaoyuanhong@vivo.com,ext4: use kmalloc_array() for array space allocation,76dba1fe277f
+2025-08-03,Qianfeng Rong,rongqianfeng@vivo.com,ext4: remove redundant __GFP_NOWARN,4ba97589ed19
+2025-08-11,Qianfeng Rong,rongqianfeng@vivo.com,bpf: Replace kvfree with kfree for kzalloc memory,bf0c2a84df9f
+2025-08-04,Qianfeng Rong,rongqianfeng@vivo.com,bpf: Remove redundant __GFP_NOWARN,3e2b799008a7
+2025-08-11,Xichao Zhao,zhao.xichao@vivo.com,cxl/hdm: Use str_plural() to simplify the code,22fb4ad89885
+2025-08-10,Qianfeng Rong,rongqianfeng@vivo.com,RDS: remove redundant __GFP_NOWARN,7792232a4ea1
+2025-08-10,Qianfeng Rong,rongqianfeng@vivo.com,tcp: cdg: remove redundant __GFP_NOWARN,526c2530cbf8
+2025-08-07,Qianfeng Rong,rongqianfeng@vivo.com,selinux: Remove redundant __GFP_NOWARN,f20e70a341dd
+2025-08-12,Liao Yuanhong,liaoyuanhong@vivo.com,spi: mtk-snfi: Remove redundant semicolons,528a813a5d98
+2025-08-12,Liao Yuanhong,liaoyuanhong@vivo.com,spi: bcm2835: Remove redundant semicolons,0ecc0e17f05b
+2025-08-11,Xichao Zhao,zhao.xichao@vivo.com,"ASoC: fix ""dependant""->""dependent""",bdf0f2c84332
+2025-08-08,Xichao Zhao,zhao.xichao@vivo.com,zonefs: correct some spelling mistakes,a42938e80357
+2025-08-03,Qianfeng Rong,rongqianfeng@vivo.com,fscrypt: Remove redundant __GFP_NOWARN,0e6608d4938e
+2025-08-09,Qianfeng Rong,rongqianfeng@vivo.com,blk-cgroup: remove redundant __GFP_NOWARN,196447c712dd
+2025-08-11,Qianfeng Rong,rongqianfeng@vivo.com,"block, bfq: remove redundant __GFP_NOWARN",8f3e4e87b094
+2025-08-07,Liao Yuanhong,liaoyuanhong@vivo.com,regulator: tps6524x: Remove unnecessary memset,f6cc4140e161
+2025-08-08,Xichao Zhao,zhao.xichao@vivo.com,"fs: fix ""writen""->""written""",f7d812357e40
+2025-08-05,Qianfeng Rong,rongqianfeng@vivo.com,swiotlb: Remove redundant __GFP_NOWARN,110aa2c74dbd
+2025-08-05,Xichao Zhao,zhao.xichao@vivo.com,ASoC: cs48l32: Use PTR_ERR_OR_ZERO() to simplify code,3059067fd337
+2025-06-18,Yuesong Li,liyuesong@vivo.com,mtd: nand: brcmnand: replace manual string choices with standard helpers,258ef75cf2e2
+2025-06-13,Yuesong Li,liyuesong@vivo.com,i2c: lpi2c: convert to use secs_to_jiffies(),ce556c29b0a2
+2025-07-09,Qianfeng Rong,rongqianfeng@vivo.com,i2c: st: Use min() to improve code,a9320f3e96ad
+2025-06-19,Qianfeng Rong,rongqianfeng@vivo.com,btrfs: use folio_next_index() helper in check_range_has_page(),c9da22428e09
+2025-05-16,Pan Chuang,panchuang@vivo.com,btrfs: use rb_find_add() in rb_simple_insert(),46d549928cc9
+2025-05-16,Pan Chuang,panchuang@vivo.com,btrfs: pass struct rb_simple_node pointer directly in rb_simple_insert(),c52ea14d0544
+2025-05-16,Yangtao Li,frank.li@vivo.com,btrfs: use rb_find_add() in btrfs_qgroup_add_swapped_blocks(),fbec9a5d3e98
+2025-05-16,Yangtao Li,frank.li@vivo.com,btrfs: use rb_find() in btrfs_qgroup_trace_subtree_after_cow(),844e5f902ddd
+2025-05-16,Yangtao Li,frank.li@vivo.com,btrfs: use rb_find_add() in add_qgroup_rb(),e3def6ce6764
+2025-05-16,Yangtao Li,frank.li@vivo.com,btrfs: use rb_find() in find_qgroup_rb(),1e0f0239a310
+2025-05-16,Yangtao Li,frank.li@vivo.com,btrfs: use rb_find_add() in insert_ref_entry(),287480e2691a
+2025-05-16,Yangtao Li,frank.li@vivo.com,btrfs: use rb_find_add() in insert_root_entry(),c6e3ae8ac322
+2025-05-16,Yangtao Li,frank.li@vivo.com,btrfs: use rb_find() in lookup_root_entry(),afaa9f8235b9
+2025-05-16,Yangtao Li,frank.li@vivo.com,btrfs: use rb_find_add() in insert_block_entry(),3f60f4374ab4
+2025-05-16,Yangtao Li,frank.li@vivo.com,btrfs: use rb_find() in lookup_block_entry(),4044a7ed3b1e
+2025-05-16,Yangtao Li,frank.li@vivo.com,btrfs: use rb_find_add() in ulist_rbtree_insert(),b017a92bd9a8
+2025-05-16,Yangtao Li,frank.li@vivo.com,btrfs: use rb_find() in ulist_rbtree_search(),c4f38e7ca54e
+2025-05-16,Yangtao Li,frank.li@vivo.com,btrfs: use rb_find() in __btrfs_lookup_delayed_item(),973468585461
+2025-05-16,Yangtao Li,frank.li@vivo.com,btrfs: use rb_find_add() in btrfs_insert_inode_defrag(),7a91e0187570
+2025-07-15,Qianfeng Rong,rongqianfeng@vivo.com,wifi: wilc1000: Use min() to improve code,219cbc4d713e
+2025-07-15,Qianfeng Rong,rongqianfeng@vivo.com,wifi: mwifiex: Use max_t() to improve code,37fa92081936
+2025-07-15,Qianfeng Rong,rongqianfeng@vivo.com,wifi: brcm80211: Use min() to improve code,b60c49590a1e
+2025-07-15,Qianfeng Rong,rongqianfeng@vivo.com,wifi: rtlwifi: Use min()/max() to improve code,94cd0ba1842e
+2025-07-15,Qianfeng Rong,rongqianfeng@vivo.com,wifi: ath5k: Use max() to improve code,5dceb7dc745c
+2025-05-29,Yangtao Li,frank.li@vivo.com,hfsplus: remove mutex_lock check in hfsplus_free_extents,fcb96956c921
+2025-05-29,Yangtao Li,frank.li@vivo.com,hfs: make splice write available again,4c831f30475a
+2025-05-29,Yangtao Li,frank.li@vivo.com,hfsplus: make splice write available again,2eafb669da0b
+2025-06-20,Li Dong,lidong@vivo.com,mmc: Convert ternary operator to str_true_false() helper,31c2e10cecc4
+2025-06-12,Yuesong Li,liyuesong@vivo.com,wifi: iwlwifi: convert to use secs_to_jiffies(),12d0026ea3c2
+2025-06-18,Li Dong,lidong@vivo.com,mmc: cb710-mmc: Convert ternary operator to str_plural() helper,d783ce4fe274
+2025-06-13,Yuesong Li,liyuesong@vivo.com,wifi: ipw2x00: convert to use secs_to_jiffies,d39d462a397a
+2025-06-12,Yuesong Li,liyuesong@vivo.com,wifi: iwlegacy: convert to use secs_to_jiffies(),84ff903bcb7b
+2025-06-19,Yu Jiaoliang,yujiaoliang@vivo.com,HID: mcp-2221: Replace manual comparison with min() macro,a5db1591d082
+2025-06-19,Yuesong Li,liyuesong@vivo.com,staging: gpib: hp_82341: Replace manual comparison with min/max macro,9adc643d4383
+2025-06-16,Yuesong Li,liyuesong@vivo.com,usb: storage: reltek_cr: convert to use secs_to_jiffies,7bf742b071c7
+2025-06-13,Yuesong Li,liyuesong@vivo.com,net: amt: convert to use secs_to_jiffies,c969149bafbe
+2025-05-23,Huan Tang,tanghuan@vivo.com,scsi: ufs: core: Add HID support,ae7795a8c258
+2025-04-28,Huan Yang,link@vivo.com,udmabuf: fix vmap missed offset page,a26fd92b7223
+2025-04-28,Huan Yang,link@vivo.com,"Revert ""udmabuf: fix vmap_udmabuf error page set""",ceb7b62eaaaa
+2025-04-17,Yangtao Li,frank.li@vivo.com,btrfs: remove BTRFS_REF_LAST from enum btrfs_ref_type,023beaeca612
+2025-04-14,Yangtao Li,frank.li@vivo.com,btrfs: simplify return logic from btrfs_delayed_ref_init(),ea2a8bacb103
+2025-04-14,Yangtao Li,frank.li@vivo.com,btrfs: reuse exit helper for cleanup in btrfs_bioset_init(),c900f415be72
+2025-04-25,Huan Yang,link@vivo.com,mm/memcg: use kmem_cache when alloc memcg pernode info,1b6a58e205ed
+2025-04-25,Huan Yang,link@vivo.com,mm/memcg: use kmem_cache when alloc memcg,97e4fc4b35dc
+2025-04-25,Huan Yang,link@vivo.com,mm/memcg: move mem_cgroup_init() ahead of cgroup_init(),bc9817bb7a21
+2025-04-23,Huan Tang,tanghuan@vivo.com,scsi: ufs: core: Fix WB resize using wrong offset,a84a12d34f82
+2025-04-23,Yangtao Li,frank.li@vivo.com,MAINTAINERS: hfs/hfsplus: add myself as maintainer,1d28f25d6a6c
+2025-04-11,Huan Tang,tanghuan@vivo.com,scsi: ufs: core: Add WB buffer resize support,500d4b742e0c
+2025-03-17,Chunhai Guo,guochunhai@vivo.com,f2fs: fix missing discard for active segments,21263d035ff2
+2025-01-26,Lianqin Hu,hulianqin@vivo.com,ALSA: usb-audio: Add delay quirk for iBasso DC07 Pro,d85fc52cbb9a
+2025-01-15,Lianqin Hu,hulianqin@vivo.com,ALSA: usb-audio: Add delay quirk for USB Audio Device,ad5b205f9e02
+2024-12-29,Minjie Du,duminjie@vivo.com,wifi: iwlwifi: Remove a duplicate assignment in iwl_dbgfs_amsdu_len_write(),81a6f4540df9
+2024-09-11,Shen Lichuan,shenlichuan@vivo.com,wifi: mt76: mt7615: Convert comma to semicolon,458417efd5f9

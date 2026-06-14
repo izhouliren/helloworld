@@ -1,0 +1,132 @@
+﻿Date,Author Name,Author Email,Subject,Commit Hash
+2025-11-27,Jinhui Guo,guojinhui.liam@bytedance.com,mm/sparse: fix sparse_vmemmap_init_nid_early definition without CONFIG_SPARSEMEM,1cba2eba9b73
+2025-11-14,Fengnan Chang,changfengnan@bytedance.com,block: enable per-cpu bio cache by default,48f22f80938d
+2025-11-14,Fengnan Chang,changfengnan@bytedance.com,block: use bio_alloc_bioset for passthru IO by default,05ce4c584cc6
+2025-11-20,Jinhui Guo,guojinhui.liam@bytedance.com,iommu/amd: Propagate the error code returned by __modify_irte_ga() in modify_irte_ga(),2381a1b40be4
+2025-11-10,Qi Zheng,zhengqi.arch@bytedance.com,mm: thp: reparent the split queue during memcg offline,46156dba32cb
+2025-11-10,Qi Zheng,zhengqi.arch@bytedance.com,mm: vmstat: correct the comment above preempt_disable_nested(),3a47e8771c43
+2025-10-20,Xu Lu,luxu.kernel@bytedance.com,riscv: Introduce Zalasr instructions,ad1bb4b8525e
+2025-10-20,Xu Lu,luxu.kernel@bytedance.com,riscv: hwprobe: Export Zalasr extension,f4922b691657
+2025-10-20,Xu Lu,luxu.kernel@bytedance.com,dt-bindings: riscv: Add Zalasr ISA extension description,4640be258871
+2025-10-20,Xu Lu,luxu.kernel@bytedance.com,riscv: Add ISA extension parsing for Zalasr,c9651fbc6051
+2025-10-28,Jinhui Guo,guojinhui.liam@bytedance.com,iommu/amd: Fix pci_segment memleak in alloc_pci_segment(),75ba146c2674
+2025-10-10,Julian Sun,sunjunchao@bytedance.com,ext4: make error code in __ext4fs_dirhash() consistent.,ce3236a3c7d8
+2025-10-30,Aaron Lu,ziqianlu@bytedance.com,sched/fair: Prevent cfs_rq from being unthrottled with zero runtime_remaining,956dfda6a708
+2025-10-30,Songtang Liu,liusongtang@bytedance.com,iommu/amd: Fix potential out-of-bounds read in iommu_mmio_show,a0c7005333f9
+2025-09-29,Julian Sun,sunjunchao@bytedance.com,fs: Make wbc_to_tag() inline and use it in fs.,4952f35f0545
+2025-10-21,Jinhui Guo,guojinhui.liam@bytedance.com,i2c: designware: Disable SMBus interrupts to prevent storms from mis-configured firmware,d3429178ee51
+2025-09-23,Yunhui Cui,cuiyunhui@bytedance.com,arch_topology: move parse_acpi_topology() to common code,6d0ef68955d3
+2025-09-30,Julian Sun,sunjunchao@bytedance.com,writeback: Add logging for slow writeback (exceeds sysctl_hung_task_timeout_secs),d6e621590764
+2025-09-30,Julian Sun,sunjunchao@bytedance.com,writeback: Wake up waiting tasks when finishing the writeback of a chunk.,1888635532fb
+2025-09-30,Jinhui Guo,guojinhui.liam@bytedance.com,ipmi: Skip channel scan if channels are already marked ready,1c35d802758d
+2025-09-30,Jinhui Guo,guojinhui.liam@bytedance.com,ipmi: Fix __scan_channels() failing to rescan channels,6bd30d8fc523
+2025-09-30,Jinhui Guo,guojinhui.liam@bytedance.com,ipmi: Fix the race between __scan_channels() and deliver_response(),936750fdba4c
+2025-08-14,Li Zhe,lizhe.67@bytedance.com,vfio/type1: optimize vfio_unpin_pages_remote(),d14de5b92578
+2025-08-14,Li Zhe,lizhe.67@bytedance.com,vfio/type1: introduce a new member has_rsvd for struct vfio_dma,089722e8939e
+2025-08-14,Li Zhe,lizhe.67@bytedance.com,vfio/type1: batch vfio_find_vpfn() in function vfio_unpin_pages_remote(),d10872050ffe
+2025-08-14,Li Zhe,lizhe.67@bytedance.com,vfio/type1: optimize vfio_pin_pages_remote(),f6c84a52cc41
+2025-08-14,Li Zhe,lizhe.67@bytedance.com,mm: introduce num_pages_contiguous(),929bf010e059
+2025-09-25,Sheng Zhao,sheng.zhao@bytedance.com,vduse: Use fixed 4KB bounce pages for non-4KB page size,3fc3068e7247
+2025-09-19,Li Zhe,lizhe.67@bytedance.com,hugetlb: increase number of reserving hugepages via cmdline,3dfd02c90037
+2025-08-27,Julian Sun,sunjunchao@bytedance.com,ext4: increase IO priority of fastcommit,46e75c56dfea
+2025-08-25,Julian Sun,sunjunchao@bytedance.com,jbd2: increase IO priority of checkpoint,0f3b05c12158
+2025-08-04,Yunhui Cui,cuiyunhui@bytedance.com,perf: riscv: skip empty batches in counter start,568a2fa10dd0
+2025-07-22,Yunhui Cui,cuiyunhui@bytedance.com,riscv: introduce ioremap_wc(),3a8ee3a9f4f6
+2025-09-12,Feng Zhou,zhoufeng.zf@bytedance.com,"io_uring/zcrx: fix ifq->if_rxq is -1, get dma_dev is NULL",3a0ac202534b
+2025-09-12,Aaron Lu,ziqianlu@bytedance.com,sched/fair: Do not balance task to a throttled cfs_rq,0d4eaf8caf8c
+2025-09-10,Aaron Lu,ziqianlu@bytedance.com,sched/fair: Do not special case tasks in throttled hierarchy,253b3f587241
+2025-09-10,Aaron Lu,ziqianlu@bytedance.com,sched/fair: update_cfs_group() for throttled cfs_rqs,fcd394866e3d
+2025-09-10,Aaron Lu,ziqianlu@bytedance.com,sched/fair: Propagate load for throttled cfs_rq,fe8d238e646e
+2025-09-04,Chuyi Zhou,zhouchuyi@bytedance.com,cgroup: Remove unused cgroup_subsys::post_attach,d8b269e009bb
+2025-09-04,Chuyi Zhou,zhouchuyi@bytedance.com,cpuset: Defer flushing of the cpuset_migrate_mm_wq to task_work,3514309e0322
+2025-09-04,Chuyi Zhou,zhouchuyi@bytedance.com,cpuset: Don't always flush cpuset_migrate_mm_wq in cpuset_write_resmask,c0fb16ef887d
+2025-08-29,Aaron Lu,ziqianlu@bytedance.com,sched/fair: Get rid of throttled_lb_pair(),5b726e9bf954
+2025-08-29,Aaron Lu,ziqianlu@bytedance.com,sched/fair: Task based throttle time accounting,eb962f251fbb
+2025-08-13,Fengnan Chang,changfengnan@bytedance.com,io_uring/io-wq: add check free worker before create new worker,9d83e1f05c98
+2025-07-14,Xu Lu,luxu.kernel@bytedance.com,RISC-V: KVM: Delegate illegal instruction fault to VS mode,3729fe8cbb48
+2025-07-23,Yunhui Cui,cuiyunhui@bytedance.com,serial: 8250: fix panic due to PSLVERR,7f8fdd4dbffc
+2025-07-16,Zigit Zo,zuozhijie@bytedance.com,virtio-net: fix recursived rtnl_lock() during probe(),be5dcaed694e
+2025-06-06,Li Zhe,lizhe.67@bytedance.com,gup: optimize longterm pin_user_pages() for large folio,a03db236aebf
+2025-06-23,Fengnan Chang,changfengnan@bytedance.com,io_uring: make fallocate be hashed work,88a80066af16
+2025-06-17,Chuyi Zhou,zhouchuyi@bytedance.com,workqueue: Initialize wq_isolated_cpumask in workqueue_init_early(),261dce3d6402
+2025-06-04,Yunhui Cui,cuiyunhui@bytedance.com,ACPI: CPPC: Fix NULL pointer dereference when nosmp is used,15eece6c5b05
+2025-05-27,Tengteng Yang,yangtengteng@bytedance.com,Fix sock_exceed_buf_limit not being triggered in __sk_mem_raise_allocated,8542d6fac25c
+2025-05-04,Han Young,hanyang.tony@bytedance.com,NFSv4: Always set NLINK even if the server doesn't support it,3a3065352f73
+2025-05-09,Zhongkun He,hezhongkun.hzk@bytedance.com,mm: cma: set early_pfn and bitmap as a union in cma_memrange,83b6d498d027
+2025-04-21,Zhongkun He,hezhongkun.hzk@bytedance.com,mm: use SWAPPINESS_ANON_ONLY in MGLRU,a73dbc851cbc
+2025-04-21,Zhongkun He,hezhongkun.hzk@bytedance.com,mm: add max swappiness arg to lru_gen for anonymous memory only,b40599930f00
+2025-04-21,Zhongkun He,hezhongkun.hzk@bytedance.com,mm: vmscan: add more comments about cache_trim_mode,aded729f64d3
+2025-04-21,Zhongkun He,hezhongkun.hzk@bytedance.com,mm: add swappiness=max arg to memory.reclaim for only anon reclaim,68a1436bde00
+2025-04-02,Songtang Liu,liusongtang@bytedance.com,mm: page_alloc: remove redundant READ_ONCE,cd348c5e6af3
+2025-05-08,Aaron Lu,ziqianlu@bytedance.com,block: remove test of incorrect io priority level,c0d0a9ff6d5b
+2025-04-09,Amery Hung,amery.hung@bytedance.com,selftests/bpf: Add a bpf fq qdisc to selftest,2b59bd9e4efc
+2025-04-09,Amery Hung,amery.hung@bytedance.com,selftests/bpf: Add a basic fifo qdisc test,11c701639ba9
+2025-04-09,Amery Hung,amery.hung@bytedance.com,libbpf: Support creating and destroying qdisc,4b15121da7e5
+2025-04-09,Amery Hung,amery.hung@bytedance.com,bpf: net_sched: Support updating bstats,544e0a1f1e56
+2025-04-09,Amery Hung,amery.hung@bytedance.com,bpf: net_sched: Add a qdisc watchdog timer,7a2dafda950b
+2025-04-09,Amery Hung,amery.hung@bytedance.com,bpf: net_sched: Add basic bpf qdisc kfuncs,870c28588afa
+2025-04-09,Amery Hung,amery.hung@bytedance.com,bpf: net_sched: Support implementation of Qdisc_ops in bpf,c8240344956e
+2025-04-13,zhenwei pi,pizhenwei@bytedance.com,selftests: mptcp: use IPPROTO_MPTCP for getaddrinfo,a862771d1aa4
+2025-02-25,Qi Zheng,zhengqi.arch@bytedance.com,mm: pgtable: remove tlb_remove_page_ptdesc(),02d9e1a2048e
+2025-02-25,Qi Zheng,zhengqi.arch@bytedance.com,x86: pgtable: convert to use tlb_remove_ptdesc(),f1fdec956f63
+2025-02-25,Qi Zheng,zhengqi.arch@bytedance.com,riscv: pgtable: unconditionally use tlb_remove_ptdesc(),4239c198e841
+2025-02-25,Qi Zheng,zhengqi.arch@bytedance.com,mm: pgtable: convert some architectures to use tlb_remove_ptdesc(),e3ecf7c7d082
+2025-02-25,Qi Zheng,zhengqi.arch@bytedance.com,mm: pgtable: change pt parameter of tlb_remove_ptdesc() to struct ptdesc*,1a03c275a3ad
+2025-02-25,Qi Zheng,zhengqi.arch@bytedance.com,mm: pgtable: make generic tlb_remove_table() use struct ptdesc,f21bb37afbba
+2025-03-03,Yunhui Cui,cuiyunhui@bytedance.com,riscv: print hartid on bringup,a3313375e88e
+2025-02-26,Yunhui Cui,cuiyunhui@bytedance.com,RISC-V: selftests: Add TEST_ZICBOM into CBO tests,36dec9e44805
+2025-02-26,Yunhui Cui,cuiyunhui@bytedance.com,RISC-V: hwprobe: Expose Zicbom extension and its block size,eb1003970940
+2025-02-26,Yunhui Cui,cuiyunhui@bytedance.com,RISC-V: Enable cbo.clean/flush in usermode,de70b532f91b
+2025-03-11,Diangang Li,lidiangang@bytedance.com,ext4: clear DISCARD flag if device does not support discard,5f1cf94d8020
+2025-03-10,Yunhui Cui,cuiyunhui@bytedance.com,iommu/vt-d: Fix system hang on reboot -f,9ce7603ad3cb
+2025-02-17,Qi Zheng,zhengqi.arch@bytedance.com,arm: pgtable: fix NULL pointer dereference issue,a564ccfe300f
+2025-02-20,Yunhui Cui,cuiyunhui@bytedance.com,perf/dwc_pcie: fix duplicate pci_dev devices,7f35b429802a
+2025-02-20,Yunhui Cui,cuiyunhui@bytedance.com,perf/dwc_pcie: fix some unreleased resources,6eb1e8ef586a
+2025-02-09,Abel Wu,wuyun.abel@bytedance.com,cgroup/rstat: Fix forceidle time in cpu.stat,c4af66a95aa3
+2025-02-25,Amery Hung,amery.hung@bytedance.com,bpf: Search and add kfuncs in struct_ops prologue and epilogue,d519594ee244
+2025-01-26,Yunhui Cui,cuiyunhui@bytedance.com,locking/mutex: Add MUTEX_WARN_ON() into fast path,337369f8ce9e
+2025-02-11,Qi Zheng,zhengqi.arch@bytedance.com,mm: pgtable: fix incorrect reclaim of non-empty PTE pages,f39edcf6349a
+2025-02-17,Amery Hung,amery.hung@bytedance.com,selftests/bpf: Test returning referenced kptr from struct_ops programs,af17bad9fb2a
+2025-02-17,Amery Hung,amery.hung@bytedance.com,bpf: Allow struct_ops prog to return referenced kptr,8d9f547f74c7
+2025-02-17,Amery Hung,amery.hung@bytedance.com,selftests/bpf: Test referenced kptr arguments of struct_ops programs,6991ec6beb26
+2025-02-17,Amery Hung,amery.hung@bytedance.com,bpf: Support getting referenced kptr from struct_ops argument,a687df2008f6
+2025-02-12,Chuyi Zhou,zhouchuyi@bytedance.com,sched_ext: Use SCX_CALL_OP_TASK in task_tick_scx,f5717c93a1b9
+2025-02-12,Chuyi Zhou,zhouchuyi@bytedance.com,sched_ext: Fix the incorrect bpf_list kfunc API in common.bpf.h.,2e2006c91c84
+2025-01-26,Zhaoyu Liu,liuzhaoyu.zackary@bytedance.com,drm/ttm: use ttm_resource_unevictable() to replace pin_count and swapped,0678c15b9427
+2025-02-03,Cong Wang,cong.wang@bytedance.com,selftests/tc-testing: Add a test case for qdisc_tree_reduce_backlog(),91aadc16ee73
+2025-02-03,Cong Wang,cong.wang@bytedance.com,netem: Update sch->q.qlen before qdisc_tree_reduce_backlog(),638ba5089324
+2024-12-21,Abel Wu,wuyun.abel@bytedance.com,bpf: Fix deadlock when freeing cgroup storage,c78f4afbd962
+2024-08-14,Yunhui Cui,cuiyunhui@bytedance.com,riscv: add a warning when physical memory address overflows,101971298be2
+2025-01-27,Xu Lu,luxu.kernel@bytedance.com,irqchip/riscv: Ensure ordering of memory writes and IPI writes,825c78e6a60c
+2025-01-08,Qi Zheng,zhengqi.arch@bytedance.com,mm: pgtable: introduce generic pagetable_dtor_free(),553e77529fb6
+2025-01-08,Qi Zheng,zhengqi.arch@bytedance.com,mm: pgtable: move __tlb_remove_table_one() in x86 to generic file,e74e17310120
+2025-01-08,Qi Zheng,zhengqi.arch@bytedance.com,mm: pgtable: completely move pagetable_dtor() to generic tlb_remove_table(),92ec7fd136a1
+2025-01-08,Qi Zheng,zhengqi.arch@bytedance.com,mm: pgtable: introduce generic __tlb_remove_table(),2dccdf7076f6
+2025-01-08,Qi Zheng,zhengqi.arch@bytedance.com,s390: pgtable: consolidate PxD and PTE TLB free paths,5550b3c5d5f6
+2025-01-08,Qi Zheng,zhengqi.arch@bytedance.com,x86: pgtable: move pagetable_dtor() to __tlb_remove_table(),ee0934b03510
+2025-01-08,Qi Zheng,zhengqi.arch@bytedance.com,x86: pgtable: convert __tlb_remove_table() to use struct ptdesc,0b6476f93998
+2025-01-08,Qi Zheng,zhengqi.arch@bytedance.com,riscv: pgtable: move pagetable_dtor() to __tlb_remove_table(),deab5a355e52
+2025-01-08,Qi Zheng,zhengqi.arch@bytedance.com,arm64: pgtable: move pagetable_dtor() to __tlb_remove_table(),12359c039b5f
+2025-01-08,Qi Zheng,zhengqi.arch@bytedance.com,arm: pgtable: move pagetable_dtor() to __tlb_remove_table(),0ada8c4df697
+2025-01-08,Qi Zheng,zhengqi.arch@bytedance.com,mm: pgtable: introduce pagetable_dtor(),db6b435d731a
+2025-01-08,Qi Zheng,zhengqi.arch@bytedance.com,s390: pgtable: add statistics for PUD and P4D level page table,b7dcd539bfc7
+2025-01-08,Qi Zheng,zhengqi.arch@bytedance.com,arm64: pgtable: use mmu gather to free p4d level page table,440af48d6879
+2025-01-08,Qi Zheng,zhengqi.arch@bytedance.com,mm: pgtable: add statistics for P4D level page table,5fcf5fa61218
+2024-07-23,Yunhui Cui,cuiyunhui@bytedance.com,riscv/mm/fault: add show_pte() before die(),b6de116e4636
+2024-12-04,Qi Zheng,zhengqi.arch@bytedance.com,x86: select ARCH_SUPPORTS_PT_RECLAIM if X86_64,4817f70c25b6
+2024-12-04,Qi Zheng,zhengqi.arch@bytedance.com,x86: mm: free page table pages by RCU instead of semi RCU,718b13861d22
+2024-12-04,Qi Zheng,zhengqi.arch@bytedance.com,mm: pgtable: reclaim empty PTE page in madvise(MADV_DONTNEED),6375e95f381e
+2024-12-04,Qi Zheng,zhengqi.arch@bytedance.com,mm: make zap_pte_range() handle full within-PMD range,2686d514c345
+2024-12-04,Qi Zheng,zhengqi.arch@bytedance.com,mm: do_zap_pte_range: return any_skipped information to the caller,4059971c79fc
+2024-12-04,Qi Zheng,zhengqi.arch@bytedance.com,mm: zap_install_uffd_wp_if_needed: return whether uffd-wp pte has been re-installed,735fad44b5a8
+2024-12-04,Qi Zheng,zhengqi.arch@bytedance.com,mm: skip over all consecutive none ptes in do_zap_pte_range(),45fec1e59514
+2024-12-04,Qi Zheng,zhengqi.arch@bytedance.com,mm: introduce do_zap_pte_range(),117cdb05e32d
+2024-12-04,Qi Zheng,zhengqi.arch@bytedance.com,mm: introduce zap_nonpresent_ptes(),fabc0e8dac5b
+2024-12-04,Qi Zheng,zhengqi.arch@bytedance.com,mm: userfaultfd: recheck dst_pmd entry in move_pages_pte(),dd95d2782a25
+2024-12-04,Qi Zheng,zhengqi.arch@bytedance.com,mm: khugepaged: recheck pmd state in retract_page_tables(),6c18ec9af86c
+2024-11-22,Qi Zheng,zhengqi.arch@bytedance.com,mm: pgtable: make ptep_clear() non-atomic,20f3ab257211
+2024-12-10,Yunhui Cui,cuiyunhui@bytedance.com,watchdog: output this_cpu when printing hard LOCKUP,3c16fc0c913a
+2024-12-09,Xu Lu,luxu.kernel@bytedance.com,riscv: mm: Fix the out of bound issue of vmemmap address,f754f27e98f8
+2024-11-19,Yongji Xie,xieyongji@bytedance.com,vduse: relicense under GPL-2.0 OR BSD-3-Clause,b989531e0bd7
+2025-01-03,Xu Lu,luxu.kernel@bytedance.com,iommu/riscv: Add shutdown function for iommu driver,77a44196abfb
+2025-01-03,Xu Lu,luxu.kernel@bytedance.com,iommu/riscv: Empty iommu queue before enabling it,8d8d3752c0a4

@@ -1,0 +1,44 @@
+﻿Date,Author Name,Author Email,Subject,Commit Hash
+2025-12-15,Yongpeng Yang,yangyongpeng@xiaomi.com,Documentation: admin-guide: blockdev: replace zone_capacity with zone_capacity_mb when creating devices,67d85b062dcb
+2025-12-15,Yongpeng Yang,yangyongpeng@xiaomi.com,zloop: use READ_ONCE() to read lo->lo_state in queue_rq path,4b2b03151e2e
+2025-12-15,Yongpeng Yang,yangyongpeng@xiaomi.com,loop: use READ_ONCE() to read lo->lo_state without locking,54891a96b7a9
+2025-11-10,Yongpeng Yang,yangyongpeng@xiaomi.com,f2fs: add a sysfs entry to show max open zones,89732017890e
+2025-11-10,Yongpeng Yang,yangyongpeng@xiaomi.com,f2fs: wrap all unusable_blocks_per_sec code in CONFIG_BLK_DEV_ZONED,581251e03077
+2025-10-24,Yongpeng Yang,yangyongpeng@xiaomi.com,f2fs: ensure minimum trim granularity accounts for all devices,d8bdf7856e17
+2025-10-27,Yongpeng Yang,yangyongpeng@xiaomi.com,f2fs: change the unlock parameter of f2fs_put_page to bool,89c16629e313
+2025-11-27,sparkhuang,huangshaobo3@xiaomi.com,regulator: core: Protect regulator_supply_alias_list with regulator_list_mutex,0cc15a10c3b4
+2025-11-25,pengdonglin,pengdonglin@xiaomi.com,function_graph: Enable funcgraph-args and funcgraph-retaddr to work simultaneously,f83ac7544fbf
+2025-11-20,Owen Gu,guhuinan@xiaomi.com,usb: uas: fix urb unmapping issue when the uas device is remove during ongoing data transfer,26d56a9fcb20
+2025-11-04,Yongpeng Yang,yangyongpeng@xiaomi.com,block: add __must_check attribute to sb_min_blocksize(),8637fa89e678
+2025-11-04,Yongpeng Yang,yangyongpeng@xiaomi.com,xfs: check the return value of sb_min_blocksize() in xfs_fs_fill_super,124af0868ec6
+2025-11-04,Yongpeng Yang,yangyongpeng@xiaomi.com,isofs: check the return value of sb_min_blocksize() in isofs_fill_super,e106e269c5cb
+2025-11-04,Yongpeng Yang,yangyongpeng@xiaomi.com,exfat: check return value of sb_min_blocksize in exfat_read_boot_sector,f2c1f631630e
+2025-11-04,Yongpeng Yang,yangyongpeng@xiaomi.com,vfat: fix missing sb_min_blocksize() return value checks,63b5aa01da0f
+2025-11-04,Yongpeng Yang,yangyongpeng@xiaomi.com,fscrypt: fix left shift underflow when inode->i_blkbits > PAGE_SHIFT,1e39da974ce6
+2025-10-23,Hongru Zhang,zhanghongru@xiaomi.com,selinux: improve bucket distribution uniformity of avc_hash(),20d387d7ceab
+2025-10-23,Hongru Zhang,zhanghongru@xiaomi.com,selinux: Move avtab_hash() to a shared location for future reuse,929126ef4a0e
+2025-10-23,Hongru Zhang,zhanghongru@xiaomi.com,selinux: Introduce a new config to make avc cache slot size adjustable,641e02175861
+2025-10-11,zhidao su,suzhidao@xiaomi.com,sched/ext: Implement cgroup_set_idle() callback,347ed2d566da
+2025-09-16,pengdonglin,pengdonglin@xiaomi.com,ACPI: APEI: Remove redundant rcu_read_lock/unlock() under spinlock,c7bc7e9070d6
+2025-09-16,pengdonglin,pengdonglin@xiaomi.com,wifi: mac80211: Remove redundant rcu_read_lock/unlock() in spin_lock,872e397d62a6
+2025-09-15,Owen Gu,guhuinan@xiaomi.com,usb: gadget: f_fs: Fix epfile null pointer access after ep enable.,cfd6f1a7b42f
+2025-09-16,pengdonglin,pengdonglin@xiaomi.com,cgroup/cpuset: Remove redundant rcu_read_lock/unlock() in spin_lock,58ab6d25a1bf
+2025-09-16,pengdonglin,pengdonglin@xiaomi.com,cgroup: Remove redundant rcu_read_lock/unlock() in spin_lock,3ee4211ef869
+2025-08-21,gaoxiang17,gaoxiang17@xiaomi.com,mm/cma: add 'available count' and 'total count' to trace_cma_alloc_start,0cd01c4a5cc1
+2025-08-30,yangshiguang,yangshiguang@xiaomi.com,mm: slub: avoid wake up kswapd in set_track_prepare,850470a8413a
+2025-08-02,gaoxiang17,gaoxiang17@xiaomi.com,pid: Add a judgment for ns null in pid_nr_ns,006568ab4c5c
+2025-07-23,Sheng Yong,shengyong1@xiaomi.com,f2fs: remove unnecessary tracepoint enabled check,95d7c508b212
+2025-07-10,Sheng Yong,shengyong1@xiaomi.com,dm-bufio: fix sched in atomic context,b1bf1a782fdf
+2025-07-03,EricChan,chenchuangyu@xiaomi.com,net: stmmac: Fix interrupt handling for level-triggered mode in DWC_XGMAC2,78b7920a0335
+2025-06-30,Jianan Huang,huangjianan@xiaomi.com,f2fs: avoid splitting bio when reading multiple pages,185f203a6991
+2025-06-07,Sheng Yong,shengyong1@xiaomi.com,f2fs: fix bio memleak when committing super block,554d9b7242a7
+2025-05-17,Sheng Yong,shengyong1@xiaomi.com,erofs: add 'fsoffset' mount option to specify filesystem offset,c36ec00d7f67
+2025-05-15,Sheng Yong,shengyong1@xiaomi.com,erofs: avoid using multiple devices with different type,9748f2f54f66
+2025-05-12,pengdonglin,pengdonglin@xiaomi.com,ftrace: Fix preemption accounting for stacktrace filter command,11aff32439df
+2025-05-12,pengdonglin,pengdonglin@xiaomi.com,ftrace: Fix preemption accounting for stacktrace trigger command,e333332657f6
+2025-04-01,Sheng Yong,shengyong1@xiaomi.com,lib/iov_iter: fix to increase non slab folio refcount,770c8d55c428
+2025-04-08,Sheng Yong,shengyong1@xiaomi.com,erofs: set error to bio if file-backed IO fails,1595f15391b8
+2025-04-02,Ying Lu,luying1@xiaomi.com,usbnet:fix NPE during rx_complete,51de36000934
+2025-01-24,Jianan Huang,huangjianan@xiaomi.com,f2fs: fix inconsistent dirty state of atomic file,03511e936916
+2024-09-20,gaoxiang17,gaoxiang17@xiaomi.com,mm/page_alloc: add some detailed comments in can_steal_fallback,6025ea5abbe5
+2025-01-13,zangyangyang1,zangyangyang1@xiaomi.com,f2fs: fix using wrong 'submitted' value in f2fs_write_cache_pages,c84c2424932d

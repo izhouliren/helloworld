@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2015-2025年中国公司贡献Linux内核的企业个数</title>
+    <script src="https://cdn.jsdelivr.net/npm/echarts@5.4.3/dist/echarts.min.js"></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f5f5f5;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        .chart-container {
+            width: 100%;
+            height: 400px;
+            margin-top: 20px;
+        }
+        .data-table {
+            margin-top: 30px;
+            width: 100%;
+            border-collapse: collapse;
+        }
+        .data-table th,
+        .data-table td {
+            border: 1px solid #ddd;
+            padding: 12px;
+            text-align: center;
+        }
+        .data-table th {
+            background-color: #4CAF50;
+            color: white;
+            font-weight: bold;
+        }
+        .data-table tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+        .summary {
+            margin-top: 30px;
+            padding: 20px;
+            background-color: #e8f5e8;
+            border-left: 4px solid #4CAF50;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>2015-2025年中国公司贡献Linux内核的企业个数</h1>
+        
+        <div class="chart-container" id="mainChart"></div>
+        
+        <table class="data-table">
+            <thead>
+                <tr>
+                    <th>年份</th>
+                    <th>企业个数</th>
+                    <th>变化</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>2015</td>
+                    <td>9</td>
+                    <td>-</td>
+                </tr>
+                <tr>
+                    <td>2016</td>
+                    <td>9</td>
+                    <td>0</td>
+                </tr>
+                <tr>
+                    <td>2017</td>
+                    <td>9</td>
+                    <td>0</td>
+                </tr>
+                <tr>
+                    <td>2018</td>
+                    <td>12</td>
+                    <td>+3</td>
+                </tr>
+                <tr>
+                    <td>2019</td>
+                    <td>14</td>
+                    <td>+2</td>
+                </tr>
+                <tr>
+                    <td>2020</td>
+                    <td>17</td>
+                    <td>+3</td>
+                </tr>
+                <tr>
+                    <td>2021</td>
+                    <td>16</td>
+                    <td>-1</td>
+                </tr>
+                <tr>
+                    <td>2022</td>
+                    <td>18</td>
+                    <td>+2</td>
+                </tr>
+                <tr>
+                    <td>2023</td>
+                    <td>18</td>
+                    <td>0</td>
+                </tr>
+                <tr>
+                    <td>2024</td>
+                    <td>18</td>
+                    <td>0</td>
+                </tr>
+                <tr>
+                    <td>2025</td>
+                    <td>18</td>
+                    <td>0</td>
+                </tr>
+            </tbody>
+        </table>
+        
+        <div class="summary">
+            <h3>趋势分析</h3>
+            <ul>
+                <li>2015-2017年保持稳定在9家企业</li>
+                <li>2018年开始增长，达到12家企业</li>
+                <li>2019-2020年持续增长，从14家增长到17家</li>
+                <li>2021年略有下降（16家）</li>
+                <li>2022年恢复增长并达到18家，之后保持稳定</li>
+                <li>总体趋势：从2015年的9家增长到2022年的18家，增长了100%</li>
+                <li>中国企业对Linux内核的贡献呈现稳步上升趋势，显示出中国科技企业的技术实力不断提升</li>
+            </ul>
+        </div>
+    </div>
+    
+    <script>
+        // 初始化图表
+        var myChart = echarts.init(document.getElementById('mainChart'));
+        
+        // 数据
+        var years = [2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025];
+        var counts = [9, 9, 9, 12, 14, 17, 16, 18, 18, 18, 18];
+        
+        // 配置项
+        var option = {
+            title: {
+                text: '中国公司贡献Linux内核企业个数趋势',
+                left: 'center'
+            },
+            tooltip: {
+                trigger: 'axis',
+                axisPointer: {
+                    type: 'shadow'
+                },
+                formatter: function(params) {
+                    return params[0].name + '年<br/>企业个数: ' + params[0].value + '家';
+                }
+            },
+            grid: {
+                left: '3%',
+                right: '4%',
+                bottom: '3%',
+                containLabel: true
+            },
+            xAxis: {
+                type: 'category',
+                data: years,
+                axisLabel: {
+                    interval: 0
+                }
+            },
+            yAxis: {
+                type: 'value',
+                name: '企业个数',
+                minInterval: 1,
+                axisLabel: {
+                    formatter: '{value}家'
+                }
+            },
+            series: [{
+                name: '企业个数',
+                type: 'bar',
+                data: counts,
+                itemStyle: {
+                    color: new echarts.graphic.LinearGradient(0, 0, 0, 1, [
+                        {offset: 0, color: '#4CAF50'},
+                        {offset: 1, color: '#81C784'}
+                    ])
+                },
+                label: {
+                    show: true,
+                    position: 'top',
+                    formatter: '{c}家'
+                },
+                emphasis: {
+                    itemStyle: {
+                        color: new echarts.graphic.LinearGradient(0, 0, 0, 1, [
+                            {offset: 0, color: '#2E7D32'},
+                            {offset: 1, color: '#4CAF50'}
+                        ])
+                    }
+                }
+            }, {
+                name: '趋势线',
+                type: 'line',
+                data: counts,
+                smooth: true,
+                itemStyle: {
+                    color: '#FF5722'
+                },
+                lineStyle: {
+                    width: 3
+                },
+                symbol: 'circle',
+                symbolSize: 8
+            }]
+        };
+        
+        // 使用配置项
+        myChart.setOption(option);
+        
+        // 响应式调整
+        window.addEventListener('resize', function() {
+            myChart.resize();
+        });
+    </script>
+</body>
+</html>

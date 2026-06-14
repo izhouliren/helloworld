@@ -1,0 +1,101 @@
+﻿Date,Author Name,Author Email,Subject,Commit Hash
+2025-12-19,Ran Xiaokai,ran.xiaokai@zte.com.cn,mm/page_owner: fix memory leak in page_owner_stack_fops->release(),a76a5ae2c6c6
+2025-11-22,Ran Xiaokai,ran.xiaokai@zte.com.cn,KHO: fix boot failure due to kmemleak access to non-PRESENT pages,40cd0e8dd283
+2025-11-26,Shengming Hu,hu.shengming@zte.com.cn,fgraph: Remove coarse PID filtering from graph_entry(),c264534c394a
+2025-11-26,Shengming Hu,hu.shengming@zte.com.cn,fgraph: Check ftrace_pids_enabled on registration for early filtering,1650a1b6cb1a
+2025-11-26,Shengming Hu,hu.shengming@zte.com.cn,fgraph: Initialize ftrace_ops->private for function graph ops,b5d6d3f73d0b
+2025-10-07,xu xin,xu.xin16@zte.com.cn,selftests: update ksm inheritance tests for prctl fork/exec,bda7bf06840d
+2025-10-07,xu xin,xu.xin16@zte.com.cn,mm/ksm: fix exec/fork inheritance support for prctl,590c03ca6a3f
+2025-09-30,Ran Xiaokai,ran.xiaokai@zte.com.cn,slab: Fix using this_cpu_ptr() in preemptible context,83d59d81b20c
+2025-09-30,Ran Xiaokai,ran.xiaokai@zte.com.cn,slab: Add allow_spin check to eliminate kmemleak warnings,e95e2d3f3464
+2025-09-26,Ran Xiaokai,ran.xiaokai@zte.com.cn,alloc_tag: fix boot failure due to NULL pointer dereference,fb552b2425cf
+2025-09-17,Wang Yaxin,wang.yaxin@zte.com.cn,Docs/zh_CN: Translate timestamping.rst to Simplified Chinese,33d80c67d34d
+2025-09-18,shaomingyin,shao.mingyin@zte.com.cn,Docs/zh_CN: fix the format of proofreader,679e5d29b5b0
+2025-09-18,shaomingyin,shao.mingyin@zte.com.cn,Docs/zh_CN: align title underline for ubifs.rst,46b194beeecf
+2025-09-18,shaomingyin,shao.mingyin@zte.com.cn,Docs/zh_CN: add fixed format for the header of gfs2-glocks.rst,b8c1494b3223
+2025-08-01,Jessica Liu,liu.xuemei1@zte.com.cn,riscv: mmap(): use unsigned offset type in riscv_sys_mmap,316b60b984d5
+2025-08-30,Sun yuxi,sun.yuxi@zte.com.cn,Docs/zh_CN: Translate generic-hdlc.rst to Simplified Chinese,a513d9628048
+2025-08-30,Wang Yaxin,wang.yaxin@zte.com.cn,Docs/zh_CN: Translate skbuff.rst to Simplified Chinese,478bb02b0740
+2025-08-30,Sun yuxi,sun.yuxi@zte.com.cn,Docs/zh_CN: Translate mptcp-sysctl.rst to Simplified Chinese,733b8bdfe7cc
+2025-08-26,Wang Longjie,wang.longjie1@zte.com.cn,Docs/zh_CN: Translate inotify.rst to Simplified Chinese,e63b0d0e045f
+2025-08-26,Wang Longjie,wang.longjie1@zte.com.cn,Docs/zh_CN: Translate dnotify.rst to Simplified Chinese,9a3d2d98f618
+2025-08-26,Shao Mingyin,shao.mingyin@zte.com.cn,Docs/zh_CN: Translate gfs2-glocks.rst to Simplified Chinese,1c8e1941137e
+2025-08-26,Shao Mingyin,shao.mingyin@zte.com.cn,Docs/zh_CN: Translate gfs2-uevents.rst to Simplified Chinese,a1cce3f46786
+2025-08-26,Shao Mingyin,shao.mingyin@zte.com.cn,Docs/zh_CN: Translate gfs2.rst to Simplified Chinese,8c6c6e9564cc
+2025-08-26,Shao Mingyin,shao.mingyin@zte.com.cn,Docs/zh_CN: Translate ubifs-authentication.rst to Simplified Chinese,a46d47ae3023
+2025-08-26,Shao Mingyin,shao.mingyin@zte.com.cn,Docs/zh_CN: Translate ubifs.rst to Simplified Chinese,0e6d01c46456
+2025-09-07,Fan Yu,fan.yu9@zte.com.cn,docs: update delaytop documentation for new interactive features,c25822ccaa40
+2025-09-07,Fan Yu,fan.yu9@zte.com.cn,tools/delaytop: improve error handling for missing PSI support,0c10f9cd812f
+2025-09-07,Fan Yu,fan.yu9@zte.com.cn,tools/delaytop: add interactive mode with keyboard controls,5e57515d81f9
+2025-09-07,Fan Yu,fan.yu9@zte.com.cn,tools/delaytop: add memory verbose mode support,99d9c55f88e6
+2025-09-07,Fan Yu,fan.yu9@zte.com.cn,tools/delaytop: add flexible sorting by delay field,0471440c8061
+2025-08-07,Zhang Enpei,zhang.enpei@zte.com.cn,interconnect: core: Use device_match_of_node(),2d1a7eb029f7
+2025-08-27,Zhang Enpei,zhang.enpei@zte.com.cn,crypto: caam - switch to use devm_kmemdup_array(),ab315f7288b7
+2025-07-24,Liu Song,liu.song13@zte.com.cn,HID: uclogic: Use str_true_false() helper,b31e3bd7447a
+2025-07-24,Liu Song,liu.song13@zte.com.cn,HID: Intel-thc-hid: Intel-thc: Use str_true_false() helper,1860b13beca8
+2025-07-31,Fan Yu,fan.yu9@zte.com.cn,tools/getdelays: add backward compatibility for taskstats version,085dece6cc88
+2025-07-28,fan.yu9@zte.com.cn,fan.yu9@zte.com.cn,delaytop: enhance error logging and add PSI feature description,d92dccd05a20
+2025-07-21,Wang Yaxin,wang.yaxin@zte.com.cn,MAINTAINERS: add maintainers for delaytop,1f03d55e5ef0
+2025-07-24,Fan Yu,fan.yu9@zte.com.cn,net/sched: Add precise drop reason for pfifo_fast queue overflows,bf3c032bfe16
+2025-07-21,Liu Song,liu.song13@zte.com.cn,scsi: ufs: core: Use str_true_false() helper in UFS_FLAG(),51b6f738ebfa
+2025-06-23,Yumeng Fang,fang.yumeng@zte.com.cn,i2c: stm32f7: Use str_on_off() helper,be3b425bcb65
+2025-07-23,Liu Song,liu.song13@zte.com.cn,wifi: brcmsmac: Use str_true_false() helper,26b1d003c6aa
+2025-07-21,Fan Yu,fan.yu9@zte.com.cn,tcp: trace retransmit failures in tcp_retransmit_skb,ad892e912b84
+2025-06-23,Peng Jiang,jiang.peng9@zte.com.cn,apparmor: fix documentation mismatches in val_mask_to_str and socket functions,f9c9dce01e96
+2025-07-10,Wang Yaxin,wang.yaxin@zte.com.cn,docs: update docs after introducing delaytop,320bf1709a47
+2025-07-10,Wang Yaxin,wang.yaxin@zte.com.cn,delaytop: add psi info to show system delay,6b47c9f8ee39
+2025-06-23,Yumeng Fang,fang.yumeng@zte.com.cn,bus: mhi: host: Use str_true_false() helper,e99f55e438d1
+2025-07-04,Peng Jiang,jiang.peng9@zte.com.cn,kprobes: Add missing kerneldoc for __get_insn_slot,e1876fb015c3
+2025-07-04,Ran Xiaokai,ran.xiaokai@zte.com.cn,locking/mutex: Remove redundant #ifdefs,1dfe5ea6dbb3
+2025-06-20,Peng Jiang,jiang.peng9@zte.com.cn,xen/xenbus: fix W=1 build warning in xenbus_va_dev_error function,b7efeb081ed3
+2025-06-19,Yaxin Wang,wang.yaxin@zte.com.cn,tools/accounting/delaytop: add delaytop to record top-n task delay,01bda05819b8
+2025-05-15,Yumeng Fang,fang.yumeng@zte.com.cn,drm/rockchip: dw_hdmi: Use dev_err_probe() to simplify code,52008d6fe7fa
+2025-06-30,Qiu Yutan,qiu.yutan@zte.com.cn,Docs/zh_CN: Translate alias.rst to Simplified Chinese,744cc616b8d8
+2025-07-05,Wang Yaxin,wang.yaxin@zte.com.cn,Docs/zh_CN: Translate netmem.rst to Simplified Chinese,6b818ef57d01
+2025-07-05,Wang Yaxin,wang.yaxin@zte.com.cn,Docs/zh_CN: Translate xfrm_proc.rst to Simplified Chinese,3278971a26a6
+2025-07-05,Wang Yaxin,wang.yaxin@zte.com.cn,Docs/zh_CN: Translate netif-msg.rst to Simplified Chinese,53301ceb7395
+2025-06-23,Yumeng Fang,fang.yumeng@zte.com.cn,misc: enclosure: Use str_on_off() helper,81bfbb2d80ee
+2025-06-14,Qiu Yutan,qiu.yutan@zte.com.cn,Docs/zh_CN: Translate vxlan.rst to Simplified Chinese,f7a57c9cc5af
+2025-05-20,Wang Yaxin,wang.yaxin@zte.com.cn,Docs/zh_CN: Translate napi.rst to Simplified Chinese,93abd332c101
+2025-06-12,Qiu Yutan,qiu.yutan@zte.com.cn,net: arp: use kfree_skb_reason() in arp_rcv(),0051ea4aca67
+2025-05-23,Yumeng Fang,fang.yumeng@zte.com.cn,soundwire: intel_ace2.x: Use str_read_write() helper,fdf559610345
+2025-05-29,Xuemei Liu,liu.xuemei1@zte.com.cn,drm/amdkfd: enable kfd on RISCV systems,4e696906e9a8
+2025-05-21,Wang Yaxin,wang.yaxin@zte.com.cn,delayacct: remove redundant code and adjust indentation,5ef2dccfcca8
+2025-05-21,Qiu Yutan,qiu.yutan@zte.com.cn,net: neigh: use kfree_skb_reason() in neigh_resolve_output() and neigh_connected_output(),e45b7196df60
+2025-05-23,Yumeng Fang,fang.yumeng@zte.com.cn,i2c: Use str_read_write() helper,17b7d785fc7f
+2025-05-23,Yumeng Fang,fang.yumeng@zte.com.cn,drm/i915/display: Use str_true_false() helper,42e5fc672fee
+2025-05-10,Wang Yaxin,wang.yaxin@zte.com.cn,taskstats: fix struct taskstats breaks backward compatibility since version 15,0bf2d838de1f
+2025-04-01,Feng Wei,feng.wei8@zte.com.cn,i2c: mlxbf: Use str_read_write() helper,c030a41ef8f9
+2025-03-20,Zhang Songyi,zhang.songyi@zte.com.cn,i2c: npcm7xx: Remove redundant ret variable,5a1934f1c23f
+2025-05-15,Yumeng Fang,fang.yumeng@zte.com.cn,mmc: bcm2835: Use str_read_write() helper,e249e584d052
+2025-05-15,Zhang Enpei,zhang.enpei@zte.com.cn,OPP: switch to use kmemdup_array(),03eadcbd981b
+2025-05-15,Zhang Enpei,zhang.enpei@zte.com.cn,drm/nouveau/dp: convert to use ERR_CAST(),01738c4f4725
+2025-04-03,Tang Dongxing,tang.dongxing@zte.com.cn,drm/mediatek: Replace custom compare_dev with component_compare_of,07c39476a75b
+2025-04-01,Feng Wei,feng.wei8@zte.com.cn,mmc: alcor: Use str_read_write() helper,7ea500bca61c
+2025-04-02,Zhang Enpei,zhang.enpei@zte.com.cn,drm/tegra: dpaux: Use dev_err_probe(),61a85887a9fc
+2025-03-17,TangDongxing,tang.dongxing@zte.com.cn,HID: hid-logitech: use sysfs_emit_at() instead of scnprintf(),f58470ce6d26
+2025-03-27,Feng Wei,feng.wei8@zte.com.cn,staging: iio: adt7316: replace irqd_get_trigger_type with irq_get_trigger_type,bb8d952a4f45
+2025-03-31,Tang Dongxing,tang.dongxing@zte.com.cn,soc: ti: k3-ringacc: Use device_match_of_node(),ae9c0b68089d
+2025-04-02,Zhang Enpei,zhang.enpei@zte.com.cn,gpu: drm: xlnx: zynqmp_dp: Use dev_err_probe(),8400644d8af0
+2025-03-15,Zhang Xianwei,zhang.xianwei8@zte.com.cn,"xfs: Fix spelling mistake ""drity"" -> ""dirty""",1c406526bd84
+2025-03-24,Peng Jiang,jiang.peng9@zte.com.cn,vdso: Address variable shadowing in macros,acea9943271b
+2025-03-19,Wang Yaxin,wang.yaxin@zte.com.cn,Docs/zh_CN: Translate msg_zerocopy.rst to Simplified Chinese,ff6dfbf73c16
+2025-03-19,Wang Yaxin,wang.yaxin@zte.com.cn,Docs/zh_CN: Translate index.rst to Simplified Chinese,19f72d95ae31
+2025-04-01,Li Haoran,li.haoran7@zte.com.cn,RDMA/core: Convert to use ERR_CAST(),8a94c42d8310
+2025-04-01,Li Haoran,li.haoran7@zte.com.cn,RDMA/uverbs: Convert to use ERR_CAST(),7bc871af417a
+2025-04-01,Li Haoran,li.haoran7@zte.com.cn,RDMA/core: Convert to use ERR_CAST(),41e2649c796e
+2025-03-26,Peng Jiang,jiang.peng9@zte.com.cn,RDMA: Replace msecs_to_jiffies with secs_to_jiffies for timeout,2633ddff9b0f
+2025-04-03,Zhang Enpei,zhang.enpei@zte.com.cn,ASoC: stm: stm32_sai: Use dev_err_probe(),d01131e3ce14
+2025-03-31,Li Haoran,li.haoran7@zte.com.cn,scsi: scsi_transport_srp: Replace min/max nesting with clamp(),a63b69f05f99
+2025-03-21,Ran Xiaokai,ran.xiaokai@zte.com.cn,tracing/osnoise: Fix possible recursive locking for cpus_read_lock(),7e6b3fcc9c52
+2025-03-20,Li Haoran,li.haoran7@zte.com.cn,"nvmet: replace max(a, min(b, c)) by clamp(val, lo, hi)",64ea88e3afa8
+2025-03-17,FengWei,feng.wei8@zte.com.cn,drm/radeon/uvd: Replace nested max() with single max3(),5199e8ac07f0
+2025-03-17,Peng Jiang,jiang.peng9@zte.com.cn,docs/zh_CN: fix spelling mistake,82ac75237379
+2025-01-17,Yang Yang,yang.yang29@zte.com.cn,MAINTAINERS: add Yang Yang as a co-maintainer of PER-TASK DELAY ACCOUNTING,fc0d9d9afcd3
+2025-03-15,XieLudan,xie.ludan@zte.com.cn,perf/core: Use sysfs_emit() instead of scnprintf(),b6ecb57f1fec
+2025-02-08,Wang Yaxin,wang.yaxin@zte.com.cn,taskstats: modify taskstats version,b016d0873777
+2025-02-08,Wang Yaxin,wang.yaxin@zte.com.cn,getdelays: fix error format characters,2272dbc47103
+2025-01-10,xu xin,xu.xin16@zte.com.cn,ksm: add ksm involvement information for each process,3ab76c767bc7
+2024-12-20,Wang Yaxin,wang.yaxin@zte.com.cn,delayacct: add delay min to record delay peak,f65c64f311ee
+2024-12-03,Wang Yaxin,wang.yaxin@zte.com.cn,delayacct: add delay max to record delay peak,658eb5ab916d
+2024-11-25,tuqiang,tu.qiang35@zte.com.cn,netfilter: nf_tables: remove the genmask parameter,da0a090a3c62
